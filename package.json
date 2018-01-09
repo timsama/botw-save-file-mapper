@@ -1,0 +1,30 @@
+{
+  "name": "botw-savefile-editor",
+  "version": "1.0.0",
+  "description": "Editor for Breath of the Wild save files",
+  "main": "index.js",
+  "dependencies": {
+    "chokidar": "^2.0.0",
+    "cli-interact": "^0.1.9",
+    "electron-edge2": "^2.5.1-pre",
+    "jbinary": "^2.1.3",
+    "npm-run-script": "0.0.4",
+    "readline-sync": "^1.4.7",
+    "windows-watcher": "0.0.1-pre4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js",
+    "apply-changes": "node apply-changes.js",
+    "build-raw-changes": "node build-raw-changes.backup.js",
+    "build-raw-changes-from-savefiles": "node build-raw-changes-from-savefiles.js",
+    "build-hex-view": "node build-hex-view.js",
+    "save-file-utils": "node save-file-utils.js",
+    "test-singles": "node test-singles.js",
+    "test-chunks": "node test-chunks.js",
+    "test-chunks-backup": "node test-chunks.backup.js",
+    "unapply-changes": "node unapply-changes.js"
+  },
+  "author": "Tim Winchester",
+  "license": "ISC"
+}
