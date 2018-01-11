@@ -15,7 +15,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "node index.js",
-    "apply-changes": "node apply-changes.js",
+    "apply-changes": "node apply-changes-cmd.js",
     "build-raw-changes": "node build-raw-changes.js",
     "build-raw-changes-from-savefiles": "node build-raw-changes-from-savefiles.js",
     "build-hex-view": "node build-hex-view.js",
@@ -23,7 +23,7 @@
     "test-singles": "node test-singles.js",
     "test-chunks": "node test-chunks.js",
     "test-chunks-backup": "node test-chunks.backup.js",
-    "unapply-changes": "node unapply-changes.js"
+    "unapply-changes": "node unapply-changes-cmd.js"
   },
   "author": "Tim Winchester",
   "license": "ISC"
