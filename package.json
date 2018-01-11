@@ -16,7 +16,7 @@
   "scripts": {
     "test": "node index.js",
     "apply-changes": "node apply-changes.js",
-    "build-raw-changes": "node build-raw-changes.backup.js",
+    "build-raw-changes": "node build-raw-changes.js",
     "build-raw-changes-from-savefiles": "node build-raw-changes-from-savefiles.js",
     "build-hex-view": "node build-hex-view.js",
     "save-file-utils": "node save-file-utils.js",
