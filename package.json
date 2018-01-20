@@ -16,6 +16,7 @@
   "scripts": {
     "test": "node index.js",
     "apply-changes": "node apply-changes-cmd.js",
+    "check-offset": "node offset-checker-cmd.js",
     "build-raw-changes": "node build-raw-changes.js",
     "build-raw-changes-from-savefiles": "node build-raw-changes-from-savefiles.js",
     "build-hex-view": "node build-hex-view.js",
