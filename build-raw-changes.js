@@ -1,5 +1,5 @@
 const readline = require('readline-sync');
-const query = require('cli-interact').getYesNo;
+const nameGetter = require('./name-getter.js');
 const fs = require('fs');
 const buildHexDiff = require('./build-hex-diff.js');
 const CONFIG = require('./config.js');
@@ -12,18 +12,7 @@ const saveFileBackup = `${path}backup.sav`;
 const beforeFilepath = `${path}game_data_before.sav`;
 const afterFilepath = `${path}game_data_after.sav`;
 
-const nameQuestionString = 'Name of change set: ';
-
-var name = process.argv[2] || readline.question(nameQuestionString);
-var isSure = !!name;
-while (!name && !isSure) {
-	isSure = query('Unnamed changes will likely be later overwritten. Are you sure?');
-	if (!isSure) {
-		name = readline.question(nameQuestionString);
-	} else {
-		name = 'unnamed';
-	}
-}
+const name = nameGetter(process.argv[2], 'Name of change set: ', 'Unnamed changes will likely be later overwritten. Are you sure?');
 
 const filename = `raw/${name}.raw.changes`;
 const filepath = path + filename;
