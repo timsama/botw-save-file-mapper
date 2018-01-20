@@ -6,7 +6,8 @@ module.exports = (() => {
     const path = CONFIG.savepath;
     const saveFilename = 'game_data.sav';
     const saveFilepath = `${path}/${saveFilename}`;
-    return (names) = {
+    
+    return (names) => {
         jBinary.load(saveFilepath, saveFileUtils.typeSet, function (err, binary) {
             const writeToOffset = saveFileUtils.buildWriter('uint32', binary);
 
