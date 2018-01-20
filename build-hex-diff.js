@@ -1,7 +1,7 @@
-var fs = require('fs');
-var jBinary = require('jbinary');
-var saveFileUtils = require('./save-file-utils.js');
-var CONFIG = require('./config.js');
+const fs = require('fs');
+const jBinary = require('jbinary');
+const saveFileUtils = require('./save-file-utils.js');
+const CONFIG = require('./config.js');
 
 // this only works because all BoTW v1.4 save files are the same length
 const buildHexDiff = (outputFilename, beforeFilename, afterFilename) => {

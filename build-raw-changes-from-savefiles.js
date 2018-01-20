@@ -1,9 +1,9 @@
-var readline = require('readline-sync');
-var query = require('cli-interact').getYesNo;
-var fs = require('fs');
-var buildHexDiff = require('./build-hex-diff.js');
-var CONFIG = require('./config.js');
-var folderUtils = require('./folder-utils.js');
+const readline = require('readline-sync');
+const query = require('cli-interact').getYesNo;
+const fs = require('fs');
+const buildHexDiff = require('./build-hex-diff.js');
+const CONFIG = require('./config.js');
+const folderUtils = require('./folder-utils.js');
 
 const _path = process.argv[5] || CONFIG.savepath;
 const path = (_path.slice(-1) === '/') ? _path : _path + '/';

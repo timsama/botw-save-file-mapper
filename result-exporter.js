@@ -1,8 +1,8 @@
-var query = require('cli-interact').getYesNo;
-var fs = require('fs');
-var saveFileUtils = require('./save-file-utils.js');
-var CONFIG = require('./config.js');
-var folderUtils = require('./folder-utils.js');
+const query = require('cli-interact').getYesNo;
+const fs = require('fs');
+const saveFileUtils = require('./save-file-utils.js');
+const CONFIG = require('./config.js');
+const folderUtils = require('./folder-utils.js');
 
 const ResultExporter = (results, name) => {
     const findingsFilepath = `${CONFIG.savepath}changes.findings`;

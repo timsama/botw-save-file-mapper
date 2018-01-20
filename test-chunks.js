@@ -1,8 +1,8 @@
-var saveFileUtils = require('./save-file-utils.js');
-var buildRecursiveSearcher = require('./build-recursive-searcher.js');
-var resultExporter = require('./result-exporter.js');
-var fs = require('fs');
-var CONFIG = require('./config.js');
+const saveFileUtils = require('./save-file-utils.js');
+const buildRecursiveSearcher = require('./build-recursive-searcher.js');
+const resultExporter = require('./result-exporter.js');
+const fs = require('fs');
+const CONFIG = require('./config.js');
 
 const name = process.argv[2] || 'unnamed';
 const _path = process.argv[3] || CONFIG.savepath;

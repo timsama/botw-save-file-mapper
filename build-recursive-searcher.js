@@ -1,5 +1,5 @@
-var query = require('cli-interact').getYesNo;
-var saveFileUtils = require('./save-file-utils.js');
+const query = require('cli-interact').getYesNo;
+const saveFileUtils = require('./save-file-utils.js');
 
 const BuildRecursiveSearcher = (saveFilepath, binarySync) => {
     return {

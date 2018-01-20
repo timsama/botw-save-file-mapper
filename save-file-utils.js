@@ -1,5 +1,5 @@
-var fs = require('fs');
-var jBinary = require('jbinary');
+const fs = require('fs');
+const jBinary = require('jbinary');
 
 const SaveFileUtils = {
 	buildReader: (type, binary) => {

@@ -1,6 +1,6 @@
-var fs = require('fs');
-var jBinary = require('jbinary');
-var typeSet = {
+const fs = require('fs');
+const jBinary = require('jbinary');
+const typeSet = {
   'word': ['array', 'uint32', 1]
 };
 
