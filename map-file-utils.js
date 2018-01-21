@@ -1,7 +1,9 @@
 module.exports = (() => {
     const fs = require('fs');
+    const CONFIG = require('./config.js');
     const stringify = require('json-stable-stringify');
     const toHexString = require('./save-file-utils.js').toHexString;
+    const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
 
     const MapFileUtils = {
         appendOffsetEffects: (obj, entries, effect) => {
@@ -24,6 +26,13 @@ module.exports = (() => {
             } else {
                 return {};
             }
+        },
+        getKnownOffsetsFilter: (offsetMapJson) => {
+            const offsetMap = offsetMapJson || MapFileUtils.getFileAsJsonOrEmptyJsObject(jsonOffsetMapFile);
+
+            return (entry) => {
+                return !offsetMap[toHexString(entry.offset)];
+            };
         },
         getValueAtKeyPath: (obj, keypath) => {
             const keys = MapFileUtils.splitKeyPath(keypath);

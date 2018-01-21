@@ -4,6 +4,7 @@ const resultExporter = require('./json-result-exporter.js');
 const fs = require('fs');
 const CONFIG = require('./config.js');
 const folderUtils = require('./folder-utils.js');
+const mapFileUtils = require('./map-file-utils.js');
 
 const name = process.argv[2] || 'unnamed';
 const changesFilename = name + '.raw.changes';
@@ -11,26 +12,41 @@ const changesFilepath = CONFIG.rawchangespath + changesFilename;
 const saveFilepath = `${CONFIG.savepath}game_data.sav`;
 const captionImagepath = `${CONFIG.savepath}caption.jpg`;
 const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
+const args = process.argv.slice(3);
+const filterKnownOffsets = args.indexOf('filter-known-offsets') !== -1 || args.indexOf('filter-known') !== -1;
 
 folderUtils.buildFoldersIfTheyDoNotExist(tempCaptionImagepath);
 
-const allChunksToApply = saveFileUtils.getChunksToApply(changesFilepath);
-const allChangesToUnapply = saveFileUtils.getChangesToUnapply(changesFilepath);
+const offsetFilter = (() => {
+    if (filterKnownOffsets) {
+        return mapFileUtils.getKnownOffsetsFilter();
+    } else {
+        return () => true;
+    }
+})();
 
-fs.renameSync(captionImagepath, tempCaptionImagepath);
-fs.copyFileSync(CONFIG.placeholderImagepath, captionImagepath);
+const unchunkedChanges = saveFileUtils.getChangesToApply(changesFilepath).filter(offsetFilter);
+const allChunksToApply = saveFileUtils.getChunksFromChanges(unchunkedChanges);
+const allChangesToUnapply = saveFileUtils.getChangesToUnapply(changesFilepath).filter(offsetFilter);
 
-saveFileUtils.withBinaryFileSync(saveFilepath, (binary) => {
-    const recursiveSearcher = buildRecursiveSearcher(saveFilepath, binary);
-    
-    const getChanges = (chunks) => {
-        return saveFileUtils.getChangesFromChunks(chunks);
-    };
+if (allChunksToApply.length > 0 && allChangesToUnapply.length > 0) {
+    fs.renameSync(captionImagepath, tempCaptionImagepath);
+    fs.copyFileSync(CONFIG.placeholderImagepath, captionImagepath);
 
-    const results = recursiveSearcher.search(allChunksToApply, allChangesToUnapply, getChanges);
+    saveFileUtils.withBinaryFileSync(saveFilepath, (binary) => {
+        const recursiveSearcher = buildRecursiveSearcher(saveFilepath, binary);
+        
+        const getChanges = (chunks) => {
+            return saveFileUtils.getChangesFromChunks(chunks);
+        };
 
-    resultExporter(results, name);
-});
+        const results = recursiveSearcher.search(allChunksToApply, allChangesToUnapply, getChanges);
 
-fs.unlinkSync(captionImagepath);
-fs.renameSync(tempCaptionImagepath, captionImagepath);
+        resultExporter(results, name);
+    });
+
+    fs.unlinkSync(captionImagepath);
+    fs.renameSync(tempCaptionImagepath, captionImagepath);
+} else {
+    console.log('No testable changes available with your current filter settings.');
+}
