@@ -8,6 +8,7 @@
     "cli-interact": "^0.1.9",
     "electron-edge2": "^2.5.1-pre",
     "jbinary": "^2.1.3",
+    "json-stable-stringify": "^1.0.1",
     "npm-run-script": "0.0.4",
     "readline-sync": "^1.4.7",
     "windows-watcher": "0.0.1-pre4"
@@ -23,6 +24,7 @@
     "load-snapshot": "node load-snapshot.js",
     "make-backup": "node make-backup.js",
     "restore-backup": "node restore-backup.js",
+    "resave-changes": "node resave-changes.js",
     "save-file-utils": "node save-file-utils.js",
     "test-singles": "node test-singles.js",
     "test-chunks": "node test-chunks.js",

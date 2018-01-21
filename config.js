@@ -5,6 +5,7 @@ const CONFIG = {
     snapshotspath: './snapshots/',
     rawchangespath: './raw/',
     filemapspath: './filemaps/',
+    exportpath: './export/',
     logpath: './log/',
     saveFileLastOffset: 0x000fac80,
 	placeholderImagepath: './placeholder.jpg'
