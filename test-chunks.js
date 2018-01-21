@@ -1,8 +1,9 @@
 const saveFileUtils = require('./save-file-utils.js');
 const buildRecursiveSearcher = require('./build-recursive-searcher.js');
-const resultExporter = require('./result-exporter.js');
+const resultExporter = require('./json-result-exporter.js');
 const fs = require('fs');
 const CONFIG = require('./config.js');
+const folderUtils = require('./folder-utils.js');
 
 const name = process.argv[2] || 'unnamed';
 const changesFilename = name + '.raw.changes';
@@ -10,6 +11,8 @@ const changesFilepath = CONFIG.rawchangespath + changesFilename;
 const saveFilepath = `${CONFIG.savepath}game_data.sav`;
 const captionImagepath = `${CONFIG.savepath}caption.jpg`;
 const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
+
+folderUtils.buildFoldersIfTheyDoNotExist(tempCaptionImagepath);
 
 const allChunksToApply = saveFileUtils.getChunksToApply(changesFilepath);
 const allChangesToUnapply = saveFileUtils.getChangesToUnapply(changesFilepath);

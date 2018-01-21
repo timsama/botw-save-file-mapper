@@ -11,8 +11,8 @@ module.exports = (() => {
             const writeToOffset = saveFileUtils.buildWriter('uint32', binary);
 
             names.forEach((name) => {
-                const changesFilename = name + '.changes';
-                const changesFilepath = `${CONFIG.filemapspath}${changesFilename}`;
+                const changesFilename = name + '.raw.changes';
+                const changesFilepath = `${CONFIG.rawchangespath}${changesFilename}`;
 
                     saveFileUtils.getChangesToUnapply(changesFilepath).forEach((entry) => {
                        writeToOffset(entry.offset, entry.value);
