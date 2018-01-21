@@ -14,6 +14,8 @@ const captionImagepath = `${CONFIG.savepath}caption.jpg`;
 const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
 const args = process.argv.slice(3);
 const filterKnownOffsets = args.indexOf('filter-known-offsets') !== -1 || args.indexOf('filter-known') !== -1;
+const renameArgs = args.filter((arg) => arg.indexOf('rename') !== -1);
+const shouldRename = renameArgs.length > 0;
 
 folderUtils.buildFoldersIfTheyDoNotExist(tempCaptionImagepath);
 
@@ -22,6 +24,17 @@ const offsetFilter = (() => {
         return mapFileUtils.getKnownOffsetsFilter();
     } else {
         return () => true;
+    }
+})();
+
+const newName = (() => {
+    if (shouldRename) {
+        const argInput = renameArgs[0].split('=')[1];
+        if (argInput) {
+            return argInput;
+        } else {
+            return readline.question('What should the new name be? ');
+        }
     }
 })();
 
@@ -42,7 +55,9 @@ if (allChunksToApply.length > 0 && allChangesToUnapply.length > 0) {
 
         const results = recursiveSearcher.search(allChunksToApply, allChangesToUnapply, getChanges);
 
-        resultExporter(results, name);
+        const mightSaveAsVariableReasons = [];
+
+        resultExporter(results, newName || name, mightSaveAsVariableReasons);
     });
 
     fs.unlinkSync(captionImagepath);

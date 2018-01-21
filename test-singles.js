@@ -5,6 +5,8 @@ const fs = require('fs');
 const CONFIG = require('./config.js');
 const folderUtils = require('./folder-utils.js');
 const mapFileUtils = require('./map-file-utils.js');
+const readline = require('readline-sync');
+
 
 const name = process.argv[2] || 'unnamed';
 const changesFilename = name + '.raw.changes';
@@ -17,11 +19,24 @@ const filterKnownOffsets = args.indexOf('filter-known-offsets') !== -1 || args.i
 const onlyTestOnes = args.indexOf('only-ones') !== -1 || args.indexOf('only-test-ones') !== -1 ;
 const knownValueArgs = args.filter((arg) => arg.indexOf('known-value=') !== -1);
 const findKnownValue = knownValueArgs.length > 0;
+const renameArgs = args.filter((arg) => arg.indexOf('rename') !== -1);
+const shouldRename = renameArgs.length > 0;
 const knownValue = (() =>{
     if (findKnownValue) {
         return parseInt(knownValueArgs[0].split('=').slice(-1)[0]);
     } else if (onlyTestOnes) {
         return 1;
+    }
+})();
+
+const newName = (() => {
+    if (shouldRename) {
+        const argInput = renameArgs[0].split('=')[1];
+        if (argInput) {
+            return argInput;
+        } else {
+            return readline.question('What should the new name be? ');
+        }
     }
 })();
 
@@ -56,7 +71,7 @@ if (allChangesToApply.length > 0 && allChangesToUnapply.length > 0) {
             mightSaveAsVariableReasons.push('You searched for a known value.');
         }
 
-        resultExporter(results, name, mightSaveAsVariableReasons);
+        resultExporter(results, newName || name, mightSaveAsVariableReasons);
     });
 
     fs.unlinkSync(captionImagepath);

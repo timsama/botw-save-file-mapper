@@ -6,7 +6,7 @@ module.exports = (() => {
     const folderUtils = require('./folder-utils.js');
     const mapFileUtils = require('./map-file-utils.js');
 
-    return (results, name, mightSaveAsVariableReasons) => {
+    return (results, name, mightSaveAsVariableReasons, shouldRename, newName) => {
         const toHexString = saveFileUtils.toHexString;
 
         results.forEach((result) => {
