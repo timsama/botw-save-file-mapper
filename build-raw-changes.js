@@ -39,7 +39,7 @@ const cleanup = () => {
 
 beforeHexViewBuilder();
 afterHexViewBuilder();
-folderUtils.buildFoldersIfTheyDoNotExist(filename);
+folderUtils.buildFoldersIfTheyDoNotExist(filepath);
 buildHexDiff(filepath, beforeFilepath, afterFilepath);
 console.log('Successfully created raw changefile!\nCleaning up...')
 cleanup();

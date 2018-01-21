@@ -12,6 +12,6 @@ const name = nameGetter(process.argv[2], 'Name of change set: ', 'Unnamed change
 const filename = `${name}.raw.changes`;
 const filepath = CONFIG.rawchangespath + filename;
 
-folderUtils.buildFoldersIfTheyDoNotExist(filename);
+folderUtils.buildFoldersIfTheyDoNotExist(filepath);
 buildHexDiff(filepath, beforeFilepath, afterFilepath);
 console.log('Successfully created raw changefile!')
