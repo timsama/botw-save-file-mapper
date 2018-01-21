@@ -25,7 +25,7 @@ module.exports = (() => {
 
                 if (variableValuesExist) {
                     if (isEmpty(value)) {
-                        value = parseInt(readline.question(`${keypath} is a variable value. What would you like to set it to?`));
+                        value = parseInt(readline.question(`${keypath} is a variable value. What would you like to set it to? `));
                     }
                 }
 
