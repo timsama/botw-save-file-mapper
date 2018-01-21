@@ -41,6 +41,6 @@ beforeHexViewBuilder();
 afterHexViewBuilder();
 folderUtils.buildFoldersIfTheyDoNotExist(filepath);
 buildHexDiff(filepath, beforeFilepath, afterFilepath);
-console.log('Successfully created raw changefile!\nCleaning up...')
+console.log('Successfully created raw changefile!\nCleaning up...');
 cleanup();
-console.log('...done.')
+console.log('...done.');

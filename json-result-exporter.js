@@ -23,7 +23,7 @@ module.exports = (() => {
                 } else {
                     return result;
                 }
-            })
+            });
 
             const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
             const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;

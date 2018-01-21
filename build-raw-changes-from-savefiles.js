@@ -22,4 +22,4 @@ const filepath = CONFIG.rawchangespath + filename;
 
 folderUtils.buildFoldersIfTheyDoNotExist(filepath);
 buildHexDiff(filepath, beforeFilepath, afterFilepath);
-console.log('Successfully created raw changefile!')
+console.log('Successfully created raw changefile!');
