@@ -15,6 +15,15 @@ const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
 const args = process.argv.slice(3);
 const filterKnownOffsets = args.indexOf('filter-known-offsets') !== -1 || args.indexOf('filter-known') !== -1;
 const onlyTestOnes = args.indexOf('only-ones') !== -1 || args.indexOf('only-test-ones') !== -1 ;
+const knownValueArgs = args.filter((arg) => arg.indexOf('known-value=') !== -1);
+const findKnownValue = knownValueArgs.length > 0;
+const knownValue = (() =>{
+    if (findKnownValue) {
+        return parseInt(knownValueArgs[0].split('=').slice(-1)[0]);
+    } else if (onlyTestOnes) {
+        return 1;
+    }
+})();
 
 folderUtils.buildFoldersIfTheyDoNotExist(tempCaptionImagepath);
 
@@ -27,10 +36,10 @@ const offsetFilter = (() => {
 })();
 
 const allChangesToApply = saveFileUtils.getChangesToApply(changesFilepath).filter((address) => {
-    return !onlyTestOnes || address.value == 1;
+    return !findKnownValue || address.value == knownValue;
 }).filter(offsetFilter);
 const allChangesToUnapply = saveFileUtils.getChangesToUnapply(changesFilepath).filter((address, i) => {
-    return !onlyTestOnes || allChangesToApply[i] && allChangesToApply[i].value == 1;
+    return !findKnownValue || allChangesToApply[i] && allChangesToApply[i].value == knownValue;
 }).filter(offsetFilter);
 
 if (allChangesToApply.length > 0 && allChangesToUnapply.length > 0) {
@@ -42,7 +51,12 @@ if (allChangesToApply.length > 0 && allChangesToUnapply.length > 0) {
 
         const results = recursiveSearcher.search(allChangesToApply, allChangesToUnapply, (a) => a);
 
-        resultExporter(results, name);
+        const mightSaveAsVariableReasons = [];
+        if (findKnownValue) {
+            mightSaveAsVariableReasons.push('You searched for a known value.');
+        }
+
+        resultExporter(results, name, mightSaveAsVariableReasons);
     });
 
     fs.unlinkSync(captionImagepath);

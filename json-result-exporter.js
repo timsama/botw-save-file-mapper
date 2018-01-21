@@ -6,7 +6,7 @@ module.exports = (() => {
     const folderUtils = require('./folder-utils.js');
     const mapFileUtils = require('./map-file-utils.js');
 
-    return (results, name) => {
+    return (results, name, mightSaveAsVariableReasons) => {
         const toHexString = saveFileUtils.toHexString;
 
         results.forEach((result) => {
@@ -14,6 +14,17 @@ module.exports = (() => {
         });
 
         if (results.length > 0 && query('Would you like to export this result?')) {
+            const saveAsVariablePrompt = mightSaveAsVariableReasons.concat('Would you like to export it as a variable value?').join(' ');
+            const saveAsVariable = mightSaveAsVariableReasons.length > 0 && query(saveAsVariablePrompt);
+
+            const finalResults = results.map((result) => {
+                if (saveAsVariable) {
+                    return {offset: result.offset, value: 'variable'};
+                } else {
+                    return result;
+                }
+            })
+
             const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
             const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
 
@@ -23,8 +34,8 @@ module.exports = (() => {
             const offsetMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(jsonOffsetMapFile);
             const effectMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(jsonEffectMapFile);
 
-            mapFileUtils.appendOffsetEffects(offsetMap, results, name);
-            mapFileUtils.setValueAtKeyPath(effectMap, name.toLowerCase(), results);
+            mapFileUtils.appendOffsetEffects(offsetMap, finalResults, name);
+            mapFileUtils.setValueAtKeyPath(effectMap, name.toLowerCase(), finalResults);
 
             mapFileUtils.saveJsonFile(jsonOffsetMapFile, offsetMap);
             mapFileUtils.saveJsonFile(jsonEffectMapFile, effectMap);

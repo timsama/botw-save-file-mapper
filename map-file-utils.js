@@ -51,12 +51,10 @@ module.exports = (() => {
             const lastKey = keys.slice(-1)[0];
 
             keys.reduce((prevObj, key) => {
-                if (!prevObj[key]) {
-                    if (key === lastKey) {
-                        prevObj[key] = value;
-                    } else {
-                        prevObj[key] = {};
-                    }
+                if (key === lastKey) {
+                    prevObj[key] = value;
+                } else if (!prevObj[key]) {
+                    prevObj[key] = {};
                 }
                 return prevObj[key];
             }, obj);
