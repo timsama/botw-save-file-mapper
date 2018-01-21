@@ -24,6 +24,7 @@
     "test-singles": "node test-singles.js",
     "test-chunks": "node test-chunks.js",
     "test-chunks-backup": "node test-chunks.backup.js",
+    "take-snapshot": "node take-snapshot.js",
     "unapply-changes": "node unapply-changes-cmd.js"
   },
   "author": "Tim Winchester",

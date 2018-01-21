@@ -9,8 +9,8 @@ const FolderUtils = {
         }, []);
 
         qualifiedFolders.forEach((folder) => {
-            if (!fs.existsSync(CONFIG.savepath + folder)) {
-                fs.mkdirSync(CONFIG.savepath + folder);
+            if (!fs.existsSync(folder)) {
+                fs.mkdirSync(folder);
             }
         });
     }
