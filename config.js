@@ -1,5 +1,6 @@
 const CONFIG = {
     savepath: '<Enter the path to your save file here, including the slot subfolder>',
+    backuppath: './backup/',
     tempoutputpath: './temp/',
     snapshotspath: './snapshots/',
     rawchangespath: './raw/',
