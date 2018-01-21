@@ -3,9 +3,8 @@ module.exports = (() => {
     const jBinary = require('jbinary');
     const saveFileUtils = require('./save-file-utils.js');
     const CONFIG = require('./config.js');
-    const path = CONFIG.savepath;
     const saveFilename = 'game_data.sav';
-    const saveFilepath = `${path}/${saveFilename}`;
+    const saveFilepath = `${CONFIG.savepath}${saveFilename}`;
     
     return (names) => {
         jBinary.load(saveFilepath, saveFileUtils.typeSet, function (err, binary) {
@@ -13,7 +12,7 @@ module.exports = (() => {
 
             names.forEach((name) => {
                 const changesFilename = name + '.changes';
-                const changesFilepath = `${path}changes/${changesFilename}`;
+                const changesFilepath = `${CONFIG.filemapspath}${changesFilename}`;
 
                     saveFileUtils.getChangesToUnapply(changesFilepath).forEach((entry) => {
                        writeToOffset(entry.offset, entry.value);

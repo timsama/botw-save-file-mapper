@@ -5,15 +5,12 @@ const fs = require('fs');
 const CONFIG = require('./config.js');
 
 const name = process.argv[2] || 'unnamed';
-const _path = process.argv[3] || CONFIG.savepath;
-const path = (_path.slice(-1) === '/') ? _path : _path + '/';
 const changesFilename = name + '.raw.changes';
-const changesFilepath = `${path}raw/${changesFilename}`;
-const saveFilename = 'game_data.sav';
-const saveFilepath = `${path}${saveFilename}`;
-const captionImagepath = `${path}caption.jpg`;
-const tempCaptionImagepath = `${path}caption.temp.jpg`;
-const onlyTestOnes = !!process.argv[4] || false;
+const changesFilepath = CONFIG.rawchangespath + changesFilename;
+const saveFilepath = `${CONFIG.savepath}game_data.sav`;
+const captionImagepath = `${CONFIG.savepath}caption.jpg`;
+const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
+const onlyTestOnes = !!process.argv[3] || false;
 
 const allChangesToApply = saveFileUtils.getChangesToApply(changesFilepath).filter((address) => {
     return !onlyTestOnes || address.value == 1;

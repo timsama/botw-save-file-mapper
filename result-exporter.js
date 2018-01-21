@@ -5,11 +5,12 @@ const CONFIG = require('./config.js');
 const folderUtils = require('./folder-utils.js');
 
 const ResultExporter = (results, name) => {
-    const findingsFilepath = `${CONFIG.savepath}changes.findings`;
-    const exportFilepath = `${CONFIG.savepath}changes/${name}.changes`;
+    const findingsFilepath = `${CONFIG.logpath}changes.findings`;
+    const exportFilepath = `${CONFIG.filemapspath}${name}.changes`;
     const toHexString = saveFileUtils.toHexString;
 
-    folderUtils.buildFoldersIfTheyDoNotExist(`changes/${name}`);
+    folderUtils.buildFoldersIfTheyDoNotExist(findingsFilepath);
+    folderUtils.buildFoldersIfTheyDoNotExist(exportFilepath);
 
     const findings = results.map((result) => {
         console.log(`Found it! 0x${toHexString(result.offset)}: ${toHexString(result.value)}`);
