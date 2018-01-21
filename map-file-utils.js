@@ -62,7 +62,7 @@ module.exports = (() => {
             }, obj);
         },
         splitKeyPath: (keypath) => {
-            return keypath.split('/').reduce((acc, section) => {
+            return keypath.toLowerCase().split('/').reduce((acc, section) => {
                 return acc.concat(section.split('.'));
             }, []);
         }

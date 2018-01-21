@@ -20,7 +20,7 @@ if (!!name) {
     fs.copyFileSync(captionFilepath, snapshotCaptionFilepath);
     fs.copyFileSync(imageFilepath, snapshotImageFilepath);
 
-    console.log('Snapshot taken!')
+    console.log('Snapshot taken!');
 } else {
     console.log('Unnamed snapshots not allowed.');
 }
