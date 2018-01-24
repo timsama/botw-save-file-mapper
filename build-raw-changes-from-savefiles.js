@@ -15,7 +15,7 @@ if (afterFilepath.split('').slice(-4).join('') !== '.sav') {
 }
 
 
-const name = nameGetter(process.argv[2], 'Name of change set: ', 'Unnamed changes will likely be later overwritten. Are you sure?');
+const name = nameGetter.getOptional(process.argv[2], 'Name of change set: ', 'Unnamed changes will likely be later overwritten. Are you sure?');
 
 const filename = `${name}.raw.changes`;
 const filepath = CONFIG.rawchangespath + filename;

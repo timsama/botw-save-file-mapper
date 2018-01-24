@@ -1,4 +1,3 @@
-const nameGetter = require('./name-getter.js');
 const fs = require('fs');
 const CONFIG = require('./config.js');
 const folderUtils = require('./folder-utils.js');
