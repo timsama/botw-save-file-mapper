@@ -1,7 +1,10 @@
 const offsetChecker = require('./offset-checker.js');
 const saveFileUtils = require('./save-file-utils.js');
+const CONFIG = require('./config.js');
 
-const offset = parseInt(process.argv[2], 16);
+const offset = parseInt(process.argv[2]);
 const filename = process.argv[3];
+const saveFilepath = `${CONFIG.savepath}${filename || 'game_data.sav'}`;
 
-console.log(`0x${saveFileUtils.toHexString(offset)}: ${saveFileUtils.toHexString(offsetChecker(offset, filename))}`);
+const value = offsetChecker(offset, saveFilepath);
+console.log(`0x${saveFileUtils.toHexString(offset)}: 0x${saveFileUtils.toHexString(value)} or ${value} in decimal.`);
