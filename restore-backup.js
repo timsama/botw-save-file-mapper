@@ -11,7 +11,7 @@ const captionFileBackup = `${CONFIG.backuppath}caption.sav`;
 const imageFileBackup = `${CONFIG.backuppath}caption.jpg`;
 
 const args = process.argv.slice(2);
-const keepBackup = args.indexOf('keep-backup') !== -1;
+const keepBackup = args.indexOf('keep-copy') !== -1;
 
 if (fs.existsSync(saveFileBackup)) {
     fs.unlinkSync(saveFilepath);
