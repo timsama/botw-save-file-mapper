@@ -21,6 +21,7 @@
     "build-raw-changes": "node build-raw-changes.js",
     "build-raw-changes-from-savefiles": "node build-raw-changes-from-savefiles.js",
     "build-hex-view": "node build-hex-view.js",
+    "check-all-item-slots": "node check-all-item-slots-cmd.js",
     "check-offset": "node offset-checker-cmd.js",
     "check-item-slot": "node check-item-slot-cmd.js",
     "export-item-slot": "node export-item-slot-cmd.js",

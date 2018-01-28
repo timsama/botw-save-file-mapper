@@ -23,12 +23,13 @@ module.exports = (() => {
             fs.writeFileSync(filepath, stringify(json, {space: 2}));
         },
         validCategories: [
+            'weapons',
             'archery',
-            'food',
-            'keyitems',
-            'materials',
             'shields',
-            'weapons'
+            'armor',
+            'materials',
+            'food',
+            'keyitems'
         ]
     };
 

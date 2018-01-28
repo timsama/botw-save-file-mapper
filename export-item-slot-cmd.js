@@ -24,6 +24,8 @@ if (!!exportFilename) {
             const offset = baseOffset + relativeOffset;
             const value = offsetChecker(offset, saveFile);
             return {offset: relativeOffset, value: value};
+        }).filter((entry, i) => {
+            return i < 4 || entry.value !== 0;
         });
 
         const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(exportFilename);
