@@ -3,6 +3,7 @@ module.exports = (() => {
     const CONFIG = require('./config.js');
     const stringify = require('json-stable-stringify');
     const toHexString = require('./save-file-utils.js').toHexString;
+    const objUtils = require('./obj-utils.js');
 
     const MapFileUtils = {
         getCategoryFilepath: (category) => {
@@ -14,17 +15,19 @@ module.exports = (() => {
         }, 
         getFileAsJsonOrEmptyJsObject: (filepath) => {
             if (fs.existsSync(filepath)) {
-                return JSON.parse(fs.readFileSync(filepath, 'utf8'));
+                return objUtils.decorate(JSON.parse(fs.readFileSync(filepath, 'utf8')));
             } else {
-                return {};
+                return objUtils.decorate({});
             }
         },
         saveJsonFile: (filepath, json) => {
-            fs.writeFileSync(filepath, stringify(json, {space: 2}));
+            const finalJson = !!json.eject ? json.eject() : json;
+            fs.writeFileSync(filepath, stringify(finalJson, {space: 2}));
         },
         validCategories: [
             'weapons',
-            'archery',
+            'bows',
+            'arrows',
             'shields',
             'armor',
             'materials',
