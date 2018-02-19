@@ -4,6 +4,7 @@ const itemFileUtils = require('./item-file-utils.js');
 const CONFIG = require('./config.js');
 const nameGetter = require('./name-getter.js');
 const objUtils = require('./obj-utils.js');
+const getItemSlotKey = require('./get-item-slot-key.js');
 
 const slot = parseInt(process.argv[3]);
 const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[3]) : CONFIG.savepath + 'game_data.sav';
@@ -44,6 +45,20 @@ if (!!exportFilename) {
         return slotCount;
     })();
 
+    const countCategorySlots = (start, category) => {
+        const categoryFilepath = itemFileUtils.getCategoryFilepath(category);
+        const categoryJson = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilepath);
+        let slotCount = 0;
+        while(!!categoryJson[getItemSlotKey(start + slotCount, category)]) {
+            slotCount++;
+        }
+        return slotCount;
+    };
+
+    const materialSlots = countCategorySlots(weaponSlots + bowSlots + arrowSlots + shieldSlots + armorSlots, 'materials');
+    const foodSlots = countCategorySlots(weaponSlots + bowSlots + arrowSlots + shieldSlots + armorSlots + materialSlots, 'food');
+    const keyItemSlots = countCategorySlots(weaponSlots + bowSlots + arrowSlots + shieldSlots + armorSlots + materialSlots + foodSlots, 'keyitems');
+
     const startingSlot = (() => {
         const startingSlots = {
             weapons: 0,
@@ -51,7 +66,9 @@ if (!!exportFilename) {
             arrows: weaponSlots + bowSlots,
             shields: weaponSlots + bowSlots + arrowSlots,
             armor: weaponSlots + bowSlots + arrowSlots + shieldSlots,
-            materials: weaponSlots + bowSlots + arrowSlots + shieldSlots + armorSlots
+            materials: weaponSlots + bowSlots + arrowSlots + shieldSlots + armorSlots,
+            food: weaponSlots + bowSlots + arrowSlots + shieldSlots + armorSlots + materialSlots,
+            keyitems: weaponSlots + bowSlots + arrowSlots + shieldSlots + armorSlots + materialSlots + foodSlots
         };
 
         return startingSlots[category] + slot - 1;
@@ -76,8 +93,6 @@ if (!!exportFilename) {
 
             itemFileUtils.saveJsonFile(exportFilename, json);
         }
-    } else {
-        console.log('Currently there is no way to tell where Food and KeyItems start. Please reform your command by counting slots from the beginning of the Materials section.');
     }
 } else {
     console.log('Category not recognized.');
