@@ -1,5 +1,5 @@
 const fs = require('fs');
-const offsetChecker = require('./offset-checker.js');
+const offsetSetter = require('./offset-setter.js');
 const itemFileUtils = require('./item-file-utils.js');
 const CONFIG = require('./config.js');
 const nameGetter = require('./name-getter.js');
@@ -15,35 +15,33 @@ const getOffset = (slot) => slotsOffset + slot * slotWidth;
 const relativeOffsets = Array.apply(0, new Array(slotWidth / 8)).map((e, i) => i * 8);
 
 const category = nameGetter.getOrUndefined(process.argv[2], 'Item category: ', 'Unnamed categories not allowed.');
-const exportFilename = itemFileUtils.getCategoryFilepath(category.toLowerCase());
+const categoryFilename = itemFileUtils.getCategoryFilepath(category.toLowerCase());
 
-if (!!exportFilename) {
+if (!!categoryFilename) {
     const slotStructure = getItemSlotStructure(saveFile);
 
-    console.log(slotStructure);
-
     const baseSlot = slotStructure[category].first + slot - 1;
+
+    console.log(slotStructure);
 
     if (!!baseSlot) {
         const name = nameGetter.getOrUndefined(process.argv[4], 'Item name: ', 'Unnamed items not allowed.');
 
         if (!!name) {
             const baseOffset = getOffset(baseSlot);
-            const entries = relativeOffsets.map((relativeOffset) => {
-                const offset = baseOffset + relativeOffset;
-                const value = offsetChecker(offset, saveFile);
-                return {offset: relativeOffset, value: value};
-            }).filter((entry, i) => {
-                return i < 4 || entry.value !== 0;
-            });
+            
+            const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
-            entries.forEach(entry => console.log(entry));
+            const entries = json[name];
 
-            // const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(exportFilename);
-
-            // json[name] = entries;
-
-            // itemFileUtils.saveJsonFile(exportFilename, json);
+            if (!!entries) {
+                entries.forEach(entry => {
+                    console.log(`${baseOffset + entry.offset}: ${entry.value}`);
+                    offsetSetter(baseOffset + entry.offset, entry.value, saveFile);
+                });
+            } else {
+                console.log(`No entries found for '${name}' in ${category}.`);
+            }
         }
     }
 } else {

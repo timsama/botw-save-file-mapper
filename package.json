@@ -31,6 +31,7 @@
     "resave-changes": "node resave-changes.js",
     "save-named-location": "node save-named-location.js",
     "save-named-time": "node save-named-time.js",
+    "set-item-slot": "node set-item-slot-cmd.js",
     "test-singles": "node test-singles.js",
     "test-chunks": "node test-chunks.js",
     "test-chunks-backup": "node test-chunks.backup.js",
