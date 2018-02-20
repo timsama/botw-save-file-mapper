@@ -12,6 +12,8 @@ const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[3]) : 
 
 const slotsOffset = 394248;
 const slotWidth = 128;
+const quantitiesOffset = 0x000711c0;
+const quantitiesWidth = 8;
 const getOffset = (slot) => slotsOffset + slot * slotWidth;
 const relativeOffsets = Array.apply(0, new Array(slotWidth / 8)).map((e, i) => i * 8);
 
@@ -35,6 +37,7 @@ if (!!categoryFilename) {
         }
 
         saveFileUtils.shiftData(saveFile, baseOffset + slotWidth, baseOffset, slots * slotWidth);
+        saveFileUtils.shiftData(saveFile, quantitiesOffset + quantitiesWidth, quantitiesOffset, slots * quantitiesWidth);
     }
 } else {
     console.log('Category not recognized.');

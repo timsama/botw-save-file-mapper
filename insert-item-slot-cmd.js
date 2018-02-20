@@ -13,6 +13,8 @@ const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[3]) : 
 
 const slotsOffset = 394248;
 const slotWidth = 128;
+const quantitiesOffset = 0x000711c0;
+const quantitiesWidth = 8;
 const getOffset = (slot) => slotsOffset + slot * slotWidth;
 
 const category = nameGetter.getOrUndefined(process.argv[2], 'Item category: ', 'Unnamed categories not allowed.');
@@ -42,7 +44,8 @@ if (!!categoryFilename) {
             }
 
             if (!!entries) {
-            saveFileUtils.shiftData(saveFile, baseOffset, baseOffset + slotWidth, slots * slotWidth);
+                saveFileUtils.shiftData(saveFile, baseOffset, baseOffset + slotWidth, slots * slotWidth);
+                saveFileUtils.shiftData(saveFile, quantitiesOffset, quantitiesOffset + quantitiesWidth, slots * quantitiesWidth);
                 entries.forEach(entry => {
                     offsetSetter(baseOffset + entry.offset, entry.value, saveFile);
                 });
