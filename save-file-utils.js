@@ -94,6 +94,46 @@ const SaveFileUtils = {
 	        return '{ ' + chunk.toString() + ' }';
 	    }).join('\n'));
 	},
+	shiftData: (filename, sourceOffset, destinationOffset, length) => {
+		const sourceTail = sourceOffset + length;
+		const destinationTail = destinationOffset + length;
+
+		SaveFileUtils.withBinaryFileSync(filename, (binary) => {
+			const reader = SaveFileUtils.buildReader('uint32', binary);
+			const writer = SaveFileUtils.buildWriter('uint32', binary);
+
+			if (sourceOffset < destinationOffset) {
+				let cursor = length;
+				while(cursor >= 0) {
+					const val = reader(sourceOffset + cursor);
+					if (reader(sourceOffset + cursor) != reader(destinationOffset + cursor)) {
+						writer(destinationOffset + cursor, val);
+					}
+
+					if (sourceOffset + cursor < destinationOffset) {
+						writer(sourceOffset + cursor, 0);
+					}
+
+					cursor -= 8;
+				}
+			} else if (sourceOffset > destinationOffset) {
+				let cursor = 0;
+				while(cursor <= length) {
+					const val = reader(sourceOffset + cursor);
+					if (reader(sourceOffset + cursor) != reader(destinationOffset + cursor)) {
+						writer(destinationOffset + cursor, val);
+					}
+
+					if (sourceOffset + cursor > destinationOffset + length) {
+						writer(sourceOffset + cursor, 0);
+					}
+
+					cursor += 8;				}
+			}
+
+			return binary.saveAsSync(filename);
+		});
+	},
 	withBinaryFileSync: (filename, funct, typeSet) => {
 		const _typeSet = typeSet || SaveFileUtils.typeSet;
 	    const data = fs.readFileSync(filename);
