@@ -18,7 +18,7 @@ if (!!name) {
         offsets.push(0x0006ea68);
     }
 
-    saveNamedChange(filepath, 'locations.' + name, offsets);
+    saveNamedChange(filepath, name, offsets);
     console.log(`Location ${name} saved!`);
 } else {
     console.log('Unnamed locations not allowed.');
