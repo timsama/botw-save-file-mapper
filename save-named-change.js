@@ -7,17 +7,16 @@ module.exports = (() => {
     
     const saveFilename = 'game_data.sav';
     const saveFilepath = `${CONFIG.savepath}${saveFilename}`;
-    const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
 
-    return (name, offsets) => {
+    return (filepath, name, offsets) => {
         jBinary.load(saveFilepath, saveFileUtils.typeSet, function (err, binary) {
             const readFromOffset = saveFileUtils.buildReader('uint32', binary);
 
             const entries = offsets.map((offset) => ({'offset': offset, 'value': readFromOffset(offset)}));
             
-            const effectMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(jsonEffectMapFile);
-            mapFileUtils.setValueAtKeyPath(effectMap, name, entries);
-            mapFileUtils.saveJsonFile(jsonEffectMapFile, effectMap);
+            const mapJson = mapFileUtils.getFileAsJsonOrEmptyJsObject(filepath);
+            mapFileUtils.setValueAtKeyPath(mapJson, name, entries);
+            mapFileUtils.saveJsonFile(filepath, mapJson);
         });
     };
 })();

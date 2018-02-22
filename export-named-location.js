@@ -1,4 +1,7 @@
 const saveNamedChange = require('./save-named-change.js');
+const CONFIG = require('./config.js');
+const mapFileUtils = require('./map-file-utils.js');
+const filepath = `${CONFIG.exportpath}locations.json`;
 
 const name = process.argv[2] || readline.question('Name of location: ');
 const args = process.argv.slice(3);
@@ -15,7 +18,7 @@ if (!!name) {
         offsets.push(0x0006ea68);
     }
 
-    saveNamedChange('locations.' + name, offsets);
+    saveNamedChange(filepath, 'locations.' + name, offsets);
     console.log(`Location ${name} saved!`);
 } else {
     console.log('Unnamed locations not allowed.');
