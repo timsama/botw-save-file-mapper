@@ -20,8 +20,6 @@ const exportFilename = itemFileUtils.getCategoryFilepath(category.toLowerCase())
 if (!!exportFilename) {
     const slotStructure = getItemSlotStructure(saveFile);
 
-    console.log(slotStructure);
-
     const baseSlot = slotStructure[category].first + slot - 1;
 
     if (!!baseSlot) {
@@ -37,13 +35,11 @@ if (!!exportFilename) {
                 return i < 4 || entry.value !== 0;
             });
 
-            entries.forEach(entry => console.log(entry));
+            const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(exportFilename);
 
-            // const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(exportFilename);
+            json[name] = entries;
 
-            // json[name] = entries;
-
-            // itemFileUtils.saveJsonFile(exportFilename, json);
+            itemFileUtils.saveJsonFile(exportFilename, json);
         }
     }
 } else {
