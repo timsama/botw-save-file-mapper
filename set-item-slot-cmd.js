@@ -7,7 +7,7 @@ const objUtils = require('./obj-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
 
 const slot = parseInt(process.argv[3]);
-const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[3]) : CONFIG.savepath + 'game_data.sav';
+const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : CONFIG.savepath + 'game_data.sav';
 
 const slotsOffset = 394248;
 const slotWidth = 128;
