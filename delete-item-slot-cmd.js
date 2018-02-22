@@ -26,7 +26,7 @@ if (!!categoryFilename) {
 
     const baseSlot = slotStructure[category].first + slot - 1;
 
-    if (!!baseSlot) {
+    if (!!baseSlot || baseSlot === 0) {
         const baseOffset = getOffset(baseSlot);
 
         var slots = 1;

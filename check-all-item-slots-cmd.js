@@ -22,6 +22,35 @@ const quantityTypes = {
     1466261872: 'durability',
 }
 
+const bonusTypeOffset = 0x0005dd20;
+const bonusTypeWidth = 8;
+const getBonusTypeOffset = (slot) => bonusTypeOffset + slot * bonusTypeWidth;
+
+const bonusAmountOffset = 0x000c4c68;
+const bonusAmountWidth = 8;
+const getBonusAmountOffset = (slot) => bonusAmountOffset + slot * bonusAmountWidth;
+
+const bonusTypes = {
+    0x1: ' with attack +',
+    0x2: ' with durability +',
+    0x4: ' with critical +',
+    0x8: ' with long throw +',
+    0x10: ' with x5 shots +',
+    0x20: ' with x3 shots +',
+    0x40: ' with quick-shot +',
+    0x80: ' with shield surf +',
+    0x100: ' with shield guard +',
+    0x80000001: ' with attack (plus) +',
+    0x80000002: ' with durability (plus) +',
+    0x80000004: ' with critical (plus) +',
+    0x80000008: ' with long throw (plus) +',
+    0x80000010: ' with x5 shots (plus) +',
+    0x80000020: ' with x3 shots (plus) +',
+    0x80000040: ' with quick-shot (plus) +',
+    0x80000080: ' with shield surf (plus) +',
+    0x80000100: ' with shield guard (plus) +'
+};
+
 var slot = 1;
 var end = false;
 while(!end) {
@@ -50,6 +79,16 @@ while(!end) {
         }
     })();
 
+    const bonusType = offsetChecker(getBonusTypeOffset(slot - 1), filename);
+    const bonusAmount = offsetChecker(getBonusAmountOffset(slot - 1), filename);
+    const bonusString = (() => {
+        if (!bonusType) {
+            return '';
+        } else {
+            return bonusTypes[bonusType] + bonusAmount;
+        }
+    })();
+
     const matchFound = itemFiles.some((itemFile) => {
         const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(itemFile);
 
@@ -61,7 +100,7 @@ while(!end) {
             });
 
             if (isMatch) {
-                console.log(`Slot ${slot}: It's a(n) ${itemKey}!${quantityString}`);
+                console.log(`Slot ${slot}: It's a(n) ${itemKey}!${quantityString}${bonusString}`);
             }
 
             return isMatch;
