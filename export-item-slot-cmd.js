@@ -22,7 +22,7 @@ if (!!exportFilename) {
 
     const baseSlot = slotStructure[category].first + slot - 1;
 
-    if (!!baseSlot) {
+    if (!!baseSlot || baseSlot === 0) {
         const name = nameGetter.getOrUndefined(process.argv[4], 'Item name: ', 'Unnamed items not allowed.');
 
         if (!!name) {
