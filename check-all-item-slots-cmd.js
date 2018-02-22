@@ -9,7 +9,7 @@ const filename = !!process.argv[3] ? (CONFIG.snapshotspath + process.argv[3]) : 
 
 const slotsOffset = 394248;
 const slotWidth = 128;
-const quantitiesOffset = 0x000711c0;
+const quantitiesOffset = 0x000711c8;
 const quantitiesWidth = 8;
 const relativeOffsets = Array.apply(0, new Array(slotWidth / 8)).map((e, i) => i * 8);
 
@@ -35,7 +35,7 @@ while(!end) {
         return i < 4 || entry.value !== 0;
     });
 
-    const quantityOffset = quantitiesOffset + quantitiesWidth * slot;
+    const quantityOffset = quantitiesOffset + quantitiesWidth * (slot - 1);
     const quantity = offsetChecker(quantityOffset, filename);
     const quantityString = (() => {
         if (!quantity) {
@@ -53,7 +53,7 @@ while(!end) {
     const matchFound = itemFiles.some((itemFile) => {
         const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(itemFile);
 
-        const itemKeys = Object.keys(json);
+        const itemKeys = json.getSortedKeys();
         return itemKeys.some((itemKey) => {
             const isMatch = json[itemKey].every((itemEntry, i) => {
                 return itemEntry.offset === entries[i].offset

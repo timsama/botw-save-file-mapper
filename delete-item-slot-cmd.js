@@ -12,9 +12,10 @@ const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : 
 
 const slotsOffset = 394248;
 const slotWidth = 128;
-const quantitiesOffset = 0x000711c0;
-const quantitiesWidth = 8;
 const getOffset = (slot) => slotsOffset + slot * slotWidth;
+const quantitiesOffset = 0x000711c8;
+const quantitiesWidth = 8;
+const getQuantitiesOffset = (slot) => quantitiesOffset + slot * quantitiesWidth;
 const relativeOffsets = Array.apply(0, new Array(slotWidth / 8)).map((e, i) => i * 8);
 
 const category = nameGetter.getOrUndefined(process.argv[2], 'Item category: ', 'Unnamed categories not allowed.');

@@ -13,9 +13,10 @@ const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : 
 
 const slotsOffset = 394248;
 const slotWidth = 128;
-const quantitiesOffset = 0x000711c0;
-const quantitiesWidth = 8;
 const getOffset = (slot) => slotsOffset + slot * slotWidth;
+const quantitiesOffset = 0x000711c8;
+const quantitiesWidth = 8;
+const getQuantitiesOffset = (slot) => quantitiesOffset + slot * quantitiesWidth;
 
 const category = nameGetter.getOrUndefined(process.argv[2], 'Item category: ', 'Unnamed categories not allowed.');
 const categoryFilename = itemFileUtils.getCategoryFilepath(category.toLowerCase());
@@ -26,9 +27,11 @@ if (!!categoryFilename) {
     const baseSlot = slotStructure[category].first + slot - 1;
 
     if (!!baseSlot) {
-        const name = nameGetter.getOrUndefined(process.argv[4], 'Item name: ', 'Unnamed items not allowed.');
+        const nameStr = nameGetter.getOrUndefined(process.argv[4], 'Item name: ', 'Unnamed items not allowed.');
 
-        if (!!name) {
+        if (!!nameStr) {
+            const [name, quantityStr] = nameStr.split('x');
+            const quantity = parseInt(quantityStr);
             const baseOffset = getOffset(baseSlot);
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
@@ -49,6 +52,9 @@ if (!!categoryFilename) {
                 entries.forEach(entry => {
                     offsetSetter(baseOffset + entry.offset, entry.value, saveFile);
                 });
+                if (!!quantity) {
+                    offsetSetter(getQuantitiesOffset(baseSlot), quantity, saveFile);
+                }
             } else {
                 console.log(`No entries found for '${name}' in ${category}.`);
             }
