@@ -62,10 +62,10 @@ const offsetFilter = (() => {
 
 const allUnapplyChanges = saveFileUtils.getChangesToUnapply(changesFilepath);
 const allChangesToApply = saveFileUtils.getChangesToApply(changesFilepath).filter((address, i) => {
-    return (!findKnownValue || address.value == knownValue) && (!findKnownPreviousValue || allUnapplyChanges[i].value == knownPreviousValue);
+    return (!(findKnownValue || onlyTestOnes) || address.value == knownValue) && (!findKnownPreviousValue || allUnapplyChanges[i].value == knownPreviousValue);
 }).filter(offsetFilter);
 const allChangesToUnapply = saveFileUtils.getChangesToUnapply(changesFilepath).filter((address, i) => {
-    return (!findKnownValue || allChangesToApply[i] && allChangesToApply[i].value == knownValue) && (!findKnownPreviousValue || address.value == knownPreviousValue);
+    return (!(findKnownValue || onlyTestOnes) || allChangesToApply[i] && allChangesToApply[i].value == knownValue) && (!findKnownPreviousValue || address.value == knownPreviousValue);
 }).filter(offsetFilter);
 
 if (allChangesToApply.length > 0 && allChangesToUnapply.length > 0) {
