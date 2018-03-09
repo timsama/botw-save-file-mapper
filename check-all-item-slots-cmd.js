@@ -118,3 +118,12 @@ while(!end) {
     end = offsetChecker(nextOffset, filename) == 0;
     slot++;
 }
+var totalSlots = slot + 1;
+end = false;
+while(!end) {
+    const nextOffset = slotsOffset + totalSlots * slotWidth;
+    end = offsetChecker(nextOffset, filename) != 0;
+    totalSlots++;
+}
+console.log(totalSlots);
+
