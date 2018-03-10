@@ -8,6 +8,7 @@ module.exports = (saveFileOverride) => {
     
     const saveFilename = 'game_data.sav';
     const saveFilepath = saveFileOverride || `${CONFIG.savepath}${saveFilename}`;
+    const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
 
     return (effectMapFile, names) => {
         const mapFile = effectMapFile || jsonEffectMapFile;
