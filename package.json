@@ -33,7 +33,7 @@
     "export-named-location": "node export-named-location.js",
     "export-named-time": "node export-named-time.js",
     "insert-item-slot": "node insert-item-slot-cmd.js",
-    "load-snapshot": "node load-snapshot.js",
+    "load-snapshot": "node load-snapshot-cmd.js",
     "make-backup": "node make-backup.js",
     "restore-backup": "node restore-backup.js",
     "resave-changes": "node resave-changes.js",
