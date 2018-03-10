@@ -1,4 +1,4 @@
-module.exports = (() => {
+module.exports = (saveFileOverride) => {
     const fs = require('fs');
     const jBinary = require('jbinary');
     const saveFileUtils = require('./save-file-utils.js');
@@ -7,11 +7,12 @@ module.exports = (() => {
     const readline = require('readline-sync');
     
     const saveFilename = 'game_data.sav';
-    const saveFilepath = `${CONFIG.savepath}${saveFilename}`;
+    const saveFilepath = saveFileOverride || `${CONFIG.savepath}${saveFilename}`;
 
     return (effectMapFile, names) => {
         const mapFile = effectMapFile || jsonEffectMapFile;
-        jBinary.load(saveFilepath, saveFileUtils.typeSet, function (err, binary) {
+
+        saveFileUtils.withBinaryFileSync(saveFilepath, (binary) => {
             const writeToOffset = saveFileUtils.buildWriter('uint32', binary);
 
             const effectMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(mapFile);
@@ -40,7 +41,7 @@ module.exports = (() => {
                 }
             });
 
-            binary.saveAs(saveFilepath);
+            binary.saveAsSync(saveFilepath);
         });
     };
-})();
+};
