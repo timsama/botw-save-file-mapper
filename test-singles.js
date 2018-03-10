@@ -1,4 +1,4 @@
-module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffsets) => {
+module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffsets, nonVariable, autosave) => {
     const saveFileUtils = require('./save-file-utils.js');
     const buildRecursiveSearcher = require('./build-recursive-searcher.js');
     const resultExporter = require('./json-result-exporter.js');
@@ -44,11 +44,11 @@ module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffs
             const results = recursiveSearcher.search(allChangesToApply, allChangesToUnapply, (a) => a);
 
             const mightSaveAsVariableReasons = [];
-            if (knownValue !== undefined || knownPreviousValue !== undefined) {
+            if (!nonVariable && (knownValue !== undefined || knownPreviousValue !== undefined)) {
                 mightSaveAsVariableReasons.push('You searched for a known value.');
             }
 
-            resultExporter(results, newName || name, mightSaveAsVariableReasons);
+            resultExporter(results, newName || name, mightSaveAsVariableReasons, false, undefined, autosave);
         });
 
         fs.unlinkSync(captionImagepath);
