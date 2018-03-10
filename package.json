@@ -38,7 +38,7 @@
     "restore-backup": "node restore-backup.js",
     "resave-changes": "node resave-changes.js",
     "set-item-slot": "node set-item-slot-cmd.js",
-    "test-singles": "node test-singles.js",
+    "test-singles": "node test-singles-cmd.js",
     "test-chunks": "node test-chunks.js",
     "test-chunks-backup": "node test-chunks.backup.js",
     "take-snapshot": "node take-snapshot.js",
