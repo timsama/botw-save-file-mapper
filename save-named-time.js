@@ -1,4 +1,4 @@
-const saveNamedChange = require('./save-named-change.js');
+const saveNamedChange = require('./save-named-change.js')();
 const CONFIG = require('./config.js');
 const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
 
