@@ -19,6 +19,7 @@
   },
   "scripts": {
     "test": "mocha",
+    "analyze-shrine": "node analyze-shrine.js",
     "apply-changes": "node apply-changes-cmd.js",
     "apply-location-change": "node apply-location-change-cmd.js",
     "apply-raw-changes": "node apply-raw-changes-cmd.js",

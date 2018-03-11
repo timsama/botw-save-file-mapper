@@ -1,4 +1,4 @@
-module.exports = (name) => {
+module.exports = (name, skipBeforePrompt, beforePromptOverride, afterPromptOverride, restoreToAfterState) => {
 	const readline = require('readline-sync');
 	const fs = require('fs');
 	const buildHexDiff = require('./build-hex-diff.js');
@@ -14,13 +14,15 @@ module.exports = (name) => {
 	const filepath = CONFIG.rawchangespath + filename;
 
 	const beforeHexViewBuilder = () => {
-		readline.question('Please save your game immediately before the change for which you wish to build a changefile. Then press [Enter] to continue.');
+		if (!skipBeforePrompt) {
+			readline.question(beforePromptOverride || 'Please save your game immediately before the change for which you wish to build a changefile. Then press [Enter] to continue.');
+		}
 
 		fs.copyFileSync(saveFilepath, beforeFilepath);
 	};
 
 	const afterHexViewBuilder = () => {
-		readline.question('Please save your game immediately after the change for which you wish to build a changefile. Then press [Enter] to continue.');
+		readline.question(afterPromptOverride || 'Please save your game immediately after the change for which you wish to build a changefile. Then press [Enter] to continue.');
 
 		fs.copyFileSync(saveFilepath, afterFilepath);
 	};
@@ -29,10 +31,18 @@ module.exports = (name) => {
 		if (fs.existsSync(saveFileBackup)) {
 			fs.unlinkSync(saveFileBackup);
 		}
-		fs.renameSync(saveFilepath, saveFileBackup);
-		fs.renameSync(beforeFilepath, saveFilepath);
-		fs.unlinkSync(saveFileBackup);
-		fs.unlinkSync(afterFilepath);
+
+		if (restoreToAfterState) {
+			fs.renameSync(saveFilepath, saveFileBackup);
+			fs.renameSync(afterFilepath, saveFilepath);
+			fs.unlinkSync(saveFileBackup);
+			fs.unlinkSync(beforeFilepath);
+		} else {
+			fs.renameSync(saveFilepath, saveFileBackup);
+			fs.renameSync(beforeFilepath, saveFilepath);
+			fs.unlinkSync(saveFileBackup);
+			fs.unlinkSync(afterFilepath);
+		}
 	};
 
 	beforeHexViewBuilder();
