@@ -33,6 +33,7 @@
     "export-item-slot": "node export-item-slot-cmd.js",
     "export-named-location": "node export-named-location.js",
     "export-named-time": "node export-named-time.js",
+    "find-overlap": "node find-overlap-cmd.js",
     "insert-item-slot": "node insert-item-slot-cmd.js",
     "load-snapshot": "node load-snapshot-cmd.js",
     "make-backup": "node make-backup.js",
