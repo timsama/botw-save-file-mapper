@@ -10,44 +10,62 @@ module.exports = (saveFileOverride) => {
     const saveFilepath = saveFileOverride || `${CONFIG.savepath}${saveFilename}`;
     const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
 
-    return (effectMapFile, names) => {
+    const applyChanges = (effectMapFile, names, skipSoftDependencies) => {
         const mapFile = effectMapFile || jsonEffectMapFile;
 
         saveFileUtils.withBinaryFileSync(saveFilepath, (binary) => {
+            const alreadyAppliedChanges = {};
+
             const writeToOffset = saveFileUtils.buildWriter('uint32', binary);
 
             const effectMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(mapFile);
 
             const isEmpty = (value) => !value && value !== 0;
 
-            names.forEach((name) => {
-                let [keypath, value] = name.split('=');
-                const entries = mapFileUtils.getValueAtKeyPath(effectMap, keypath);
+            const applyChange = (name) => {
+                if (!alreadyAppliedChanges[name]) {
+                    let [keypath, value] = name.split('=');
+                    const effect = mapFileUtils.getValueAtKeyPath(effectMap, keypath);
 
-                if (!entries) {
-                    console.log(`Cannot find entries for ${name}`);
-                }
+                    if (!effect || !effect.entries) {
+                        throw `Entry ${name} does not exist`;
+                    } else {
+                        if (!!effect.harddependencies && effect.harddependencies.length > 0) {
+                            effect.harddependencies.forEach(applyChange);
+                        }
 
-                const variableValuesExist = entries.some(entry => entry.value === 'variable');
+                        if (!skipSoftDependencies && !!effect.softdependencies && effect.softdependencies.length > 0) {
+                            effect.softdependencies.forEach(applyChange);
+                        }
 
-                if (variableValuesExist) {
-                    if (isEmpty(value)) {
-                        value = parseInt(readline.question(`${keypath} is a variable value. What would you like to set it to? `));
+                        const variableValuesExist = effect.entries.some(entry => entry.value === 'variable');
+
+                        if (variableValuesExist) {
+                            if (isEmpty(value)) {
+                                value = parseInt(readline.question(`${keypath} is a variable value. What would you like to set it to? `));
+                            }
+                        }
+
+                        if (!(variableValuesExist && isEmpty(value))) {
+                            effect.entries.forEach((entry) => {
+                                if (entry.value === 'variable') {
+                                    writeToOffset(entry.offset, value);
+                                } else {
+                                    writeToOffset(entry.offset, entry.value);
+                                }
+                            });
+                        }
+
+                        alreadyAppliedChanges[name] = true;
                     }
                 }
+            };
 
-                if (!(variableValuesExist && isEmpty(value))) {
-                    entries.forEach((entry) => {
-                        if (entry.value === 'variable') {
-                            writeToOffset(entry.offset, value);
-                        } else {
-                            writeToOffset(entry.offset, entry.value);
-                        }
-                    });
-                }
-            });
+            names.forEach(applyChange);
 
             binary.saveAsSync(saveFilepath);
         });
     };
+
+    return applyChanges;
 };

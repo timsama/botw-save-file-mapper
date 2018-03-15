@@ -13,9 +13,13 @@ module.exports = (saveFileOverride) => {
             const readFromOffset = saveFileUtils.buildReader('uint32', binary);
 
             const entries = offsets.map((offset) => ({'offset': offset, 'value': readFromOffset(offset)}));
+
+            const result = {
+                entries: entries
+            };
             
             const mapJson = mapFileUtils.getFileAsJsonOrEmptyJsObject(filepath);
-            mapFileUtils.setValueAtKeyPath(mapJson, name, entries);
+            mapFileUtils.setValueAtKeyPath(mapJson, name, result);
             mapFileUtils.saveJsonFile(filepath, mapJson);
         });
     };
