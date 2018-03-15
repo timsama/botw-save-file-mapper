@@ -1,5 +1,6 @@
 module.exports = (saveFileOverride) => {
     const fs = require('fs');
+    const arrayUtils = require('./array-utils.js');
     const jBinary = require('jbinary');
     const saveFileUtils = require('./save-file-utils.js');
     const CONFIG = require('./config.js');
@@ -61,7 +62,15 @@ module.exports = (saveFileOverride) => {
                 }
             };
 
-            names.forEach(applyChange);
+            const expandedNames = arrayUtils.flatten(names.map(name => {
+                const path = name.split('.');
+                const last = path.slice(-1)[0];
+                const suffixes = last.split(',');
+                const prefix = path.slice(0, -1).join('.');
+                return suffixes.map(suffix => prefix + '.' + suffix);
+            }));
+
+            expandedNames.forEach(applyChange);
 
             binary.saveAsSync(saveFilepath);
         });
