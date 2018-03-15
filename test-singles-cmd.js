@@ -37,6 +37,6 @@ const knownPreviousValue = (() =>{
     }
 })();
 
-const filterKnownOffsets = args.indexOf('filter-known-offsets') !== -1 || args.indexOf('filter-known') !== -1;
+const includeKnownOffsets = args.indexOf('include-known-offsets') !== -1 || args.indexOf('include-known') !== -1;
 
-testSingles(name, newName, knownValue, knownPreviousValue, filterKnownOffsets, onlyTestOnes);
+testSingles(name, newName, knownValue, knownPreviousValue, !includeKnownOffsets, onlyTestOnes);

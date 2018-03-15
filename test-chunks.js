@@ -13,14 +13,14 @@ const saveFilepath = `${CONFIG.savepath}game_data.sav`;
 const captionImagepath = `${CONFIG.savepath}caption.jpg`;
 const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
 const args = process.argv.slice(3);
-const filterKnownOffsets = args.indexOf('filter-known-offsets') !== -1 || args.indexOf('filter-known') !== -1;
+const includeKnownOffsets = args.indexOf('include-known-offsets') !== -1 || args.indexOf('include-known') !== -1;
 const renameArgs = args.filter((arg) => arg.indexOf('rename') !== -1);
 const shouldRename = renameArgs.length > 0;
 
 folderUtils.buildFoldersIfTheyDoNotExist(tempCaptionImagepath);
 
 const offsetFilter = (() => {
-    if (filterKnownOffsets) {
+    if (!includeKnownOffsets) {
         return mapFileUtils.getKnownOffsetsFilter();
     } else {
         return () => true;
