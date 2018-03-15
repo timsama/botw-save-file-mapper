@@ -23,6 +23,11 @@ module.exports = (saveFileOverride) => {
             names.forEach((name) => {
                 let [keypath, value] = name.split('=');
                 const entries = mapFileUtils.getValueAtKeyPath(effectMap, keypath);
+
+                if (!entries) {
+                    console.log(`Cannot find entries for ${name}`);
+                }
+
                 const variableValuesExist = entries.some(entry => entry.value === 'variable');
 
                 if (variableValuesExist) {
