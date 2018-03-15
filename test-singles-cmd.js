@@ -1,4 +1,5 @@
 const testSingles = require('./test-singles.js');
+const readline = require('readline-sync');
 
 const name = process.argv[2] || 'unnamed';
 

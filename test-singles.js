@@ -6,7 +6,6 @@ module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffs
     const CONFIG = require('./config.js');
     const folderUtils = require('./folder-utils.js');
     const mapFileUtils = require('./map-file-utils.js');
-    const readline = require('readline-sync');
 
     const changesFilename = name + '.raw.changes';
     const changesFilepath = CONFIG.rawchangespath + changesFilename;
