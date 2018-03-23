@@ -11,7 +11,7 @@ module.exports = (saveFileOverride) => {
     const saveFilepath = saveFileOverride || `${CONFIG.savepath}${saveFilename}`;
     const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
 
-    const applyChanges = (effectMapFile, names, skipSoftDependencies) => {
+    const applyChanges = (effectMapFile, names, skipSoftDependencies, logChangeNames) => {
         const mapFile = effectMapFile || jsonEffectMapFile;
 
         saveFileUtils.withBinaryFileSync(saveFilepath, (binary) => {
@@ -28,8 +28,12 @@ module.exports = (saveFileOverride) => {
                     let [keypath, value] = name.split('=');
                     const effect = mapFileUtils.getValueAtKeyPath(effectMap, keypath);
 
+                    if (logChangeNames) {
+                        console.log(`Applying ${keypath}`);
+                    }
+
                     if (!effect || !effect.entries) {
-                        throw `Entry ${name} does not exist`;
+                        throw ('Entry ' + name + ' does not exist');
                     } else {
                         if (!!effect.harddependencies && effect.harddependencies.length > 0) {
                             effect.harddependencies.forEach(applyChange);
@@ -67,7 +71,13 @@ module.exports = (saveFileOverride) => {
                 const last = path.slice(-1)[0];
                 const suffixes = last.split(',');
                 const prefix = path.slice(0, -1).join('.');
-                return suffixes.map(suffix => prefix + '.' + suffix);
+                return suffixes.map(suffix => {
+                    if (!!prefix) {
+                        return prefix + '.' + suffix;
+                    } else {
+                        return suffix;
+                    }
+                });
             }));
 
             expandedNames.forEach(applyChange);
