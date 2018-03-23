@@ -25,12 +25,13 @@ module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffs
         }
     })();
 
-    const allUnapplyChanges = saveFileUtils.getChangesToUnapply(changesFilepath);
-    const allChangesToApply = saveFileUtils.getChangesToApply(changesFilepath).filter((address, i) => {
-        return (knownValue === undefined || address.value === knownValue) && (knownPreviousValue === undefined || allUnapplyChanges[i].value === knownPreviousValue);
+    const unfilteredUnapplyChanges = saveFileUtils.getChangesToUnapply(changesFilepath);
+    const unfilteredApplyChanges = saveFileUtils.getChangesToApply(changesFilepath);
+    const allChangesToApply = unfilteredApplyChanges.filter((address, i) => {
+        return (knownValue === undefined || address.value === knownValue) && (knownPreviousValue === undefined || unfilteredUnapplyChanges[i].value === knownPreviousValue);
     }).filter(offsetFilter);
-    const allChangesToUnapply = saveFileUtils.getChangesToUnapply(changesFilepath).filter((address, i) => {
-        return (knownValue === undefined || allChangesToApply[i] && allChangesToApply[i].value === knownValue) && (knownPreviousValue === undefined || address.value === knownPreviousValue);
+    const allChangesToUnapply = unfilteredUnapplyChanges.filter((address, i) => {
+        return (knownValue === undefined || unfilteredApplyChanges[i] && unfilteredApplyChanges[i].value === knownValue) && (knownPreviousValue === undefined || address.value === knownPreviousValue);
     }).filter(offsetFilter);
 
     if (allChangesToApply.length > 0 && allChangesToUnapply.length > 0) {
