@@ -31,7 +31,7 @@ module.exports = (() => {
             const offsetMap = offsetMapJson || MapFileUtils.getFileAsJsonOrEmptyJsObject(jsonOffsetMapFile);
 
             return (entry) => {
-                return !offsetMap[toHexString(entry.offset)];
+                return offsetMap[toHexString(entry.offset)] === undefined;
             };
         },
         getValueAtKeyPath: (obj, keypath) => {
