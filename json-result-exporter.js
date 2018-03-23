@@ -9,7 +9,7 @@ module.exports = (() => {
     return (results, name, mightSaveAsVariableReasons, shouldRename, newName, autosave, knownDependencies) => {
         const toHexString = saveFileUtils.toHexString;
 
-        results.forEach((result) => {
+        results.filter(a => !!a).forEach((result) => {
             console.log(`Found it! 0x${toHexString(result.offset)}: ${toHexString(result.value)}`);
         });
 
@@ -18,7 +18,7 @@ module.exports = (() => {
             const saveAsVariable = mightSaveAsVariableReasons.length > 0 && query(saveAsVariablePrompt);
 
             const finalResult = {
-                entries: results.map((result) => {
+                entries: results.filter(a => !!a).map((result) => {
                     if (saveAsVariable) {
                         return {offset: result.offset, value: 'variable'};
                     } else {
@@ -27,12 +27,12 @@ module.exports = (() => {
                 })
             };
 
-            if (!!knownDependencies && knownDependencies.hard) {
-                finalResult.hardDependencies = knownDependencies.hard;
+            if (!!knownDependencies && knownDependencies.harddependencies && knownDependencies.harddependencies.length > 0) {
+                finalResult.harddependencies = knownDependencies.harddependencies;
             }
 
-            if (!!knownDependencies && knownDependencies.soft) {
-                finalResult.softDependencies = knownDependencies.soft;
+            if (!!knownDependencies && knownDependencies.softdependencies && knownDependencies.softdependencies.length > 0) {
+                finalResult.softdependencies = knownDependencies.softdependencies;
             }
 
             const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
