@@ -14,6 +14,7 @@ const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
 const name = process.argv[2];
 const hasQuest = process.argv.slice(3).some(entry => entry == 'with-quest' || entry.split('=')[0] == 'quest');
 const skipData = process.argv.slice(3).some(entry => entry == 'skip-data');
+const includeKnown = process.argv.slice(3).some(entry => entry == 'include-known');
 const foundFlagName = `shrines.${name}.found`;
 const activeFlagName = `shrines.${name}.active`;
 const pedestalFlagName = `shrines.${name}.pedestal`;
@@ -67,14 +68,14 @@ if (!!name) {
         if (hasQuest) {
             foundDeps.harddependencies = [questCompleteFlagName];
         }
-        testSingles(foundFlagName, undefined, 1, undefined, true, true, () => true, foundDeps);
+        testSingles(foundFlagName, undefined, 1, undefined, !includeKnown, true, () => true, foundDeps);
         applyChanges(undefined, [foundFlagName]);
         
         console.log(`\nSearching for ${pedestalFlagName}`);
         const pedestalDeps = {
             harddependencies: [foundFlagName]
         };
-        testSingles(activeFlagName, pedestalFlagName, 1, undefined, true, true, () => true, pedestalDeps);
+        testSingles(activeFlagName, pedestalFlagName, 1, undefined, !includeKnown, true, () => true, pedestalDeps);
         applyChanges(undefined, [pedestalFlagName]);
         
         console.log(`\nSearching for ${activeFlagName}`);
@@ -82,8 +83,7 @@ if (!!name) {
             harddependencies: [foundFlagName],
             softdependencies: [pedestalFlagName]
         };
-        // not filtering known offsets here because for SOME REASON the pedestal flag makes this think there are no new offsets to check
-        testSingles(activeFlagName, undefined, 1, undefined, false, true, () => true, activeDeps);
+        testSingles(activeFlagName, undefined, 1, undefined, !includeKnown, true, () => true, activeDeps);
         applyChanges(undefined, [activeFlagName]);
         
         console.log(`\nSearching for ${completeFlagName}`);
@@ -91,7 +91,7 @@ if (!!name) {
             harddependencies: [foundFlagName],
             softdependencies: [activeFlagName]
         };
-        testSingles(completeFlagName, undefined, 1, undefined, true, true, () => true, completeDeps);
+        testSingles(completeFlagName, undefined, 1, undefined, !includeKnown, true, () => true, completeDeps);
         console.log('\n=== Complete! ===')
     } else {
         console.log('No shrine analyzer snapshot found! Create your ideal shrine completing build, and take a snapshot of it called \'GameAnalyzer\' and then try again.');

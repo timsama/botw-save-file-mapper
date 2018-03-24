@@ -11,6 +11,7 @@ const captionImagepath = `${CONFIG.savepath}caption.jpg`;
 const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
 
 const skipData = process.argv.slice(3).some(entry => entry == 'skip-data');
+const includeKnown = process.argv.slice(3).some(entry => entry == 'include-known');
 const questNameRaw = process.argv[2] || readline.question('What is the name of the quest? ');
 const questName = questNameRaw.split(' ').join('').split('\'').join('').toLowerCase();
 const shrineNameRaw = process.argv.slice(3).find(entry => entry.split('=')[0] == 'shrine');
@@ -54,14 +55,14 @@ if (!!questName) {
         
     
         console.log(`\nSearching for ${questBegunFlagName}`);
-        testSingles(questBegunFlagName, undefined, 1, undefined, true, true, () => true);
+        testSingles(questBegunFlagName, undefined, 1, undefined, !includeKnown, true, () => true);
         applyChanges(undefined, [questBegunFlagName]);
         
         console.log(`\nSearching for ${questCompleteFlagName}`);
         const questCompleteDeps = {
             harddependencies: [questBegunFlagName]
         };
-        testSingles(questCompleteFlagName, undefined, 1, undefined, true, true, () => true, questCompleteDeps);
+        testSingles(questCompleteFlagName, undefined, 1, undefined, !includeKnown, true, () => true, questCompleteDeps);
         console.log('\n=== Complete! ===')
     } else {
         console.log('No quest analyzer snapshot found! Create your ideal quest completing build, and take a snapshot of it called \'GameAnalyzer\' and then try again.');
