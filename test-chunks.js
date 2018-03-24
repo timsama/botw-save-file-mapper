@@ -5,6 +5,7 @@ const fs = require('fs');
 const CONFIG = require('./config.js');
 const folderUtils = require('./folder-utils.js');
 const mapFileUtils = require('./map-file-utils.js');
+const query = require('cli-interact').getYesNo;
 
 const name = process.argv[2] || 'unnamed';
 const changesFilename = name + '.raw.changes';
@@ -53,7 +54,10 @@ if (allChunksToApply.length > 0 && allChangesToUnapply.length > 0) {
             return saveFileUtils.getChangesFromChunks(chunks);
         };
 
-        const results = recursiveSearcher.search(allChunksToApply, allChangesToUnapply, getChanges);
+        const queryFunc = (index, allChangesLength) => {
+            query(`Save file generated. (${index} of ${Math.ceil(Math.log(allChangesLength, 2)) + 2}) Did it work?`)
+        };
+        const results = recursiveSearcher.search(allChunksToApply, allChangesToUnapply, queryFunc, getChanges);
 
         const mightSaveAsVariableReasons = [];
 

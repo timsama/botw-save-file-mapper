@@ -54,14 +54,14 @@ if (!!questName) {
         
     
         console.log(`\nSearching for ${questBegunFlagName}`);
-        testSingles(questBegunFlagName, undefined, 1, undefined, true, true, true);
+        testSingles(questBegunFlagName, undefined, 1, undefined, true, true, () => true);
         applyChanges(undefined, [questBegunFlagName]);
         
         console.log(`\nSearching for ${questCompleteFlagName}`);
         const questCompleteDeps = {
             harddependencies: [questBegunFlagName]
         };
-        testSingles(questCompleteFlagName, undefined, 1, undefined, true, true, true, questCompleteDeps);
+        testSingles(questCompleteFlagName, undefined, 1, undefined, true, true, () => true, questCompleteDeps);
         console.log('\n=== Complete! ===')
     } else {
         console.log('No quest analyzer snapshot found! Create your ideal quest completing build, and take a snapshot of it called \'GameAnalyzer\' and then try again.');

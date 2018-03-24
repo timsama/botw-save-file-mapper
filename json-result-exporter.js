@@ -6,14 +6,16 @@ module.exports = (() => {
     const folderUtils = require('./folder-utils.js');
     const mapFileUtils = require('./map-file-utils.js');
 
-    return (results, name, mightSaveAsVariableReasons, shouldRename, newName, autosave, knownDependencies) => {
+    return (results, name, mightSaveAsVariableReasons, shouldRename, newName, saveQueryOverride, knownDependencies, skipLogging) => {
         const toHexString = saveFileUtils.toHexString;
 
-        results.filter(a => !!a).forEach((result) => {
+        !skipLogging && results.filter(a => !!a).forEach((result) => {
             console.log(`Found it! 0x${toHexString(result.offset)}: ${toHexString(result.value)}`);
         });
 
-        if (results.length > 0 && (autosave || query('Would you like to export this result?'))) {
+        const saveQuery = !!saveQueryOverride ? saveQueryOverride : () => query('Would you like to export this result?');
+
+        if (results.length > 0 && saveQuery()) {
             const saveAsVariablePrompt = mightSaveAsVariableReasons.concat('Would you like to export it as a variable value?').join(' ');
             const saveAsVariable = mightSaveAsVariableReasons.length > 0 && query(saveAsVariablePrompt);
 

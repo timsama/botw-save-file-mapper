@@ -1,11 +1,11 @@
-const query = require('cli-interact').getYesNo;
 const saveFileUtils = require('./save-file-utils.js');
 
-const BuildRecursiveSearcher = (saveFilepath, binarySync) => {
+const BuildRecursiveSearcher = (saveFilepath, binarySync, skipLogging) => {
     return {
-        search: (allChangesToApply, allChangesToUnapply, getChanges) => {
+        search: (allChangesToApply, allChangesToUnapply, successQueryFunc, getChangesOverride) => {
             const writeToOffset = saveFileUtils.buildWriter('uint32', binarySync);
             const toHexString = saveFileUtils.toHexString;
+            const getChanges = !!getChangesOverride ? getChangesOverride : (a) => { return a };
 
             const recursiveSearch = (changesToApply, changesToUnapply) => {
                 if (changesToApply.length === 1) {
@@ -30,8 +30,8 @@ const BuildRecursiveSearcher = (saveFilepath, binarySync) => {
             var index = 0;
 
             const tryCombination = (changesToApply, changesToUnapply) => {
-                console.log('Trying the following entries:');
-                changesToApply.forEach((entry) => {
+                !skipLogging && console.log('Trying the following entries:');
+                !skipLogging && changesToApply.forEach((entry) => {
                     console.log(`0x${toHexString(entry.offset)}: ${toHexString(entry.value)}`);
                 });
 
@@ -42,7 +42,7 @@ const BuildRecursiveSearcher = (saveFilepath, binarySync) => {
 
                 binarySync.saveAsSync(saveFilepath);
 
-                const worked = query(`Save file generated. (${++index} of ${Math.ceil(Math.log(allChangesToApply.length, 2)) + 2}) Did it work?`);
+                const worked = successQueryFunc(++index, allChangesToApply.length);
 
                 // revert changes for next test
                 changesToUnapply.forEach((entry) => {
