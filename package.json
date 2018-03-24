@@ -41,6 +41,7 @@
     "restore-backup": "node restore-backup.js",
     "resave-changes": "node resave-changes.js",
     "set-hearts": "node set-hearts-cmd.js",
+    "set-stamina": "node set-stamina-cmd.js",
     "set-item-slot": "node set-item-slot-cmd.js",
     "set-offset": "node offset-setter-cmd.js",
     "shrine-analyzer": "node shrine-analyzer.js",
