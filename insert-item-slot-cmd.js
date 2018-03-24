@@ -7,29 +7,10 @@ const nameGetter = require('./name-getter.js');
 const objUtils = require('./obj-utils.js');
 const saveFileUtils = require('./save-file-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
+const slotInfo = require('./slot-info.js');
 
 const slot = parseInt(process.argv[3]);
 const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : CONFIG.savepath + 'game_data.sav';
-
-const slotsOffset = 0x60408;
-const slotWidth = 128;
-const getOffset = (slot) => slotsOffset + slot * slotWidth;
-
-const quantitiesOffset = 0x000711c8;
-const quantitiesWidth = 8;
-const getQuantitiesOffset = (slot) => quantitiesOffset + slot * quantitiesWidth;
-
-const equippedSlotsOffset = 0x00080d70;
-const equippedSlotsWidth = 8;
-const getEquippedSlotOffset = (slot) => equippedSlotsOffset + slot * equippedSlotsWidth;
-
-const bonusTypeOffset = 0x0005dd20;
-const bonusTypeWidth = 8;
-const getBonusTypeOffset = (slot) => bonusTypeOffset + slot * bonusTypeWidth;
-
-const bonusAmountOffset = 0x000c4c68;
-const bonusAmountWidth = 8;
-const getBonusAmountOffset = (slot) => bonusAmountOffset + slot * bonusAmountWidth;
 
 const bonusTypes = {
     ATTACK: 0x1,
@@ -67,9 +48,8 @@ if (!!categoryFilename) {
             const [nameWithBonus, quantityStr] = nameStr.split('x');
             const [name, bonusType, bonusAmount] = nameWithBonus.split('+');
             const quantity = parseInt(quantityStr);
-            const baseOffset = getOffset(baseSlot);
-            const baseQuantOffset = getQuantitiesOffset(baseSlot);
-            const baseEquipOffset = getEquippedSlotOffset(baseSlot);
+            const base = slotInfo.getOffsets(baseSlot);
+            const next = slotInfo.getOffsets(baseSlot + 1);
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
@@ -78,24 +58,28 @@ if (!!categoryFilename) {
             var slots = 1;
             var end = false;
             while(!end) {
-                const nextOffset = baseOffset + slots * slotWidth;
+                const nextOffset = slotInfo.getOffsets(baseSlot + slots).item;
                 end = offsetChecker(nextOffset, saveFile) == 0;
                 slots++;
             }
 
+            const lengths = slotInfo.getLengths(slots);
+
             if (!!entries) {
-                saveFileUtils.shiftData(saveFile, baseOffset, baseOffset + slotWidth, slots * slotWidth);
-                saveFileUtils.shiftData(saveFile, baseQuantOffset, baseQuantOffset + quantitiesWidth, slots * quantitiesWidth);
-                saveFileUtils.shiftData(saveFile, baseEquipOffset, baseEquipOffset + equippedSlotsWidth, slots * equippedSlotsWidth);
+                saveFileUtils.shiftData(saveFile, base.item, next.item, lengths.item);
+                saveFileUtils.shiftData(saveFile, base.quantity, next.quantity, lengths.quantity);
+                saveFileUtils.shiftData(saveFile, base.equipped, next.equipped, lengths.equipped);
+                saveFileUtils.shiftData(saveFile, base.bonus.type, next.bonus.type, lengths.bonus.type);
+                saveFileUtils.shiftData(saveFile, base.bonus.amount, next.bonus.amount, lengths.bonus.amount);
                 entries.forEach(entry => {
-                    offsetSetter(baseOffset + entry.offset, entry.value, saveFile);
+                    offsetSetter(base.item + entry.offset, entry.value, saveFile);
                 });
                 if (!!quantity) {
-                    offsetSetter(getQuantitiesOffset(baseSlot), quantity, saveFile);
+                    offsetSetter(base.quantity, quantity, saveFile);
                 }
                 if (!!bonusType) {
-                    offsetSetter(getBonusTypeOffset(baseSlot), bonusTypes[bonusType.toUpperCase()], saveFile);
-                    offsetSetter(getBonusAmountOffset(baseSlot), bonusAmount || 0, saveFile);
+                    offsetSetter(base.bonus.type, bonusTypes[bonusType.toUpperCase()], saveFile);
+                    offsetSetter(base.bonus.amount, bonusAmount || 0, saveFile);
                 }
             } else {
                 console.log(`No entries found for '${name}' in ${category}.`);
