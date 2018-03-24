@@ -63,6 +63,7 @@ if (!!categoryFilename) {
             const [name, bonusType, bonusAmount] = nameWithBonus.split('+');
             const quantity = parseInt(quantityStr);
             const baseOffset = getOffset(baseSlot);
+            const baseQuantOffset = getQuantitiesOffset(baseSlot);
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
@@ -78,7 +79,7 @@ if (!!categoryFilename) {
 
             if (!!entries) {
                 saveFileUtils.shiftData(saveFile, baseOffset, baseOffset + slotWidth, slots * slotWidth);
-                saveFileUtils.shiftData(saveFile, quantitiesOffset, quantitiesOffset + quantitiesWidth, slots * quantitiesWidth);
+                saveFileUtils.shiftData(saveFile, baseQuantOffset, baseQuantOffset + quantitiesWidth, slots * quantitiesWidth);
                 entries.forEach(entry => {
                     offsetSetter(baseOffset + entry.offset, entry.value, saveFile);
                 });

@@ -128,7 +128,8 @@ const SaveFileUtils = {
 						writer(sourceOffset + cursor, 0);
 					}
 
-					cursor += 8;				}
+					cursor += 8;
+				}
 			}
 
 			return binary.saveAsSync(filename);
