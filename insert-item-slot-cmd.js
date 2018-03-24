@@ -46,9 +46,10 @@ if (!!categoryFilename) {
 
         if (!!nameStr) {
             const [quantityStr] = nameStr.split('x').reverse();
-            const quantity = parseInt(quantityStr) || 1;
+            const rawQuantity = parseInt(quantityStr);
+            const quantity = rawQuantity || 1;
             const nameWithBonus = (() => {
-                if (isNaN(parseInt(quantityStr))) {
+                if (isNaN(rawQuantity)) {
                     return nameStr;
                 } else {
                     return nameStr.split('x').slice(0, -1).join('x');
