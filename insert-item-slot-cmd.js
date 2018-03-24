@@ -45,9 +45,16 @@ if (!!categoryFilename) {
         const nameStr = nameGetter.getOrUndefined(process.argv[4], 'Item name: ', 'Unnamed items not allowed.');
 
         if (!!nameStr) {
-            const [nameWithBonus, quantityStr] = nameStr.split('x');
+            const [quantityStr] = nameStr.split('x').reverse();
+            const quantity = parseInt(quantityStr) || 1;
+            const nameWithBonus = (() => {
+                if (isNaN(parseInt(quantityStr))) {
+                    return nameStr;
+                } else {
+                    return nameStr.split('x').slice(0, -1).join('x');
+                }
+            })();
             const [name, bonusType, bonusAmount] = nameWithBonus.split('+');
-            const quantity = parseInt(quantityStr);
             const base = slotInfo.getOffsets(baseSlot);
             const next = slotInfo.getOffsets(baseSlot + 1);
             
