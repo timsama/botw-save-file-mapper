@@ -7,6 +7,10 @@ const itemFiles = itemFileUtils.validCategories.map(itemFileUtils.getCategoryFil
 
 const filename = !!process.argv[3] ? (CONFIG.snapshotspath + process.argv[3]) : CONFIG.savepath + 'game_data.sav';
 
+const equippedSlotsOffset = 0x00080d70;
+const equippedSlotsWidth = 8;
+const getEquippedSlotOffset = (slot) => equippedSlotsOffset + slot * equippedSlotsWidth;
+
 const slotsOffset = 394248;
 const slotWidth = 128;
 const quantitiesOffset = 0x000711c8;
@@ -55,6 +59,9 @@ var slot = 1;
 var end = false;
 while(!end) {
     const baseOffset = slotsOffset + (slot - 1) * slotWidth;
+    const isEquippedOffset = getEquippedSlotOffset(slot - 1);
+    const isEquipped = offsetChecker(isEquippedOffset, filename);
+    const isEquippedStr = isEquipped ? ' [equipped]' : '';
 
     const entries = relativeOffsets.map((relativeOffset) => {
     const offset = baseOffset + relativeOffset;
@@ -100,7 +107,7 @@ while(!end) {
             });
 
             if (isMatch) {
-                console.log(`Slot ${slot}: It's a(n) ${itemKey}!${quantityString}${bonusString}`);
+                console.log(`Slot ${slot}: It's a(n) ${itemKey}!${quantityString}${bonusString}${isEquippedStr}`);
             }
 
             return isMatch;

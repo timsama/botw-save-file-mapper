@@ -18,6 +18,10 @@ const quantitiesOffset = 0x000711c8;
 const quantitiesWidth = 8;
 const getQuantitiesOffset = (slot) => quantitiesOffset + slot * quantitiesWidth;
 
+const equippedSlotsOffset = 0x00080d70;
+const equippedSlotsWidth = 8;
+const getEquippedSlotOffset = (slot) => equippedSlotsOffset + slot * equippedSlotsWidth;
+
 const bonusTypeOffset = 0x0005dd20;
 const bonusTypeWidth = 8;
 const getBonusTypeOffset = (slot) => bonusTypeOffset + slot * bonusTypeWidth;
@@ -64,6 +68,7 @@ if (!!categoryFilename) {
             const quantity = parseInt(quantityStr);
             const baseOffset = getOffset(baseSlot);
             const baseQuantOffset = getQuantitiesOffset(baseSlot);
+            const baseEquipOffset = getEquippedSlotOffset(baseSlot);
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
@@ -80,6 +85,7 @@ if (!!categoryFilename) {
             if (!!entries) {
                 saveFileUtils.shiftData(saveFile, baseOffset, baseOffset + slotWidth, slots * slotWidth);
                 saveFileUtils.shiftData(saveFile, baseQuantOffset, baseQuantOffset + quantitiesWidth, slots * quantitiesWidth);
+                saveFileUtils.shiftData(saveFile, baseEquipOffset, baseEquipOffset + equippedSlotsWidth, slots * equippedSlotsWidth);
                 entries.forEach(entry => {
                     offsetSetter(baseOffset + entry.offset, entry.value, saveFile);
                 });
