@@ -29,6 +29,7 @@
     "check-offset": "node offset-checker-cmd.js",
     "check-item-slot": "node check-item-slot-cmd.js",
     "delete-item-slot": "node delete-item-slot-cmd.js",
+    "equip-item-slot": "node equip-item-slot-cmd.js",
     "export-item-slot": "node export-item-slot-cmd.js",
     "export-named-location": "node export-named-location.js",
     "export-named-time": "node export-named-time.js",
