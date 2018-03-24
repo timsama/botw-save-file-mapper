@@ -11,9 +11,10 @@ const getItemSlotStructure = require('./get-item-slot-structure.js');
 const slot = parseInt(process.argv[3]);
 const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : CONFIG.savepath + 'game_data.sav';
 
-const slotsOffset = 394248;
+const slotsOffset = 0x60408;
 const slotWidth = 128;
 const getOffset = (slot) => slotsOffset + slot * slotWidth;
+
 const quantitiesOffset = 0x000711c8;
 const quantitiesWidth = 8;
 const getQuantitiesOffset = (slot) => quantitiesOffset + slot * quantitiesWidth;
