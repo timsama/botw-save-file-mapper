@@ -40,6 +40,7 @@
     "quest-analyzer": "node quest-analyzer.js",
     "restore-backup": "node restore-backup.js",
     "resave-changes": "node resave-changes.js",
+    "set-hearts": "node set-hearts-cmd.js",
     "set-item-slot": "node set-item-slot-cmd.js",
     "set-offset": "node offset-setter-cmd.js",
     "shrine-analyzer": "node shrine-analyzer.js",
