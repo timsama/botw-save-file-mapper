@@ -35,6 +35,9 @@ module.exports = (saveFileOverride) => {
                     if (!effect || !effect.entries) {
                         throw ('Entry ' + name + ' does not exist');
                     } else {
+                        // if this doesn't go before the dependencies, we can get into cycles of soft deps
+                        alreadyAppliedChanges[name] = true;
+
                         if (!!effect.harddependencies && effect.harddependencies.length > 0) {
                             effect.harddependencies.forEach(applyChange);
                         }
@@ -60,8 +63,6 @@ module.exports = (saveFileOverride) => {
                                 }
                             });
                         }
-
-                        alreadyAppliedChanges[name] = true;
                     }
                 }
             };
