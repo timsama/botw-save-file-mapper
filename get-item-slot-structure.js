@@ -1,5 +1,4 @@
 module.exports = (() => {
-    return (saveFile) => {
         const offsetChecker = require('./offset-checker.js');
         const itemFileUtils = require('./item-file-utils.js');
         const getItemSlotKey = require('./get-item-slot-key.js');
@@ -13,6 +12,8 @@ module.exports = (() => {
             MELEE_OTHER: 1869504339,
             BOW: 1869504322
         };
+
+        const stashableItem = 1466261872;
 
         const weaponFirst = 0;
         const weaponSlots = (() => {
@@ -58,7 +59,17 @@ module.exports = (() => {
         const shieldFirst = arrowFirst + arrowSlots;
         const arrowLast = shieldFirst - 1;
 
-        const shieldSlots = offsetChecker(0x00048cd8, saveFile);
+        const shieldSlots = (() => {
+            const maxShieldSlots = offsetChecker(0x00048cd8, saveFile);
+            let slotCount = 0;
+            let isValidShield = true;
+            while(isValidShield && slotCount < maxShieldSlots) {
+                itemType = offsetChecker(getOffset(shieldFirst + slotCount), saveFile);
+                isValidShield = itemType == stashableItem;
+                isValidShield && slotCount++;
+            }
+            return slotCount;
+        })();
         const armorFirst = shieldFirst + shieldSlots;
         const shieldLast = armorFirst - 1;
 
