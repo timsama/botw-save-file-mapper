@@ -6,7 +6,7 @@ module.exports = (() => {
     const folderUtils = require('./folder-utils.js');
     const mapFileUtils = require('./map-file-utils.js');
 
-    return (results, name, mightSaveAsVariableReasons, shouldRename, newName, saveQueryOverride, knownDependencies, skipLogging) => {
+    return (results, name, mightSaveAsVariableReasons, shouldRename, newName, saveQueryOverride, knownDependencies, skipLogging, appendToExisting) => {
         const toHexString = saveFileUtils.toHexString;
 
         !skipLogging && results.filter(a => !!a).forEach((result) => {
@@ -16,8 +16,26 @@ module.exports = (() => {
         const saveQuery = !!saveQueryOverride ? saveQueryOverride : () => query('Would you like to export this result?');
 
         if (results.length > 0 && saveQuery()) {
+            const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
+            const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
+
+            folderUtils.buildFoldersIfTheyDoNotExist(jsonOffsetMapFile);
+            folderUtils.buildFoldersIfTheyDoNotExist(jsonEffectMapFile);
+
+            const offsetMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(jsonOffsetMapFile);
+            const effectMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(jsonEffectMapFile);
+
+
             const saveAsVariablePrompt = mightSaveAsVariableReasons.concat('Would you like to export it as a variable value?').join(' ');
             const saveAsVariable = mightSaveAsVariableReasons.length > 0 && query(saveAsVariablePrompt);
+            
+            const resultsToAppend = (() => {
+                if (appendToExisting) {
+                    return mapFileUtils.getValueAtKeyPath(effectMap, name.toLowerCase() + '.entries') || [];
+                } else {
+                    return [];
+                }
+            })();
 
             const finalResult = {
                 entries: results.filter(a => !!a).map((result) => {
@@ -26,7 +44,7 @@ module.exports = (() => {
                     } else {
                         return result;
                     }
-                })
+                }).concat(resultsToAppend)
             };
 
             if (!!knownDependencies && knownDependencies.harddependencies && knownDependencies.harddependencies.length > 0) {
@@ -36,15 +54,6 @@ module.exports = (() => {
             if (!!knownDependencies && knownDependencies.softdependencies && knownDependencies.softdependencies.length > 0) {
                 finalResult.softdependencies = knownDependencies.softdependencies;
             }
-
-            const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
-            const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
-
-            folderUtils.buildFoldersIfTheyDoNotExist(jsonOffsetMapFile);
-            folderUtils.buildFoldersIfTheyDoNotExist(jsonEffectMapFile);
-
-            const offsetMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(jsonOffsetMapFile);
-            const effectMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(jsonEffectMapFile);
 
             mapFileUtils.appendOffsetEffects(offsetMap, finalResult.entries, name);
             mapFileUtils.setValueAtKeyPath(effectMap, name.toLowerCase(), finalResult);

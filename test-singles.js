@@ -1,4 +1,4 @@
-module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffsets, nonVariable, saveQuery, knownDependencies, queryFuncOverride, skipLogging, pathOverride) => {
+module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffsets, nonVariable, saveQuery, knownDependencies, queryFuncOverride, skipLogging, pathOverride, appendToExisting) => {
     const saveFileUtils = require('./save-file-utils.js');
     const buildRecursiveSearcher = require('./build-recursive-searcher.js');
     const resultExporter = require('./json-result-exporter.js');
@@ -52,7 +52,7 @@ module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffs
                 mightSaveAsVariableReasons.push('You searched for a known value.');
             }
 
-            resultExporter(results, newName || name, mightSaveAsVariableReasons, false, undefined, saveQuery, knownDependencies, skipLogging);
+            resultExporter(results, newName || name, mightSaveAsVariableReasons, false, undefined, saveQuery, knownDependencies, skipLogging, appendToExisting);
 
             return results;
         });

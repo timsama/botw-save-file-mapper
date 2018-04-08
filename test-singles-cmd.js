@@ -39,4 +39,6 @@ const knownPreviousValue = (() =>{
 
 const includeKnownOffsets = args.indexOf('include-known-offsets') !== -1 || args.indexOf('include-known') !== -1;
 
-testSingles(name, newName, knownValue, knownPreviousValue, !includeKnownOffsets, onlyTestOnes);
+const appendToExisting = args.some(entry => entry == 'append' || entry == 'append-to-existing');
+
+testSingles(name, newName, knownValue, knownPreviousValue, !includeKnownOffsets, onlyTestOnes, undefined, undefined, undefined, undefined, undefined, appendToExisting);
