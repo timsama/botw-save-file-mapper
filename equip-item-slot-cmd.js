@@ -15,6 +15,12 @@ const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : 
 const category = nameGetter.getOrUndefined(process.argv[2], 'Item category: ', 'Unnamed categories not allowed.');
 const categoryFilename = itemFileUtils.getCategoryFilepath(category.toLowerCase());
 
+const armorTypes = {
+    1633943552: 'HAT',
+    1885696512: 'SHIRT',
+    2003137024: 'PANTS'
+};
+
 if (!!categoryFilename) {
     const slotStructure = getItemSlotStructure(saveFile);
 
@@ -23,16 +29,27 @@ if (!!categoryFilename) {
         slots.push(i);
     }
 
-    // this is wrong for armor, but we'll have to fix it later
-    slots.forEach(slot => {
-        const offset = slotInfo.getOffsets(slot).equipped;
-        offsetSetter(offset, 0, saveFile);
-    });
-
     const baseSlot = slotStructure[category].first + slot - 1;
-    
-    const offset = slotInfo.getOffsets(baseSlot).equipped;
-    offsetSetter(offset, 1, saveFile);
+    const offsets = slotInfo.getOffsets(baseSlot);
+
+    if (category !== 'armor') {
+        slots.forEach(slot => {
+            const offset = slotInfo.getOffsets(slot).equipped;
+            offsetSetter(offset, 0, saveFile);
+        });
+    } else {
+        const armorOffset = offsets.item + 24;
+        const armorType = armorTypes[offsetChecker(armorOffset, saveFile)];
+        slots.forEach(slot => {
+            const offsets = slotInfo.getOffsets(slot);
+            const type = offsetChecker(offsets.item + 24, saveFile);
+            if (armorTypes[type] === armorType) {
+                offsetSetter(offsets.equipped, 0, saveFile);
+            }
+        });
+    }
+    const equippedOffset = offsets.equipped;
+    offsetSetter(equippedOffset, 1, saveFile);
 } else {
     console.log('Category not recognized.');
 }
