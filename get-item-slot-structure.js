@@ -1,4 +1,5 @@
 module.exports = (() => {
+    return (saveFile, withLogging) => {
         const offsetChecker = require('./offset-checker.js');
         const itemFileUtils = require('./item-file-utils.js');
         const getItemSlotKey = require('./get-item-slot-key.js');
@@ -94,19 +95,26 @@ module.exports = (() => {
         };
 
         const materialSlots = countCategorySlots(materialFirst, 'materials');
-        // console.log('material slots: ' + materialSlots);
-        // console.log('material first: ' + materialFirst);
         const foodFirst = materialFirst + materialSlots;
         const materialLast = foodFirst - 1;
 
         const foodSlots = countCategorySlots(foodFirst, 'food');
-        // console.log('food slots: ' + foodSlots);
         const keyItemFirst = foodFirst + foodSlots;
         const foodLast = keyItemFirst - 1;
 
         const keyItemSlots = countCategorySlots(keyItemFirst, 'keyitems');
-        // console.log('keyitem slots: ' + keyItemSlots);
         const keyItemLast = keyItemFirst + keyItemSlots - 1;
+
+        if (withLogging) {
+            console.log(`weapons: total: ${weaponLast - weaponFirst + 1}, first: ${weaponFirst}, last: ${weaponLast}`);
+            console.log(`bows: total: ${bowLast - bowFirst + 1}, first: ${bowFirst}, last: ${bowLast}`);
+            console.log(`arrows: total: ${arrowLast - arrowFirst + 1}, first: ${arrowFirst}, last: ${arrowLast}`);
+            console.log(`shields: total: ${shieldLast - shieldFirst + 1}, first: ${shieldFirst}, last: ${shieldLast}`);
+            console.log(`armor: total: ${armorLast - armorFirst + 1}, first: ${armorFirst}, last: ${armorLast}`);
+            console.log(`materials: total: ${materialLast - materialFirst + 1}, first: ${materialFirst}, last: ${materialLast}`);
+            console.log(`food: total: ${foodLast - foodFirst + 1}, first: ${foodFirst}, last: ${foodLast}`);
+            console.log(`keyitems: total: ${keyItemLast - keyItemFirst + 1}, first: ${keyItemFirst}, last: ${keyItemLast}`);
+        }
 
         return {
             weapons: {first: weaponFirst, last: weaponLast},
