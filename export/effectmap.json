@@ -1,0 +1,3373 @@
+{
+  "bowstash": {
+    "entries": [
+      {
+        "offset": 930632,
+        "value": "variable"
+      }
+    ],
+    "softdependencies": [
+      "sidequests.thepricelessmaracas.complete"
+    ]
+  },
+  "camera": {
+    "direction": {
+      "east": {
+        "entries": [
+          {
+            "offset": 453224,
+            "value": 1120215932
+          }
+        ]
+      },
+      "north": {
+        "entries": [
+          {
+            "offset": 453224,
+            "value": 1126806778
+          }
+        ]
+      },
+      "south": {
+        "entries": [
+          {
+            "offset": 453224,
+            "value": 3239617531
+          }
+        ]
+      },
+      "west": {
+        "entries": [
+          {
+            "offset": 453224,
+            "value": 3267705991
+          }
+        ]
+      }
+    }
+  },
+  "canusespiritorbs": {
+    "entries": [
+      {
+        "offset": 921912,
+        "value": 1
+      }
+    ]
+  },
+  "cutscenes": {
+    "firstspiritorb": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 29400,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "leavingtheshrineofresurrection": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 819160,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 819160,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "meetingimpa": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 351664,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "meetingteba": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 67784,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "miphastouch": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 536064,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "revalisflap": {
+      "entries": [
+        {
+          "offset": 533312,
+          "value": 1
+        }
+      ]
+    },
+    "takethesheikahslate": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 1008160,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 1008160,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "vahmedohintro": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 334072,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "vahrudaniaintro": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 328496,
+            "value": 1
+          }
+        ]
+      }
+    }
+  },
+  "divinebeasts": {
+    "vahmedoh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 1022888,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahmedoh.found"
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.pedestal"
+        ]
+      },
+      "allterminals": {
+        "entries": [
+          {
+            "offset": 850456,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.terminal1",
+          "divinebeasts.vahmedoh.terminal2",
+          "divinebeasts.vahmedoh.terminal3",
+          "divinebeasts.vahmedoh.terminal4",
+          "divinebeasts.vahmedoh.terminal5"
+        ]
+      },
+      "bossdefeated": {
+        "entries": [
+          {
+            "offset": 7200,
+            "value": 1
+          },
+          {
+            "offset": 914304,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.allterminals"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 327216,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.bossdefeated",
+          "divinebeasts.vahmedoh.targeting"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 950680,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahmedoh.boardvahmedoh"
+        ]
+      },
+      "map": {
+        "entries": [
+          {
+            "offset": 792264,
+            "value": 1
+          },
+          {
+            "offset": 804488,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.active"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 353688,
+            "value": 1
+          }
+        ]
+      },
+      "targeting": {
+        "entries": [
+          {
+            "offset": 526576,
+            "value": 1
+          }
+        ]
+      },
+      "terminal1": {
+        "entries": [
+          {
+            "offset": 1015280,
+            "value": 1
+          },
+          {
+            "offset": 562912,
+            "value": 4
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.map"
+        ]
+      },
+      "terminal2": {
+        "entries": [
+          {
+            "offset": 948280,
+            "value": 1
+          },
+          {
+            "offset": 562912,
+            "value": 3
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.map"
+        ]
+      },
+      "terminal3": {
+        "entries": [
+          {
+            "offset": 362408,
+            "value": 1
+          },
+          {
+            "offset": 562912,
+            "value": 2
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.map"
+        ]
+      },
+      "terminal4": {
+        "entries": [
+          {
+            "offset": 547760,
+            "value": 1
+          },
+          {
+            "offset": 562912,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.map"
+        ]
+      },
+      "terminal5": {
+        "entries": [
+          {
+            "offset": 526424,
+            "value": 1
+          },
+          {
+            "offset": 562912,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.map"
+        ]
+      }
+    },
+    "vahruta": {
+      "active": {
+        "entries": [
+          {
+            "offset": 817632,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahruta.found"
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.pedestal"
+        ]
+      },
+      "allterminals": {
+        "entries": [
+          {
+            "offset": 845656,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.terminal1",
+          "divinebeasts.vahruta.terminal2",
+          "divinebeasts.vahruta.terminal3",
+          "divinebeasts.vahruta.terminal4",
+          "divinebeasts.vahruta.terminal5"
+        ]
+      },
+      "beginningenemies": {
+        "entries": [
+          {
+            "offset": 1009432,
+            "value": 1
+          },
+          {
+            "offset": 831416,
+            "value": 1
+          },
+          {
+            "offset": 46680,
+            "value": 1
+          }
+        ]
+      },
+      "bossdefeated": {
+        "entries": [
+          {
+            "offset": 892144,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.allterminals"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 828976,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.bossdefeated"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 458016,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahruta.boardvahruta"
+        ]
+      },
+      "map": {
+        "entries": [
+          {
+            "offset": 509352,
+            "value": 1
+          },
+          {
+            "offset": 915344,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.active",
+          "divinebeasts.vahruta.beginningenemies"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 950168,
+            "value": 1
+          }
+        ]
+      },
+      "shortcutwaterfall": {
+        "entries": [
+          {
+            "offset": 468496,
+            "value": 1
+          }
+        ]
+      },
+      "terminal1": {
+        "entries": [
+          {
+            "offset": 884248,
+            "value": 4
+          },
+          {
+            "offset": 32888,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.map"
+        ]
+      },
+      "terminal2": {
+        "entries": [
+          {
+            "offset": 884248,
+            "value": 3
+          },
+          {
+            "offset": 477296,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.map"
+        ]
+      },
+      "terminal3": {
+        "entries": [
+          {
+            "offset": 884248,
+            "value": 2
+          },
+          {
+            "offset": 832616,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.map"
+        ]
+      },
+      "terminal4": {
+        "entries": [
+          {
+            "offset": 884248,
+            "value": 1
+          },
+          {
+            "offset": 338744,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.map",
+          "divinebeasts.vahruta.shortcutwaterfall"
+        ]
+      },
+      "terminal5": {
+        "entries": [
+          {
+            "offset": 884248,
+            "value": 0
+          },
+          {
+            "offset": 43576,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.map",
+          "divinebeasts.vahruta.shortcutwaterfall"
+        ]
+      }
+    }
+  },
+  "effects": {
+    "effectlength": {
+      "entries": [
+        {
+          "offset": 335080,
+          "value": 1196537344
+        }
+      ]
+    }
+  },
+  "hatenoancienttechlab": {
+    "active": {
+      "entries": [
+        {
+          "offset": 561184,
+          "value": 1
+        }
+      ],
+      "harddependencies": [
+        "hatenoancienttechlab.found"
+      ]
+    },
+    "found": {
+      "entries": [
+        {
+          "offset": 474704,
+          "value": 1
+        }
+      ]
+    }
+  },
+  "keyitems": {
+    "korokseeds": {
+      "entries": [
+        {
+          "offset": 466088,
+          "value": "variable"
+        }
+      ]
+    },
+    "korokseeds2": {
+      "entries": [
+        {
+          "offset": 398856,
+          "value": 1331849823
+        },
+        {
+          "offset": 398864,
+          "value": 1265594991
+        },
+        {
+          "offset": 398872,
+          "value": 1800303988
+        },
+        {
+          "offset": 398880,
+          "value": 1929379840
+        }
+      ]
+    },
+    "nosheikahslate": {
+      "entries": [
+        {
+          "offset": 812656,
+          "value": 1
+        }
+      ]
+    },
+    "paraglider": {
+      "entries": [
+        {
+          "offset": 398728,
+          "value": 1349280121
+        },
+        {
+          "offset": 398736,
+          "value": 1701991284
+        },
+        {
+          "offset": 398744,
+          "value": 1869374770
+        },
+        {
+          "offset": 1024072,
+          "value": 1
+        }
+      ]
+    },
+    "sheikahslate": {
+      "entries": [
+        {
+          "offset": 394248,
+          "value": 1331849823
+        },
+        {
+          "offset": 394256,
+          "value": 1146246004
+        },
+        {
+          "offset": 394264,
+          "value": 1869505887
+        },
+        {
+          "offset": 394272,
+          "value": 1197831168
+        }
+      ]
+    }
+  },
+  "mainquests": {
+    "capturedmemories": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 42352,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.lockedmementos.complete"
+        ]
+      }
+    },
+    "destroyganon": {
+      "selected": {
+        "entries": [
+          {
+            "offset": 393768,
+            "value": 2
+          }
+        ]
+      }
+    },
+    "divinebeastvahmedoh": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 942480,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.freethedivinebeasts.begun",
+          "cutscenes.vahmedohintro.viewed"
+        ]
+      },
+      "boardvahmedoh": {
+        "entries": [
+          {
+            "offset": 480976,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahmedoh.theflightrange"
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.active"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 810544,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.complete"
+        ]
+      },
+      "impressteba": {
+        "entries": [
+          {
+            "offset": 813208,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahmedoh.theflightrange"
+        ]
+      },
+      "talktosaki": {
+        "entries": [
+          {
+            "offset": 947048,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahmedoh.begun"
+        ],
+        "softdependencies": [
+          "cutscenes.revalisflap.viewed"
+        ]
+      },
+      "theflightrange": {
+        "entries": [
+          {
+            "offset": 802808,
+            "value": 1
+          },
+          {
+            "offset": 474000,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahmedoh.talktosaki"
+        ],
+        "softdependencies": [
+          "cutscenes.meetingteba.viewed"
+        ]
+      }
+    },
+    "divinebeastvahruta": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 454152,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.freethedivinebeasts.begun",
+          "mainquests.reachzorasdomain.complete"
+        ]
+      },
+      "boardvahruta": {
+        "entries": [
+          {
+            "offset": 904416,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahruta.rainstopped",
+          "mainquests.divinebeastvahruta.collectshockarrows"
+        ]
+      },
+      "collectshockarrows": {
+        "entries": [
+          {
+            "offset": 453624,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahruta.wearzoraarmor"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 334496,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.complete"
+        ]
+      },
+      "rainstopped": {
+        "entries": [
+          {
+            "offset": 24352,
+            "value": 1
+          }
+        ]
+      },
+      "talktomuzu": {
+        "entries": [
+          {
+            "offset": 810240,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahruta.begun",
+          "cutscenes.miphastouch.viewed"
+        ]
+      },
+      "wearzoraarmor": {
+        "entries": [
+          {
+            "offset": 1020832,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahruta.talktomuzu"
+        ]
+      }
+    },
+    "followthesheikahslate": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 931768,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 551072,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.followthesheikahslate.begun"
+        ]
+      }
+    },
+    "freethedivinebeasts": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 1007840,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.seekoutimpa.complete",
+          "mainquests.lockedmementos.begun"
+        ]
+      }
+    },
+    "lockedmementos": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 883504,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.seekoutimpa.complete",
+          "mainquests.freethedivinebeasts.begun"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 895872,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.lockedmementos.returntoimpa"
+        ]
+      },
+      "lightthefurnace": {
+        "entries": [
+          {
+            "offset": 521184,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.lockedmementos.begun"
+        ]
+      },
+      "returntoimpa": {
+        "entries": [
+          {
+            "offset": 481112,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.lockedmementos.takeasnapofpurah"
+        ]
+      },
+      "takeasnapofpurah": {
+        "entries": [
+          {
+            "offset": 550120,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.lockedmementos.talktopurah"
+        ],
+        "softdependencies": [
+          "runes.camera",
+          "sheikahslate.sensor",
+          "sheikahslate.album",
+          "sheikahslate.hyrulecompendium"
+        ]
+      },
+      "talktopurah": {
+        "entries": [
+          {
+            "offset": 455496,
+            "value": 1
+          },
+          {
+            "offset": 919864,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.lockedmementos.lightthefurnace"
+        ],
+        "softdependencies": [
+          "hatenoancienttechlab.active"
+        ]
+      }
+    },
+    "reachzorasdomain": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 18608,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 943064,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.reachzorasdomain.sidonrivercutscene5"
+        ]
+      },
+      "sidonrivercutscene1": {
+        "entries": [
+          {
+            "offset": 852424,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.reachzorasdomain.begun"
+        ]
+      },
+      "sidonrivercutscene2": {
+        "entries": [
+          {
+            "offset": 388912,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.reachzorasdomain.sidonrivercutscene1"
+        ]
+      },
+      "sidonrivercutscene3": {
+        "entries": [
+          {
+            "offset": 72464,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.reachzorasdomain.sidonrivercutscene2"
+        ]
+      },
+      "sidonrivercutscene4": {
+        "entries": [
+          {
+            "offset": 821544,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.reachzorasdomain.sidonrivercutscene3"
+        ]
+      },
+      "sidonrivercutscene5": {
+        "entries": [
+          {
+            "offset": 942584,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.reachzorasdomain.sidonrivercutscene4"
+        ]
+      }
+    },
+    "seekoutimpa": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 47360,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.theisolatedplateau.complete"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 342936,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.seekoutimpa.begun"
+        ],
+        "softdependencies": [
+          "cutscenes.meetingimpa.viewed"
+        ]
+      },
+      "selected": {
+        "entries": [
+          {
+            "offset": 393768,
+            "value": 3
+          }
+        ]
+      }
+    },
+    "theisolatedplateau": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 44624,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.followthesheikahslate.complete",
+          "towers.greatplateau.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 456704,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.theisolatedplateau.begun"
+        ]
+      }
+    }
+  },
+  "runes": {
+    "alldisabled": {
+      "entries": [
+        {
+          "offset": 801992,
+          "value": 4294967295
+        }
+      ]
+    },
+    "bombs": {
+      "entries": [
+        {
+          "offset": 38648,
+          "value": 1
+        },
+        {
+          "offset": 801992,
+          "value": 0
+        }
+      ]
+    },
+    "camera": {
+      "entries": [
+        {
+          "offset": 1013160,
+          "value": 1
+        }
+      ]
+    },
+    "cryonis": {
+      "entries": [
+        {
+          "offset": 386608,
+          "value": 1
+        },
+        {
+          "offset": 801992,
+          "value": 4
+        }
+      ]
+    },
+    "magnesis": {
+      "entries": [
+        {
+          "offset": 514936,
+          "value": 1
+        },
+        {
+          "offset": 801992,
+          "value": 2
+        }
+      ]
+    },
+    "mastercyclezero": {
+      "entries": [
+        {
+          "offset": 861792,
+          "value": 1
+        },
+        {
+          "offset": 801992,
+          "value": 6
+        }
+      ]
+    },
+    "stasis": {
+      "entries": [
+        {
+          "offset": 483584,
+          "value": 1
+        },
+        {
+          "offset": 801992,
+          "value": 3
+        }
+      ]
+    }
+  },
+  "settings": {
+    "sheikahsensor": {
+      "off": {
+        "entries": [
+          {
+            "offset": 952344,
+            "value": 2
+          }
+        ]
+      }
+    }
+  },
+  "sheikahslate": {
+    "album": {
+      "entries": [
+        {
+          "offset": 942184,
+          "value": 1
+        },
+        {
+          "offset": 941144,
+          "value": 1
+        },
+        {
+          "offset": 43688,
+          "value": 1
+        },
+        {
+          "offset": 1007832,
+          "value": 1
+        },
+        {
+          "offset": 480112,
+          "value": 1
+        },
+        {
+          "offset": 8632,
+          "value": 1
+        },
+        {
+          "offset": 510000,
+          "value": 1
+        },
+        {
+          "offset": 16456,
+          "value": 1
+        },
+        {
+          "offset": 4256,
+          "value": 1
+        },
+        {
+          "offset": 789752,
+          "value": 1
+        },
+        {
+          "offset": 469160,
+          "value": 1
+        },
+        {
+          "offset": 30512,
+          "value": 1
+        },
+        {
+          "offset": 792096,
+          "value": 1
+        }
+      ]
+    },
+    "hyrulecompendium": {
+      "entries": [
+        {
+          "offset": 348488,
+          "value": 1
+        }
+      ]
+    },
+    "sensor": {
+      "entries": [
+        {
+          "offset": 863256,
+          "value": 1
+        }
+      ]
+    }
+  },
+  "shieldstash": {
+    "entries": [
+      {
+        "offset": 298200,
+        "value": "variable"
+      }
+    ],
+    "softdependencies": [
+      "sidequests.thepricelessmaracas.complete"
+    ]
+  },
+  "shrinequests": {
+    "afragmentedmonument": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 59712,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 18768,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.afragmentedmonument.begun"
+        ]
+      }
+    },
+    "atestofwill": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 481520,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 346800,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "cliffsideetchings": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 474904,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 9144,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.cliffsideetchings.begun"
+        ]
+      }
+    },
+    "shroudedshrine": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 30040,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 851160,
+            "value": 1
+          },
+          {
+            "offset": 854976,
+            "value": 1
+          },
+          {
+            "offset": 848,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.shroudedshrine.begun"
+        ]
+      }
+    },
+    "strandedoneventide": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 339216,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 326328,
+            "value": 1
+          },
+          {
+            "offset": 832072,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.strandedoneventide.begun"
+        ]
+      }
+    },
+    "theancientritosong": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 18080,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 801848,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.theancientritosong.begun"
+        ]
+      }
+    },
+    "thecursedstatue": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 467488,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 66424,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.thecursedstatue.begun"
+        ]
+      }
+    },
+    "thegutcheckchallenge": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 911240,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 1016672,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "thetestofwood": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 1020784,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 1024152,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.thetestofwood.begun"
+        ]
+      }
+    }
+  },
+  "shrines": {
+    "akhvaquot": {
+      "active": {
+        "entries": [
+          {
+            "offset": 51264,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.akhvaquot.found"
+        ],
+        "softdependencies": [
+          "shrines.akhvaquot.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 814200,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.akhvaquot.found"
+        ],
+        "softdependencies": [
+          "shrines.akhvaquot.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 854832,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 844040,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.akhvaquot.found"
+        ]
+      }
+    },
+    "bareedanaag": {
+      "active": {
+        "entries": [
+          {
+            "offset": 512568,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.bareedanaag.found"
+        ],
+        "softdependencies": [
+          "shrines.bareedanaag.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 1016392,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.bareedanaag.found"
+        ],
+        "softdependencies": [
+          "shrines.bareedanaag.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 553296,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.bareedanaag.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 813256,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.bareedanaag.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 5416,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.theancientritosong.complete"
+        ]
+      }
+    },
+    "boshkala": {
+      "active": {
+        "entries": [
+          {
+            "offset": 923384,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 462848,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 2128,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "chaasqeta": {
+      "active": {
+        "entries": [
+          {
+            "offset": 448696,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 874280,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 832080,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "dagahkeek": {
+      "active": {
+        "entries": [
+          {
+            "offset": 24248,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dagahkeek.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 526624,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dagahkeek.found"
+        ],
+        "softdependencies": [
+          "shrines.dagahkeek.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 933384,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dagahkeek.unearthed"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 34336,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "dahhesho": {
+      "active": {
+        "entries": [
+          {
+            "offset": 345752,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dahhesho.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 463600,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dahhesho.found"
+        ],
+        "softdependencies": [
+          "shrines.dahhesho.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 796608,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "dahkaso": {
+      "active": {
+        "entries": [
+          {
+            "offset": 901624,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dahkaso.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 382712,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dahkaso.found"
+        ],
+        "softdependencies": [
+          "shrines.dahkaso.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 333568,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "dakatuss": {
+      "active": {
+        "entries": [
+          {
+            "offset": 864920,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 344568,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 73720,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "dakohtah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 843200,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 302088,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 387552,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "daqakoh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 66952,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 458392,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 884448,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "daqochisay": {
+      "active": {
+        "entries": [
+          {
+            "offset": 76320,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 798912,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 861880,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "dilamaag": {
+      "active": {
+        "entries": [
+          {
+            "offset": 915976,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 473568,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 11424,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "downaeh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 39424,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 562752,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 1026720,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "dunbataag": {
+      "active": {
+        "entries": [
+          {
+            "offset": 482696,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 1018216,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 554296,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "geeharah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 934016,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 51424,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 17880,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "gomaasaagh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 385608,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 854768,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 846688,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "goraetorr": {
+      "active": {
+        "entries": [
+          {
+            "offset": 913032,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 361360,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 326192,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "hadahamar": {
+      "active": {
+        "entries": [
+          {
+            "offset": 471200,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 918920,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 543880,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "hawakoth": {
+      "active": {
+        "entries": [
+          {
+            "offset": 914216,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 472584,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 9688,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "hiamiu": {
+      "active": {
+        "entries": [
+          {
+            "offset": 847632,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 300776,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 386400,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "hilarao": {
+      "active": {
+        "entries": [
+          {
+            "offset": 302248,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 843064,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 896648,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "ishtosoh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 382800,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 901584,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 40368,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "jabaij": {
+      "active": {
+        "entries": [
+          {
+            "offset": 466776,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 918856,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 544696,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "jeenoh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 21104,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 12880,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 931592,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "jitansami": {
+      "active": {
+        "entries": [
+          {
+            "offset": 1026920,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 477072,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 39600,
+            "value": 1
+          }
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 1013136,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "joloonah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 362664,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 908384,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 824472,
+            "value": 1
+          }
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 519104,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "kaamyatak": {
+      "active": {
+        "entries": [
+          {
+            "offset": 44064,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 527840,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 1019856,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "kahmael": {
+      "active": {
+        "entries": [
+          {
+            "offset": 857920,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahmael.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 348672,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahmael.found"
+        ],
+        "softdependencies": [
+          "shrines.kahmael.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 48424,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "kahokeo": {
+      "active": {
+        "entries": [
+          {
+            "offset": 46872,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahokeo.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 899312,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahokeo.found"
+        ],
+        "softdependencies": [
+          "shrines.kahokeo.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 790008,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "kahyah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 372664,
+            "value": 1
+          },
+          {
+            "offset": 42152,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahyah.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 812304,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahyah.found"
+        ],
+        "softdependencies": [
+          "shrines.kahyah.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 822960,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahyah.unearthed"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrinequests.afragmentedmonument.complete"
+        ]
+      }
+    },
+    "kamurog": {
+      "active": {
+        "entries": [
+          {
+            "offset": 459080,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kamurog.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 933808,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kamurog.found"
+        ],
+        "softdependencies": [
+          "shrines.kamurog.complete"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 526192,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kamurog.unearthed"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 821448,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.thecursedstatue.complete"
+        ]
+      }
+    },
+    "kaomakagh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 5440,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kaomakagh.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 547128,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kaomakagh.found"
+        ],
+        "softdependencies": [
+          "shrines.kaomakagh.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 921296,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "katahchuki": {
+      "active": {
+        "entries": [
+          {
+            "offset": 817720,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.katahchuki.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 50768,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.katahchuki.found"
+        ],
+        "softdependencies": [
+          "shrines.katahchuki.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 349448,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "katosaaug": {
+      "active": {
+        "entries": [
+          {
+            "offset": 1016328,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.katosaaug.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 795744,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.katosaaug.found"
+        ],
+        "softdependencies": [
+          "shrines.katosaaug.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 47312,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "kayawan": {
+      "active": {
+        "entries": [
+          {
+            "offset": 456088,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kayawan.found"
+        ],
+        "softdependencies": [
+          "shrines.kayawan.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 934120,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kayawan.found"
+        ],
+        "softdependencies": [
+          "shrines.kayawan.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 531656,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 1018176,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kayawan.found"
+        ]
+      }
+    },
+    "kaynoh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 449784,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kaynoh.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 944784,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kaynoh.found"
+        ],
+        "softdependencies": [
+          "shrines.kaynoh.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 536128,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "keehayoog": {
+      "active": {
+        "entries": [
+          {
+            "offset": 340008,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keehayoog.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 1011376,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keehayoog.found"
+        ],
+        "softdependencies": [
+          "shrines.keehayoog.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 794440,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keehayoog.unearthed"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 477304,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.cliffsideetchings.complete"
+        ]
+      }
+    },
+    "kehnamut": {
+      "active": {
+        "entries": [
+          {
+            "offset": 448176,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kehnamut.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 874016,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kehnamut.found"
+        ],
+        "softdependencies": [
+          "shrines.kehnamut.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 831680,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "kemakosassa": {
+      "active": {
+        "entries": [
+          {
+            "offset": 850808,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kemakosassa.found"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 358280,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kemakosassa.found"
+        ],
+        "softdependencies": [
+          "shrines.kemakosassa.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 66392,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "kemazoos": {
+      "active": {
+        "entries": [
+          {
+            "offset": 827232,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kemazoos.found"
+        ],
+        "softdependencies": [
+          "shrines.kemazoos.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 325240,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kemazoos.found"
+        ],
+        "softdependencies": [
+          "shrines.kemazoos.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 359800,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 806528,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kemazoos.found"
+        ]
+      }
+    },
+    "kenaishakah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 808016,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kenaishakah.found"
+        ],
+        "softdependencies": [
+          "shrines.kenaishakah.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 64808,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kenaishakah.found"
+        ],
+        "softdependencies": [
+          "shrines.kenaishakah.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 357104,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 40896,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kenaishakah.found"
+        ]
+      }
+    },
+    "keoruug": {
+      "active": {
+        "entries": [
+          {
+            "offset": 804136,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 71512,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 341016,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "ketohwawai": {
+      "active": {
+        "entries": [
+          {
+            "offset": 510888,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.ketohwawai.found"
+        ],
+        "softdependencies": [
+          "shrines.ketohwawai.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 1015384,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.ketohwawai.found"
+        ],
+        "softdependencies": [
+          "shrines.ketohwawai.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 2312,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.shroudedshrine.complete"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 831744,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.ketohwawai.found"
+        ]
+      }
+    },
+    "korguchideh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 309296,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.korguchideh.found"
+        ],
+        "softdependencies": [
+          "shrines.korguchideh.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 535712,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.korguchideh.found"
+        ],
+        "softdependencies": [
+          "shrines.korguchideh.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 891008,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.strandedoneventide.complete"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 328104,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.korguchideh.found"
+        ]
+      }
+    },
+    "kuhtakkar": {
+      "active": {
+        "entries": [
+          {
+            "offset": 533216,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kuhtakkar.found"
+        ],
+        "softdependencies": [
+          "shrines.kuhtakkar.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 16112,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kuhtakkar.found"
+        ],
+        "softdependencies": [
+          "shrines.kuhtakkar.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 452528,
+            "value": 1
+          },
+          {
+            "offset": 358152,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 337952,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kuhtakkar.found"
+        ]
+      }
+    },
+    "lannokooh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 524272,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.lannokooh.found"
+        ],
+        "softdependencies": [
+          "shrines.lannokooh.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 948072,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.lannokooh.found"
+        ],
+        "softdependencies": [
+          "shrines.lannokooh.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 357048,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 831248,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.lannokooh.found"
+        ]
+      }
+    },
+    "maaghalan": {
+      "active": {
+        "entries": [
+          {
+            "offset": 553416,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maaghalan.found"
+        ],
+        "softdependencies": [
+          "shrines.maaghalan.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 46696,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maaghalan.found"
+        ],
+        "softdependencies": [
+          "shrines.maaghalan.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 512672,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrinequests.thetestofwood.complete"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 950368,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maaghalan.found"
+        ]
+      }
+    },
+    "omanau": {
+      "active": {
+        "entries": [
+          {
+            "offset": 390472,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 893112,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 833224,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "reedahee": {
+      "active": {
+        "entries": [
+          {
+            "offset": 532432,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 20104,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 457016,
+            "value": 1
+          }
+        ]
+      }
+    }
+  },
+  "sidequests": {
+    "thepricelessmaracas": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 561976,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 801488,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "sidequests.thepricelessmaracas.begun"
+        ]
+      }
+    }
+  },
+  "stats": {
+    "heartcontainers": {
+      "entries": [
+        {
+          "offset": 67952,
+          "value": "variable"
+        }
+      ]
+    },
+    "heartsfilled": {
+      "entries": [
+        {
+          "offset": 846320,
+          "value": "variable"
+        }
+      ]
+    },
+    "rupees": {
+      "entries": [
+        {
+          "offset": 60152,
+          "value": "variable"
+        }
+      ]
+    },
+    "spiritorbs": {
+      "entries": [
+        {
+          "offset": 463576,
+          "value": "variable"
+        }
+      ]
+    },
+    "staminagauge": {
+      "entries": [
+        {
+          "offset": 328648,
+          "value": "variable"
+        }
+      ]
+    }
+  },
+  "time": {
+    "morning": {
+      "entries": [
+        {
+          "offset": 791728,
+          "value": 1117161074
+        }
+      ]
+    },
+    "night": {
+      "entries": [
+        {
+          "offset": 791728,
+          "value": 1134398941
+        }
+      ]
+    },
+    "noon": {
+      "entries": [
+        {
+          "offset": 791728,
+          "value": 1127495812
+        }
+      ]
+    },
+    "timeflowsaftercliffsideopeningcutscene": {
+      "entries": [
+      ],
+      "harddependencies": [
+        "mainquests.theisolatedplateau.begun"
+      ]
+    }
+  },
+  "towers": {
+    "greatplateau": {
+      "found": {
+        "entries": [
+          {
+            "offset": 557552,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.greatplateau.unearthed"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 806592,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.theisolatedplateau.begun"
+        ]
+      }
+    },
+    "lanayru": {
+      "active": {
+        "entries": [
+          {
+            "offset": 1021096,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.lanayru.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 849408,
+            "value": 2
+          }
+        ]
+      }
+    }
+  },
+  "weaponattackbonus": {
+    "entries": [
+      {
+        "offset": 384288,
+        "value": 2147483649
+      }
+    ]
+  },
+  "weaponattackbonus50": {
+    "entries": [
+      {
+        "offset": 805992,
+        "value": 50
+      }
+    ]
+  },
+  "weaponbonus": {
+    "entries": [
+      {
+        "offset": 384296,
+        "value": 4
+      }
+    ]
+  },
+  "weapondurabilitybonus": {
+    "entries": [
+      {
+        "offset": 384288,
+        "value": 2147483650
+      }
+    ]
+  },
+  "weapondurabilitybonusminor": {
+    "entries": [
+      {
+        "offset": 384288,
+        "value": 2
+      }
+    ]
+  },
+  "weaponstash": {
+    "entries": [
+      {
+        "offset": 544840,
+        "value": "variable"
+      }
+    ],
+    "softdependencies": [
+      "sidequests.thepricelessmaracas.complete"
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "championstunic***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "climbersbandana": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "flamebreakerarmor": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "flamebreakerboots": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "flamebreakerhelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "hylianhood****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "hyliantrousers": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "hyliantrousers****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "hyliantunic****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "oldshirt": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "soldiersarmor***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "soldiersgreaves****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "soldiershelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "warmdoublet": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "wellworntrousers": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "zoraarmor": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ]
+}

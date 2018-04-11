@@ -1,0 +1,398 @@
+{
+  "bokoshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 872415232
+    }
+  ],
+  "daybreaker": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 922746880
+    }
+  ],
+  "fishermansshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 838860800
+    }
+  ],
+  "gerudoshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959858
+    },
+    {
+      "offset": 32,
+      "value": 905969664
+    }
+  ],
+  "guardianshield+": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959857
+    },
+    {
+      "offset": 32,
+      "value": 872415232
+    }
+  ],
+  "guardianshield++": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959857
+    },
+    {
+      "offset": 32,
+      "value": 889192448
+    }
+  ],
+  "hylianshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 805306368
+    }
+  ],
+  "knightsshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 855638016
+    }
+  ],
+  "potlid": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959860
+    },
+    {
+      "offset": 32,
+      "value": 805306368
+    }
+  ],
+  "radiantshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 905969664
+    }
+  ],
+  "reinforcedlizalshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 939524096
+    }
+  ],
+  "royalguardsshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 855638016
+    }
+  ],
+  "royalshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959858
+    },
+    {
+      "offset": 32,
+      "value": 838860800
+    }
+  ],
+  "savagelynelshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959857
+    },
+    {
+      "offset": 32,
+      "value": 939524096
+    }
+  ],
+  "shieldofthemindseye": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959860
+    },
+    {
+      "offset": 32,
+      "value": 822083584
+    }
+  ],
+  "soldiersshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 838860800
+    }
+  ],
+  "steellizalshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 956301312
+    }
+  ],
+  "travelersshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 889192448
+    }
+  ]
+}

@@ -1,0 +1,3278 @@
+{
+  "akkalaancienttechlab": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1166859059
+      },
+      {
+        "offset": 801784,
+        "value": 1135588564
+      },
+      {
+        "offset": 801792,
+        "value": 3309610189
+      },
+      {
+        "offset": 453224,
+        "value": 3250061186
+      }
+    ]
+  },
+  "akkalatechlab": {
+    "entries": [
+    ],
+    "harddependencies": [
+      "akkalaancienttechlab"
+    ]
+  },
+  "hatenoancienttechlab": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1164721127
+      },
+      {
+        "offset": 801784,
+        "value": 1135738746
+      },
+      {
+        "offset": 801792,
+        "value": 1157886230
+      },
+      {
+        "offset": 453224,
+        "value": 1125908481
+      }
+    ]
+  },
+  "hatenotechlab": {
+    "entries": [
+    ],
+    "harddependencies": [
+      "hatenoancienttechlab"
+    ]
+  },
+  "hatenovillage": {
+    "entries": [
+    ],
+    "harddependencies": [
+      "shrines.myahmagana"
+    ]
+  },
+  "kakarikovillage": {
+    "entries": [
+    ],
+    "harddependencies": [
+      "shrines.talohnaeg"
+    ]
+  },
+  "leavingtheshrineofresurrection": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3297303280
+      },
+      {
+        "offset": 801784,
+        "value": 1131153167
+      },
+      {
+        "offset": 801792,
+        "value": 1156173288
+      }
+    ]
+  },
+  "outsideshrineofresurrection": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3296708819
+      },
+      {
+        "offset": 801784,
+        "value": 1132246154
+      },
+      {
+        "offset": 801792,
+        "value": 1155594777
+      }
+    ]
+  },
+  "reservoirdock": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1163906549
+      },
+      {
+        "offset": 801784,
+        "value": 1134444834
+      },
+      {
+        "offset": 801792,
+        "value": 3284264385
+      },
+      {
+        "offset": 453224,
+        "value": 3273790732
+      }
+    ]
+  },
+  "ritovillage": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3311492174
+      },
+      {
+        "offset": 801784,
+        "value": 1133454329
+      },
+      {
+        "offset": 801792,
+        "value": 3303127261
+      }
+    ]
+  },
+  "shrines": {
+    "akhvaquot": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3311694832
+        },
+        {
+          "offset": 801784,
+          "value": 1134616832
+        },
+        {
+          "offset": 801792,
+          "value": 3302800243
+        },
+        {
+          "offset": 453224,
+          "value": 1127120398
+        }
+      ]
+    },
+    "bareedanaag": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3311498382
+        },
+        {
+          "offset": 801784,
+          "value": 1131855898
+        },
+        {
+          "offset": 801792,
+          "value": 3300822170
+        },
+        {
+          "offset": 453224,
+          "value": 1126696321
+        }
+      ]
+    },
+    "boshkala": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1118701684
+        },
+        {
+          "offset": 801784,
+          "value": 1123356232
+        },
+        {
+          "offset": 801792,
+          "value": 1154363477
+        },
+        {
+          "offset": 453224,
+          "value": 3274964992
+        }
+      ]
+    },
+    "chaasqeta": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1165646596
+        },
+        {
+          "offset": 801784,
+          "value": 1121346633
+        },
+        {
+          "offset": 801792,
+          "value": 1161461906
+        },
+        {
+          "offset": 453224,
+          "value": 3272015871
+        }
+      ]
+    },
+    "daagchokah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3250175504
+        },
+        {
+          "offset": 801784,
+          "value": 1133260133
+        },
+        {
+          "offset": 801792,
+          "value": 3306758180
+        },
+        {
+          "offset": 453224,
+          "value": 1101237607
+        }
+      ]
+    },
+    "dagahkeek": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1162108527
+        },
+        {
+          "offset": 801784,
+          "value": 1133248938
+        },
+        {
+          "offset": 801792,
+          "value": 3285374488
+        },
+        {
+          "offset": 453224,
+          "value": 3270770689
+        }
+      ]
+    },
+    "dahhesho": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1165218260
+        },
+        {
+          "offset": 801784,
+          "value": 1135699136
+        },
+        {
+          "offset": 801792,
+          "value": 3299081130
+        },
+        {
+          "offset": 453224,
+          "value": 1126825991
+        }
+      ]
+    },
+    "dahkaso": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3302253995
+        },
+        {
+          "offset": 801784,
+          "value": 1116320590
+        },
+        {
+          "offset": 801792,
+          "value": 1154846341
+        },
+        {
+          "offset": 453224,
+          "value": 3251109761
+        }
+      ]
+    },
+    "dakatuss": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1154028799
+        },
+        {
+          "offset": 801784,
+          "value": 1122725130
+        },
+        {
+          "offset": 801792,
+          "value": 1139385726
+        },
+        {
+          "offset": 453224,
+          "value": 1113684184
+        }
+      ]
+    },
+    "dakohtah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3310275667
+        },
+        {
+          "offset": 801784,
+          "value": 1125261427
+        },
+        {
+          "offset": 801792,
+          "value": 1158104298
+        },
+        {
+          "offset": 453224,
+          "value": 1117590717
+        }
+      ]
+    },
+    "daqakoh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1157668054
+        },
+        {
+          "offset": 801784,
+          "value": 1142260110
+        },
+        {
+          "offset": 801792,
+          "value": 3306241658
+        },
+        {
+          "offset": 453224,
+          "value": 3262391272
+        }
+      ]
+    },
+    "daqochisay": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3312330485
+        },
+        {
+          "offset": 801784,
+          "value": 1125545398
+        },
+        {
+          "offset": 801792,
+          "value": 1160763177
+        },
+        {
+          "offset": 453224,
+          "value": 1124477382
+        }
+      ]
+    },
+    "dilamaag": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3303038977
+        },
+        {
+          "offset": 801784,
+          "value": 1126445706
+        },
+        {
+          "offset": 801792,
+          "value": 1163395872
+        },
+        {
+          "offset": 453224,
+          "value": 3274964992
+        }
+      ]
+    },
+    "downaeh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1160255565
+        },
+        {
+          "offset": 801784,
+          "value": 1130165211
+        },
+        {
+          "offset": 801792,
+          "value": 1151739456
+        },
+        {
+          "offset": 453224,
+          "value": 3270220196
+        }
+      ]
+    },
+    "dunbataag": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3308309388
+        },
+        {
+          "offset": 801784,
+          "value": 1117767336
+        },
+        {
+          "offset": 801792,
+          "value": 3301192892
+        },
+        {
+          "offset": 453224,
+          "value": 1103135622
+        }
+      ]
+    },
+    "etsukorima": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3298285604
+        },
+        {
+          "offset": 801784,
+          "value": 1135230976
+        },
+        {
+          "offset": 801792,
+          "value": 1157918672
+        },
+        {
+          "offset": 453224,
+          "value": 1091106813
+        }
+      ]
+    },
+    "geeharah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3306492685
+        },
+        {
+          "offset": 801784,
+          "value": 1133187002
+        },
+        {
+          "offset": 801792,
+          "value": 3305988370
+        },
+        {
+          "offset": 453224,
+          "value": 3272662014
+        }
+      ]
+    },
+    "gomaasaagh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3308196706
+        },
+        {
+          "offset": 801784,
+          "value": 1143456267
+        },
+        {
+          "offset": 801792,
+          "value": 3308519510
+        },
+        {
+          "offset": 453224,
+          "value": 3264685170
+        }
+      ]
+    },
+    "goraetorr": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1160169480
+        },
+        {
+          "offset": 801784,
+          "value": 1139474857
+        },
+        {
+          "offset": 801792,
+          "value": 3310907400
+        },
+        {
+          "offset": 453224,
+          "value": 1124532223
+        }
+      ]
+    },
+    "hadahamar": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1154514684
+        },
+        {
+          "offset": 801784,
+          "value": 1122439930
+        },
+        {
+          "offset": 801792,
+          "value": 1156652139
+        },
+        {
+          "offset": 453224,
+          "value": 1108765517
+        }
+      ]
+    },
+    "hawakoth": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3315045774
+        },
+        {
+          "offset": 801784,
+          "value": 1123517201
+        },
+        {
+          "offset": 801792,
+          "value": 1164726543
+        },
+        {
+          "offset": 453224,
+          "value": 3250294673
+        }
+      ]
+    },
+    "hiamiu": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3314203834
+        },
+        {
+          "offset": 801784,
+          "value": 1134882539
+        },
+        {
+          "offset": 801792,
+          "value": 3312276827
+        },
+        {
+          "offset": 453224,
+          "value": 1112449386
+        }
+      ]
+    },
+    "hilarao": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1146355893
+        },
+        {
+          "offset": 801784,
+          "value": 1122624439
+        },
+        {
+          "offset": 801792,
+          "value": 1146295570
+        },
+        {
+          "offset": 453224,
+          "value": 3258707546
+        }
+      ]
+    },
+    "ishtosoh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3296231154
+        },
+        {
+          "offset": 801784,
+          "value": 1134599483
+        },
+        {
+          "offset": 801792,
+          "value": 1163840976
+        },
+        {
+          "offset": 453224,
+          "value": 3266681581
+        }
+      ]
+    },
+    "jabaij": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3286495737
+        },
+        {
+          "offset": 801784,
+          "value": 1127483427
+        },
+        {
+          "offset": 801792,
+          "value": 1157154262
+        },
+        {
+          "offset": 453224,
+          "value": 3266576381
+        }
+      ]
+    },
+    "jeenoh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3303053372
+        },
+        {
+          "offset": 801784,
+          "value": 1122089834
+        },
+        {
+          "offset": 801792,
+          "value": 1159131452
+        },
+        {
+          "offset": 453224,
+          "value": 3273306861
+        }
+      ]
+    },
+    "jitansami": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1165174600
+        },
+        {
+          "offset": 801784,
+          "value": 1141847187
+        },
+        {
+          "offset": 801792,
+          "value": 1151654496
+        },
+        {
+          "offset": 453224,
+          "value": 1115815936
+        }
+      ]
+    },
+    "joloonah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3304751172
+        },
+        {
+          "offset": 801784,
+          "value": 1130866947
+        },
+        {
+          "offset": 801792,
+          "value": 1154641574
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "kaamyatak": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3295778140
+        },
+        {
+          "offset": 801784,
+          "value": 1124031291
+        },
+        {
+          "offset": 801792,
+          "value": 1144339986
+        },
+        {
+          "offset": 453224,
+          "value": 1091742941
+        }
+      ]
+    },
+    "kahmael": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1167260413
+        },
+        {
+          "offset": 801784,
+          "value": 1131578092
+        },
+        {
+          "offset": 801792,
+          "value": 3299009896
+        },
+        {
+          "offset": 453224,
+          "value": 3256691968
+        }
+      ]
+    },
+    "kahokeo": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3313568717
+        },
+        {
+          "offset": 801784,
+          "value": 1127763222
+        },
+        {
+          "offset": 801792,
+          "value": 3285083977
+        },
+        {
+          "offset": 453224,
+          "value": 3265293723
+        }
+      ]
+    },
+    "kahyah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1163331532
+        },
+        {
+          "offset": 801784,
+          "value": 1123115278
+        },
+        {
+          "offset": 801792,
+          "value": 1162857429
+        },
+        {
+          "offset": 453224,
+          "value": 1102577664
+        }
+      ]
+    },
+    "kamiaomuna": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1157994301
+        },
+        {
+          "offset": 801784,
+          "value": 1140782367
+        },
+        {
+          "offset": 801792,
+          "value": 3309942549
+        },
+        {
+          "offset": 453224,
+          "value": 1117972273
+        }
+      ]
+    },
+    "kamurog": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1159508893
+        },
+        {
+          "offset": 801784,
+          "value": 1122917496
+        },
+        {
+          "offset": 801792,
+          "value": 1153152069
+        },
+        {
+          "offset": 453224,
+          "value": 1110022259
+        }
+      ]
+    },
+    "kaomakagh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1140985485
+        },
+        {
+          "offset": 801784,
+          "value": 1127410591
+        },
+        {
+          "offset": 801792,
+          "value": 1163647370
+        },
+        {
+          "offset": 453224,
+          "value": 3273691323
+        }
+      ]
+    },
+    "katahchuki": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3290323716
+        },
+        {
+          "offset": 801784,
+          "value": 1124131137
+        },
+        {
+          "offset": 801792,
+          "value": 3282580732
+        },
+        {
+          "offset": 453224,
+          "value": 1100455967
+        }
+      ]
+    },
+    "katosaaug": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1166409029
+        },
+        {
+          "offset": 801784,
+          "value": 1131245212
+        },
+        {
+          "offset": 801792,
+          "value": 3307888806
+        },
+        {
+          "offset": 453224,
+          "value": 3262670850
+        }
+      ]
+    },
+    "kayawan": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1146110538
+        },
+        {
+          "offset": 801784,
+          "value": 1124393970
+        },
+        {
+          "offset": 801792,
+          "value": 1127823722
+        },
+        {
+          "offset": 453224,
+          "value": 1121214480
+        }
+      ]
+    },
+    "kaynoh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3308199148
+        },
+        {
+          "offset": 801784,
+          "value": 1126958445
+        },
+        {
+          "offset": 801792,
+          "value": 1158663917
+        },
+        {
+          "offset": 453224,
+          "value": 1118398915
+        }
+      ]
+    },
+    "kayramah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1157708340
+        },
+        {
+          "offset": 801784,
+          "value": 1140994564
+        },
+        {
+          "offset": 801792,
+          "value": 3305040510
+        },
+        {
+          "offset": 453224,
+          "value": 3266218821
+        }
+      ]
+    },
+    "keedafunia": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1167717482
+        },
+        {
+          "offset": 801784,
+          "value": 1121296450
+        },
+        {
+          "offset": 801792,
+          "value": 3296316532
+        },
+        {
+          "offset": 453224,
+          "value": 3263903080
+        }
+      ]
+    },
+    "keehayoog": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3312471079
+        },
+        {
+          "offset": 801784,
+          "value": 1142952968
+        },
+        {
+          "offset": 801792,
+          "value": 1144152967
+        },
+        {
+          "offset": 453224,
+          "value": 1121714176
+        }
+      ]
+    },
+    "kehnamut": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3300028676
+        },
+        {
+          "offset": 801784,
+          "value": 1135135619
+        },
+        {
+          "offset": 801792,
+          "value": 1157139412
+        },
+        {
+          "offset": 453224,
+          "value": 1121263575
+        }
+      ]
+    },
+    "keivetala": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3306332220
+        },
+        {
+          "offset": 801784,
+          "value": 1124171777
+        },
+        {
+          "offset": 801792,
+          "value": 1165193710
+        },
+        {
+          "offset": 453224,
+          "value": 3272023152
+        }
+      ]
+    },
+    "kemakosassa": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3314633457
+        },
+        {
+          "offset": 801784,
+          "value": 1142612058
+        },
+        {
+          "offset": 801792,
+          "value": 1147306616
+        },
+        {
+          "offset": 453224,
+          "value": 1118110475
+        }
+      ]
+    },
+    "kemazoos": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3314682941
+        },
+        {
+          "offset": 801784,
+          "value": 1124344332
+        },
+        {
+          "offset": 801792,
+          "value": 1157046152
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "kenaishakah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1166222459
+        },
+        {
+          "offset": 801784,
+          "value": 1134661711
+        },
+        {
+          "offset": 801792,
+          "value": 3293838104
+        },
+        {
+          "offset": 453224,
+          "value": 1095780058
+        }
+      ]
+    },
+    "keoruug": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1139573340
+        },
+        {
+          "offset": 801784,
+          "value": 1132079442
+        },
+        {
+          "offset": 801792,
+          "value": 3305569838
+        },
+        {
+          "offset": 453224,
+          "value": 1097422345
+        }
+      ]
+    },
+    "ketohwawai": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1133661225
+        },
+        {
+          "offset": 801784,
+          "value": 1133422609
+        },
+        {
+          "offset": 801792,
+          "value": 3309500826
+        },
+        {
+          "offset": 453224,
+          "value": 1119092736
+        }
+      ]
+    },
+    "kiahtoza": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3305587361
+        },
+        {
+          "offset": 801784,
+          "value": 1138832179
+        },
+        {
+          "offset": 801792,
+          "value": 3309770481
+        },
+        {
+          "offset": 453224,
+          "value": 3264039688
+        }
+      ]
+    },
+    "kihiromoh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3310648349
+        },
+        {
+          "offset": 801784,
+          "value": 1138556224
+        },
+        {
+          "offset": 801792,
+          "value": 1151864039
+        },
+        {
+          "offset": 453224,
+          "value": 3269453910
+        }
+      ]
+    },
+    "korguchideh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1167313963
+        },
+        {
+          "offset": 801784,
+          "value": 1129972574
+        },
+        {
+          "offset": 801792,
+          "value": 1164670953
+        },
+        {
+          "offset": 453224,
+          "value": 3270508546
+        }
+      ]
+    },
+    "korshohu": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3307762081
+        },
+        {
+          "offset": 801784,
+          "value": 1121061228
+        },
+        {
+          "offset": 801792,
+          "value": 1160780603
+        },
+        {
+          "offset": 453224,
+          "value": 3258187776
+        }
+      ]
+    },
+    "kuhnsidajj": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1141761745
+        },
+        {
+          "offset": 801784,
+          "value": 1132774499
+        },
+        {
+          "offset": 801792,
+          "value": 3305620363
+        },
+        {
+          "offset": 453224,
+          "value": 1125187584
+        }
+      ]
+    },
+    "kuhtakkar": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3309374004
+        },
+        {
+          "offset": 801784,
+          "value": 1141826587
+        },
+        {
+          "offset": 801792,
+          "value": 1150912629
+        },
+        {
+          "offset": 453224,
+          "value": 3256304271
+        }
+      ]
+    },
+    "laknarokee": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1157501820
+        },
+        {
+          "offset": 801784,
+          "value": 1133446575
+        },
+        {
+          "offset": 801792,
+          "value": 1148313332
+        },
+        {
+          "offset": 453224,
+          "value": 3270639616
+        }
+      ]
+    },
+    "lannokooh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3307535785
+        },
+        {
+          "offset": 801784,
+          "value": 1138689479
+        },
+        {
+          "offset": 801792,
+          "value": 3305197040
+        },
+        {
+          "offset": 453224,
+          "value": 3273504087
+        }
+      ]
+    },
+    "maaghalan": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1141761745
+        },
+        {
+          "offset": 801784,
+          "value": 1132774499
+        },
+        {
+          "offset": 801792,
+          "value": 3305620363
+        },
+        {
+          "offset": 453224,
+          "value": 1125187584
+        }
+      ]
+    },
+    "maagnorah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3304269203
+        },
+        {
+          "offset": 801784,
+          "value": 1132061932
+        },
+        {
+          "offset": 801792,
+          "value": 3300341615
+        },
+        {
+          "offset": 453224,
+          "value": 3272671248
+        }
+      ]
+    },
+    "maheliya": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1164636947
+        },
+        {
+          "offset": 801784,
+          "value": 1141436952
+        },
+        {
+          "offset": 801792,
+          "value": 3290394790
+        },
+        {
+          "offset": 453224,
+          "value": 3248010667
+        }
+      ]
+    },
+    "makarah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3313381303
+        },
+        {
+          "offset": 801784,
+          "value": 1119735471
+        },
+        {
+          "offset": 801792,
+          "value": 3306993112
+        },
+        {
+          "offset": 453224,
+          "value": 3265757333
+        }
+      ]
+    },
+    "mezzalo": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1159978069
+        },
+        {
+          "offset": 801784,
+          "value": 1132029615
+        },
+        {
+          "offset": 801792,
+          "value": 1136768707
+        },
+        {
+          "offset": 453224,
+          "value": 1065811913
+        }
+      ]
+    },
+    "mijarokee": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3307986580
+        },
+        {
+          "offset": 801784,
+          "value": 1134212104
+        },
+        {
+          "offset": 801792,
+          "value": 1130107976
+        },
+        {
+          "offset": 453224,
+          "value": 3271934278
+        }
+      ]
+    },
+    "mirroshaz": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1150867887
+        },
+        {
+          "offset": 801784,
+          "value": 1124015985
+        },
+        {
+          "offset": 801792,
+          "value": 3298267790
+        },
+        {
+          "offset": 453224,
+          "value": 3266440210
+        }
+      ]
+    },
+    "misaesuma": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3308870461
+        },
+        {
+          "offset": 801784,
+          "value": 1124708281
+        },
+        {
+          "offset": 801792,
+          "value": 1164695702
+        },
+        {
+          "offset": 453224,
+          "value": 1125515270
+        }
+      ]
+    },
+    "moakeet": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1160378945
+        },
+        {
+          "offset": 801784,
+          "value": 1133426258
+        },
+        {
+          "offset": 801792,
+          "value": 3297818443
+        },
+        {
+          "offset": 453224,
+          "value": 3251003632
+        }
+      ]
+    },
+    "mogglatan": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3306146493
+        },
+        {
+          "offset": 801784,
+          "value": 1138477673
+        },
+        {
+          "offset": 801792,
+          "value": 1139452610
+        },
+        {
+          "offset": 453224,
+          "value": 3248816825
+        }
+      ]
+    },
+    "monyatoma": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3300576877
+        },
+        {
+          "offset": 801784,
+          "value": 1133092379
+        },
+        {
+          "offset": 801792,
+          "value": 3300459551
+        },
+        {
+          "offset": 453224,
+          "value": 3272377609
+        }
+      ]
+    },
+    "mozoshenno": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3311544399
+        },
+        {
+          "offset": 801784,
+          "value": 1137863429
+        },
+        {
+          "offset": 801792,
+          "value": 3309168797
+        },
+        {
+          "offset": 453224,
+          "value": 1119349260
+        }
+      ]
+    },
+    "muwojeem": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1164186662
+        },
+        {
+          "offset": 801784,
+          "value": 1135553720
+        },
+        {
+          "offset": 801792,
+          "value": 1162780021
+        },
+        {
+          "offset": 453224,
+          "value": 3268571387
+        }
+      ]
+    },
+    "myahmagana": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1163091607
+        },
+        {
+          "offset": 801784,
+          "value": 1131584249
+        },
+        {
+          "offset": 801792,
+          "value": 1158288733
+        },
+        {
+          "offset": 453224,
+          "value": 3272015871
+        }
+      ]
+    },
+    "namikaozz": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1144784920
+        },
+        {
+          "offset": 801784,
+          "value": 1128053961
+        },
+        {
+          "offset": 801792,
+          "value": 3293415047
+        },
+        {
+          "offset": 453224,
+          "value": 3267232253
+        }
+      ]
+    },
+    "neezyohma": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1162837254
+        },
+        {
+          "offset": 801784,
+          "value": 1131367345
+        },
+        {
+          "offset": 801792,
+          "value": 3288283277
+        },
+        {
+          "offset": 453224,
+          "value": 3250673313
+        }
+      ]
+    },
+    "noerajee": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3312398349
+        },
+        {
+          "offset": 801784,
+          "value": 1119064744
+        },
+        {
+          "offset": 801792,
+          "value": 3306163976
+        },
+        {
+          "offset": 453224,
+          "value": 3258731433
+        }
+      ]
+    },
+    "noyaneha": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3295679288
+        },
+        {
+          "offset": 801784,
+          "value": 1124491300
+        },
+        {
+          "offset": 801792,
+          "value": 3290184753
+        },
+        {
+          "offset": 453224,
+          "value": 3267546668
+        }
+      ]
+    },
+    "omanau": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3290858172
+        },
+        {
+          "offset": 801784,
+          "value": 1127029400
+        },
+        {
+          "offset": 801792,
+          "value": 1153292080
+        },
+        {
+          "offset": 453224,
+          "value": 1112425485
+        }
+      ]
+    },
+    "owadaim": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3295101424
+        },
+        {
+          "offset": 801784,
+          "value": 1133057851
+        },
+        {
+          "offset": 801792,
+          "value": 1158709387
+        },
+        {
+          "offset": 453224,
+          "value": 3274964992
+        }
+      ]
+    },
+    "pumaagnitae": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1141604991
+        },
+        {
+          "offset": 801784,
+          "value": 1122769394
+        },
+        {
+          "offset": 801792,
+          "value": 1161524288
+        },
+        {
+          "offset": 453224,
+          "value": 3239370460
+        }
+      ]
+    },
+    "qazatokki": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3293539456
+        },
+        {
+          "offset": 801784,
+          "value": 1135257616
+        },
+        {
+          "offset": 801792,
+          "value": 3311202304
+        },
+        {
+          "offset": 453224,
+          "value": 3266576381
+        }
+      ]
+    },
+    "quaraym": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1155728532
+        },
+        {
+          "offset": 801784,
+          "value": 1136797259
+        },
+        {
+          "offset": 801792,
+          "value": 3300827137
+        },
+        {
+          "offset": 453224,
+          "value": 3272998918
+        }
+      ]
+    },
+    "qukahnata": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1157359886
+        },
+        {
+          "offset": 801784,
+          "value": 1133953311
+        },
+        {
+          "offset": 801792,
+          "value": 1162678300
+        },
+        {
+          "offset": 453224,
+          "value": 1122466169
+        }
+      ]
+    },
+    "raqazunzo": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3312295361
+        },
+        {
+          "offset": 801784,
+          "value": 1126125601
+        },
+        {
+          "offset": 801792,
+          "value": 1162035426
+        },
+        {
+          "offset": 453224,
+          "value": 1121714176
+        }
+      ]
+    },
+    "reedahee": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1151344537
+        },
+        {
+          "offset": 801784,
+          "value": 1124708383
+        },
+        {
+          "offset": 801792,
+          "value": 1155967654
+        },
+        {
+          "offset": 453224,
+          "value": 1117782015
+        }
+      ]
+    },
+    "rinoyaa": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3302361603
+        },
+        {
+          "offset": 801784,
+          "value": 1135075463
+        },
+        {
+          "offset": 801792,
+          "value": 3307192397
+        },
+        {
+          "offset": 453224,
+          "value": 1120375386
+        }
+      ]
+    },
+    "rinuhonika": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1158452679
+        },
+        {
+          "offset": 801784,
+          "value": 1141339304
+        },
+        {
+          "offset": 801792,
+          "value": 3304720016
+        },
+        {
+          "offset": 453224,
+          "value": 1122940690
+        }
+      ]
+    },
+    "ritaagzumo": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1166902609
+        },
+        {
+          "offset": 801784,
+          "value": 1121423052
+        },
+        {
+          "offset": 801792,
+          "value": 3305470946
+        },
+        {
+          "offset": 453224,
+          "value": 1125761091
+        }
+      ]
+    },
+    "rohtachigah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3288536835
+        },
+        {
+          "offset": 801784,
+          "value": 1127075022
+        },
+        {
+          "offset": 801792,
+          "value": 1155630114
+        },
+        {
+          "offset": 453224,
+          "value": 3259882965
+        }
+      ]
+    },
+    "rokuwog": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3306425930
+        },
+        {
+          "offset": 801784,
+          "value": 1139996329
+        },
+        {
+          "offset": 801792,
+          "value": 3309926516
+        },
+        {
+          "offset": 453224,
+          "value": 1118098521
+        }
+      ]
+    },
+    "ronakachta": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3297296936
+        },
+        {
+          "offset": 801784,
+          "value": 1102085374
+        },
+        {
+          "offset": 801792,
+          "value": 3307595638
+        },
+        {
+          "offset": 453224,
+          "value": 3256876991
+        }
+      ]
+    },
+    "rotaooh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3301068346
+        },
+        {
+          "offset": 801784,
+          "value": 1127923141
+        },
+        {
+          "offset": 801792,
+          "value": 1151561102
+        },
+        {
+          "offset": 453224,
+          "value": 1121285839
+        }
+      ]
+    },
+    "ruccomaag": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1162893312
+        },
+        {
+          "offset": 801784,
+          "value": 1122895523
+        },
+        {
+          "offset": 801792,
+          "value": 1137531136
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "ruvokorbah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3293473585
+        },
+        {
+          "offset": 801784,
+          "value": 1128123598
+        },
+        {
+          "offset": 801792,
+          "value": 1158015815
+        },
+        {
+          "offset": 453224,
+          "value": 1121044252
+        }
+      ]
+    },
+    "saaskosah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3273430810
+        },
+        {
+          "offset": 801784,
+          "value": 1125137432
+        },
+        {
+          "offset": 801792,
+          "value": 3297831702
+        },
+        {
+          "offset": 453224,
+          "value": 3266576384
+        }
+      ]
+    },
+    "sahdahaj": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1160190223
+        },
+        {
+          "offset": 801784,
+          "value": 1131932872
+        },
+        {
+          "offset": 801792,
+          "value": 3301252352
+        },
+        {
+          "offset": 453224,
+          "value": 1115857528
+        }
+      ]
+    },
+    "sasakai": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3311322238
+        },
+        {
+          "offset": 801784,
+          "value": 1135633687
+        },
+        {
+          "offset": 801792,
+          "value": 1156915441
+        },
+        {
+          "offset": 453224,
+          "value": 3253292679
+        }
+      ]
+    },
+    "satokoda": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1161974020
+        },
+        {
+          "offset": 801784,
+          "value": 1141357151
+        },
+        {
+          "offset": 801792,
+          "value": 3293709556
+        },
+        {
+          "offset": 453224,
+          "value": 1124746319
+        }
+      ]
+    },
+    "shadanaw": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3308993447
+        },
+        {
+          "offset": 801784,
+          "value": 1143402763
+        },
+        {
+          "offset": 801792,
+          "value": 3309882800
+        },
+        {
+          "offset": 453224,
+          "value": 1100127394
+        }
+      ]
+    },
+    "shaekatha": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1146745270
+        },
+        {
+          "offset": 801784,
+          "value": 1123418620
+        },
+        {
+          "offset": 801792,
+          "value": 1158814199
+        },
+        {
+          "offset": 453224,
+          "value": 1091567616
+        }
+      ]
+    },
+    "shaeloya": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3308722106
+        },
+        {
+          "offset": 801784,
+          "value": 1134115518
+        },
+        {
+          "offset": 801792,
+          "value": 3286012186
+        },
+        {
+          "offset": 453224,
+          "value": 1126893558
+        }
+      ]
+    },
+    "shaemosah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1155197000
+        },
+        {
+          "offset": 801784,
+          "value": 1141232982
+        },
+        {
+          "offset": 801792,
+          "value": 3307190110
+        },
+        {
+          "offset": 453224,
+          "value": 3256983072
+        }
+      ]
+    },
+    "shagehma": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3301979701
+        },
+        {
+          "offset": 801784,
+          "value": 1135430202
+        },
+        {
+          "offset": 801792,
+          "value": 3312139471
+        },
+        {
+          "offset": 453224,
+          "value": 1123760791
+        }
+      ]
+    },
+    "shaiutoh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1153823312
+        },
+        {
+          "offset": 801784,
+          "value": 1126629869
+        },
+        {
+          "offset": 801792,
+          "value": 1164010664
+        },
+        {
+          "offset": 453224,
+          "value": 3273654287
+        }
+      ]
+    },
+    "shaiyota": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1166317147
+        },
+        {
+          "offset": 801784,
+          "value": 1121836712
+        },
+        {
+          "offset": 801792,
+          "value": 1132649758
+        },
+        {
+          "offset": 453224,
+          "value": 3247126823
+        }
+      ]
+    },
+    "sharolun": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1161222598
+        },
+        {
+          "offset": 801784,
+          "value": 1142792306
+        },
+        {
+          "offset": 801792,
+          "value": 3306651422
+        },
+        {
+          "offset": 453224,
+          "value": 3271654635
+        }
+      ]
+    },
+    "shawarvo": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3312350521
+        },
+        {
+          "offset": 801784,
+          "value": 1132761362
+        },
+        {
+          "offset": 801792,
+          "value": 3305780430
+        },
+        {
+          "offset": 453224,
+          "value": 1123353828
+        }
+      ]
+    },
+    "sheemdagoze": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3303777741
+        },
+        {
+          "offset": 801784,
+          "value": 1129605563
+        },
+        {
+          "offset": 801792,
+          "value": 1118723532
+        },
+        {
+          "offset": 453224,
+          "value": 1122762752
+        }
+      ]
+    },
+    "sheevaneer": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1151291097
+        },
+        {
+          "offset": 801784,
+          "value": 1141078130
+        },
+        {
+          "offset": 801792,
+          "value": 1156732516
+        },
+        {
+          "offset": 453224,
+          "value": 1119092733
+        }
+      ]
+    },
+    "sheevenath": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1151117176
+        },
+        {
+          "offset": 801784,
+          "value": 1138602216
+        },
+        {
+          "offset": 801792,
+          "value": 1156018868
+        },
+        {
+          "offset": 453224,
+          "value": 1118041356
+        }
+      ]
+    },
+    "shehrata": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1153151504
+        },
+        {
+          "offset": 801784,
+          "value": 1124100895
+        },
+        {
+          "offset": 801792,
+          "value": 3283987335
+        },
+        {
+          "offset": 453224,
+          "value": 3268542437
+        }
+      ]
+    },
+    "shiragomar": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3306471030
+        },
+        {
+          "offset": 801784,
+          "value": 1132756028
+        },
+        {
+          "offset": 801792,
+          "value": 3299734430
+        },
+        {
+          "offset": 453224,
+          "value": 3273644687
+        }
+      ]
+    },
+    "shodantu": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3312719231
+        },
+        {
+          "offset": 801784,
+          "value": 1137050059
+        },
+        {
+          "offset": 801792,
+          "value": 1154340903
+        },
+        {
+          "offset": 453224,
+          "value": 1124858865
+        }
+      ]
+    },
+    "shodasah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1155501374
+        },
+        {
+          "offset": 801784,
+          "value": 1128124118
+        },
+        {
+          "offset": 801792,
+          "value": 1161530776
+        },
+        {
+          "offset": 453224,
+          "value": 3243245569
+        }
+      ]
+    },
+    "shoqatatone": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1120820268
+        },
+        {
+          "offset": 801784,
+          "value": 1121803944
+        },
+        {
+          "offset": 801792,
+          "value": 1164969884
+        },
+        {
+          "offset": 453224,
+          "value": 1119521284
+        }
+      ]
+    },
+    "shorahah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1153490785
+        },
+        {
+          "offset": 801784,
+          "value": 1140698237
+        },
+        {
+          "offset": 801792,
+          "value": 3309473184
+        },
+        {
+          "offset": 453224,
+          "value": 1113513768
+        }
+      ]
+    },
+    "sohkofi": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1158437821
+        },
+        {
+          "offset": 801784,
+          "value": 1125416230
+        },
+        {
+          "offset": 801792,
+          "value": 3280976778
+        },
+        {
+          "offset": 453224,
+          "value": 1112725882
+        }
+      ]
+    },
+    "sumasahma": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3299920396
+        },
+        {
+          "offset": 801784,
+          "value": 1141398127
+        },
+        {
+          "offset": 801792,
+          "value": 1163397667
+        },
+        {
+          "offset": 453224,
+          "value": 1103626240
+        }
+      ]
+    },
+    "tahmuhl": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1158693046
+        },
+        {
+          "offset": 801784,
+          "value": 1129667699
+        },
+        {
+          "offset": 801792,
+          "value": 3295278579
+        },
+        {
+          "offset": 453224,
+          "value": 1112913974
+        }
+      ]
+    },
+    "tahnooah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1166210735
+        },
+        {
+          "offset": 801784,
+          "value": 1133515978
+        },
+        {
+          "offset": 801792,
+          "value": 1154655316
+        },
+        {
+          "offset": 453224,
+          "value": 1120403434
+        }
+      ]
+    },
+    "takamashiri": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3315118686
+        },
+        {
+          "offset": 801784,
+          "value": 1124989953
+        },
+        {
+          "offset": 801792,
+          "value": 1158068230
+        },
+        {
+          "offset": 453224,
+          "value": 1119092735
+        }
+      ]
+    },
+    "talohnaeg": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1155887135
+        },
+        {
+          "offset": 801784,
+          "value": 1132596795
+        },
+        {
+          "offset": 801792,
+          "value": 1147158206
+        },
+        {
+          "offset": 453224,
+          "value": 3257997704
+        }
+      ]
+    },
+    "tawajinn": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1160010907
+        },
+        {
+          "offset": 801784,
+          "value": 1134499607
+        },
+        {
+          "offset": 801792,
+          "value": 1160828670
+        },
+        {
+          "offset": 453224,
+          "value": 3270851030
+        }
+      ]
+    },
+    "tenakosah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3310950746
+        },
+        {
+          "offset": 801784,
+          "value": 1136672945
+        },
+        {
+          "offset": 801792,
+          "value": 3286094205
+        },
+        {
+          "offset": 453224,
+          "value": 3262612566
+        }
+      ]
+    },
+    "thokayu": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3314921570
+        },
+        {
+          "offset": 801784,
+          "value": 1124541416
+        },
+        {
+          "offset": 801792,
+          "value": 1160703127
+        },
+        {
+          "offset": 453224,
+          "value": 1120237152
+        }
+      ]
+    },
+    "tohyahsa": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3306017178
+        },
+        {
+          "offset": 801784,
+          "value": 1129879468
+        },
+        {
+          "offset": 801792,
+          "value": 3294843618
+        },
+        {
+          "offset": 453224,
+          "value": 1127481344
+        }
+      ]
+    },
+    "toquomo": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3313164065
+        },
+        {
+          "offset": 801784,
+          "value": 1133514071
+        },
+        {
+          "offset": 801792,
+          "value": 3311927991
+        },
+        {
+          "offset": 453224,
+          "value": 1119526488
+        }
+      ]
+    },
+    "totosah": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1156038667
+        },
+        {
+          "offset": 801784,
+          "value": 1124304182
+        },
+        {
+          "offset": 801792,
+          "value": 1159357602
+        },
+        {
+          "offset": 453224,
+          "value": 1122342001
+        }
+      ]
+    },
+    "tukaloh": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1167161344
+        },
+        {
+          "offset": 801784,
+          "value": 1131243961
+        },
+        {
+          "offset": 801792,
+          "value": 3311881440
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "tutsuwanima": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1164691847
+        },
+        {
+          "offset": 801784,
+          "value": 1121570046
+        },
+        {
+          "offset": 801792,
+          "value": 3307771198
+        },
+        {
+          "offset": 453224,
+          "value": 3255474900
+        }
+      ]
+    },
+    "voolota": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3313142371
+        },
+        {
+          "offset": 801784,
+          "value": 1133091730
+        },
+        {
+          "offset": 801792,
+          "value": 3302483449
+        },
+        {
+          "offset": 453224,
+          "value": 1123680256
+        }
+      ]
+    },
+    "wahgokatta": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1135578596
+        },
+        {
+          "offset": 801784,
+          "value": 1123430263
+        },
+        {
+          "offset": 801792,
+          "value": 1149072598
+        },
+        {
+          "offset": 453224,
+          "value": 1110010161
+        }
+      ]
+    },
+    "yahrin": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1160851271
+        },
+        {
+          "offset": 801784,
+          "value": 1125696634
+        },
+        {
+          "offset": 801792,
+          "value": 1162838135
+        },
+        {
+          "offset": 453224,
+          "value": 1092608070
+        }
+      ]
+    },
+    "yanaga": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3282607886
+        },
+        {
+          "offset": 801784,
+          "value": 1116213769
+        },
+        {
+          "offset": 801792,
+          "value": 1159883680
+        },
+        {
+          "offset": 453224,
+          "value": 3267859034
+        }
+      ]
+    },
+    "yowakaita": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3295471348
+        },
+        {
+          "offset": 801784,
+          "value": 1127985972
+        },
+        {
+          "offset": 801792,
+          "value": 1154497857
+        },
+        {
+          "offset": 453224,
+          "value": 3272037179
+        }
+      ]
+    },
+    "zaltawa": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3300091643
+        },
+        {
+          "offset": 801784,
+          "value": 1124750586
+        },
+        {
+          "offset": 801792,
+          "value": 3289538149
+        },
+        {
+          "offset": 453224,
+          "value": 3247710994
+        }
+      ]
+    },
+    "zekasho": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1161676313
+        },
+        {
+          "offset": 801784,
+          "value": 1135498344
+        },
+        {
+          "offset": 801792,
+          "value": 3302009763
+        },
+        {
+          "offset": 453224,
+          "value": 1120334324
+        }
+      ]
+    },
+    "zunakai": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1162842184
+        },
+        {
+          "offset": 801784,
+          "value": 1133861241
+        },
+        {
+          "offset": 801792,
+          "value": 3310767999
+        },
+        {
+          "offset": 453224,
+          "value": 3273524354
+        }
+      ]
+    }
+  },
+  "templeoftime": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3293267174
+      },
+      {
+        "offset": 801784,
+        "value": 1130239818
+      },
+      {
+        "offset": 801792,
+        "value": 1157030030
+      }
+    ]
+  },
+  "towers": {
+    "akkala": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1162760625
+        },
+        {
+          "offset": 801784,
+          "value": 1142190935
+        },
+        {
+          "offset": 801792,
+          "value": 3300670547
+        },
+        {
+          "offset": 453224,
+          "value": 3271688176
+        }
+      ]
+    },
+    "central": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3293013550
+        },
+        {
+          "offset": 801784,
+          "value": 1128638918
+        },
+        {
+          "offset": 801792,
+          "value": 1138588487
+        },
+        {
+          "offset": 453224,
+          "value": 3265796861
+        }
+      ]
+    },
+    "duelingpeaks": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1149120960
+        },
+        {
+          "offset": 801784,
+          "value": 1127745314
+        },
+        {
+          "offset": 801792,
+          "value": 1154966176
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "eldin": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1158177226
+        },
+        {
+          "offset": 801784,
+          "value": 1140744179
+        },
+        {
+          "offset": 801792,
+          "value": 3301053088
+        },
+        {
+          "offset": 453224,
+          "value": 1115210117
+        }
+      ]
+    },
+    "faron": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1151755904
+        },
+        {
+          "offset": 801784,
+          "value": 1132919265
+        },
+        {
+          "offset": 801792,
+          "value": 1162685328
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "gerudo": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3311773521
+        },
+        {
+          "offset": 801784,
+          "value": 1139507270
+        },
+        {
+          "offset": 801792,
+          "value": 1155855796
+        },
+        {
+          "offset": 453224,
+          "value": 3263954974
+        }
+      ]
+    },
+    "greatplateau": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3289262609
+        },
+        {
+          "offset": 801784,
+          "value": 1131835699
+        },
+        {
+          "offset": 801792,
+          "value": 1154756147
+        },
+        {
+          "offset": 453224,
+          "value": 3264392562
+        }
+      ]
+    },
+    "hateno": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1160443904
+        },
+        {
+          "offset": 801784,
+          "value": 1135090145
+        },
+        {
+          "offset": 801792,
+          "value": 1158014976
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "hebra": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3305591627
+        },
+        {
+          "offset": 801784,
+          "value": 1141132528
+        },
+        {
+          "offset": 801792,
+          "value": 3304960000
+        },
+        {
+          "offset": 453224,
+          "value": 1114636311
+        }
+      ]
+    },
+    "lake": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3254683200
+        },
+        {
+          "offset": 801784,
+          "value": 1133264923
+        },
+        {
+          "offset": 801792,
+          "value": 1161406877
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "lanayru": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1158488064
+        },
+        {
+          "offset": 801784,
+          "value": 1134262275
+        },
+        {
+          "offset": 801792,
+          "value": 3267887100
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "ridgeland": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3302738970
+        },
+        {
+          "offset": 801784,
+          "value": 1134841108
+        },
+        {
+          "offset": 801792,
+          "value": 3292770423
+        },
+        {
+          "offset": 453224,
+          "value": 3273654287
+        }
+      ]
+    },
+    "tabantha": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3311524857
+        },
+        {
+          "offset": 801784,
+          "value": 1138657113
+        },
+        {
+          "offset": 801792,
+          "value": 3296021131
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    },
+    "wasteland": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3306203669
+        },
+        {
+          "offset": 801784,
+          "value": 1141148912
+        },
+        {
+          "offset": 801792,
+          "value": 1159240992
+        },
+        {
+          "offset": 453224,
+          "value": 3262119959
+        }
+      ]
+    },
+    "woodland": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1146943640
+        },
+        {
+          "offset": 801784,
+          "value": 1135550019
+        },
+        {
+          "offset": 801792,
+          "value": 3301414586
+        },
+        {
+          "offset": 453224,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "vahmedohtargeting": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3311558810
+      },
+      {
+        "offset": 801784,
+        "value": 1140910324
+      },
+      {
+        "offset": 801792,
+        "value": 3303057215
+      },
+      {
+        "offset": 453224,
+        "value": 1084227584
+      }
+    ]
+  },
+  "vahnaboristargeting": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3305484104
+      },
+      {
+        "offset": 801784,
+        "value": 1139497505
+      },
+      {
+        "offset": 801792,
+        "value": 1159697199
+      },
+      {
+        "offset": 453224,
+        "value": 3273654287
+      }
+    ]
+  },
+  "vahrudaniatargeting": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1159350008
+      },
+      {
+        "offset": 801784,
+        "value": 1148736466
+      },
+      {
+        "offset": 801792,
+        "value": 3307127311
+      },
+      {
+        "offset": 453224,
+        "value": 1103626240
+      }
+    ]
+  },
+  "vahrutatargeting": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1161322078
+      },
+      {
+        "offset": 801784,
+        "value": 1137848850
+      },
+      {
+        "offset": 801792,
+        "value": 1116855505
+      },
+      {
+        "offset": 453224,
+        "value": 3274964992
+      }
+    ]
+  },
+  "zorasdomain": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1162690040
+      },
+      {
+        "offset": 801784,
+        "value": 1131732137
+      },
+      {
+        "offset": 801792,
+        "value": 3285660827
+      },
+      {
+        "offset": 453224,
+        "value": 1125959603
+      }
+    ]
+  }
+}

@@ -1,0 +1,2732 @@
+{
+  "acorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234251
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "amber": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598423040
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "ancientcore": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670771
+    },
+    {
+      "offset": 24,
+      "value": 805306368
+    }
+  ],
+  "ancientgear": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670770
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "ancientscrew": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670770
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "ancientshaft": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670770
+    },
+    {
+      "offset": 24,
+      "value": 956301312
+    }
+  ],
+  "ancientspring": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670770
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "apple": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234241
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "armoranth": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952401408
+    }
+  ],
+  "armoredcarp": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598554112
+    }
+  ],
+  "armoredporgy": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598488576
+    }
+  ],
+  "bigheartyradish": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952400128
+    }
+  ],
+  "bigheartytruffle": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834962432
+    }
+  ],
+  "birdegg": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598906740
+    },
+    {
+      "offset": 16,
+      "value": 1701996897
+    },
+    {
+      "offset": 24,
+      "value": 1818177588
+    }
+  ],
+  "bladedrhinobeetle": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952401152
+    }
+  ],
+  "bluenightshade": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952401664
+    }
+  ],
+  "bokoblinfang": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "bokoblinguts": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "bokoblinhorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 805306368
+    }
+  ],
+  "brighteyedcrab": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598647923
+    },
+    {
+      "offset": 16,
+      "value": 1701016647
+    },
+    {
+      "offset": 24,
+      "value": 1702125402
+    }
+  ],
+  "canesugar": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598906740
+    },
+    {
+      "offset": 16,
+      "value": 1701996897
+    },
+    {
+      "offset": 24,
+      "value": 1818177585
+    }
+  ],
+  "chickalootreenut": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234252
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "chillfintrout": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598226432
+    }
+  ],
+  "chillshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834959360
+    }
+  ],
+  "chuchujelly": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 805306368
+    }
+  ],
+  "colddarner": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952400128
+    }
+  ],
+  "coolsafflina": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952400640
+    }
+  ],
+  "courserbeehoney": [
+    {
+      "offset": 0,
+      "value": 1113941320
+    },
+    {
+      "offset": 8,
+      "value": 1869440256
+    },
+    {
+      "offset": 16,
+      "value": 0
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "diamond": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598095360
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "dinraalsclaw": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670771
+    },
+    {
+      "offset": 24,
+      "value": 956301312
+    }
+  ],
+  "dinraalsfang": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "dinraalshorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "dinraalsscale": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670771
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "electricdarner": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952401664
+    }
+  ],
+  "electrickeesewing": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 889192448
+    }
+  ],
+  "electricsafflina": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952402432
+    }
+  ],
+  "enduracarrot": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952403712
+    }
+  ],
+  "endurashroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834962688
+    }
+  ],
+  "energeticrhinobeetle": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952399681
+    }
+  ],
+  "fairy": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952400896
+    }
+  ],
+  "faroshsclaw": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670773
+    },
+    {
+      "offset": 24,
+      "value": 872415232
+    }
+  ],
+  "faroshsfang": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670773
+    },
+    {
+      "offset": 24,
+      "value": 889192448
+    }
+  ],
+  "faroshshorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670773
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "faroshsscale": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670773
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "firekeesewing": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 872415232
+    }
+  ],
+  "fireprooflizard": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952405504
+    }
+  ],
+  "fleetlotusseeds": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234245
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "flint": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598619648
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "fortifiedpumpkin": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234250
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "freshmilk": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598906740
+    },
+    {
+      "offset": 16,
+      "value": 1701996897
+    },
+    {
+      "offset": 24,
+      "value": 1818177589
+    }
+  ],
+  "giantancientcore": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670771
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "goatbutter": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598906740
+    },
+    {
+      "offset": 16,
+      "value": 1701996897
+    },
+    {
+      "offset": 24,
+      "value": 1818177590
+    }
+  ],
+  "goronspice": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598906740
+    },
+    {
+      "offset": 16,
+      "value": 1701996897
+    },
+    {
+      "offset": 24,
+      "value": 1818177586
+    }
+  ],
+  "hardboiledegg": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598189417
+    },
+    {
+      "offset": 16,
+      "value": 1818584159
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "heartybass": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598160896
+    }
+  ],
+  "heartyblueshellsnail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598750720
+    }
+  ],
+  "heartydurian": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234244
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "heartylizard": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952402688
+    }
+  ],
+  "heartyradish": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952399872
+    }
+  ],
+  "heartysalmon": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598619648
+    }
+  ],
+  "heartytruffle": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834960384
+    }
+  ],
+  "hightaillizard": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952404224
+    }
+  ],
+  "hinoxguts": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670771
+    },
+    {
+      "offset": 24,
+      "value": 872415232
+    }
+  ],
+  "hinoxtoenail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670771
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "hinoxtooth": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670771
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "hotfootedfrog": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952399616
+    }
+  ],
+  "hydromelon": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234246
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "hylianrice": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598906740
+    },
+    {
+      "offset": 16,
+      "value": 1701996897
+    },
+    {
+      "offset": 24,
+      "value": 1818177587
+    }
+  ],
+  "hylianshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834960128
+    }
+  ],
+  "hyrulebass": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598095360
+    }
+  ],
+  "hyruleherb": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952399616
+    }
+  ],
+  "icekeesewing": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "icylizalfostail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "ironshellcrab": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598647923
+    },
+    {
+      "offset": 16,
+      "value": 1701016647
+    },
+    {
+      "offset": 24,
+      "value": 1702125391
+    }
+  ],
+  "ironshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834962176
+    }
+  ],
+  "keeseeyeball": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670769
+    },
+    {
+      "offset": 24,
+      "value": 956301312
+    }
+  ],
+  "keesewing": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670769
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "lizalfoshorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "lizalfostail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 889192448
+    }
+  ],
+  "lizalfostalon": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 872415232
+    }
+  ],
+  "luminousstone": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598488576
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "lynelguts": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670769
+    },
+    {
+      "offset": 24,
+      "value": 872415232
+    }
+  ],
+  "lynelhoof": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670769
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "lynelhorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670769
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "mightybananas": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234248
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "mightycarp": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598357504
+    }
+  ],
+  "mightyporgy": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598423040
+    }
+  ],
+  "mightythistle": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952401152
+    }
+  ],
+  "moblinfang": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "moblinguts": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "moblinhorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670768
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "moldugafin": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670770
+    },
+    {
+      "offset": 24,
+      "value": 872415232
+    }
+  ],
+  "moldugaguts": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670770
+    },
+    {
+      "offset": 24,
+      "value": 889192448
+    }
+  ],
+  "monsterextract": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598906740
+    },
+    {
+      "offset": 16,
+      "value": 1701996897
+    },
+    {
+      "offset": 24,
+      "value": 1818177592
+    }
+  ],
+  "naydrasclaw": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670773
+    },
+    {
+      "offset": 24,
+      "value": 805306368
+    }
+  ],
+  "naydrasfang": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670773
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "naydrashorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670773
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "naydrasscale": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 956301312
+    }
+  ],
+  "octoballoon": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670773
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "octorokeyeball": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670770
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "octoroktentacle": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670770
+    },
+    {
+      "offset": 24,
+      "value": 805306368
+    }
+  ],
+  "opal": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598357504
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "palmfruit": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234247
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "rawbirddrumstick": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598907745
+    },
+    {
+      "offset": 16,
+      "value": 1952395318
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "rawbirdthigh": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598907745
+    },
+    {
+      "offset": 16,
+      "value": 1952395319
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "rawgourmetmeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598907745
+    },
+    {
+      "offset": 16,
+      "value": 1952395569
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "rawmeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598907745
+    },
+    {
+      "offset": 16,
+      "value": 1952395313
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "rawprimemeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598907745
+    },
+    {
+      "offset": 16,
+      "value": 1952395314
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "rawwholebird": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598907745
+    },
+    {
+      "offset": 16,
+      "value": 1952395570
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "razorclawcrab": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598647923
+    },
+    {
+      "offset": 16,
+      "value": 1701016647
+    },
+    {
+      "offset": 24,
+      "value": 1702125387
+    }
+  ],
+  "razorshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834961920
+    }
+  ],
+  "redchuchujelly": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670769
+    },
+    {
+      "offset": 24,
+      "value": 889192448
+    }
+  ],
+  "redlizalfostail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "restlesscricket": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952401408
+    }
+  ],
+  "rocksalt": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598554112
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "ruby": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598160896
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "ruggedrhinobeetle": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952403456
+    }
+  ],
+  "rushroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1833395572
+    },
+    {
+      "offset": 32,
+      "value": 1598291968
+    }
+  ],
+  "rushroom2": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1833395572
+    },
+    {
+      "offset": 32,
+      "value": 1598291968
+    }
+  ],
+  "sankecarp": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1599733760
+    }
+  ],
+  "sapphire": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598226432
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "silentprincess": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952401920
+    }
+  ],
+  "silentshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834961408
+    }
+  ],
+  "sizzlefintrout": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598685184
+    }
+  ],
+  "smotherwingbutterfly": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952399682
+    }
+  ],
+  "sneakyriversnail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598881792
+    }
+  ],
+  "spicypepper": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234249
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "stamellashroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834959104
+    }
+  ],
+  "staminokabass": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598816256
+    }
+  ],
+  "starfragment": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598685184
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "stealthfintrout": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1599602688
+    }
+  ],
+  "summerwingbutterfly": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952403712
+    }
+  ],
+  "sunsetfirefly": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952400640
+    }
+  ],
+  "sunshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834959616
+    }
+  ],
+  "swiftcarrot": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952402688
+    }
+  ],
+  "swiftviolet": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952403200
+    }
+  ],
+  "tabanthawheat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598906740
+    },
+    {
+      "offset": 16,
+      "value": 1701996897
+    },
+    {
+      "offset": 24,
+      "value": 1818177591
+    }
+  ],
+  "thunderwingbutterfly": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952403968
+    }
+  ],
+  "tirelessfrog": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952399872
+    }
+  ],
+  "topaz": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599042149
+    },
+    {
+      "offset": 16,
+      "value": 1598291968
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "voltfintrout": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598450035
+    },
+    {
+      "offset": 16,
+      "value": 1749509492
+    },
+    {
+      "offset": 24,
+      "value": 1598291968
+    }
+  ],
+  "voltfruit": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234243
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "warmdarner": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952404480
+    }
+  ],
+  "warmsafflina": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599106145
+    },
+    {
+      "offset": 16,
+      "value": 1853114213
+    },
+    {
+      "offset": 24,
+      "value": 1952400896
+    }
+  ],
+  "whitechuchujelly": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670769
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "wildberry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598452341
+    },
+    {
+      "offset": 16,
+      "value": 1769234242
+    },
+    {
+      "offset": 24,
+      "value": 0
+    }
+  ],
+  "winterwingbutterfly": [
+    {
+      "offset": 0,
+      "value": 1097754989
+    },
+    {
+      "offset": 8,
+      "value": 1634492233
+    },
+    {
+      "offset": 16,
+      "value": 1853056355
+    },
+    {
+      "offset": 24,
+      "value": 1952402944
+    }
+  ],
+  "wood": [
+    {
+      "offset": 0,
+      "value": 1331849823
+    },
+    {
+      "offset": 8,
+      "value": 1181315685
+    },
+    {
+      "offset": 16,
+      "value": 1466920804
+    },
+    {
+      "offset": 24,
+      "value": 1114992228
+    },
+    {
+      "offset": 32,
+      "value": 1818558464
+    }
+  ],
+  "yellowchuchujelly": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670769
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "yellowlizalfostail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598385765
+    },
+    {
+      "offset": 16,
+      "value": 1836670772
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "zapshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598911859
+    },
+    {
+      "offset": 16,
+      "value": 1752330095
+    },
+    {
+      "offset": 24,
+      "value": 1834960896
+    }
+  ]
+}

@@ -1,0 +1,3318 @@
+{
+  "applepie": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "bakedapple": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "bakedfortifiedpumpkin": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006385
+    },
+    {
+      "offset": 24,
+      "value": 889192448
+    }
+  ],
+  "bakedpalmfruit": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006385
+    },
+    {
+      "offset": 24,
+      "value": 805306368
+    }
+  ],
+  "blackenedcrab": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219953
+    },
+    {
+      "offset": 32,
+      "value": 889192448
+    }
+  ],
+  "blueshellescargot": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219953
+    },
+    {
+      "offset": 32,
+      "value": 822083584
+    }
+  ],
+  "campfireegg": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006389
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "carrotcake": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "carrotstew": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 808976384
+    }
+  ],
+  "charredpepper": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006385
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "clamchowder": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "copiousfriedwildgreens": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 825294848
+    }
+  ],
+  "copiousmeatskewers": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 825622528
+    }
+  ],
+  "copiousmushroomskewers": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 825425920
+    }
+  ],
+  "copiousseafoodskewers": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 825556992
+    }
+  ],
+  "copioussimmeredfruit": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 825360384
+    }
+  ],
+  "crabomeletwithrice": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 825622528
+    }
+  ],
+  "crabrisotto": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 825688064
+    }
+  ],
+  "crabstirfry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 825229312
+    }
+  ],
+  "creamofmushroomsoup": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 808845312
+    }
+  ],
+  "creamofvegetablesoup": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 808910848
+    }
+  ],
+  "creamyheartsoup": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406047
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "creamymeatsoup": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406047
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "creamyseafoodsoup": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406047
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "currypilaf": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 825294848
+    }
+  ],
+  "curryrice": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "dubiousfood": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408351
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "eggpudding": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 825491456
+    }
+  ],
+  "eggtart": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "elixir": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405279
+    },
+    {
+      "offset": 24,
+      "value": 825688064
+    }
+  ],
+  "elixirx": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405279
+    },
+    {
+      "offset": 24,
+      "value": 825712432
+    },
+    {
+      "offset": 32,
+      "value": 805306368
+    }
+  ],
+  "fairytonic": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405279
+    },
+    {
+      "offset": 24,
+      "value": 825622528
+    }
+  ],
+  "fishandmushroomskewer": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 808976384
+    }
+  ],
+  "fishpie": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 825556992
+    }
+  ],
+  "fishskewer": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "fragrantmushroomsaute": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408607
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "friedbananas": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 825425920
+    }
+  ],
+  "friedeggandrice": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405791
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "friedwildgreens": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "frozenbass": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596993792
+    }
+  ],
+  "frozenbirddrumstick": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1596994560
+    }
+  ],
+  "frozenbirdthigh": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1596994816
+    }
+  ],
+  "frozencarp": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596994560
+    }
+  ],
+  "frozencrab": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596995328
+    }
+  ],
+  "frozenheartybass": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596995072
+    }
+  ],
+  "frozenheartysalmon": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596994048
+    }
+  ],
+  "frozenporgy": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596994816
+    }
+  ],
+  "frozenriversnail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596995584
+    }
+  ],
+  "frozentrout": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596994304
+    }
+  ],
+  "frozenwholebird": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1596995072
+    }
+  ],
+  "fruitandmushroommix": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 808910848
+    }
+  ],
+  "fruitcake": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408095
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "fruitpie": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "glazedmeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 825360384
+    }
+  ],
+  "glazedmushrooms": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 825294848
+    }
+  ],
+  "glazedseafood": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 825425920
+    }
+  ],
+  "glazedveggies": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 825491456
+    }
+  ],
+  "gourmetmeatandricebowl": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 809041920
+    }
+  ],
+  "gourmetmeatandseafoodfry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 825819136
+    }
+  ],
+  "gourmetmeatcurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 809041920
+    }
+  ],
+  "gourmetmeatstew": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "gourmetpoultrycurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 808976384
+    }
+  ],
+  "gourmetpoultrypilaf": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405791
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "gourmetspicedmeatskewers": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408607
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "herbsaute": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408607
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "honeycandy": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 825622528
+    }
+  ],
+  "honeycrepe": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 825688064
+    }
+  ],
+  "honeyedapple": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 808976384
+    }
+  ],
+  "honeyedfruits": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 809041920
+    }
+  ],
+  "hotbutteredapple": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 808910848
+    }
+  ],
+  "icygourmetmeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1596994304
+    }
+  ],
+  "icyheartyblueshellsnail": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1181315944
+    },
+    {
+      "offset": 32,
+      "value": 1596995840
+    }
+  ],
+  "icymeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1596993792
+    }
+  ],
+  "icyprimemeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598253161
+    },
+    {
+      "offset": 16,
+      "value": 1819043172
+    },
+    {
+      "offset": 24,
+      "value": 1596994048
+    }
+  ],
+  "meatandmushroomskewer": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 809041920
+    }
+  ],
+  "meatandricebowl": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "meatandseafoodfry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 825688064
+    }
+  ],
+  "meatcurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 808845312
+    }
+  ],
+  "meatpie": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "meatskewer": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 808845312
+    }
+  ],
+  "meatstew": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "meatstuffedpumpkin": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 842006528
+    }
+  ],
+  "meatyriceballs": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 825556992
+    }
+  ],
+  "milk": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 809041920
+    }
+  ],
+  "monstercake": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407583
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "monstercurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407583
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "monsterriceballs": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407583
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "monstersoup": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407583
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "monsterstew": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407583
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "mushroomomelet": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408095
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "mushroomriceballs": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "mushroomrisotto": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 825360384
+    }
+  ],
+  "mushroomskewer": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "nutcake": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 825360384
+    }
+  ],
+  "omelet": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 825229312
+    }
+  ],
+  "pepperseafood": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 808976384
+    }
+  ],
+  "peppersteak": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 808910848
+    }
+  ],
+  "plaincrepe": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 825229312
+    }
+  ],
+  "porgymeuniere": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406559
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "poultrycurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "poultrypilaf": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405791
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "primemeatandricebowl": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 808845312
+    }
+  ],
+  "primemeatandseafoodfry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 825753600
+    }
+  ],
+  "primemeatcurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 808910848
+    }
+  ],
+  "primemeatstew": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "primepoultrycurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "primepoultrypilaf": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405791
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "primespicedmeatskewer": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408607
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "pumpkinpie": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 808845312
+    }
+  ],
+  "pumpkinstew": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407327
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "roastedacorn": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006388
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "roastedarmoranth": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006386
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "roastedbass": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219952
+    },
+    {
+      "offset": 32,
+      "value": 822083584
+    }
+  ],
+  "roastedbigradish": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006385
+    },
+    {
+      "offset": 24,
+      "value": 956301312
+    }
+  ],
+  "roastedbirddrumstick": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "roastedbirdthigh": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006388
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "roastedcarp": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219952
+    },
+    {
+      "offset": 32,
+      "value": 922746880
+    }
+  ],
+  "roastedenduracarrot": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006389
+    },
+    {
+      "offset": 24,
+      "value": 805306368
+    }
+  ],
+  "roastedheartybass": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219952
+    },
+    {
+      "offset": 32,
+      "value": 838860800
+    }
+  ],
+  "roastedheartydurian": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 956301312
+    }
+  ],
+  "roastedheartysalmon": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219952
+    },
+    {
+      "offset": 32,
+      "value": 872415232
+    }
+  ],
+  "roastedhydromelon": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006385
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "roastedlotusseeds": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006385
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "roastedmightybananas": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006385
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "roastedmightythistle": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006386
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "roastedporgy": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219952
+    },
+    {
+      "offset": 32,
+      "value": 956301312
+    }
+  ],
+  "roastedradish": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006385
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "roastedswiftcarrot": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006386
+    },
+    {
+      "offset": 24,
+      "value": 872415232
+    }
+  ],
+  "roastedtreenut": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006389
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "roastedtrout": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219952
+    },
+    {
+      "offset": 32,
+      "value": 855638016
+    }
+  ],
+  "roastedvoltfruit": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "roastedwholebird": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006388
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "roastedwildberry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "rockhardfood": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 808910848
+    }
+  ],
+  "salmonmeuniere": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406559
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "salmonrisotto": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 825491456
+    }
+  ],
+  "saltgrilledcrab": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 809041920
+    }
+  ],
+  "saltgrilledfish": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "saltgrilledgourmetmeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 808845312
+    }
+  ],
+  "saltgrilledgreens": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "saltgrilledmeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "saltgrilledmushrooms": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "saltgrilledprimemeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405535
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "sauteednuts": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 842137600
+    }
+  ],
+  "sauteedpeppers": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 842072064
+    }
+  ],
+  "seafoodcurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "seafoodfriedrice": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 825229312
+    }
+  ],
+  "seafoodmeuniere": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406559
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "seafoodpaella": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408095
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "seafoodriceballs": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "seafoodskewer": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 842203136
+    }
+  ],
+  "searedgourmetsteak": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006388
+    },
+    {
+      "offset": 24,
+      "value": 889192448
+    }
+  ],
+  "searedprimesteak": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006388
+    },
+    {
+      "offset": 24,
+      "value": 805306368
+    }
+  ],
+  "searedsteak": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "simmeredfruit": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801405023
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "sneakyriverescargot": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937000041
+    },
+    {
+      "offset": 24,
+      "value": 1936219953
+    },
+    {
+      "offset": 32,
+      "value": 855638016
+    }
+  ],
+  "spicedmeatskewer": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408607
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "steamedfish": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "steamedfruit": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "steamedmeat": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 808779776
+    }
+  ],
+  "steamedmushrooms": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801404767
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "toastedbigheartytruffle": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006388
+    },
+    {
+      "offset": 24,
+      "value": 956301312
+    }
+  ],
+  "toastedheartytruffle": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 889192448
+    }
+  ],
+  "toastychillshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006387
+    },
+    {
+      "offset": 24,
+      "value": 822083584
+    }
+  ],
+  "toastyendurashroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006389
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "toastyhylianshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "toastyironshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006387
+    },
+    {
+      "offset": 24,
+      "value": 939524096
+    }
+  ],
+  "toastyrazorshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006387
+    },
+    {
+      "offset": 24,
+      "value": 922746880
+    }
+  ],
+  "toastyrushroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006387
+    },
+    {
+      "offset": 24,
+      "value": 905969664
+    }
+  ],
+  "toastysilentshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006387
+    },
+    {
+      "offset": 24,
+      "value": 956301312
+    }
+  ],
+  "toastystamellashroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006384
+    },
+    {
+      "offset": 24,
+      "value": 872415232
+    }
+  ],
+  "toastysunshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006387
+    },
+    {
+      "offset": 24,
+      "value": 838860800
+    }
+  ],
+  "toastyzapshroom": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1599237985
+    },
+    {
+      "offset": 16,
+      "value": 1937006387
+    },
+    {
+      "offset": 24,
+      "value": 855638016
+    }
+  ],
+  "vegetablecurry": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407071
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "vegetableomelet": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801408095
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "vegetablerisotto": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 825425920
+    }
+  ],
+  "veggiecreamsoup": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406047
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "veggiericeballs": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406303
+    },
+    {
+      "offset": 24,
+      "value": 808648704
+    }
+  ],
+  "wheatbread": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801407839
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "wildberrycrepe": [
+    {
+      "offset": 0,
+      "value": 1232364909
+    },
+    {
+      "offset": 8,
+      "value": 1598254959
+    },
+    {
+      "offset": 16,
+      "value": 1801406815
+    },
+    {
+      "offset": 24,
+      "value": 825294848
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "ancientbattleaxe++": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959857
+    },
+    {
+      "offset": 32,
+      "value": 889192448
+    }
+  ],
+  "ancientshortsword": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994099
+    }
+  ],
+  "bokoclub": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596993588
+    }
+  ],
+  "bokospear": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1885692274
+    },
+    {
+      "offset": 24,
+      "value": 1596993588
+    }
+  ],
+  "boulderbreaker": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959861
+    },
+    {
+      "offset": 32,
+      "value": 872415232
+    }
+  ],
+  "ceremonialtrident": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1885692274
+    },
+    {
+      "offset": 24,
+      "value": 1596994617
+    }
+  ],
+  "edgeofduality": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959861
+    },
+    {
+      "offset": 32,
+      "value": 889192448
+    }
+  ],
+  "flameblade": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994355
+    }
+  ],
+  "goddesssword": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994871
+    }
+  ],
+  "greatflameblade": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 855638016
+    }
+  ],
+  "greatfrostblade": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 872415232
+    }
+  ],
+  "greatthunderblade": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 889192448
+    }
+  ],
+  "guardiansword++": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596993845
+    }
+  ],
+  "ironsledgehammer": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 822083584
+    }
+  ],
+  "knightshalberd": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1885692274
+    },
+    {
+      "offset": 24,
+      "value": 1596993587
+    }
+  ],
+  "lightscaletrident": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1885692274
+    },
+    {
+      "offset": 24,
+      "value": 1596994864
+    }
+  ],
+  "mastersword30": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596995376
+    }
+  ],
+  "royalbroadsword": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994100
+    }
+  ],
+  "royalclaymore": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959858
+    },
+    {
+      "offset": 32,
+      "value": 872415232
+    }
+  ],
+  "royalhalberd": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1885692274
+    },
+    {
+      "offset": 24,
+      "value": 1596994100
+    }
+  ],
+  "savagelynelsword": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596993848
+    }
+  ],
+  "scimitaroftheseven": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994866
+    }
+  ],
+  "soldiersbroadsword": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596993586
+    }
+  ],
+  "sword": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994872
+    }
+  ],
+  "throwingspear": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1885692274
+    },
+    {
+      "offset": 24,
+      "value": 1596994352
+    }
+  ],
+  "thunderblade": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994357
+    }
+  ],
+  "thunderspear": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1885692274
+    },
+    {
+      "offset": 24,
+      "value": 1596994357
+    }
+  ],
+  "torch": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994611
+    }
+  ],
+  "travelersclaymore": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 822083584
+    }
+  ],
+  "travelerssword": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596993585
+    }
+  ],
+  "treebranch": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994612
+    }
+  ],
+  "woodcuttersaxe": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504332
+    },
+    {
+      "offset": 16,
+      "value": 1937207154
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 838860800
+    }
+  ],
+  "zorasword": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 2003792484
+    },
+    {
+      "offset": 24,
+      "value": 1596994103
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "bokobow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 808714240
+    }
+  ],
+  "duplexbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 875560960
+    }
+  ],
+  "falconbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 825688064
+    }
+  ],
+  "goldenbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 825556992
+    }
+  ],
+  "knightsbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 859111424
+    }
+  ],
+  "mightylynelbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 842399744
+    }
+  ],
+  "phrenicbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 842596352
+    }
+  ],
+  "royalbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 859176960
+    }
+  ],
+  "savagelynelbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 858914816
+    }
+  ],
+  "silverbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 825491456
+    }
+  ],
+  "soldiersbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 808583168
+    }
+  ],
+  "steellizalbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 858783744
+    }
+  ],
+  "swallowbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 825622528
+    }
+  ],
+  "travelersbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 808517632
+    }
+  ],
+  "twilightbow": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504322
+    },
+    {
+      "offset": 16,
+      "value": 1870094128
+    },
+    {
+      "offset": 24,
+      "value": 926023680
+    }
+  ]
+}

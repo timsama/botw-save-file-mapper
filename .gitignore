@@ -5,4 +5,5 @@ log
 raw
 snapshots
 temp
-export
+export/offsetmap.json
+*.txt
