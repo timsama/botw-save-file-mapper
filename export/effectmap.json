@@ -371,7 +371,107 @@
             "offset": 533944,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahrudania.found"
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.pedestal"
         ]
+      },
+      "cutscenes": {
+        "torch3releasedball": {
+          "entries": [
+            {
+              "offset": 76224,
+              "value": 1
+            }
+          ]
+        },
+        "torch4openeddoor": {
+          "entries": [
+            {
+              "offset": 69904,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "defeatedallenemies": {
+        "subtasks": {
+          "glowingeyeball1": {
+            "entries": [
+              {
+                "offset": 552184,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball2": {
+            "entries": [
+              {
+                "offset": 50480,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball3": {
+            "entries": [
+              {
+                "offset": 60792,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball4": {
+            "entries": [
+              {
+                "offset": 64000,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball5": {
+            "entries": [
+              {
+                "offset": 302144,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball6": {
+            "entries": [
+              {
+                "offset": 899432,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball7": {
+            "entries": [
+              {
+                "offset": 915920,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball8": {
+            "entries": [
+              {
+                "offset": 819168,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball9": {
+            "entries": [
+              {
+                "offset": 392296,
+                "value": 1
+              }
+            ]
+          }
+        }
       },
       "found": {
         "entries": [
@@ -379,6 +479,155 @@
             "offset": 543264,
             "value": 1
           }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahrudania.boardingvahrudania"
+        ]
+      },
+      "map": {
+        "entries": [
+          {
+            "offset": 509440,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.shuttersopen",
+          "divinebeasts.vahrudania.map.subtasks.pedestal",
+          "divinebeasts.vahrudania.state.torch1lit",
+          "divinebeasts.vahrudania.state.torch2lit",
+          "divinebeasts.vahrudania.defeatedallenemies.subtasks.glowingeyeball1",
+          "divinebeasts.vahrudania.defeatedallenemies.subtasks.glowingeyeball2",
+          "divinebeasts.vahrudania.defeatedallenemies.subtasks.glowingeyeball3"
+        ],
+        "subtasks": {
+          "pedestal": {
+            "entries": [
+              {
+                "offset": 1010376,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 941976,
+            "value": 1
+          }
+        ]
+      },
+      "shuttersopen": {
+        "entries": [
+          {
+            "offset": 449024,
+            "value": 1
+          }
+        ]
+      },
+      "state": {
+        "torch1lit": {
+          "entries": [
+            {
+              "offset": 918048,
+              "value": 1
+            }
+          ]
+        },
+        "torch2lit": {
+          "entries": [
+            {
+              "offset": 74296,
+              "value": 1
+            }
+          ]
+        },
+        "torch3lit": {
+          "entries": [
+            {
+              "offset": 303016,
+              "value": 1
+            }
+          ]
+        },
+        "torch4lit": {
+          "entries": [
+            {
+              "offset": 43080,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "terminal1": {
+        "entries": [
+          {
+            "offset": 944344,
+            "value": 4
+          },
+          {
+            "offset": 325000,
+            "value": 1
+          }
+        ]
+      },
+      "terminal2": {
+        "entries": [
+          {
+            "offset": 944344,
+            "value": 3
+          },
+          {
+            "offset": 534696,
+            "value": 1
+          }
+        ]
+      },
+      "terminal3": {
+        "entries": [
+          {
+            "offset": 944344,
+            "value": 2
+          },
+          {
+            "offset": 477040,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.state.torch3lit"
+        ]
+      },
+      "terminal4": {
+        "entries": [
+          {
+            "offset": 944344,
+            "value": 1
+          },
+          {
+            "offset": 309824,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.state.torch4lit"
+        ]
+      },
+      "terminal5": {
+        "entries": [
+          {
+            "offset": 944344,
+            "value": 0
+          },
+          {
+            "offset": 949696,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.defeatedallenemies.subtasks.glowingeyeball9"
         ]
       }
     },
@@ -815,7 +1064,7 @@
           "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon1",
           "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon2",
           "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon3",
-          "divinebeasts.vahrudania.found"
+          "divinebeasts.vahrudania.active"
         ],
         "subtasks": {
           "cannon1": {
