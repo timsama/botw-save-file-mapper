@@ -55,6 +55,16 @@
     ]
   },
   "cutscenes": {
+    "daruksmettle": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 535400,
+            "value": 1
+          }
+        ]
+      }
+    },
     "firstspiritorb": {
       "viewed": {
         "entries": [
@@ -103,6 +113,16 @@
         ]
       }
     },
+    "meetingyunobo": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 68168,
+            "value": 1
+          }
+        ]
+      }
+    },
     "miphastouch": {
       "viewed": {
         "entries": [
@@ -112,6 +132,14 @@
           }
         ]
       }
+    },
+    "rescueyunoboagain": {
+      "entries": [
+        {
+          "offset": 339432,
+          "value": 1
+        }
+      ]
     },
     "revalisflap": {
       "entries": [
@@ -333,6 +361,24 @@
         ],
         "softdependencies": [
           "divinebeasts.vahmedoh.map"
+        ]
+      }
+    },
+    "vahrudania": {
+      "active": {
+        "entries": [
+          {
+            "offset": 533944,
+            "value": 1
+          }
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 543264,
+            "value": 1
+          }
         ]
       }
     },
@@ -738,6 +784,239 @@
         ],
         "softdependencies": [
           "cutscenes.meetingteba.viewed"
+        ]
+      }
+    },
+    "divinebeastvahrudania": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 908472,
+            "value": 1
+          }
+        ]
+      },
+      "boardingvahrudania": {
+        "entries": [
+          {
+            "offset": 393664,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.getridofinvisiblewall",
+          "mainquests.divinebeastvahrudania.bridgeofeldin"
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.strategizewithyunobo",
+          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.startchallengemusic",
+          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.startchallenge",
+          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.triggersentinels",
+          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon1",
+          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon2",
+          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon3",
+          "divinebeasts.vahrudania.found"
+        ],
+        "subtasks": {
+          "cannon1": {
+            "entries": [
+              {
+                "offset": 563208,
+                "value": 1
+              }
+            ]
+          },
+          "cannon2": {
+            "entries": [
+              {
+                "offset": 74888,
+                "value": 1
+              }
+            ]
+          },
+          "cannon3": {
+            "entries": [
+              {
+                "offset": 19968,
+                "value": 1
+              }
+            ]
+          },
+          "getridofinvisiblewall": {
+            "entries": [
+              {
+                "offset": 385224,
+                "value": 1
+              }
+            ]
+          },
+          "startchallenge": {
+            "entries": [
+              {
+                "offset": 354304,
+                "value": 1
+              }
+            ]
+          },
+          "startchallengemusic": {
+            "entries": [
+              {
+                "offset": 834056,
+                "value": 1
+              }
+            ]
+          },
+          "strategizewithyunobo": {
+            "entries": [
+              {
+                "offset": 344720,
+                "value": 1
+              }
+            ]
+          },
+          "triggersentinels": {
+            "entries": [
+              {
+                "offset": 63288,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "bridgeofeldin": {
+        "entries": [
+          {
+            "offset": 850872,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.settriggerforbridgecutscene",
+          "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.allowboarding"
+        ],
+        "softdependencies": [
+          "cutscenes.rescueyunoboagain",
+          "mainquests.divinebeastvahrudania.talktobludo",
+          "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.calmdownyunobo",
+          "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.talktoyunobo",
+          "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.killthemoblins",
+          "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.getyunoboincannon",
+          "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.lowerthebridge"
+        ],
+        "subtasks": {
+          "allowboarding": {
+            "entries": [
+              {
+                "offset": 26424,
+                "value": 1
+              }
+            ]
+          },
+          "calmdownyunobo": {
+            "entries": [
+              {
+                "offset": 387232,
+                "value": 1
+              }
+            ]
+          },
+          "getyunoboincannon": {
+            "entries": [
+              {
+                "offset": 355600,
+                "value": 1
+              }
+            ]
+          },
+          "killthemoblins": {
+            "entries": [
+              {
+                "offset": 942808,
+                "value": 1
+              },
+              {
+                "offset": 823576,
+                "value": 1
+              }
+            ]
+          },
+          "lowerthebridge": {
+            "entries": [
+              {
+                "offset": 1007904,
+                "value": 1
+              }
+            ]
+          },
+          "settriggerforbridgecutscene": {
+            "entries": [
+              {
+                "offset": 544888,
+                "value": 1
+              }
+            ]
+          },
+          "talktoyunobo": {
+            "entries": [
+              {
+                "offset": 859328,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "rescueyunobo": {
+        "entries": [
+          {
+            "offset": 901304,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahrudania.begun",
+          "mainquests.divinebeastvahrudania.rescueyunobo.subtasks.blowuprockwall",
+          "mainquests.divinebeastvahrudania.rescueyunobo.subtasks.calmdownyunobo",
+          "mainquests.divinebeastvahrudania.rescueyunobo.subtasks.yunoboreturnstogoroncity"
+        ],
+        "subtasks": {
+          "blowuprockwall": {
+            "entries": [
+              {
+                "offset": 340736,
+                "value": 1
+              }
+            ]
+          },
+          "calmdownyunobo": {
+            "entries": [
+              {
+                "offset": 532976,
+                "value": 1
+              }
+            ]
+          },
+          "yunoboreturnstogoroncity": {
+            "entries": [
+              {
+                "offset": 305304,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "talktobludo": {
+        "entries": [
+          {
+            "offset": 567288,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "cutscenes.daruksmettle.viewed",
+          "mainquests.divinebeastvahrudania.rescueyunobo"
         ]
       }
     },

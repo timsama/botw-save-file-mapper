@@ -26,6 +26,26 @@
       "akkalaancienttechlab"
     ]
   },
+  "bridgeofeldin": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1158030266
+      },
+      {
+        "offset": 801784,
+        "value": 1142859757
+      },
+      {
+        "offset": 801792,
+        "value": 3306116806
+      },
+      {
+        "offset": 453224,
+        "value": 1108522793
+      }
+    ]
+  },
   "hatenoancienttechlab": {
     "entries": [
       {
