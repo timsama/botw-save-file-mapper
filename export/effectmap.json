@@ -379,6 +379,44 @@
           "divinebeasts.vahrudania.pedestal"
         ]
       },
+      "allterminals": {
+        "entries": [
+          {
+            "offset": 830256,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.terminal1",
+          "divinebeasts.vahrudania.terminal2",
+          "divinebeasts.vahrudania.terminal3",
+          "divinebeasts.vahrudania.terminal4",
+          "divinebeasts.vahrudania.terminal5"
+        ]
+      },
+      "bossdefeated": {
+        "entries": [
+          {
+            "offset": 565496,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.allterminals",
+          "divinebeasts.vahrudania.heartcontainer"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 336264,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.bossdefeated"
+        ]
+      },
       "cutscenes": {
         "torch3releasedball": {
           "entries": [
@@ -484,6 +522,14 @@
           "mainquests.divinebeastvahrudania.boardingvahrudania"
         ]
       },
+      "heartcontainer": {
+        "entries": [
+          {
+            "offset": 18096,
+            "value": 1
+          }
+        ]
+      },
       "map": {
         "entries": [
           {
@@ -492,6 +538,7 @@
           }
         ],
         "softdependencies": [
+          "divinebeasts.vahrudania.active",
           "divinebeasts.vahrudania.shuttersopen",
           "divinebeasts.vahrudania.map.subtasks.pedestal",
           "divinebeasts.vahrudania.state.torch1lit",
@@ -550,6 +597,9 @@
               "offset": 303016,
               "value": 1
             }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahrudania.cutscenes.torch3releasedball"
           ]
         },
         "torch4lit": {
@@ -558,6 +608,9 @@
               "offset": 43080,
               "value": 1
             }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahrudania.cutscenes.torch4openeddoor"
           ]
         }
       },
@@ -571,6 +624,9 @@
             "offset": 325000,
             "value": 1
           }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.map"
         ]
       },
       "terminal2": {
@@ -583,6 +639,9 @@
             "offset": 534696,
             "value": 1
           }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.map"
         ]
       },
       "terminal3": {
@@ -597,6 +656,7 @@
           }
         ],
         "softdependencies": [
+          "divinebeasts.vahrudania.map",
           "divinebeasts.vahrudania.state.torch3lit"
         ]
       },
@@ -612,6 +672,7 @@
           }
         ],
         "softdependencies": [
+          "divinebeasts.vahrudania.map",
           "divinebeasts.vahrudania.state.torch4lit"
         ]
       },
@@ -627,6 +688,7 @@
           }
         ],
         "softdependencies": [
+          "divinebeasts.vahrudania.map",
           "divinebeasts.vahrudania.defeatedallenemies.subtasks.glowingeyeball9"
         ]
       }
@@ -1210,6 +1272,36 @@
             "entries": [
               {
                 "offset": 859328,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 340304,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.complete",
+          "mainquests.divinebeastvahrudania.complete.subtasks.boulderbreakeravailable"
+        ],
+        "subtasks": {
+          "boulderbreakeravailable": {
+            "entries": [
+              {
+                "offset": 448784,
+                "value": 1
+              }
+            ]
+          },
+          "boulderbreakertaken": {
+            "entries": [
+              {
+                "offset": 331336,
                 "value": 1
               }
             ]
