@@ -1,11 +1,32 @@
 const testSingles = require('./test-singles.js');
 const readline = require('readline-sync');
 
-const name = process.argv[2] || 'unnamed';
+const possibleFlags = [
+    'only-ones',
+    'only-test-ones',
+    'known-value',
+    'known-previous-value',
+    'rename',
+    'include-known',
+    'include-known-offsets',
+    'append',
+    'append-to-existing'
+];
 
-const args = process.argv.slice(3);
+const flagFilter = (str) => {
+    const [prefix] = str.split('=');
+    return possibleFlags.some(f => f == prefix);
+};
 
-const renameArgs = args.filter((arg) => arg.indexOf('rename') !== -1);
+const nameFilter = (str) => {
+    return !flagFilter(str);
+};
+
+const name = process.argv.slice(2).find(nameFilter) || 'unnamed';
+
+const args = process.argv.slice(2).filter(flagFilter);
+
+const renameArgs = args.filter((arg) => arg.split('=')[0] == 'rename');
 const shouldRename = renameArgs.length > 0;
 const newName = (() => {
     if (shouldRename) {
@@ -18,8 +39,8 @@ const newName = (() => {
     }
 })();
 
-const onlyTestOnes = args.indexOf('only-ones') !== -1 || args.indexOf('only-test-ones') !== -1 ;
-const knownValueArgs = args.filter((arg) => arg.indexOf('known-value=') !== -1);
+const onlyTestOnes = args.some(arg => arg == 'only-ones' || arg == 'only-test-ones');
+const knownValueArgs = args.filter(arg => arg.split('=')[0] == 'known-value');
 const findKnownValue = knownValueArgs.length > 0;
 const knownValue = (() =>{
     if (findKnownValue) {
