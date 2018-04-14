@@ -3796,6 +3796,16 @@
           }
         ]
       }
+    },
+    "resurrection": {
+      "active": {
+        "entries": [
+          {
+            "offset": 51112,
+            "value": 1
+          }
+        ]
+      }
     }
   },
   "sidequests": {
