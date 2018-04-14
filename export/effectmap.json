@@ -3907,16 +3907,77 @@
     }
   },
   "towers": {
-    "greatplateau": {
-      "found": {
+    "akkala": {
+      "active": {
         "entries": [
           {
-            "offset": 557552,
+            "offset": 453824,
             "value": 1
           }
         ],
         "softdependencies": [
-          "towers.greatplateau.unearthed"
+          "towers.akkala.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 387080,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "all": {
+      "active": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "towers.akkala.active",
+          "towers.central.active",
+          "towers.duelingpeaks.active",
+          "towers.eldin.active",
+          "towers.faron.active",
+          "towers.gerudo.active",
+          "towers.greatplateau.active",
+          "towers.hateno.active",
+          "towers.hebra.active",
+          "towers.lake.active",
+          "towers.lanayru.active",
+          "towers.ridgeland.active",
+          "towers.tabantha.active",
+          "towers.wasteland.active",
+          "towers.woodland.active"
+        ],
+        "softdependencies": [
+          "towers.all.found"
+        ]
+      },
+      "found": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "towers.akkala.found",
+          "towers.central.found",
+          "towers.duelingpeaks.found",
+          "towers.eldin.found",
+          "towers.faron.found",
+          "towers.gerudo.found",
+          "towers.greatplateau.found",
+          "towers.hateno.found",
+          "towers.hebra.found",
+          "towers.lake.found",
+          "towers.lanayru.found",
+          "towers.ridgeland.found",
+          "towers.tabantha.found",
+          "towers.wasteland.found",
+          "towers.woodland.found"
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
         ]
       },
       "unearthed": {
@@ -3928,6 +3989,222 @@
         ],
         "softdependencies": [
           "mainquests.theisolatedplateau.begun"
+        ]
+      }
+    },
+    "central": {
+      "active": {
+        "entries": [
+          {
+            "offset": 921400,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.central.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 911504,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "duelingpeaks": {
+      "active": {
+        "entries": [
+          {
+            "offset": 3648,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.duelingpeaks.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 325584,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "eldin": {
+      "active": {
+        "entries": [
+          {
+            "offset": 32976,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.eldin.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 75896,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "faron": {
+      "active": {
+        "entries": [
+          {
+            "offset": 28256,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.faron.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 68664,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "gerudo": {
+      "active": {
+        "entries": [
+          {
+            "offset": 560768,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.gerudo.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 817288,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "greatplateau": {
+      "active": {
+        "entries": [
+          {
+            "offset": 554480,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.greatplateau.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 809560,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "hateno": {
+      "active": {
+        "entries": [
+          {
+            "offset": 545944,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.hateno.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 829768,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "hebra": {
+      "active": {
+        "entries": [
+          {
+            "offset": 519096,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.hebra.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 337768,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "lake": {
+      "active": {
+        "entries": [
+          {
+            "offset": 509408,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.lake.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 356928,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
         ]
       }
     },
@@ -3947,8 +4224,107 @@
         "entries": [
           {
             "offset": 849408,
-            "value": 2
+            "value": 1
           }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "ridgeland": {
+      "active": {
+        "entries": [
+          {
+            "offset": 457128,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.ridgeland.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 393216,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "tabantha": {
+      "active": {
+        "entries": [
+          {
+            "offset": 917928,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.tabantha.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 904048,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "wasteland": {
+      "active": {
+        "entries": [
+          {
+            "offset": 17136,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.wasteland.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 299272,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
+        ]
+      }
+    },
+    "woodland": {
+      "active": {
+        "entries": [
+          {
+            "offset": 520016,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.woodland.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 347376,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "towers.all.unearthed"
         ]
       }
     }
