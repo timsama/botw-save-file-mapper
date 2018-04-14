@@ -134,20 +134,24 @@
       }
     },
     "rescueyunoboagain": {
-      "entries": [
-        {
-          "offset": 339432,
-          "value": 1
-        }
-      ]
+      "viewed": {
+        "entries": [
+          {
+            "offset": 339432,
+            "value": 1
+          }
+        ]
+      }
     },
     "revalisflap": {
-      "entries": [
-        {
-          "offset": 533312,
-          "value": 1
-        }
-      ]
+      "viewed": {
+        "entries": [
+          {
+            "offset": 533312,
+            "value": 1
+          }
+        ]
+      }
     },
     "takethesheikahslate": {
       "unviewed": {
@@ -1207,7 +1211,7 @@
           "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.allowboarding"
         ],
         "softdependencies": [
-          "cutscenes.rescueyunoboagain",
+          "cutscenes.rescueyunoboagain.viewed",
           "mainquests.divinebeastvahrudania.talktobludo",
           "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.calmdownyunobo",
           "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.talktoyunobo",
