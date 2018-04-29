@@ -103,6 +103,16 @@
         ]
       }
     },
+    "meetingriju": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 71272,
+            "value": 1
+          }
+        ]
+      }
+    },
     "meetingteba": {
       "viewed": {
         "entries": [
@@ -150,6 +160,24 @@
             "offset": 533312,
             "value": 1
           }
+      ]
+      }
+    },
+    "boardingvahnaboris": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 384560,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 384560,
+            "value": 1
+          }
         ]
       }
     },
@@ -171,11 +199,31 @@
         ]
       }
     },
+    "urbosashand": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 537944,
+            "value": 1
+          }
+        ]
+      }
+    },
     "vahmedohintro": {
       "viewed": {
         "entries": [
           {
             "offset": 334072,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "vahnaborisintro": {
+      "viewed": {
+        "entries": [
+          {
+            "offset": 344808,
             "value": 1
           }
         ]
@@ -365,6 +413,42 @@
         ],
         "softdependencies": [
           "divinebeasts.vahmedoh.map"
+        ]
+      }
+    },
+    "vahnaboris": {
+      "active": {
+        "entries": [
+          {
+            "offset": 940352,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahnaboris.found"
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.pedestal",
+          "cutscenes.boardingvahnaboris.viewed"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 38432,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahnaboris.boardingvahnaboris"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 42792,
+            "value": 1
+          }
         ]
       }
     },
@@ -1011,6 +1095,17 @@
       }
     },
     "destroyganon": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 523120,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.theisolatedplateau.complete"
+        ]
+      },
       "selected": {
         "entries": [
           {
@@ -1100,6 +1195,151 @@
         "softdependencies": [
           "cutscenes.meetingteba.viewed"
         ]
+      }
+    },
+    "divinebeastvahnaboris": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 381240,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.forbiddencityentry.complete",
+          "cutscenes.meetingriju.viewed"
+        ]
+      },
+      "boardingvahnaboris": {
+        "entries": [
+          {
+            "offset": 10232,
+            "value": 1
+          },
+          {
+            "offset": 34992,
+            "value": 0
+          },
+          {
+            "offset": 349752,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.meetrijuatlookout"
+        ]
+      },
+      "defeatmasterkohga": {
+        "entries": [
+          {
+            "offset": 807448,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.entertheyigahideout"
+        ]
+      },
+      "entertheyigahideout": {
+        "entries": [
+          {
+            "offset": 353728,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.talktoteake"
+        ]
+      },
+      "meetrijuatlookout": {
+        "entries": [
+          {
+            "offset": 469664,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.returnthethunderhelm"
+        ]
+      },
+      "obtainthethunderhelm": {
+        "entries": [
+          {
+            "offset": 518808,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.defeatmasterkohga"
+        ]
+      },
+      "retreatedfromvahnaboris": {
+        "entries": [
+          {
+            "offset": 34992,
+            "value": 1
+          },
+          {
+            "offset": 469664,
+            "value": 1
+          },
+          {
+            "offset": 349752,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.meetrijuatlookout"
+        ]
+      },
+      "returnthethunderhelm": {
+        "entries": [
+          {
+            "offset": 346144,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.obtainthethunderhelm"
+        ],
+        "softdependencies": [
+          "cutscenes.urbosashand.viewed",
+          "mainquests.divinebeastvahnaboris.returnthethunderhelm.subtasks.rijuawaitsatlookout"
+        ],
+        "subtasks": {
+          "rijuawaitsatlookout": {
+            "entries": [
+              {
+                "offset": 349752,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "talktoteake": {
+        "entries": [
+          {
+            "offset": 516344,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.begun"
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahnaboris.talktoteake.subtasks.getpermissionfromteake"
+        ],
+        "subtasks": {
+          "getpermissionfromteake": {
+            "entries": [
+              {
+                "offset": 560576,
+                "value": 1
+              }
+            ]
+          }
+        }
       }
     },
     "divinebeastvahrudania": {
@@ -1465,6 +1705,44 @@
         ]
       }
     },
+    "forbiddencityentry": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 75552,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.freethedivinebeasts.begun"
+        ]
+      },
+      "buygerudoclothes": {
+        "entries": [
+          {
+            "offset": 805392,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.forbiddencityentry.begun"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 389096,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.forbiddencityentry.buygerudoclothes"
+        ],
+        "softdependencies": [
+          "cutscenes.boardingvahnaboris.unviewed"
+        ]
+      }
+    },
     "freethedivinebeasts": {
       "begun": {
         "entries": [
@@ -1645,7 +1923,7 @@
             "value": 1
           }
         ],
-        "harddependencies": [
+        "softdependencies": [
           "mainquests.theisolatedplateau.complete"
         ]
       },
@@ -1694,6 +1972,10 @@
         ],
         "harddependencies": [
           "mainquests.theisolatedplateau.begun"
+        ],
+        "softdependencies": [
+          "mainquests.seekoutimpa.begun",
+          "mainquests.destroyganon.begun"
         ]
       }
     }

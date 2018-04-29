@@ -89,6 +89,60 @@
       "value": 1633943552
     }
   ],
+  "gerudosirwal": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840885
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "gerudotop": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840885
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "gerudoveil": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840885
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
   "hylianhood****": [
     {
       "offset": 0,
