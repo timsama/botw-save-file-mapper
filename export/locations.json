@@ -46,6 +46,26 @@
       }
     ]
   },
+  "gerudodesertgateway": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3308853480
+      },
+      {
+        "offset": 801784,
+        "value": 1124334164
+      },
+      {
+        "offset": 801792,
+        "value": 1158806514
+      },
+      {
+        "offset": 453224,
+        "value": 3263736412
+      }
+    ]
+  },
   "hatenoancienttechlab": {
     "entries": [
       {
@@ -85,6 +105,26 @@
     ],
     "harddependencies": [
       "shrines.talohnaeg"
+    ]
+  },
+  "karakarabazaar": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3309800796
+      },
+      {
+        "offset": 801784,
+        "value": 1124171590
+      },
+      {
+        "offset": 801792,
+        "value": 1159630845
+      },
+      {
+        "offset": 453224,
+        "value": 3263223955
+      }
     ]
   },
   "leavingtheshrineofresurrection": {
@@ -136,6 +176,26 @@
       {
         "offset": 453224,
         "value": 3273790732
+      }
+    ]
+  },
+  "rijusoutpost": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3310744078
+      },
+      {
+        "offset": 801784,
+        "value": 1128125257
+      },
+      {
+        "offset": 801792,
+        "value": 1162011439
+      },
+      {
+        "offset": 453224,
+        "value": 1106419893
       }
     ]
   },
