@@ -2079,6 +2079,23 @@
           "mainquests.seekoutimpa.complete",
           "mainquests.lockedmementos.begun"
         ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 478264,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.freethedivinebeasts.begun"
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahmedoh.complete",
+          "mainquests.divinebeastvahnaboris.complete",
+          "mainquests.divinebeastvahrudania.complete",
+          "mainquests.divinebeastvahruta.complete"
+        ]
       }
     },
     "lockedmementos": {
@@ -2270,6 +2287,16 @@
           {
             "offset": 393768,
             "value": 3
+          }
+        ]
+      }
+    },
+    "thechampionsballad": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 805208,
+            "value": 1
           }
         ]
       }
