@@ -55,6 +55,24 @@
     ]
   },
   "cutscenes": {
+    "boardingvahnaboris": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 384560,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 384560,
+            "value": 1
+          }
+        ]
+      }
+    },
     "daruksmettle": {
       "viewed": {
         "entries": [
@@ -158,24 +176,6 @@
         "entries": [
           {
             "offset": 533312,
-            "value": 1
-          }
-      ]
-      }
-    },
-    "boardingvahnaboris": {
-      "unviewed": {
-        "entries": [
-          {
-            "offset": 384560,
-            "value": 0
-          }
-        ]
-      },
-      "viewed": {
-        "entries": [
-          {
-            "offset": 384560,
             "value": 1
           }
         ]
@@ -432,6 +432,156 @@
           "cutscenes.boardingvahnaboris.viewed"
         ]
       },
+      "allterminals": {
+        "entries": [
+          {
+            "offset": 457192,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.terminal1",
+          "divinebeasts.vahnaboris.terminal2",
+          "divinebeasts.vahnaboris.terminal3",
+          "divinebeasts.vahnaboris.terminal4",
+          "divinebeasts.vahnaboris.terminal5"
+        ]
+      },
+      "bossdefeated": {
+        "entries": [
+          {
+            "offset": 860200,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.allterminals",
+          "divinebeasts.vahnaboris.heartcontainer.available"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 38168,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.bossdefeated",
+          "divinebeasts.vahnaboris.heartcontainer.taken",
+          "divinebeasts.vahnaboris.subtasks.rijureturnstogerudotown"
+        ],
+        "subtasks": {
+          "rijureturnstogerudotown": {
+            "entries": [
+              {
+                "offset": 857664,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "defeatedallenemies": {
+        "subtasks": {
+          "glowingeyeball1": {
+            "entries": [
+              {
+                "offset": 305312,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball2": {
+            "entries": [
+              {
+                "offset": 1023336,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball3": {
+            "entries": [
+              {
+                "offset": 3384,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball4": {
+            "entries": [
+              {
+                "offset": 904240,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball5": {
+            "entries": [
+              {
+                "offset": 1021608,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball6": {
+            "entries": [
+              {
+                "offset": 819992,
+                "value": 1
+              }
+            ]
+          },
+          "glowingeyeball7": {
+            "entries": [
+              {
+                "offset": 3608,
+                "value": 1
+              }
+            ]
+          },
+          "guardian1": {
+            "entries": [
+              {
+                "offset": 862128,
+                "value": 1
+              }
+            ]
+          },
+          "guardian2": {
+            "entries": [
+              {
+                "offset": 793392,
+                "value": 1
+              }
+            ]
+          },
+          "guardian3": {
+            "entries": [
+              {
+                "offset": 884592,
+                "value": 1
+              }
+            ]
+          },
+          "guardian4": {
+            "entries": [
+              {
+                "offset": 852592,
+                "value": 1
+              }
+            ]
+          },
+          "guardian6": {
+            "entries": [
+              {
+                "offset": 338480,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
       "found": {
         "entries": [
           {
@@ -443,12 +593,141 @@
           "mainquests.divinebeastvahnaboris.boardingvahnaboris"
         ]
       },
+      "heartcontainer": {
+        "available": {
+          "entries": [
+            {
+              "offset": 46928,
+              "value": 1
+            }
+          ]
+        },
+        "taken": {
+          "entries": [
+            {
+              "offset": 14560,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "map": {
+        "entries": [
+          {
+            "offset": 18424,
+            "value": 1
+          },
+          {
+            "offset": 302064,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.active",
+          "divinebeasts.vahnaboris.defeatedallenemies.subtasks.guardian1",
+          "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball1"
+        ]
+      },
       "pedestal": {
         "entries": [
           {
             "offset": 42792,
             "value": 1
           }
+        ]
+      },
+      "state": {
+        "blowuprockwall1": {
+          "entries": [
+            {
+              "offset": 911640,
+              "value": 1
+            }
+          ]
+        },
+        "blowuprockwall2": {
+          "entries": [
+            {
+              "offset": 567720,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "terminal1": {
+        "entries": [
+          {
+            "offset": 354080,
+            "value": 4
+          },
+          {
+            "offset": 544096,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.map"
+        ]
+      },
+      "terminal2": {
+        "entries": [
+          {
+            "offset": 354080,
+            "value": 3
+          },
+          {
+            "offset": 950888,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.map"
+        ]
+      },
+      "terminal3": {
+        "entries": [
+          {
+            "offset": 354080,
+            "value": 2
+          },
+          {
+            "offset": 794808,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.map"
+        ]
+      },
+      "terminal4": {
+        "entries": [
+          {
+            "offset": 354080,
+            "value": 1
+          },
+          {
+            "offset": 913192,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.map",
+          "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball7"
+        ]
+      },
+      "terminal5": {
+        "entries": [
+          {
+            "offset": 354080,
+            "value": 0
+          },
+          {
+            "offset": 819656,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.map"
         ]
       }
     },
@@ -1228,6 +1507,51 @@
         "harddependencies": [
           "mainquests.divinebeastvahnaboris.meetrijuatlookout"
         ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 911144,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.boardingvahnaboris",
+          "divinebeasts.vahnaboris.complete",
+          "divinebeasts.vahnaboris.heartcontainer.taken"
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahnaboris.complete.subtasks.scimitarofthesevenanddaybreakeravailable"
+        ],
+        "subtasks": {
+          "daybreakertaken": {
+            "entries": [
+              {
+                "offset": 75328,
+                "value": 1
+              }
+            ]
+          },
+          "scimitarofthesevenanddaybreakeravailable": {
+            "entries": [
+              {
+                "offset": 385752,
+                "value": 1
+              }
+            ],
+            "softdependencies": [
+              "mainquests.divinebeastvahnaboris.complete"
+            ]
+          },
+          "scimitaroftheseventaken": {
+            "entries": [
+              {
+                "offset": 951688,
+                "value": 1
+              }
+            ]
+          }
+        }
       },
       "defeatmasterkohga": {
         "entries": [
