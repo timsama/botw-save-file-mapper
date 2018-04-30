@@ -274,16 +274,13 @@
       "bossdefeated": {
         "entries": [
           {
-            "offset": 7200,
-            "value": 1
-          },
-          {
             "offset": 914304,
             "value": 1
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahmedoh.allterminals"
+          "divinebeasts.vahmedoh.allterminals",
+          "divinebeasts.vahmedoh.heartcontainer.available"
         ]
       },
       "complete": {
@@ -295,7 +292,8 @@
         ],
         "softdependencies": [
           "divinebeasts.vahmedoh.bossdefeated",
-          "divinebeasts.vahmedoh.targeting"
+          "divinebeasts.vahmedoh.targeting",
+          "divinebeasts.vahmedoh.heartcontainer.taken"
         ]
       },
       "found": {
@@ -308,6 +306,24 @@
         "softdependencies": [
           "mainquests.divinebeastvahmedoh.boardvahmedoh"
         ]
+      },
+      "heartcontainer": {
+        "available": {
+          "entries": [
+            {
+              "offset": 7200,
+              "value": 1
+            }
+          ]
+        },
+        "taken": {
+          "entries": [
+            {
+              "offset": 300472,
+              "value": 1
+            }
+          ]
+        }
       },
       "map": {
         "entries": [
@@ -469,7 +485,7 @@
         "softdependencies": [
           "divinebeasts.vahnaboris.bossdefeated",
           "divinebeasts.vahnaboris.heartcontainer.taken",
-          "divinebeasts.vahnaboris.subtasks.rijureturnstogerudotown"
+          "divinebeasts.vahnaboris.complete.subtasks.rijureturnstogerudotown"
         ],
         "subtasks": {
           "rijureturnstogerudotown": {
@@ -605,7 +621,7 @@
         "taken": {
           "entries": [
             {
-              "offset": 14560,
+              "offset": 341328,
               "value": 1
             }
           ]
@@ -770,7 +786,7 @@
         ],
         "softdependencies": [
           "divinebeasts.vahrudania.allterminals",
-          "divinebeasts.vahrudania.heartcontainer"
+          "divinebeasts.vahrudania.heartcontainer.available"
         ]
       },
       "complete": {
@@ -780,8 +796,11 @@
             "value": 1
           }
         ],
-        "softdependencies": [
+        "harddependencies": [
           "divinebeasts.vahrudania.bossdefeated"
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.heartcontainer.taken"
         ]
       },
       "cutscenes": {
@@ -890,12 +909,22 @@
         ]
       },
       "heartcontainer": {
-        "entries": [
-          {
-            "offset": 18096,
-            "value": 1
-          }
-        ]
+        "available": {
+          "entries": [
+            {
+              "offset": 18096,
+              "value": 1
+            }
+          ]
+        },
+        "taken": {
+          "entries": [
+            {
+              "offset": 24120,
+              "value": 1
+            }
+          ]
+        }
       },
       "map": {
         "entries": [
@@ -1114,7 +1143,8 @@
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahruta.allterminals"
+          "divinebeasts.vahruta.allterminals",
+          "divinebeasts.vahruta.heartcontainer.available"
         ]
       },
       "complete": {
@@ -1125,8 +1155,20 @@
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahruta.bossdefeated"
-        ]
+          "divinebeasts.vahruta.bossdefeated",
+          "divinebeasts.vahruta.complete.subtasks.movedfromlake",
+          "divinebeasts.vahruta.heartcontainer.taken"
+        ],
+        "subtasks": {
+          "movedfromlake": {
+            "entries": [
+              {
+                "offset": 814688,
+                "value": 1
+              }
+            ]
+          }
+        }
       },
       "found": {
         "entries": [
@@ -1138,6 +1180,24 @@
         "softdependencies": [
           "mainquests.divinebeastvahruta.boardvahruta"
         ]
+      },
+      "heartcontainer": {
+        "available": {
+          "entries": [
+            {
+              "offset": 39808,
+              "value": 1
+            }
+          ]
+        },
+        "taken": {
+          "entries": [
+            {
+              "offset": 951232,
+              "value": 1
+            }
+          ]
+        }
       },
       "map": {
         "entries": [
@@ -1516,11 +1576,10 @@
           }
         ],
         "harddependencies": [
-          "mainquests.divinebeastvahnaboris.boardingvahnaboris",
-          "divinebeasts.vahnaboris.complete",
-          "divinebeasts.vahnaboris.heartcontainer.taken"
+          "mainquests.divinebeastvahnaboris.boardingvahnaboris"
         ],
         "softdependencies": [
+          "divinebeasts.vahnaboris.complete",
           "mainquests.divinebeastvahnaboris.complete.subtasks.scimitarofthesevenanddaybreakeravailable"
         ],
         "subtasks": {
