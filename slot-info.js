@@ -14,15 +14,23 @@ module.exports = (() => {
     const getEquippedSlotLength = (slots) => slots * equippedSlotsWidth;
     const getEquippedSlotOffset = (slot) => equippedSlotsOffset + getEquippedSlotLength(slot);
 
-    const bonusTypeOffset = 0x0005dd20;
+    const bowBonusTypeOffsert = 0x00004990;
+    const shieldBonusTypeOffset = 0x000d1038;
+    const weaponBonusTypeOffset = 0x0005dd20;
     const bonusTypeWidth = 8;
     const getBonusTypeLength = (slots) => slots * bonusTypeWidth;
-    const getBonusTypeOffset = (slot) => bonusTypeOffset + getBonusTypeLength(slot);
+    const getBowBonusTypeOffset = (slot) => bowBonusTypeOffset + getBonusTypeLength(slot);
+    const getShieldBonusTypeOffset = (slot) => shieldBonusTypeOffset + getBonusTypeLength(slot);
+    const getWeaponBonusTypeOffset = (slot) => weaponBonusTypeOffset + getBonusTypeLength(slot);
 
-    const bonusAmountOffset = 0x000c4c68;
+    const bowBonusAmountOffset = 0x0000b1e0;
+    const shieldBonusAmountOffset = 0x00071098;
+    const weaponBonusAmountOffset = 0x000c4c68;
     const bonusAmountWidth = 8;
     const getBonusAmountLength = (slots) => slots * bonusAmountWidth;
-    const getBonusAmountOffset = (slot) => bonusAmountOffset + getBonusAmountLength(slot);
+    const getBowBonusAmountOffset = (slot) => bowBonusAmountOffset + getBonusAmountLength(slot);
+    const getShieldBonusAmountOffset = (slot) => shieldBonusAmountOffset + getBonusAmountLength(slot);
+    const getWeaponBonusAmountOffset = (slot) => weaponBonusAmountOffset + getBonusAmountLength(slot);
 
     return {
         getOffsets: (slot) => {
@@ -30,9 +38,17 @@ module.exports = (() => {
                 item: getItemOffset(slot),
                 quantity: getQuantitiesOffset(slot),
                 equipped: getEquippedSlotOffset(slot),
-                bonus: {
-                    type: getBonusTypeOffset(slot),
-                    amount: getBonusAmountOffset(slot)
+                bowbonus: {
+                    type: getBowBonusTypeOffset(slot),
+                    amount: getBowBonusAmountOffset(slot)
+                },
+                shieldbonus: {
+                    type: getShieldBonusTypeOffset(slot),
+                    amount: getShieldBonusAmountOffset(slot)
+                },
+                weaponbonus: {
+                    type: getWeaponBonusTypeOffset(slot),
+                    amount: getWeaponBonusAmountOffset(slot)
                 }
             };
         },

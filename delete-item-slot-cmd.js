@@ -6,6 +6,7 @@ const nameGetter = require('./name-getter.js');
 const objUtils = require('./obj-utils.js');
 const saveFileUtils = require('./save-file-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
+const slotInfo = require('./slot-info.js');
 
 const slot = parseInt(process.argv[3]);
 const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : CONFIG.savepath + 'game_data.sav';
@@ -27,18 +28,24 @@ if (!!categoryFilename) {
     const baseSlot = slotStructure[category].first + slot - 1;
 
     if (!!baseSlot || baseSlot === 0) {
-        const baseOffset = getOffset(baseSlot);
+        const base = slotInfo.getOffsets(baseSlot);
+        const next = slotInfo.getOffsets(baseSlot + 1);
 
         var slots = 1;
         var end = false;
         while(!end) {
-            const nextOffset = baseOffset + slots * slotWidth;
+            const nextOffset = slotInfo.getOffsets(baseSlot + slots).item;
             end = offsetChecker(nextOffset, saveFile) == 0;
             slots++;
         }
 
-        saveFileUtils.shiftData(saveFile, baseOffset + slotWidth, baseOffset, slots * slotWidth);
-        saveFileUtils.shiftData(saveFile, quantitiesOffset + quantitiesWidth, quantitiesOffset, slots * quantitiesWidth);
+        const lengths = slotInfo.getLengths(slots);
+
+        saveFileUtils.shiftData(saveFile, next.item, base.item, lengths.item);
+        saveFileUtils.shiftData(saveFile, next.quantity, base.quantity, lengths.quantity);
+        saveFileUtils.shiftData(saveFile, next.equipped, base.equipped, lengths.equipped);
+        saveFileUtils.shiftData(saveFile, next.bonus.type, base.bonus.type, lengths.bonus.type);
+        saveFileUtils.shiftData(saveFile, next.bonus.amount, base.bonus.amount, lengths.bonus.amount);
     }
 } else {
     console.log('Category not recognized.');

@@ -5,6 +5,7 @@ const CONFIG = require('./config.js');
 const nameGetter = require('./name-getter.js');
 const objUtils = require('./obj-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
+const slotInfo = require('./slot-info.js');
 
 const slot = parseInt(process.argv[3]);
 const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : CONFIG.savepath + 'game_data.sav';
@@ -62,22 +63,23 @@ if (!!categoryFilename) {
             const [nameWithBonus, quantityStr] = nameStr.split('x');
             const [name, bonusType, bonusAmount] = nameWithBonus.split('+');
             const quantity = parseInt(quantityStr);
-            const baseOffset = getOffset(baseSlot);
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
             const entries = json[name];
 
             if (!!entries) {
+                const base = slotInfo.getOffsets(baseSlot);
+
                 entries.forEach(entry => {
-                    offsetSetter(baseOffset + entry.offset, entry.value, saveFile);
+                    offsetSetter(base.item + entry.offset, entry.value, saveFile);
                 });
                 if (!!quantity) {
-                    offsetSetter(getQuantitiesOffset(baseSlot), quantity, saveFile);
+                    offsetSetter(base.quantity, quantity, saveFile);
                 }
                 if (!!bonusType) {
-                    offsetSetter(getBonusTypeOffset(baseSlot), bonusTypes[bonusType.toUpperCase()], saveFile);
-                    offsetSetter(getBonusAmountOffset(baseSlot), bonusAmount || 0, saveFile);
+                    offsetSetter(base.bonus.type, bonusTypes[bonusType.toUpperCase()], saveFile);
+                    offsetSetter(base.bonus.amount, bonusAmount || 0, saveFile);
                 }
             } else {
                 console.log(`No entries found for '${name}' in ${category}.`);
