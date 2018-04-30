@@ -40,6 +40,8 @@ if (!!categoryFilename) {
     const slotStructure = getItemSlotStructure(saveFile);
 
     const baseSlot = slotStructure[category].first + slot - 1;
+    const totalSlotsInCategory = slotStructure[category].last - slotStructure[category].first;
+    const subsequentSlotsInCategory = totalSlotsInCategory - (slot - 1);
 
     if (!!baseSlot || baseSlot === 0) {
         const nameStr = nameGetter.getOrUndefined(process.argv[4], 'Item name: ', 'Unnamed items not allowed.');
@@ -56,8 +58,8 @@ if (!!categoryFilename) {
                 }
             })();
             const [name, bonusType, bonusAmount] = nameWithBonus.split('+');
-            const base = slotInfo.getOffsets(baseSlot);
-            const next = slotInfo.getOffsets(baseSlot + 1);
+            const base = slotInfo.getOffsets(baseSlot, slot - 1, category);
+            const next = slotInfo.getOffsets(baseSlot + 1, slot, category);
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
@@ -66,12 +68,12 @@ if (!!categoryFilename) {
             var slots = 1;
             var end = false;
             while(!end) {
-                const nextOffset = slotInfo.getOffsets(baseSlot + slots).item;
+                const nextOffset = slotInfo.getOffsets(baseSlot + slots, slot, category).item;
                 end = offsetChecker(nextOffset, saveFile) == 0;
                 slots++;
             }
 
-            const lengths = slotInfo.getLengths(slots);
+            const lengths = slotInfo.getLengths(slots, subsequentSlotsInCategory);
 
             if (!!entries) {
                 saveFileUtils.shiftData(saveFile, base.item, next.item, lengths.item);

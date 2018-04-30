@@ -14,52 +14,64 @@ module.exports = (() => {
     const getEquippedSlotLength = (slots) => slots * equippedSlotsWidth;
     const getEquippedSlotOffset = (slot) => equippedSlotsOffset + getEquippedSlotLength(slot);
 
-    const bowBonusTypeOffsert = 0x00004990;
+    const bowBonusTypeOffset = 0x00004990;
     const shieldBonusTypeOffset = 0x000d1038;
     const weaponBonusTypeOffset = 0x0005dd20;
     const bonusTypeWidth = 8;
     const getBonusTypeLength = (slots) => slots * bonusTypeWidth;
-    const getBowBonusTypeOffset = (slot) => bowBonusTypeOffset + getBonusTypeLength(slot);
-    const getShieldBonusTypeOffset = (slot) => shieldBonusTypeOffset + getBonusTypeLength(slot);
-    const getWeaponBonusTypeOffset = (slot) => weaponBonusTypeOffset + getBonusTypeLength(slot);
+    const getBonusTypeOffset = (slot, category) => {
+        const baseOffset = (() => {
+            if (category.toLowerCase() === 'bows') {
+                return bowBonusTypeOffset;
+            } else if (category.toLowerCase() === 'shields') {
+                return shieldBonusTypeOffset;
+            } else {
+                return weaponBonusTypeOffset;
+            }
+        })();
+
+        return baseOffset + getBonusTypeLength(slot);
+    };
 
     const bowBonusAmountOffset = 0x0000b1e0;
     const shieldBonusAmountOffset = 0x00071098;
     const weaponBonusAmountOffset = 0x000c4c68;
     const bonusAmountWidth = 8;
     const getBonusAmountLength = (slots) => slots * bonusAmountWidth;
-    const getBowBonusAmountOffset = (slot) => bowBonusAmountOffset + getBonusAmountLength(slot);
-    const getShieldBonusAmountOffset = (slot) => shieldBonusAmountOffset + getBonusAmountLength(slot);
-    const getWeaponBonusAmountOffset = (slot) => weaponBonusAmountOffset + getBonusAmountLength(slot);
+    const getBonusAmountOffset = (slot, category) => {
+        const baseOffset = (() => {
+            if (category.toLowerCase() === 'bows') {
+                return bowBonusAmountOffset;
+            } else if (category.toLowerCase() === 'shields') {
+                return shieldBonusAmountOffset;
+            } else {
+                return weaponBonusAmountOffset;
+            }
+        })();
+
+        return baseOffset + getBonusAmountLength(slot);
+    };
 
     return {
-        getOffsets: (slot) => {
+        getOffsets: (slot, slotInCategory, category) => {
             return {
                 item: getItemOffset(slot),
                 quantity: getQuantitiesOffset(slot),
                 equipped: getEquippedSlotOffset(slot),
-                bowbonus: {
-                    type: getBowBonusTypeOffset(slot),
-                    amount: getBowBonusAmountOffset(slot)
-                },
-                shieldbonus: {
-                    type: getShieldBonusTypeOffset(slot),
-                    amount: getShieldBonusAmountOffset(slot)
-                },
-                weaponbonus: {
-                    type: getWeaponBonusTypeOffset(slot),
-                    amount: getWeaponBonusAmountOffset(slot)
+                bonus: {
+                    type: getBonusTypeOffset(slotInCategory, category),
+                    amount: getBonusAmountOffset(slotInCategory, category)
                 }
             };
         },
-        getLengths: (slots) => {
+        getLengths: (slots, subsequentSlotsInCategory) => {
             return {
                 item: getItemLength(slots),
                 quantity: getQuantitiesLength(slots),
                 equipped: getEquippedSlotLength(slots),
                 bonus: {
-                    type: getBonusTypeLength(slots),
-                    amount: getBonusAmountLength(slots)
+                    type: getBonusTypeLength(subsequentSlotsInCategory),
+                    amount: getBonusAmountLength(subsequentSlotsInCategory)
                 }
             }
         }
