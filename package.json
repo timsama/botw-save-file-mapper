@@ -44,7 +44,7 @@
     "set-stamina": "node set-stamina-cmd.js",
     "set-item-slot": "node set-item-slot-cmd.js",
     "set-offset": "node offset-setter-cmd.js",
-    "test-chunks": "node test-chunks.js",
+    "test-chunks": "node test-chunks-cmd.js",
     "shrine-analyzer": "node shrine-analyzer.js",
     "test-ones": "node test-singles-cmd.js only-ones",
     "test-singles": "node test-singles-cmd.js",
