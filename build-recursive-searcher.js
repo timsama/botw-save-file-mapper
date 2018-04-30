@@ -20,8 +20,13 @@ const BuildRecursiveSearcher = (saveFilepath, binarySync, skipLogging) => {
                 const firstHalf = changesToApply.slice(0, half);
                 const secondHalf = changesToApply.slice(half);
 
-                if (tryCombination(getChanges(firstHalf), changesToUnapply)) {
-                    return recursiveSearch(firstHalf, changesToUnapply);
+                const isInFirstHalf = tryCombination(getChanges(firstHalf), changesToUnapply);
+                if (isInFirstHalf) {
+                    if (firstHalf.length === 1) {
+                        return getChanges(firstHalf);
+                    } else {
+                        return recursiveSearch(firstHalf, changesToUnapply);
+                    }
                 } else {
                     return recursiveSearch(secondHalf, changesToUnapply);
                 }
