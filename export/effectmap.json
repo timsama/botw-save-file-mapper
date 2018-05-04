@@ -54,152 +54,6 @@
       }
     ]
   },
-  "memories": {
-    "subduedceremony": {
-      "entries": [
-        {
-          "offset": 43488,
-          "value": 1
-        }
-      ]
-    },
-    "tomountlanayru": {
-      "entries": [
-        {
-          "offset": 800440,
-          "value": 1
-        }
-      ]
-    },
-    "returnofcalamityganon": {
-      "entries": [
-        {
-          "offset": 801800,
-          "value": 1
-        }
-      ]
-    },
-    "despair": {
-      "entries": [
-        {
-          "offset": 804576,
-          "value": 1
-        }
-      ]
-    },
-    "resolveandgrief": {
-      "entries": [
-        {
-          "offset": 44504,
-          "value": 1
-        }
-      ]
-    },
-    "zeldasresentment": {
-      "entries": [
-        {
-          "offset": 33248,
-          "value": 1
-        }
-      ]
-    },
-    "bladesoftheyiga": {
-      "entries": [
-        {
-          "offset": 36968,
-          "value": 1
-        }
-      ]
-    },
-    "apremonition": {
-      "entries": [
-        {
-          "offset": 796864,
-          "value": 1
-        }
-      ]
-    },
-    "silentprincess": {
-      "entries": [
-        {
-          "offset": 797992,
-          "value": 1
-        }
-      ]
-    },
-    "shelterfromthestorm": {
-      "entries": [
-        {
-          "offset": 800136,
-          "value": 1
-        }
-      ]
-    },
-    "fatheranddaughter": {
-      "entries": [
-        {
-          "offset": 807008,
-          "value": 1
-        }
-      ]
-    },
-    "slumberingpower": {
-      "entries": [
-        {
-          "offset": 805240,
-          "value": 1
-        }
-      ]
-    },
-    "zeldasawakening": {
-      "entries": [
-        {
-          "offset": 816584,
-          "value": 1
-        }
-      ]
-    },
-    "daruksmettle": {
-      "entries": [
-        {
-          "offset": 535400,
-          "value": 1
-        }
-      ]
-    },
-    "themastersword": {
-      "entries": [
-        {
-          "offset": 864224,
-          "value": 1
-        }
-      ]
-    },
-    "miphastouch": {
-      "entries": [
-        {
-          "offset": 536064,
-          "value": 1
-        }
-      ]
-    },
-    "revalisflap": {
-      "entries": [
-        {
-          "offset": 533312,
-          "value": 1
-        }
-      ]
-    },
-    "urbosashand": {
-      "entries": [
-        {
-          "offset": 537944,
-          "value": 1
-        }
-      ]
-    }
-  },
   "cutscenes": {
     "boardingvahnaboris": {
       "unviewed": {
@@ -1600,7 +1454,8 @@
         ]
       },
       "finalmemory": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "mainquests.capturedmemories.begun",
           "memories.zeldasawakening"
@@ -1626,73 +1481,85 @@
         ]
       },
       "memory1": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.subduedceremony"
         ]
       },
       "memory10": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.tomountlanayru"
         ]
       },
       "memory11": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.returnofcalamityganon"
         ]
       },
       "memory12": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.despair"
         ]
       },
       "memory2": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.resolveandgrief"
         ]
       },
       "memory3": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.zeldasresentment"
         ]
       },
       "memory4": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.bladesoftheyiga"
         ]
       },
       "memory5": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.apremonition"
         ]
       },
       "memory6": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.silentprincess"
         ]
       },
       "memory7": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.shelterfromthestorm"
         ]
       },
       "memory8": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.fatheranddaughter"
         ]
       },
       "memory9": {
-        "entries": [],
+        "entries": [
+        ],
         "harddependencies": [
           "memories.slumberingpower"
         ]
@@ -2684,6 +2551,152 @@
       }
     }
   },
+  "memories": {
+    "apremonition": {
+      "entries": [
+        {
+          "offset": 796864,
+          "value": 1
+        }
+      ]
+    },
+    "bladesoftheyiga": {
+      "entries": [
+        {
+          "offset": 36968,
+          "value": 1
+        }
+      ]
+    },
+    "daruksmettle": {
+      "entries": [
+        {
+          "offset": 535400,
+          "value": 1
+        }
+      ]
+    },
+    "despair": {
+      "entries": [
+        {
+          "offset": 804576,
+          "value": 1
+        }
+      ]
+    },
+    "fatheranddaughter": {
+      "entries": [
+        {
+          "offset": 807008,
+          "value": 1
+        }
+      ]
+    },
+    "miphastouch": {
+      "entries": [
+        {
+          "offset": 536064,
+          "value": 1
+        }
+      ]
+    },
+    "resolveandgrief": {
+      "entries": [
+        {
+          "offset": 44504,
+          "value": 1
+        }
+      ]
+    },
+    "returnofcalamityganon": {
+      "entries": [
+        {
+          "offset": 801800,
+          "value": 1
+        }
+      ]
+    },
+    "revalisflap": {
+      "entries": [
+        {
+          "offset": 533312,
+          "value": 1
+        }
+      ]
+    },
+    "shelterfromthestorm": {
+      "entries": [
+        {
+          "offset": 800136,
+          "value": 1
+        }
+      ]
+    },
+    "silentprincess": {
+      "entries": [
+        {
+          "offset": 797992,
+          "value": 1
+        }
+      ]
+    },
+    "slumberingpower": {
+      "entries": [
+        {
+          "offset": 805240,
+          "value": 1
+        }
+      ]
+    },
+    "subduedceremony": {
+      "entries": [
+        {
+          "offset": 43488,
+          "value": 1
+        }
+      ]
+    },
+    "themastersword": {
+      "entries": [
+        {
+          "offset": 864224,
+          "value": 1
+        }
+      ]
+    },
+    "tomountlanayru": {
+      "entries": [
+        {
+          "offset": 800440,
+          "value": 1
+        }
+      ]
+    },
+    "urbosashand": {
+      "entries": [
+        {
+          "offset": 537944,
+          "value": 1
+        }
+      ]
+    },
+    "zeldasawakening": {
+      "entries": [
+        {
+          "offset": 816584,
+          "value": 1
+        }
+      ]
+    },
+    "zeldasresentment": {
+      "entries": [
+        {
+          "offset": 33248,
+          "value": 1
+        }
+      ]
+    }
+  },
   "runes": {
     "alldisabled": {
       "entries": [
@@ -2896,6 +2909,9 @@
             "offset": 346800,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrinequests.atestofwill.begun"
         ]
       }
     },
@@ -3031,6 +3047,9 @@
             "offset": 1016672,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrinequests.thegutcheckchallenge.begun"
         ]
       }
     },
@@ -3100,9 +3119,6 @@
             "offset": 844040,
             "value": 1
           }
-        ],
-        "harddependencies": [
-          "shrines.akhvaquot.found"
         ]
       }
     },
@@ -3176,6 +3192,12 @@
             "offset": 923384,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.boshkala.found"
+        ],
+        "softdependencies": [
+          "shrines.boshkala.pedestal"
         ]
       },
       "complete": {
@@ -3184,6 +3206,12 @@
             "offset": 462848,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.boshkala.found"
+        ],
+        "softdependencies": [
+          "shrines.boshkala.active"
         ]
       },
       "found": {
@@ -3192,6 +3220,17 @@
             "offset": 2128,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 48776,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.boshkala.found"
         ]
       }
     },
@@ -3202,14 +3241,26 @@
             "offset": 448696,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.chaasqeta.found"
+        ],
+        "softdependencies": [
+          "shrines.chaasqeta.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 874280,
+            "offset": 891992,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.chaasqeta.found"
+        ],
+        "softdependencies": [
+          "shrines.chaasqeta.active"
         ]
       },
       "found": {
@@ -3218,6 +3269,17 @@
             "offset": 832080,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 893160,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.chaasqeta.found"
         ]
       }
     },
@@ -3231,6 +3293,9 @@
         ],
         "harddependencies": [
           "shrines.dagahkeek.found"
+        ],
+        "softdependencies": [
+          "shrines.dagahkeek.pedestal"
         ]
       },
       "complete": {
@@ -3258,6 +3323,17 @@
           "shrines.dagahkeek.unearthed"
         ]
       },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 1023808,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dagahkeek.found"
+        ]
+      },
       "unearthed": {
         "entries": [
           {
@@ -3277,12 +3353,15 @@
         ],
         "harddependencies": [
           "shrines.dahhesho.found"
+        ],
+        "softdependencies": [
+          "shrines.dahhesho.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 463600,
+            "offset": 860984,
             "value": 1
           }
         ],
@@ -3300,6 +3379,17 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 858584,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dahhesho.found"
+        ]
       }
     },
     "dahkaso": {
@@ -3312,6 +3402,9 @@
         ],
         "harddependencies": [
           "shrines.dahkaso.found"
+        ],
+        "softdependencies": [
+          "shrines.dahkaso.pedestal"
         ]
       },
       "complete": {
@@ -3335,6 +3428,17 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 450000,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dahkaso.found"
+        ]
       }
     },
     "dakatuss": {
@@ -3344,6 +3448,12 @@
             "offset": 864920,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.dakatuss.found"
+        ],
+        "softdependencies": [
+          "shrines.dakatuss.pedestal"
         ]
       },
       "complete": {
@@ -3352,6 +3462,12 @@
             "offset": 344568,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.dakatuss.found"
+        ],
+        "softdependencies": [
+          "shrines.dakatuss.active"
         ]
       },
       "found": {
@@ -3361,15 +3477,32 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 801104,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dakatuss.found"
+        ]
       }
     },
-    "dakohtah": {
+    "dakotah": {
       "active": {
         "entries": [
           {
             "offset": 843200,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.dakotah.found"
+        ],
+        "softdependencies": [
+          "shrines.dakotah.pedestal"
         ]
       },
       "complete": {
@@ -3378,6 +3511,12 @@
             "offset": 302088,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.dakotah.found"
+        ],
+        "softdependencies": [
+          "shrines.dakotah.active"
         ]
       },
       "found": {
@@ -3386,6 +3525,17 @@
             "offset": 387552,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 468232,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dakotah.found"
         ]
       }
     },
@@ -3396,14 +3546,26 @@
             "offset": 66952,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.daqakoh.found"
+        ],
+        "softdependencies": [
+          "shrines.daqakoh.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 458392,
+            "offset": 805736,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.daqakoh.found"
+        ],
+        "softdependencies": [
+          "shrines.daqakoh.active"
         ]
       },
       "found": {
@@ -3412,6 +3574,17 @@
             "offset": 884448,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 22656,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.daqakoh.found"
         ]
       }
     },
@@ -3422,6 +3595,12 @@
             "offset": 76320,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.daqochisay.found"
+        ],
+        "softdependencies": [
+          "shrines.daqochisay.pedestal"
         ]
       },
       "complete": {
@@ -3430,6 +3609,12 @@
             "offset": 798912,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.daqochisay.found"
+        ],
+        "softdependencies": [
+          "shrines.daqochisay.active"
         ]
       },
       "found": {
@@ -3438,6 +3623,17 @@
             "offset": 861880,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 820304,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.daqochisay.found"
         ]
       }
     },
@@ -3448,6 +3644,12 @@
             "offset": 915976,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.dilamaag.found"
+        ],
+        "softdependencies": [
+          "shrines.dilamaag.pedestal"
         ]
       },
       "complete": {
@@ -3456,6 +3658,12 @@
             "offset": 473568,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.dilamaag.found"
+        ],
+        "softdependencies": [
+          "shrines.dilamaag.active"
         ]
       },
       "found": {
@@ -3464,6 +3672,17 @@
             "offset": 11424,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 796728,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dilamaag.found"
         ]
       }
     },
@@ -3474,6 +3693,12 @@
             "offset": 39424,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.downaeh.found"
+        ],
+        "softdependencies": [
+          "shrines.downaeh.pedestal"
         ]
       },
       "complete": {
@@ -3482,6 +3707,12 @@
             "offset": 562752,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.downaeh.found"
+        ],
+        "softdependencies": [
+          "shrines.downaeh.active"
         ]
       },
       "found": {
@@ -3490,6 +3721,17 @@
             "offset": 1026720,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 461992,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.downaeh.found"
         ]
       }
     },
@@ -3500,6 +3742,12 @@
             "offset": 482696,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.dunbataag.found"
+        ],
+        "softdependencies": [
+          "shrines.dunbataag.pedestal"
         ]
       },
       "complete": {
@@ -3508,6 +3756,12 @@
             "offset": 1018216,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.dunbataag.found"
+        ],
+        "softdependencies": [
+          "shrines.dunbataag.active"
         ]
       },
       "found": {
@@ -3516,6 +3770,17 @@
             "offset": 554296,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 1015776,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.dunbataag.found"
         ]
       }
     },
@@ -3526,14 +3791,26 @@
             "offset": 934016,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.geeharah.found"
+        ],
+        "softdependencies": [
+          "shrines.geeharah.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 51424,
+            "offset": 456128,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.geeharah.found"
+        ],
+        "softdependencies": [
+          "shrines.geeharah.active"
         ]
       },
       "found": {
@@ -3542,6 +3819,17 @@
             "offset": 17880,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 849744,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.geeharah.found"
         ]
       }
     },
@@ -3552,14 +3840,26 @@
             "offset": 385608,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.gomaasaagh.found"
+        ],
+        "softdependencies": [
+          "shrines.gomaasaagh.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 854768,
+            "offset": 898864,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.gomaasaagh.found"
+        ],
+        "softdependencies": [
+          "shrines.gomaasaagh.active"
         ]
       },
       "found": {
@@ -3568,6 +3868,17 @@
             "offset": 846688,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 549304,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.gomaasaagh.found"
         ]
       }
     },
@@ -3578,6 +3889,13 @@
             "offset": 913032,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.goraetorr.found"
+        ],
+        "softdependencies": [
+          "shrines.goraetorr.pedestal",
+          "shrinequests.thegutcheckchallenge.complete"
         ]
       },
       "complete": {
@@ -3586,6 +3904,12 @@
             "offset": 361360,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.goraetorr.found"
+        ],
+        "softdependencies": [
+          "shrines.goraetorr.active"
         ]
       },
       "found": {
@@ -3594,6 +3918,17 @@
             "offset": 326192,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 381464,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.goraetorr.found"
         ]
       }
     },
@@ -3604,6 +3939,12 @@
             "offset": 471200,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.hadahamar.found"
+        ],
+        "softdependencies": [
+          "shrines.hadahamar.pedestal"
         ]
       },
       "complete": {
@@ -3612,6 +3953,12 @@
             "offset": 918920,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.hadahamar.found"
+        ],
+        "softdependencies": [
+          "shrines.hadahamar.active"
         ]
       },
       "found": {
@@ -3620,6 +3967,17 @@
             "offset": 543880,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 894664,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.hadahamar.found"
         ]
       }
     },
@@ -3630,6 +3988,12 @@
             "offset": 914216,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.hawakoth.found"
+        ],
+        "softdependencies": [
+          "shrines.hawakoth.pedestal"
         ]
       },
       "complete": {
@@ -3638,6 +4002,12 @@
             "offset": 472584,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.hawakoth.found"
+        ],
+        "softdependencies": [
+          "shrines.hawakoth.active"
         ]
       },
       "found": {
@@ -3646,6 +4016,17 @@
             "offset": 9688,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 34056,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.hawakoth.found"
         ]
       }
     },
@@ -3656,6 +4037,12 @@
             "offset": 847632,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.hiamiu.found"
+        ],
+        "softdependencies": [
+          "shrines.hiamiu.pedestal"
         ]
       },
       "complete": {
@@ -3664,6 +4051,12 @@
             "offset": 300776,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.hiamiu.found"
+        ],
+        "softdependencies": [
+          "shrines.hiamiu.active"
         ]
       },
       "found": {
@@ -3672,6 +4065,17 @@
             "offset": 386400,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 28616,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.hiamiu.found"
         ]
       }
     },
@@ -3682,6 +4086,12 @@
             "offset": 302248,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.hilarao.found"
+        ],
+        "softdependencies": [
+          "shrines.hilarao.pedestal"
         ]
       },
       "complete": {
@@ -3690,6 +4100,12 @@
             "offset": 843064,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.hilarao.found"
+        ],
+        "softdependencies": [
+          "shrines.hilarao.active"
         ]
       },
       "found": {
@@ -3698,6 +4114,17 @@
             "offset": 896648,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 920384,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.hilarao.found"
         ]
       }
     },
@@ -3708,6 +4135,12 @@
             "offset": 382800,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.ishtosoh.found"
+        ],
+        "softdependencies": [
+          "shrines.ishtosoh.pedestal"
         ]
       },
       "complete": {
@@ -3716,14 +4149,31 @@
             "offset": 901584,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.ishtosoh.found"
+        ],
+        "softdependencies": [
+          "shrines.ishtosoh.active"
         ]
       },
       "found": {
         "entries": [
           {
-            "offset": 40368,
+            "offset": 819744,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 306568,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.ishtosoh.found"
         ]
       }
     },
@@ -3734,14 +4184,26 @@
             "offset": 466776,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.jabaij.found"
+        ],
+        "softdependencies": [
+          "shrines.jabaij.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 918856,
+            "offset": 920320,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.jabaij.found"
+        ],
+        "softdependencies": [
+          "shrines.jabaij.active"
         ]
       },
       "found": {
@@ -3750,6 +4212,17 @@
             "offset": 544696,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 384128,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.jabaij.found"
         ]
       }
     },
@@ -3760,14 +4233,26 @@
             "offset": 21104,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.jeenoh.found"
+        ],
+        "softdependencies": [
+          "shrines.jeenoh.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 12880,
+            "offset": 525384,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.jeenoh.found"
+        ],
+        "softdependencies": [
+          "shrines.jeenoh.active"
         ]
       },
       "found": {
@@ -3776,6 +4261,17 @@
             "offset": 931592,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 2232,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.jeenoh.found"
         ]
       }
     },
@@ -3786,6 +4282,12 @@
             "offset": 1026920,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.jitansami.found"
+        ],
+        "softdependencies": [
+          "shrines.jitansami.pedestal"
         ]
       },
       "complete": {
@@ -3794,6 +4296,12 @@
             "offset": 477072,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.jitansami.found"
+        ],
+        "softdependencies": [
+          "shrines.jitansami.active"
         ]
       },
       "found": {
@@ -3802,6 +4310,20 @@
             "offset": 39600,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.jitansami.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 821008,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.jitansami.found"
         ]
       },
       "unearthed": {
@@ -3820,6 +4342,12 @@
             "offset": 362664,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.joloonah.found"
+        ],
+        "softdependencies": [
+          "shrines.joloonah.pedestal"
         ]
       },
       "complete": {
@@ -3828,12 +4356,29 @@
             "offset": 908384,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.joloonah.found"
+        ],
+        "softdependencies": [
+          "shrines.joloonah.active"
         ]
       },
       "found": {
         "entries": [
           {
             "offset": 824472,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.joloonah.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 509336,
             "value": 1
           }
         ]
@@ -3844,6 +4389,9 @@
             "offset": 519104,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrinequests.atestofwill.complete"
         ]
       }
     },
@@ -3854,14 +4402,26 @@
             "offset": 44064,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.kaamyatak.found"
+        ],
+        "softdependencies": [
+          "shrines.kaamyatak.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 527840,
+            "offset": 557472,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.kaamyatak.found"
+        ],
+        "softdependencies": [
+          "shrines.kaamyatak.active"
         ]
       },
       "found": {
@@ -3870,6 +4430,17 @@
             "offset": 1019856,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 873928,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kaamyatak.found"
         ]
       }
     },
@@ -3883,6 +4454,9 @@
         ],
         "harddependencies": [
           "shrines.kahmael.found"
+        ],
+        "softdependencies": [
+          "shrines.kahmael.pedestal"
         ]
       },
       "complete": {
@@ -3906,24 +4480,38 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 815072,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahmael.found"
+        ]
       }
     },
     "kahokeo": {
       "active": {
         "entries": [
           {
-            "offset": 46872,
+            "offset": 521608,
             "value": 1
           }
         ],
         "harddependencies": [
           "shrines.kahokeo.found"
+        ],
+        "softdependencies": [
+          "shrines.kahokeo.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 899312,
+            "offset": 950696,
             "value": 1
           }
         ],
@@ -3941,6 +4529,17 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 843008,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahokeo.found"
+        ]
       }
     },
     "kahyah": {
@@ -3949,20 +4548,19 @@
           {
             "offset": 372664,
             "value": 1
-          },
-          {
-            "offset": 42152,
-            "value": 1
           }
         ],
         "harddependencies": [
           "shrines.kahyah.found"
+        ],
+        "softdependencies": [
+          "shrines.kahyah.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 812304,
+            "offset": 907576,
             "value": 1
           }
         ],
@@ -3984,6 +4582,17 @@
           "shrines.kahyah.unearthed"
         ]
       },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 42152,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kahyah.found"
+        ]
+      },
       "unearthed": {
         "entries": [
         ],
@@ -4002,6 +4611,9 @@
         ],
         "harddependencies": [
           "shrines.kamurog.found"
+        ],
+        "softdependencies": [
+          "shrines.kamurog.pedestal"
         ]
       },
       "complete": {
@@ -4029,6 +4641,17 @@
           "shrines.kamurog.unearthed"
         ]
       },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 11824,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kamurog.found"
+        ]
+      },
       "unearthed": {
         "entries": [
           {
@@ -4051,6 +4674,9 @@
         ],
         "harddependencies": [
           "shrines.kaomakagh.found"
+        ],
+        "softdependencies": [
+          "shrines.kaomakagh.pedestal"
         ]
       },
       "complete": {
@@ -4074,6 +4700,17 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 899952,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kaomakagh.found"
+        ]
       }
     },
     "katahchuki": {
@@ -4086,6 +4723,9 @@
         ],
         "harddependencies": [
           "shrines.katahchuki.found"
+        ],
+        "softdependencies": [
+          "shrines.katahchuki.pedestal"
         ]
       },
       "complete": {
@@ -4109,6 +4749,17 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 829776,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.katahchuki.found"
+        ]
       }
     },
     "katosaaug": {
@@ -4121,12 +4772,15 @@
         ],
         "harddependencies": [
           "shrines.katosaaug.found"
+        ],
+        "softdependencies": [
+          "shrines.katosaaug.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 795744,
+            "offset": 512616,
             "value": 1
           }
         ],
@@ -4143,6 +4797,17 @@
             "offset": 47312,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 3416,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.katosaaug.found"
         ]
       }
     },
@@ -4205,6 +4870,9 @@
         ],
         "harddependencies": [
           "shrines.kaynoh.found"
+        ],
+        "softdependencies": [
+          "shrines.kaynoh.pedestal"
         ]
       },
       "complete": {
@@ -4228,18 +4896,32 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 373192,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kaynoh.found"
+        ]
       }
     },
     "keehayoog": {
       "active": {
         "entries": [
           {
-            "offset": 340008,
+            "offset": 513896,
             "value": 1
           }
         ],
         "harddependencies": [
           "shrines.keehayoog.found"
+        ],
+        "softdependencies": [
+          "shrines.keehayoog.pedestal"
         ]
       },
       "complete": {
@@ -4267,6 +4949,17 @@
           "shrines.keehayoog.unearthed"
         ]
       },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 340008,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keehayoog.found"
+        ]
+      },
       "unearthed": {
         "entries": [
           {
@@ -4289,12 +4982,15 @@
         ],
         "harddependencies": [
           "shrines.kehnamut.found"
+        ],
+        "softdependencies": [
+          "shrines.kehnamut.pedestal"
         ]
       },
       "complete": {
         "entries": [
           {
-            "offset": 874016,
+            "offset": 892112,
             "value": 1
           }
         ],
@@ -4312,6 +5008,17 @@
             "value": 1
           }
         ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 298608,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kehnamut.found"
+        ]
       }
     },
     "kemakosassa": {
@@ -4324,6 +5031,9 @@
         ],
         "harddependencies": [
           "shrines.kemakosassa.found"
+        ],
+        "softdependencies": [
+          "shrines.kemakosassa.pedestal"
         ]
       },
       "complete": {
@@ -4346,6 +5056,17 @@
             "offset": 66392,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 40064,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kemakosassa.found"
         ]
       }
     },
@@ -4454,6 +5175,12 @@
             "offset": 804136,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.keoruug.found"
+        ],
+        "softdependencies": [
+          "shrines.keoruug.pedestal"
         ]
       },
       "complete": {
@@ -4462,6 +5189,12 @@
             "offset": 71512,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.keoruug.found"
+        ],
+        "softdependencies": [
+          "shrines.keoruug.active"
         ]
       },
       "found": {
@@ -4470,6 +5203,17 @@
             "offset": 341016,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 798400,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keoruug.found"
         ]
       }
     },
@@ -4505,12 +5249,9 @@
       "found": {
         "entries": [
           {
-            "offset": 2312,
+            "offset": 551248,
             "value": 1
           }
-        ],
-        "harddependencies": [
-          "shrinequests.shroudedshrine.complete"
         ]
       },
       "pedestal": {
@@ -4543,7 +5284,7 @@
       "complete": {
         "entries": [
           {
-            "offset": 535712,
+            "offset": 830040,
             "value": 1
           }
         ],
@@ -4662,7 +5403,7 @@
       "found": {
         "entries": [
           {
-            "offset": 357048,
+            "offset": 566128,
             "value": 1
           }
         ]
@@ -4738,6 +5479,12 @@
             "offset": 390472,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.omanau.found"
+        ],
+        "softdependencies": [
+          "shrines.omanau.pedestal"
         ]
       },
       "complete": {
@@ -4746,6 +5493,12 @@
             "offset": 893112,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.omanau.found"
+        ],
+        "softdependencies": [
+          "shrines.omanau.active"
         ]
       },
       "found": {
@@ -4754,6 +5507,17 @@
             "offset": 833224,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 558544,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.omanau.found"
         ]
       }
     },
@@ -4764,6 +5528,12 @@
             "offset": 532432,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.reedahee.found"
+        ],
+        "softdependencies": [
+          "shrines.reedahee.pedestal"
         ]
       },
       "complete": {
@@ -4772,6 +5542,12 @@
             "offset": 20104,
             "value": 1
           }
+        ],
+        "harddependencies": [
+          "shrines.reedahee.found"
+        ],
+        "softdependencies": [
+          "shrines.reedahee.active"
         ]
       },
       "found": {
@@ -4780,6 +5556,17 @@
             "offset": 457016,
             "value": 1
           }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 455752,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.reedahee.found"
         ]
       }
     },
