@@ -5472,6 +5472,104 @@
         ]
       }
     },
+    "maagnorah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 346208,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maagnorah.found"
+        ],
+        "softdependencies": [
+          "shrines.maagnorah.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 860800,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maagnorah.found"
+        ],
+        "softdependencies": [
+          "shrines.maagnorah.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 797064,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 844424,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maagnorah.found"
+        ]
+      }
+    },
+    "makarah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 480504,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.makarah.found"
+        ],
+        "softdependencies": [
+          "shrines.makarah.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 1023488,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.makarah.found"
+        ],
+        "softdependencies": [
+          "shrines.makarah.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 559400,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 942152,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.makarah.found"
+        ]
+      }
+    },
     "omanau": {
       "active": {
         "entries": [
