@@ -1,4 +1,1246 @@
 {
+  "amberearrings": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "amberearrings*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "amberearrings**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "amberearrings***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "amberearrings****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841140
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "ancientcuirass": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "ancientcuirass*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "ancientcuirass**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "ancientcuirass***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "ancientcuirass****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "ancientgreaves": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "ancientgreaves*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "ancientgreaves**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "ancientgreaves***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "ancientgreaves****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "ancienthelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "ancienthelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "ancienthelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "ancienthelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "ancienthelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "barbarianarmor": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "barbarianarmor*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "barbarianarmor**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "barbarianarmor***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "barbarianarmor****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "barbarianhelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "barbarianhelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "barbarianhelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "barbarianhelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "barbarianhelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "barbarianlegwraps": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "barbarianlegwraps*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "barbarianlegwraps**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "barbarianlegwraps***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "barbarianlegwraps****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "bokoblinmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthehero": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthehero*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthehero**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthehero***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthehero****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthesky": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthesky*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthesky**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthesky***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthesky****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewild": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewild*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewild**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewild***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewild****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewind": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewind*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewind**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewind***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capofthewind****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftime": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftime*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftime**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftime***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftime****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftwilight": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftwilight*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftwilight**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftwilight***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "capoftwilight****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "championstunic": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "championstunic*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841140
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "championstunic**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841140
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
   "championstunic***": [
     {
       "offset": 0,
@@ -17,7 +1259,25 @@
       "value": 1885696512
     }
   ],
-  "climbersbandana": [
+  "championstunic****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "climbersbandanna": [
     {
       "offset": 0,
       "value": 1098018159
@@ -29,6 +1289,942 @@
     {
       "offset": 16,
       "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "climbersbandanna*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "climbersbandanna**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "climbersbandanna***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "climbersbandanna****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "climbingboots": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "climbingboots*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "climbingboots**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "climbingboots***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "climbingboots****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "climbinggear": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "climbinggear*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "climbinggear**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "climbinggear***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "climbinggear****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "darkhood": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841142
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "darktrousers": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841142
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "darktunic": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841142
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "desertvoeheadband": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "desertvoeheadband*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "desertvoeheadband**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "desertvoeheadband***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "desertvoeheadband****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "desertvoespaulder": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "desertvoespaulder*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "desertvoespaulder**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "desertvoespaulder***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "desertvoespaulder****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "desertvoetrousers": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "desertvoetrousers*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "desertvoetrousers**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "desertvoetrousers***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "desertvoetrousers****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "diamondcirclet": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "diamondcirclet*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "diamondcirclet**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "diamondcirclet***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "diamondcirclet****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "fiercedeityarmor": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "fiercedeityarmor*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "fiercedeityarmor**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "fiercedeityarmor***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "fiercedeityarmor****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "fiercedeityboots": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "fiercedeityboots*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "fiercedeityboots**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "fiercedeityboots***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "fiercedeityboots****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "fiercedeitymask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "fiercedeitymask*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "fiercedeitymask**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "fiercedeitymask***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "fiercedeitymask****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 962545765
     },
     {
       "offset": 24,
@@ -53,6 +2249,78 @@
       "value": 1885696512
     }
   ],
+  "flamebreakerarmor*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "flamebreakerarmor**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "flamebreakerarmor***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "flamebreakerarmor****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
   "flamebreakerboots": [
     {
       "offset": 0,
@@ -71,6 +2339,78 @@
       "value": 2003137024
     }
   ],
+  "flamebreakerboots*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "flamebreakerboots**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "flamebreakerboots***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "flamebreakerboots****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
   "flamebreakerhelm": [
     {
       "offset": 0,
@@ -83,6 +2423,78 @@
     {
       "offset": 16,
       "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "flamebreakerhelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "flamebreakerhelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "flamebreakerhelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "flamebreakerhelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 912214117
     },
     {
       "offset": 24,
@@ -143,6 +2555,78 @@
       "value": 1633943552
     }
   ],
+  "hylianhood": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "hylianhood*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "hylianhood**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "hylianhood***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
   "hylianhood****": [
     {
       "offset": 0,
@@ -179,6 +2663,60 @@
       "value": 2003137024
     }
   ],
+  "hyliantrousers*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "hyliantrousers**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "hyliantrousers***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
   "hyliantrousers****": [
     {
       "offset": 0,
@@ -197,6 +2735,78 @@
       "value": 2003137024
     }
   ],
+  "hyliantunic": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "hyliantunic*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "hyliantunic**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "hyliantunic***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
   "hyliantunic****": [
     {
       "offset": 0,
@@ -209,6 +2819,150 @@
     {
       "offset": 16,
       "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "islandlobstershirt": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "korokmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "lizalfosmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840885
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "lynelmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840885
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "majorasmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "midnashelmet": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "moblinmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "nintendoswitchshirt": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 811554160
     },
     {
       "offset": 24,
@@ -233,6 +2987,1644 @@
       "value": 1885696512
     }
   ],
+  "opalearrings": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "opalearrings*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "opalearrings**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "opalearrings***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "opalearrings****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "phantomarmor": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "phantomganonarmor": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "phantomganongreaves": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "phantomganonskull": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "phantomgreaves": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "phantomhelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "radiantmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "radiantmask*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "radiantmask**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "radiantmask***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "radiantmask****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "radiantshirt": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "radiantshirt*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "radiantshirt**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "radiantshirt***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "radiantshirt****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "radianttights": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "radianttights*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "radianttights**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "radianttights***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840888
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "radianttights****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "ravioshood": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "royalguardboots": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "royalguardcap": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "royalguarduniform": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "rubberarmor": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "rubberarmor*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "rubberarmor**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "rubberarmor***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "rubberarmor****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "rubberhelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubberhelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubberhelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubberhelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubberhelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubbertights": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "rubbertights*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "rubbertights**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "rubbertights***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "rubbertights****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841136
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "rubycirclet": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubycirclet*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubycirclet**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubycirclet***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "rubycirclet****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "salvagerheadwear": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "salvagertrousers": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "salvagervest": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "sandboots": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "sandboots*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "sandboots**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "sandboots***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "sandboots****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "sapphirecirclet": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sapphirecirclet*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sapphirecirclet**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sapphirecirclet***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sapphirecirclet****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sheiksmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sheiksmask*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sheiksmask**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sheiksmask***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "sheiksmask****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841394
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "snowboots": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841140
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowboots*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowboots**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowboots***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowboots****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841141
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowquillheaddress": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "snowquillheaddress*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "snowquillheaddress**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "snowquillheaddress***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "snowquillheaddress****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "snowquilltrousers": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowquilltrousers*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowquilltrousers**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowquilltrousers***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowquilltrousers****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "snowquilltunic": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "snowquilltunic*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "snowquilltunic**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "snowquilltunic***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "snowquilltunic****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "soldiersarmor": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "soldiersarmor*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "soldiersarmor**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
   "soldiersarmor***": [
     {
       "offset": 0,
@@ -251,7 +4643,79 @@
       "value": 1885696512
     }
   ],
-  "soldiersgreaves****": [
+  "soldiersarmor****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "soldiersgreaves": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "soldiersgreaves*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "soldiersgreaves**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "soldiersgreaves***": [
     {
       "offset": 0,
       "value": 1098018159
@@ -269,6 +4733,78 @@
       "value": 2003137024
     }
   ],
+  "soldiersgreaves****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "soldiershelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "soldiershelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "soldiershelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
   "soldiershelm***": [
     {
       "offset": 0,
@@ -281,6 +4817,1896 @@
     {
       "offset": 16,
       "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "soldiershelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840889
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "stealthchestguard": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "stealthchestguard*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "stealthchestguard**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "stealthchestguard***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "stealthchestguard****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "stealthmask": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "stealthmask*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "stealthmask**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "stealthmask***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "stealthmask****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "stealthtights": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840881
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "stealthtights*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840884
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "stealthtights**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "stealthtights***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "stealthtights****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840887
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "thunderhelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841137
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "tingleshood": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "tinglesshirt": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tinglestights": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "topazearrings": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840882
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "topazearrings*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841138
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "topazearrings**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "topazearrings***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "topazearrings****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841139
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "trousersofthehero": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthehero*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthehero**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthehero***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthehero****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthesky": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthesky*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthesky**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthesky***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthesky****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewild": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewild*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewild**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewild***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewild****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewind": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 895437935
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewind*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewind**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewind***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 945769583
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersofthewind****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 962546799
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftime": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftime*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftime**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftime***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftime****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftwilight": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 811551855
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftwilight*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 828329071
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftwilight**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftwilight***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "trousersoftwilight****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "tunicofthehero": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthehero*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthehero**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthehero***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthehero****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841395
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthesky": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthesky*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthesky**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthesky***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthesky****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewild": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewild*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewild**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840883
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewild***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewild****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewind": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 895440240
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewind*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 912217456
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewind**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewind***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 945771888
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicofthewind****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 962549104
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftime": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftime*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftime**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftime***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftime****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841392
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftwilight": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 811554160
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftwilight*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 828331376
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftwilight**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftwilight***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "tunicoftwilight****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841393
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "vahmedohdivinehelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahmedohdivinehelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 811550821
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahmedohdivinehelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahmedohdivinehelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahmedohdivinehelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahnaborisdivinehelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahnaborisdivinehelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahnaborisdivinehelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahnaborisdivinehelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841142
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahnaborisdivinehelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841142
+    },
+    {
+      "offset": 16,
+      "value": 962545765
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrudaniadivinehelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrudaniadivinehelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrudaniadivinehelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 895436901
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrudaniadivinehelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrudaniadivinehelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841145
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrutadivinehelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 828328037
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrutadivinehelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrutadivinehelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrutadivinehelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "vahrutadivinehelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841144
+    },
+    {
+      "offset": 16,
+      "value": 962545765
     },
     {
       "offset": 24,
@@ -323,6 +6749,24 @@
       "value": 2003137024
     }
   ],
+  "zantshelmet": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918841143
+    },
+    {
+      "offset": 16,
+      "value": 945768549
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
   "zoraarmor": [
     {
       "offset": 0,
@@ -339,6 +6783,258 @@
     {
       "offset": 24,
       "value": 1885696512
+    }
+  ],
+  "zoraarmor*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 928994672
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "zoraarmor**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 845108592
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "zoraarmor***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 861885808
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "zoraarmor****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 878663024
+    },
+    {
+      "offset": 24,
+      "value": 1885696512
+    }
+  ],
+  "zoragreaves": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 912215151
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "zoragreaves*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 928992367
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "zoragreaves**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 845106287
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "zoragreaves***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 861883503
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "zoragreaves****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 878660719
+    },
+    {
+      "offset": 24,
+      "value": 2003137024
+    }
+  ],
+  "zorahelm": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 912214117
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "zorahelm*": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840880
+    },
+    {
+      "offset": 16,
+      "value": 928991333
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "zorahelm**": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 845105253
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "zorahelm***": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 861882469
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
+    }
+  ],
+  "zorahelm****": [
+    {
+      "offset": 0,
+      "value": 1098018159
+    },
+    {
+      "offset": 8,
+      "value": 1918840886
+    },
+    {
+      "offset": 16,
+      "value": 878659685
+    },
+    {
+      "offset": 24,
+      "value": 1633943552
     }
   ]
 }
