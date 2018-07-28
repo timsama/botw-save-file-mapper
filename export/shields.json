@@ -1,4 +1,26 @@
 {
+  "ancientshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 939524096
+    }
+  ],
   "bokoshield": [
     {
       "offset": 0,
@@ -43,6 +65,50 @@
       "value": 922746880
     }
   ],
+  "dragonbonebokoshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 905969664
+    }
+  ],
+  "emblazonedshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 872415232
+    }
+  ],
   "fishermansshield": [
     {
       "offset": 0,
@@ -65,6 +131,28 @@
       "value": 838860800
     }
   ],
+  "forestdwellersshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959858
+    },
+    {
+      "offset": 32,
+      "value": 855638016
+    }
+  ],
   "gerudoshield": [
     {
       "offset": 0,
@@ -85,6 +173,28 @@
     {
       "offset": 32,
       "value": 905969664
+    }
+  ],
+  "guardianshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959857
+    },
+    {
+      "offset": 32,
+      "value": 855638016
     }
   ],
   "guardianshield+": [
@@ -131,6 +241,50 @@
       "value": 889192448
     }
   ],
+  "herosshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959861
+    },
+    {
+      "offset": 32,
+      "value": 922746880
+    }
+  ],
+  "huntersshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959859
+    },
+    {
+      "offset": 32,
+      "value": 822083584
+    }
+  ],
   "hylianshield": [
     {
       "offset": 0,
@@ -153,6 +307,28 @@
       "value": 805306368
     }
   ],
+  "kiteshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959860
+    },
+    {
+      "offset": 32,
+      "value": 838860800
+    }
+  ],
   "knightsshield": [
     {
       "offset": 0,
@@ -173,6 +349,72 @@
     {
       "offset": 32,
       "value": 855638016
+    }
+  ],
+  "lizalshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 922746880
+    }
+  ],
+  "lynelshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959857
+    },
+    {
+      "offset": 32,
+      "value": 905969664
+    }
+  ],
+  "mightylynelshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959857
+    },
+    {
+      "offset": 32,
+      "value": 922746880
     }
   ],
   "potlid": [
@@ -285,6 +527,28 @@
       "value": 838860800
     }
   ],
+  "rustyshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959858
+    },
+    {
+      "offset": 32,
+      "value": 822083584
+    }
+  ],
   "savagelynelshield": [
     {
       "offset": 0,
@@ -329,6 +593,28 @@
       "value": 822083584
     }
   ],
+  "silvershield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959858
+    },
+    {
+      "offset": 32,
+      "value": 889192448
+    }
+  ],
   "soldiersshield": [
     {
       "offset": 0,
@@ -349,6 +635,28 @@
     {
       "offset": 32,
       "value": 838860800
+    }
+  ],
+  "spikedbokoshield": [
+    {
+      "offset": 0,
+      "value": 1466261872
+    },
+    {
+      "offset": 8,
+      "value": 1869504339
+    },
+    {
+      "offset": 16,
+      "value": 1751737708
+    },
+    {
+      "offset": 24,
+      "value": 1683959856
+    },
+    {
+      "offset": 32,
+      "value": 889192448
     }
   ],
   "steellizalshield": [
