@@ -3,6 +3,7 @@ const saveFileUtils = require('./save-file-utils.js');
 const CONFIG = require('./config.js');
 const itemFileUtils = require('./item-file-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
+const float12 = require('./encoders_decoders/float12.js');
 
 const itemFiles = itemFileUtils.validCategories.map(itemFileUtils.getCategoryFilepath);
 
@@ -57,19 +58,24 @@ const bonusTypes = {
     0x80000100: ' with shield guard (plus) +'
 };
 
-const foodBonusWidth = 16;
+const foodWidth = 16;
+const foodHeartsOffset = 0x000dcd90;
+const getFoodHeartsLength = (slots) => slots * foodWidth;
+const getFoodHeartsOffset = (slot) => {
+    return foodHeartsOffset + getFoodHeartsLength(slot);
+};
 const foodBonusDurationOffset = 0x000dcd98;
-const getFoodBonusDurationLength = (slots) => slots * foodBonusWidth;
+const getFoodBonusDurationLength = (slots) => slots * foodWidth;
 const getFoodBonusDurationOffset = (slot) => {
     return foodBonusDurationOffset + getFoodBonusDurationLength(slot);
 };
 const foodBonusTypeOffset = 0x000fa6b0;
-const getFoodBonusTypeLength = (slots) => slots * foodBonusWidth;
+const getFoodBonusTypeLength = (slots) => slots * foodWidth;
 const getFoodBonusTypeOffset = (slot) => {
     return foodBonusTypeOffset + getFoodBonusTypeLength(slot);
 };
 const foodBonusAmountOffset = 0x000fa6b8;
-const getFoodBonusAmountLength = (slots) => slots * foodBonusWidth;
+const getFoodBonusAmountLength = (slots) => slots * foodWidth;
 const getFoodBonusAmountOffset = (slot) => {
     return foodBonusAmountOffset + getFoodBonusAmountLength(slot);
 };
@@ -152,6 +158,21 @@ while(!end) {
         }
     })();
 
+    const foodHeartsString = (() => {
+        if ((slot - 1) >= slotStructure.food.first && (slot - 1) <= slotStructure.food.last) {
+            const effectiveSlot = slot - slotStructure.food.first;
+            const rawFoodHearts = offsetChecker(getFoodHeartsOffset(effectiveSlot - 1), filename);
+            if (rawFoodHearts === 0) {
+                return '';
+            } else {
+                const foodHearts = float12.decode(rawFoodHearts) / 4.0;
+                return ` (♥x${foodHearts})`;
+            }
+        } else {
+            return '';
+        }
+    })();
+
     const matchFound = itemFiles.some((itemFile) => {
         const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(itemFile);
 
@@ -163,7 +184,7 @@ while(!end) {
             });
 
             if (isMatch) {
-                console.log(`Slot ${slot}: It's a(n) ${foodBonusString}${itemKey}!${quantityString}${bonusString}${isEquippedStr}`);
+                console.log(`Slot ${slot}: It's a(n) ${foodBonusString}${itemKey}${foodHeartsString}!${quantityString}${bonusString}${isEquippedStr}`);
             }
 
             return isMatch;
