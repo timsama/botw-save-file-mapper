@@ -52,16 +52,50 @@ module.exports = (() => {
         return baseOffset + getBonusAmountLength(slot);
     };
 
+    const foodBonusWidth = 16;
+    const foodBonusDurationOffset = 0x000dcd98;
+    const getFoodBonusDurationLength = (slots) => slots * foodBonusWidth;
+    const getFoodBonusDurationOffset = (slot, category) => {
+        return foodBonusDurationOffset + getFoodBonusDurationLength(slot);
+    };
+    const foodBonusTypeOffset = 0x000fa6b0;
+    const getFoodBonusTypeLength = (slots) => slots * foodBonusWidth;
+    const getFoodBonusTypeOffset = (slot, category) => {
+        return foodBonusTypeOffset + getFoodBonusTypeLength(slot);
+    };
+    const foodBonusLevelOffset = 0x000fa6b8;
+    const getFoodBonusLevelLength = (slots) => slots * foodBonusWidth;
+    const getFoodBonusLevelOffset = (slot, category) => {
+        return foodBonusLevelOffset + getFoodBonusLevelLength(slot);
+    };
+
     return {
         getOffsets: (slot, slotInCategory, category) => {
+            const canCalculateBonus = slotInCategory !== undefined && !!category;
+            const canCalculateFoodBonus = !!canCalculateBonus && category == 'food';
+
+            const bonus = (() => {
+                if (canCalculateFoodBonus) {
+                    return {
+                        type: getFoodBonusTypeOffset(slotInCategory, category),
+                        amount: getFoodBonusLevelOffset(slotInCategory, category),
+                        duration: getFoodBonusDurationOffset(slotInCategory)
+                    };
+                } else if (canCalculateBonus) {
+                    return {
+                        type: getBonusTypeOffset(slotInCategory, category),
+                        amount: getBonusAmountOffset(slotInCategory, category)
+                    };
+                } else {
+                    return {};
+                }
+            })();
+
             return {
                 item: getItemOffset(slot),
                 quantity: getQuantitiesOffset(slot),
                 equipped: getEquippedSlotOffset(slot),
-                bonus: {
-                    type: getBonusTypeOffset(slotInCategory, category),
-                    amount: getBonusAmountOffset(slotInCategory, category)
-                }
+                bonus: bonus
             };
         },
         getLengths: (slots, subsequentSlotsInCategory) => {
