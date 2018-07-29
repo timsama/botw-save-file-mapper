@@ -2,10 +2,12 @@ const offsetChecker = require('./offset-checker.js');
 const saveFileUtils = require('./save-file-utils.js');
 const CONFIG = require('./config.js');
 const itemFileUtils = require('./item-file-utils.js');
+const getItemSlotStructure = require('./get-item-slot-structure.js');
 
 const itemFiles = itemFileUtils.validCategories.map(itemFileUtils.getCategoryFilepath);
 
 const filename = !!process.argv[3] ? (CONFIG.snapshotspath + process.argv[3]) : CONFIG.savepath + 'game_data.sav';
+const slotStructure = getItemSlotStructure(filename);
 
 const equippedSlotsOffset = 0x00080d70;
 const equippedSlotsWidth = 8;
@@ -55,6 +57,44 @@ const bonusTypes = {
     0x80000100: ' with shield guard (plus) +'
 };
 
+const foodBonusWidth = 16;
+const foodBonusDurationOffset = 0x000dcd98;
+const getFoodBonusDurationLength = (slots) => slots * foodBonusWidth;
+const getFoodBonusDurationOffset = (slot) => {
+    return foodBonusDurationOffset + getFoodBonusDurationLength(slot);
+};
+const foodBonusTypeOffset = 0x000fa6b0;
+const getFoodBonusTypeLength = (slots) => slots * foodBonusWidth;
+const getFoodBonusTypeOffset = (slot) => {
+    return foodBonusTypeOffset + getFoodBonusTypeLength(slot);
+};
+const foodBonusAmountOffset = 0x000fa6b8;
+const getFoodBonusAmountLength = (slots) => slots * foodBonusWidth;
+const getFoodBonusAmountOffset = (slot) => {
+    return foodBonusAmountOffset + getFoodBonusAmountLength(slot);
+};
+
+const foodBonusTypes = {
+    0x40000000: 'hearty',
+    0x40800000: 'chilly',
+    0x40a00000: 'spicy',
+    0x40c00000: 'electro',
+    0x41200000: 'mighty',
+    0x41300000: 'tough',
+    0x41400000: 'sneaky',
+    0x41500000: 'hasty',
+    0x41600000: 'energizing',
+    0x41700000: 'enduring',
+    0x41800000: 'fireproof'
+};
+
+const foodBonusAmounts = {
+    0: 0,
+    0x3f800000: 1,
+    0x40000000: 2,
+    0x40400000: 3
+};
+
 var slot = 1;
 var end = false;
 while(!end) {
@@ -96,6 +136,22 @@ while(!end) {
         }
     })();
 
+    const foodBonusString = (() => {
+        if ((slot - 1) >= slotStructure.food.first && (slot - 1) <= slotStructure.food.last) {
+            const effectiveSlot = slot - slotStructure.food.first;
+            const foodBonusType = offsetChecker(getFoodBonusTypeOffset(effectiveSlot - 1), filename);
+            const foodBonusAmount = offsetChecker(getFoodBonusAmountOffset(effectiveSlot - 1), filename);
+            const displayFoodBonusAmount = foodBonusAmounts[foodBonusAmount];
+            if (!foodBonusTypes[foodBonusType]) {
+                return '';
+            } else {
+                return `${foodBonusTypes[foodBonusType]}+${displayFoodBonusAmount} `;
+            }
+        } else {
+            return '';
+        }
+    })();
+
     const matchFound = itemFiles.some((itemFile) => {
         const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(itemFile);
 
@@ -107,7 +163,7 @@ while(!end) {
             });
 
             if (isMatch) {
-                console.log(`Slot ${slot}: It's a(n) ${itemKey}!${quantityString}${bonusString}${isEquippedStr}`);
+                console.log(`Slot ${slot}: It's a(n) ${foodBonusString}${itemKey}!${quantityString}${bonusString}${isEquippedStr}`);
             }
 
             return isMatch;

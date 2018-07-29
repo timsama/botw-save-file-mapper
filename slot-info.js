@@ -55,18 +55,18 @@ module.exports = (() => {
     const foodBonusWidth = 16;
     const foodBonusDurationOffset = 0x000dcd98;
     const getFoodBonusDurationLength = (slots) => slots * foodBonusWidth;
-    const getFoodBonusDurationOffset = (slot, category) => {
+    const getFoodBonusDurationOffset = (slot) => {
         return foodBonusDurationOffset + getFoodBonusDurationLength(slot);
     };
     const foodBonusTypeOffset = 0x000fa6b0;
     const getFoodBonusTypeLength = (slots) => slots * foodBonusWidth;
-    const getFoodBonusTypeOffset = (slot, category) => {
+    const getFoodBonusTypeOffset = (slot) => {
         return foodBonusTypeOffset + getFoodBonusTypeLength(slot);
     };
-    const foodBonusLevelOffset = 0x000fa6b8;
-    const getFoodBonusLevelLength = (slots) => slots * foodBonusWidth;
-    const getFoodBonusLevelOffset = (slot, category) => {
-        return foodBonusLevelOffset + getFoodBonusLevelLength(slot);
+    const foodBonusAmountOffset = 0x000fa6b8;
+    const getFoodBonusAmountLength = (slots) => slots * foodBonusWidth;
+    const getFoodBonusAmountOffset = (slot) => {
+        return foodBonusAmountOffset + getFoodBonusAmountLength(slot);
     };
 
     return {
@@ -77,8 +77,8 @@ module.exports = (() => {
             const bonus = (() => {
                 if (canCalculateFoodBonus) {
                     return {
-                        type: getFoodBonusTypeOffset(slotInCategory, category),
-                        amount: getFoodBonusLevelOffset(slotInCategory, category),
+                        type: getFoodBonusTypeOffset(slotInCategory),
+                        amount: getFoodBonusAmountOffset(slotInCategory),
                         duration: getFoodBonusDurationOffset(slotInCategory)
                     };
                 } else if (canCalculateBonus) {
