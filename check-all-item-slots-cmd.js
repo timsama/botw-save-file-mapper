@@ -3,7 +3,7 @@ const saveFileUtils = require('./save-file-utils.js');
 const CONFIG = require('./config.js');
 const itemFileUtils = require('./item-file-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
-const float12 = require('./encoders_decoders/float12.js');
+const float28 = require('./encoders_decoders/float28.js');
 
 const itemFiles = itemFileUtils.validCategories.map(itemFileUtils.getCategoryFilepath);
 
@@ -167,7 +167,7 @@ while(!end) {
             if (rawFoodHearts === 0) {
                 return '';
             } else {
-                const foodHearts = float12.decode(rawFoodHearts) / 4.0;
+                const foodHearts = float28.decode(rawFoodHearts) / 4.0;
                 return ` (♥x${foodHearts})`;
             }
         } else {

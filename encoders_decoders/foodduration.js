@@ -1,4 +1,4 @@
-const float12 = require('./float12.js');
+const float28 = require('./float28.js');
 
 module.exports = (() => {
     return {
@@ -12,10 +12,10 @@ module.exports = (() => {
                 }
             })(time);
             
-            return (0x4 << 28) | float12.encode(seconds);
+            return (0x4 << 28) | float28.encode(seconds);
         },
         decode: (value) => {
-            const totalSeconds = float12.decode(value);
+            const totalSeconds = float28.decode(value);
 
             const minutes = Math.floor(totalSeconds / 60);
             const seconds = Math.floor(totalSeconds % 60);

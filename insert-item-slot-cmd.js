@@ -9,7 +9,7 @@ const saveFileUtils = require('./save-file-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
 const slotInfo = require('./slot-info.js');
 const foodduration = require('./encoders_decoders/foodduration.js');
-const float12 = require('./encoders_decoders/float12.js');
+const float28 = require('./encoders_decoders/float28.js');
 
 const slot = parseInt(process.argv[3]);
 const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : CONFIG.savepath + 'game_data.sav';
@@ -146,7 +146,7 @@ if (!!categoryFilename) {
                                 return Math.floor(parseFloat(quantityStr) * 4);
                             }
                         })();
-                        offsetSetter(base.bonus.hearts, float12.encode(quarterhearts) | 0x40000000, saveFile);
+                        offsetSetter(base.bonus.hearts, float28.encode(quarterhearts) | 0x40000000, saveFile);
                     } else {
                         offsetSetter(base.quantity, quantity, saveFile);
                     }
