@@ -105,6 +105,7 @@ if (!!categoryFilename) {
                 entries.forEach(entry => {
                     offsetSetter(base.item + entry.offset, entry.value, saveFile);
                 });
+                const actualBonusType = bonusType && bonusType.toUpperCase() || 'NONE';
                 if (!!quantity) {
                     if (category === 'food') {
                         const quarterhearts = (() => {
@@ -119,7 +120,6 @@ if (!!categoryFilename) {
                         offsetSetter(base.quantity, quantity, saveFile);
                     }
                 }
-                const actualBonusType = bonusType && bonusType.toUpperCase() || 'NONE';
                 offsetSetter(base.bonus.type, getBonusType(actualBonusType, category), saveFile);
                 if (bonusAmount !== undefined) {
                     if (category === 'food') {
