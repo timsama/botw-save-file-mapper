@@ -125,7 +125,10 @@ if (!!categoryFilename) {
                     if (category === 'food') {
                         const maxBonus = maxFoodBonusAmounts[actualBonusType];
                         const bonus = bonusAmount > maxBonus ? maxBonus : bonusAmount;
-                        if (foodBonusAmounts[bonus] !== undefined && actualBonusType !== 'HEARTY') {
+                        if (actualBonusType === 'ENERGIZING' && bonus) {
+                            const staminaWheel = Math.floor(bonus) * 200;
+                            offsetSetter(base.bonus.amount, float28.encode(staminaWheel) | 0x40000000, saveFile);
+                        } else if (foodBonusAmounts[bonus] !== undefined && actualBonusType !== 'HEARTY') {
                             offsetSetter(base.bonus.amount, foodBonusAmounts[bonus], saveFile);
                         }
                     } else {
