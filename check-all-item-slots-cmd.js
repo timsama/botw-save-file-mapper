@@ -150,6 +150,8 @@ while(!end) {
             const displayFoodBonusAmount = foodBonusAmounts[foodBonusAmount];
             if (!foodBonusTypes[foodBonusType]) {
                 return '';
+            } else if (foodBonusTypes[foodBonusType] === 'hearty') {
+                return `${foodBonusTypes[foodBonusType]}`;
             } else {
                 return `${foodBonusTypes[foodBonusType]}+${displayFoodBonusAmount} `;
             }

@@ -9,11 +9,13 @@ const saveFileUtils = require('./save-file-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
 const slotInfo = require('./slot-info.js');
 const foodduration = require('./encoders_decoders/foodduration.js');
+const float12 = require('./encoders_decoders/float12.js');
 
 const slot = parseInt(process.argv[3]);
 const saveFile = !!process.argv[5] ? (CONFIG.snapshotspath + process.argv[5]) : CONFIG.savepath + 'game_data.sav';
 
 const bonusTypes = {
+    NONE: 0,
     ATTACK: 0x1,
     DURABILITY: 0x2,
     CRITICAL: 0x4,
@@ -35,6 +37,7 @@ const bonusTypes = {
 };
 
 const foodBonusTypes = {
+    NONE: 0,
     HEARTY: 0x40000000,
     CHILLY: 0x40800000,
     SPICY: 0x40a00000,
@@ -71,7 +74,7 @@ const maxFoodBonusAmounts = {
 
 const getBonusType = (name, category) => {
     if (category == 'food') {
-        return foodBonusTypes[name.toUpperCase()];
+        return foodBonusTypes[name.toUpperCase()] || 0;
     } else {
         return bonusTypes[name.toUpperCase()];
     }
@@ -84,6 +87,7 @@ if (!!categoryFilename) {
     const slotStructure = getItemSlotStructure(saveFile);
 
     const baseSlot = slotStructure[category].first + slot - 1;
+
     const totalSlotsInCategory = slotStructure[category].last - slotStructure[category].first;
     const subsequentSlotsInCategory = totalSlotsInCategory - (slot - 1);
 
@@ -117,36 +121,56 @@ if (!!categoryFilename) {
                 slots++;
             }
 
-            const lengths = slotInfo.getLengths(slots, subsequentSlotsInCategory);
+            const lengths = slotInfo.getLengths(slots, subsequentSlotsInCategory, category);
 
             if (!!entries) {
                 saveFileUtils.shiftData(saveFile, base.item, next.item, lengths.item);
                 saveFileUtils.shiftData(saveFile, base.quantity, next.quantity, lengths.quantity);
                 saveFileUtils.shiftData(saveFile, base.equipped, next.equipped, lengths.equipped);
-                saveFileUtils.shiftData(saveFile, base.bonus.type, next.bonus.type, lengths.bonus.type);
-                saveFileUtils.shiftData(saveFile, base.bonus.amount, next.bonus.amount, lengths.bonus.amount);
+                saveFileUtils.shiftData(saveFile, base.bonus.type, next.bonus.type, lengths.bonus.type, base.bonus.width);
+                saveFileUtils.shiftData(saveFile, base.bonus.amount, next.bonus.amount, lengths.bonus.amount, base.bonus.width);
+                if (category === 'food') {
+                    saveFileUtils.shiftData(saveFile, base.bonus.duration, next.bonus.duration, lengths.bonus.duration);
+                    saveFileUtils.shiftData(saveFile, base.bonus.hearts, next.bonus.hearts, lengths.bonus.hearts);
+                }
                 entries.forEach(entry => {
                     offsetSetter(base.item + entry.offset, entry.value, saveFile);
                 });
+                const actualBonusType = bonusType && bonusType.toUpperCase() || 'NONE';
                 if (!!quantity) {
-                    offsetSetter(base.quantity, quantity, saveFile);
-                }
-                if (!!bonusType) {
-                    offsetSetter(base.bonus.type, getBonusType(bonusType, category), saveFile);
-                    if (bonusAmount !== undefined) {
-                        if (category === 'food') {
-                            const maxBonus = maxFoodBonusAmounts[bonusType.toUpperCase()];
-                            const bonus = bonusAmount > maxBonus ? maxBonus : bonusAmount;
-                            if (foodBonusAmounts[bonus] !== undefined) {
-                                offsetSetter(base.bonus.amount, foodBonusAmounts[bonus], saveFile);
+                    if (category === 'food') {
+                        const quarterhearts = (() => {
+                            if (actualBonusType === 'HEARTY' && bonusAmount) {
+                                return Math.floor(bonusAmount) * 4;
+                            } else {
+                                return Math.floor(parseFloat(quantityStr) * 4);
                             }
-                        } else {
-                            offsetSetter(base.bonus.amount, bonusAmount || 0, saveFile);
+                        })();
+                        offsetSetter(base.bonus.hearts, float12.encode(quarterhearts) | 0x40000000, saveFile);
+                    } else {
+                        offsetSetter(base.quantity, quantity, saveFile);
+                    }
+                }
+                offsetSetter(base.bonus.type, getBonusType(actualBonusType, category), saveFile);
+                if (bonusAmount !== undefined) {
+                    if (category === 'food') {
+                        const maxBonus = maxFoodBonusAmounts[actualBonusType];
+                        const bonus = bonusAmount > maxBonus ? maxBonus : bonusAmount;
+                        if (foodBonusAmounts[bonus] !== undefined && actualBonusType !== 'HEARTY') {
+                            offsetSetter(base.bonus.amount, foodBonusAmounts[bonus], saveFile);
                         }
+                    } else {
+                        offsetSetter(base.bonus.amount, bonusAmount || 0, saveFile);
                     }
-                    if (!!bonusDuration && base.bonus.duration) {
-                        offsetSetter(base.bonus.duration, foodduration.encode(bonusDuration || '00:00'), saveFile);
-                    }
+                }
+                if (actualBonusType !== 'NONE' && !bonusDuration) {
+                    offsetSetter(base.bonus.duration, foodduration.encode('03:00'), saveFile);
+                } else if (!!bonusDuration && base.bonus.duration) {
+                    offsetSetter(base.bonus.duration, foodduration.encode(bonusDuration || '00:00'), saveFile);
+                }
+                if (actualBonusType === 'NONE') {
+                    offsetSetter(base.bonus.amount, 0, saveFile);
+                    offsetSetter(base.bonus.duration, 0, saveFile);
                 }
             } else {
                 console.log(`No entries found for '${name}' in ${category}.`);

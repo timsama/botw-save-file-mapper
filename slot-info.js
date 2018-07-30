@@ -52,19 +52,24 @@ module.exports = (() => {
         return baseOffset + getBonusAmountLength(slot);
     };
 
-    const foodBonusWidth = 16;
+    const foodWidth = 16;
+    const foodHeartsOffset = 0x000dcd90;
+    const getFoodHeartsLength = (slots) => slots * foodWidth;
+    const getFoodHeartsOffset = (slot) => {
+        return foodHeartsOffset + getFoodHeartsLength(slot);
+    };
     const foodBonusDurationOffset = 0x000dcd98;
-    const getFoodBonusDurationLength = (slots) => slots * foodBonusWidth;
+    const getFoodBonusDurationLength = (slots) => slots * foodWidth;
     const getFoodBonusDurationOffset = (slot) => {
         return foodBonusDurationOffset + getFoodBonusDurationLength(slot);
     };
     const foodBonusTypeOffset = 0x000fa6b0;
-    const getFoodBonusTypeLength = (slots) => slots * foodBonusWidth;
+    const getFoodBonusTypeLength = (slots) => slots * foodWidth;
     const getFoodBonusTypeOffset = (slot) => {
         return foodBonusTypeOffset + getFoodBonusTypeLength(slot);
     };
     const foodBonusAmountOffset = 0x000fa6b8;
-    const getFoodBonusAmountLength = (slots) => slots * foodBonusWidth;
+    const getFoodBonusAmountLength = (slots) => slots * foodWidth;
     const getFoodBonusAmountOffset = (slot) => {
         return foodBonusAmountOffset + getFoodBonusAmountLength(slot);
     };
@@ -79,7 +84,9 @@ module.exports = (() => {
                     return {
                         type: getFoodBonusTypeOffset(slotInCategory),
                         amount: getFoodBonusAmountOffset(slotInCategory),
-                        duration: getFoodBonusDurationOffset(slotInCategory)
+                        duration: getFoodBonusDurationOffset(slotInCategory),
+                        hearts: getFoodHeartsOffset(slotInCategory),
+                        width: foodWidth
                     };
                 } else if (canCalculateBonus) {
                     return {
@@ -98,15 +105,28 @@ module.exports = (() => {
                 bonus: bonus
             };
         },
-        getLengths: (slots, subsequentSlotsInCategory) => {
+        getLengths: (slots, subsequentSlotsInCategory, category) => {
+            const bonus = (() => {
+                if (category === 'food') {
+                    return {
+                        type: getFoodBonusTypeLength(subsequentSlotsInCategory),
+                        amount: getFoodBonusAmountLength(subsequentSlotsInCategory),
+                        duration: getFoodBonusDurationLength(subsequentSlotsInCategory),
+                        hearts: getFoodHeartsLength(subsequentSlotsInCategory)
+                    };
+                } else {
+                    return {
+                        type: getBonusTypeLength(subsequentSlotsInCategory),
+                        amount: getBonusAmountLength(subsequentSlotsInCategory)
+                    };
+                }
+            })();
+
             return {
                 item: getItemLength(slots),
                 quantity: getQuantitiesLength(slots),
                 equipped: getEquippedSlotLength(slots),
-                bonus: {
-                    type: getBonusTypeLength(subsequentSlotsInCategory),
-                    amount: getBonusAmountLength(subsequentSlotsInCategory)
-                }
+                bonus: bonus
             }
         }
     };

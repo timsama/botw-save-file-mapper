@@ -94,9 +94,10 @@ const SaveFileUtils = {
 	        return '{ ' + chunk.toString() + ' }';
 	    }).join('\n'));
 	},
-	shiftData: (filename, sourceOffset, destinationOffset, length) => {
+	shiftData: (filename, sourceOffset, destinationOffset, length, bitWidth) => {
 		const sourceTail = sourceOffset + length;
 		const destinationTail = destinationOffset + length;
+		const width = bitWidth || 8;
 
 		SaveFileUtils.withBinaryFileSync(filename, (binary) => {
 			const reader = SaveFileUtils.buildReader('uint32', binary);
@@ -114,7 +115,7 @@ const SaveFileUtils = {
 						writer(sourceOffset + cursor, 0);
 					}
 
-					cursor -= 8;
+					cursor -= width;
 				}
 			} else if (sourceOffset > destinationOffset) {
 				let cursor = 0;
@@ -128,7 +129,7 @@ const SaveFileUtils = {
 						writer(sourceOffset + cursor, 0);
 					}
 
-					cursor += 8;
+					cursor += width;
 				}
 			}
 

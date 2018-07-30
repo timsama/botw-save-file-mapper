@@ -33,13 +33,13 @@ if (!!categoryFilename) {
             slots++;
         }
 
-        const lengths = slotInfo.getLengths(slots, subsequentSlotsInCategory);
+        const lengths = slotInfo.getLengths(slots, subsequentSlotsInCategory, category);
 
         saveFileUtils.shiftData(saveFile, next.item, base.item, lengths.item);
         saveFileUtils.shiftData(saveFile, next.quantity, base.quantity, lengths.quantity);
         saveFileUtils.shiftData(saveFile, next.equipped, base.equipped, lengths.equipped);
-        saveFileUtils.shiftData(saveFile, next.bonus.type, base.bonus.type, lengths.bonus.type);
-        saveFileUtils.shiftData(saveFile, next.bonus.amount, base.bonus.amount, lengths.bonus.amount);
+        saveFileUtils.shiftData(saveFile, next.bonus.type, base.bonus.type, lengths.bonus.type, base.bonus.width);
+        saveFileUtils.shiftData(saveFile, next.bonus.amount, base.bonus.amount, lengths.bonus.amount, base.bonus.width);
     }
 } else {
     console.log('Category not recognized.');
