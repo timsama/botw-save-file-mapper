@@ -68,7 +68,7 @@ const maxFoodBonusAmounts = {
     SNEAKY: 3,
     HASTY: 3,
     ENERGIZING: 0xFFFFFFFF,
-    ENDURING: 0xFFFFFFFF,
+    ENDURING: 10,
     FIREPROOF: 0x2
 };
 
@@ -159,6 +159,9 @@ if (!!categoryFilename) {
                         if (actualBonusType === 'ENERGIZING' && bonus) {
                             const staminaWheel = Math.floor(bonus) * 200;
                             offsetSetter(base.bonus.amount, float28.encode(staminaWheel) | 0x40000000, saveFile);
+                        } else if (actualBonusType === 'ENDURING' && bonus) {
+                            const staminaOverfillSections = Math.floor(bonus);
+                            offsetSetter(base.bonus.amount, float28.encode(staminaOverfillSections) | 0x40000000, saveFile);
                         } else if (foodBonusAmounts[bonus] !== undefined && actualBonusType !== 'HEARTY') {
                             offsetSetter(base.bonus.amount, foodBonusAmounts[bonus], saveFile);
                         }
