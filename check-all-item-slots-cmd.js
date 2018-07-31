@@ -29,6 +29,10 @@ const quantityTypes = {
     1466261872: 'durability',
 }
 
+const armorColorOffset = 0x00071250;
+const armorColorWidth = 8;
+const getArmorColorOffset = (slot) => armorColorOffset + slot * armorColorWidth;
+
 const bonusTypeOffset = 0x0005dd20;
 const bonusTypeWidth = 8;
 const getBonusTypeOffset = (slot) => bonusTypeOffset + slot * bonusTypeWidth;
@@ -56,6 +60,25 @@ const bonusTypes = {
     0x80000040: ' with quick-shot (plus) +',
     0x80000080: ' with shield surf (plus) +',
     0x80000100: ' with shield guard (plus) +'
+};
+
+const dyes = {
+    0: "original",
+    1: "blue",
+    2: "red",
+    3: "yellow",
+    4: "white",
+    5: "black",
+    6: "purple",
+    7: "green",
+    8: "lightblue",
+    9: "navy",
+    10: "orange",
+    11: "peach",
+    12: "crimson",
+    13: "lightyellow",
+    14: "brown",
+    15: "gray"
 };
 
 const foodWidth = 16;
@@ -160,6 +183,21 @@ while(!end) {
         }
     })();
 
+    const armorColorString = (() => {
+        if ((slot - 1) >= slotStructure.armor.first && (slot - 1) <= slotStructure.armor.last) {
+            const effectiveSlot = slot - slotStructure.armor.first;
+            const armorColorVal = offsetChecker(getArmorColorOffset(effectiveSlot - 1), filename);
+            const armorColor = dyes[armorColorVal];
+            if (!armorColor || armorColor === 'original') {
+                return '';
+            } else {
+                return `${armorColor} `;
+            }
+        } else {
+            return '';
+        }
+    })();
+
     const foodHeartsString = (() => {
         if ((slot - 1) >= slotStructure.food.first && (slot - 1) <= slotStructure.food.last) {
             const effectiveSlot = slot - slotStructure.food.first;
@@ -186,7 +224,7 @@ while(!end) {
             });
 
             if (isMatch) {
-                console.log(`Slot ${slot}: It's a(n) ${foodBonusString}${itemKey}${foodHeartsString}!${quantityString}${bonusString}${isEquippedStr}`);
+                console.log(`Slot ${slot}: It's a(n) ${foodBonusString}${armorColorString}${itemKey}${foodHeartsString}!${quantityString}${bonusString}${isEquippedStr}`);
             }
 
             return isMatch;

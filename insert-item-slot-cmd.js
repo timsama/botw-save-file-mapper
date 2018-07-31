@@ -51,13 +51,6 @@ const foodBonusTypes = {
     FIREPROOF: 0x41800000
 };
 
-const foodBonusAmounts = [
-    0,
-    0x3f800000,
-    0x40000000,
-    0x40400000
-];
-
 const maxFoodBonusAmounts = {
     HEARTY: 0xFFFFFFFF,
     CHILLY: 2,
@@ -70,6 +63,32 @@ const maxFoodBonusAmounts = {
     ENERGIZING: 0xFFFFFFFF,
     ENDURING: 10,
     FIREPROOF: 0x2
+};
+
+const foodBonusAmounts = [
+    0,
+    0x3f800000,
+    0x40000000,
+    0x40400000
+];
+
+const dyes = {
+    ORIGINAL: 0,
+    BLUE: 1,
+    RED: 2,
+    YELLOW: 3,
+    WHITE: 4,
+    BLACK: 5,
+    PURPLE: 6,
+    GREEN: 7,
+    LIGHTBLUE: 8,
+    NAVY: 9,
+    ORANGE: 10,
+    PEACH: 11,
+    CRIMSON: 12,
+    LIGHTYELLOW: 13,
+    BROWN: 14,
+    GRAY: 15
 };
 
 const getBonusType = (name, category) => {
@@ -105,7 +124,10 @@ if (!!categoryFilename) {
                     return nameStr.split('x').slice(0, -1).join('x');
                 }
             })();
-            const [name, bonusType, bonusAmount, bonusDuration] = nameWithBonus.split('+');
+            const terms = nameWithBonus.split('+');
+            const colorTerm = terms.map(term => term.toUpperCase()).find(term => dyes[term] !== undefined);
+            const color = colorTerm && dyes[colorTerm];
+            const [name, bonusType, bonusAmount, bonusDuration] = terms.filter(term => term !== colorTerm);
             const base = slotInfo.getOffsets(baseSlot, slot - 1, category);
             const next = slotInfo.getOffsets(baseSlot + 1, slot, category);
             
@@ -133,6 +155,9 @@ if (!!categoryFilename) {
                     saveFileUtils.shiftData(saveFile, base.bonus.duration, next.bonus.duration, lengths.bonus.duration);
                     saveFileUtils.shiftData(saveFile, base.bonus.hearts, next.bonus.hearts, lengths.bonus.hearts);
                 }
+                if (category === 'armor') {
+                    saveFileUtils.shiftData(saveFile, base.color, next.color, lengths.color);
+                }
                 entries.forEach(entry => {
                     offsetSetter(base.item + entry.offset, entry.value, saveFile);
                 });
@@ -149,6 +174,13 @@ if (!!categoryFilename) {
                         offsetSetter(base.bonus.hearts, float28.encode(quarterhearts) | 0x40000000, saveFile);
                     } else {
                         offsetSetter(base.quantity, quantity, saveFile);
+                    }
+                }
+                if (category === 'armor') {
+                    if (!!color) {
+                        offsetSetter(base.color, color, saveFile);
+                    } else {
+                        offsetSetter(base.color, dyes.ORIGINAL, saveFile);
                     }
                 }
                 offsetSetter(base.bonus.type, getBonusType(actualBonusType, category), saveFile);
