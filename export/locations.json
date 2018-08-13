@@ -66,6 +66,26 @@
       }
     ]
   },
+  "gorkotunnel": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1157548909
+      },
+      {
+        "offset": 801784,
+        "value": 1141023905
+      },
+      {
+        "offset": 801792,
+        "value": 3305028771
+      },
+      {
+        "offset": 453224,
+        "value": 3272214550
+      }
+    ]
+  },
   "hatenoancienttechlab": {
     "entries": [
       {
@@ -140,6 +160,26 @@
       {
         "offset": 801792,
         "value": 1156173288
+      }
+    ]
+  },
+  "outsidequkahnatashrine": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1157493062
+      },
+      {
+        "offset": 801784,
+        "value": 1133895815
+      },
+      {
+        "offset": 801792,
+        "value": 1162710830
+      },
+      {
+        "offset": 453224,
+        "value": 1126060709
       }
     ]
   },
@@ -1280,19 +1320,19 @@
       "entries": [
         {
           "offset": 801776,
-          "value": 1141761745
+          "value": 1103279952
         },
         {
           "offset": 801784,
-          "value": 1132774499
+          "value": 1133294813
         },
         {
           "offset": 801792,
-          "value": 3305620363
+          "value": 3304210525
         },
         {
           "offset": 453224,
-          "value": 1125187584
+          "value": 1110966272
         }
       ]
     },
@@ -2937,6 +2977,46 @@
       ]
     }
   },
+  "springofpower": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1164523260
+      },
+      {
+        "offset": 801784,
+        "value": 1121232611
+      },
+      {
+        "offset": 801792,
+        "value": 3307523476
+      },
+      {
+        "offset": 453224,
+        "value": 1125595257
+      }
+    ]
+  },
+  "springofwisdom": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1165488420
+      },
+      {
+        "offset": 801784,
+        "value": 1141797536
+      },
+      {
+        "offset": 801792,
+        "value": 1151947556
+      },
+      {
+        "offset": 453224,
+        "value": 3270227518
+      }
+    ]
+  },
   "templeoftime": {
     "entries": [
       {
@@ -2950,6 +3030,46 @@
       {
         "offset": 801792,
         "value": 1157030030
+      }
+    ]
+  },
+  "thespringofpower": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1164523260
+      },
+      {
+        "offset": 801784,
+        "value": 1121232611
+      },
+      {
+        "offset": 801792,
+        "value": 3307523476
+      },
+      {
+        "offset": 453224,
+        "value": 1125595257
+      }
+    ]
+  },
+  "thespringofwisdom": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1165488420
+      },
+      {
+        "offset": 801784,
+        "value": 1141797536
+      },
+      {
+        "offset": 801792,
+        "value": 1151947556
+      },
+      {
+        "offset": 453224,
+        "value": 3270227518
       }
     ]
   },
