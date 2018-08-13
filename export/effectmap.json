@@ -1,4 +1,22 @@
 {
+  "bloodmoon": {
+    "setfornextmidnight": {
+      "entries": [
+        {
+          "offset": 883488,
+          "value": 1
+        }
+      ]
+    },
+    "counter": {
+      "entries": [
+        {
+          "offset": 339464,
+          "value": "variable"
+        }
+      ]
+    }
+  },
   "bowstash": {
     "entries": [
       {
