@@ -2670,6 +2670,24 @@
       }
     }
   },
+  "mastersword": {
+    "damagebonus": {
+      "entries": [
+        {
+          "offset": 517248,
+          "value": "variable"
+        }
+      ]
+    },
+    "fullyunlocked": {
+      "entries": [
+        {
+          "offset": 550296,
+          "value": 1
+        }
+      ]
+    }
+  },
   "memories": {
     "apremonition": {
       "entries": [
@@ -11220,14 +11238,12 @@
               "offset": 844744,
               "value": 1
             }
-          ]
-        },
-        "masterswordbasedamagebonus": {
-          "entries": [
-            {
-              "offset": 517248,
-              "value": "variable"
-            }
+          ],
+          "harddependencies": [
+            "sidequests.trialofthesword.begun"
+          ],
+          "softdependencies": [
+            "sidequests.trialofthesword.talktodekutree"
           ]
         }
       },
@@ -11238,6 +11254,42 @@
             "value": 1
           }
         ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 899608,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mastersword.fullyunlocked",
+          "sidequests.trialofthesword.beginningtrials.complete",
+          "sidequests.trialofthesword.middletrials.complete"
+        ],
+        "harddependencies": [
+          "sidequests.trialofthesword.begun"
+        ]
+      },
+      "middletrials": {
+        "complete": {
+          "entries": [
+            {
+              "offset": 39760,
+              "value": 1
+            },
+            {
+              "offset": 510152,
+              "value": 1
+            }
+          ],
+          "harddependencies": [
+            "sidequests.trialofthesword.begun"
+          ],
+          "softdependencies": [
+            "sidequests.trialofthesword.beginningtrials.complete"
+          ]
+        }
       },
       "talktodekutree": {
         "entries": [
