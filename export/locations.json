@@ -120,6 +120,26 @@
       "shrines.myahmagana"
     ]
   },
+  "impashouse": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1155526055
+      },
+      {
+        "offset": 801784,
+        "value": 1130754984
+      },
+      {
+        "offset": 801792,
+        "value": 1148539100
+      },
+      {
+        "offset": 453224,
+        "value": 3261630443
+      }
+    ]
+  },
   "kakarikovillage": {
     "entries": [
     ],
@@ -160,6 +180,26 @@
       {
         "offset": 801792,
         "value": 1156173288
+      }
+    ]
+  },
+  "lurelinvillage": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 1160841180
+      },
+      {
+        "offset": 801784,
+        "value": 1121332408
+      },
+      {
+        "offset": 801792,
+        "value": 1163112120
+      },
+      {
+        "offset": 453224,
+        "value": 1102699871
       }
     ]
   },
@@ -1496,7 +1536,7 @@
         }
       ]
     },
-    "mijarokee": {
+    "mijahrokee": {
       "entries": [
         {
           "offset": 801776,
