@@ -2610,18 +2610,6 @@
           "mainquests.theisolatedplateau.complete"
         ]
       },
-      "masterswordtaken": {
-        "entries": [
-          {
-            "offset": 845432,
-            "value": 1
-          },
-          {
-            "offset": 565640,
-            "value": 1
-          }
-        ]
-      },
       "complete": {
         "entries": [
           {
@@ -2637,6 +2625,18 @@
           "cutscenes.tryingtotakethemastersword.viewed",
           "memories.themastersword",
           "mainquests.theherossword.masterswordtaken"
+        ]
+      },
+      "masterswordtaken": {
+        "entries": [
+          {
+            "offset": 845432,
+            "value": 1
+          },
+          {
+            "offset": 565640,
+            "value": 1
+          }
         ]
       }
     },
