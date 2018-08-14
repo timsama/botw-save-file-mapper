@@ -1339,6 +1339,44 @@
           }
         ]
       }
+    },
+    "kaysa": {
+      "unlocked": {
+        "entries": [
+          {
+            "offset": 37008,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "mija": {
+      "unlocked": {
+        "entries": [
+          {
+            "offset": 450496,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "powerlevel": {
+      "entries": [
+        {
+          "offset": 65280,
+          "value": "variable"
+        }
+      ]
+    },
+    "tera": {
+      "unlocked": {
+        "entries": [
+          {
+            "offset": 541632,
+            "value": 1
+          }
+        ]
+      }
     }
   },
   "hatenoancienttechlab": {
