@@ -11207,6 +11207,49 @@
           "sidequests.thepricelessmaracas.begun"
         ]
       }
+    },
+    "trialofthesword": {
+      "beginningtrials": {
+        "complete": {
+          "entries": [
+            {
+              "offset": 472392,
+              "value": 1
+            },
+            {
+              "offset": 844744,
+              "value": 1
+            }
+          ]
+        },
+        "masterswordbasedamagebonus": {
+          "entries": [
+            {
+              "offset": 517248,
+              "value": "variable"
+            }
+          ]
+        }
+      },
+      "begun": {
+        "entries": [
+          {
+            "offset": 325528,
+            "value": 1
+          }
+        ]
+      },
+      "talktodekutree": {
+        "entries": [
+          {
+            "offset": 298960,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "sidequests.trialofthesword.begun"
+        ]
+      }
     }
   },
   "stats": {
