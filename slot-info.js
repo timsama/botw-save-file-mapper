@@ -25,7 +25,7 @@ module.exports = (() => {
                 return bowBonusTypeOffset;
             } else if (category.toLowerCase() === 'shields') {
                 return shieldBonusTypeOffset;
-            } else {
+            } else if (category.toLowerCase() === 'weapons') {
                 return weaponBonusTypeOffset;
             }
         })();
@@ -44,7 +44,7 @@ module.exports = (() => {
                 return bowBonusAmountOffset;
             } else if (category.toLowerCase() === 'shields') {
                 return shieldBonusAmountOffset;
-            } else {
+            } else if (category.toLowerCase() === 'weapons') {
                 return weaponBonusAmountOffset;
             }
         })();

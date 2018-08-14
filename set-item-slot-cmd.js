@@ -149,7 +149,9 @@ if (!!categoryFilename) {
                         offsetSetter(base.color, dyes.ORIGINAL, saveFile);
                     }
                 }
-                offsetSetter(base.bonus.type, getBonusType(actualBonusType, category), saveFile);
+                if (category !== 'arrows' && category !== 'armor') {
+                    offsetSetter(base.bonus.type, getBonusType(actualBonusType, category), saveFile);
+                }
                 if (bonusAmount !== undefined) {
                     if (category === 'food') {
                         const maxBonus = maxFoodBonusAmounts[actualBonusType];
@@ -170,7 +172,7 @@ if (!!categoryFilename) {
                 if (!!bonusDuration && base.bonus.duration) {
                     offsetSetter(base.bonus.duration, foodduration.encode(bonusDuration || '00:00'), saveFile);
                 }
-                if (actualBonusType === 'NONE' || getBonusType(actualBonusType, category) === 0) {
+                if ((actualBonusType === 'NONE' || getBonusType(actualBonusType, category) === 0) && category !== 'arrows' && category !== 'armor') {
                     offsetSetter(base.bonus.amount, 0, saveFile);
                     offsetSetter(base.bonus.duration, 0, saveFile);
                 }
