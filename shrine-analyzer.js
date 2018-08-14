@@ -14,6 +14,7 @@ const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
 const name = process.argv[2];
 const hasQuest = process.argv.slice(3).some(entry => entry == 'with-quest' || entry.split('=')[0] == 'quest');
 const skipData = process.argv.slice(3).some(entry => entry == 'skip-data');
+const skipSnapshot = process.argv.slice(3).some(entry => entry == 'skip-snap' || entry == 'skip-snapshot');
 const includeKnown = process.argv.slice(3).some(entry => entry == 'include-known');
 const foundFlagName = `shrines.${name}.found`;
 const activeFlagName = `shrines.${name}.active`;
@@ -33,7 +34,7 @@ const questName = (() => {
 const questCompleteFlagName = `shrinequests.${questName}.complete`;
 
 if (!!name) {
-    const snapShotLoaded = loadSnapshot('GameAnalyzer');
+    const snapShotLoaded = skipSnapshot || loadSnapshot('GameAnalyzer');
     if (snapShotLoaded) {
         if (!skipData) {
             fs.renameSync(captionImagepath, tempCaptionImagepath);
