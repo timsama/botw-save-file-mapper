@@ -7109,6 +7109,13 @@
         "harddependencies": [
           "shrines.kamiaomuna.found"
         ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "rudaniasemblem",
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.kamiaomuna.active"
         ]
@@ -7548,6 +7555,13 @@
         "harddependencies": [
           "shrines.keedafunia.found"
         ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "rutasemblem",
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.keedafunia.active"
         ]
@@ -7724,6 +7738,13 @@
         ],
         "harddependencies": [
           "shrines.keivetala.found"
+        ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "naborissemblem",
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.keivetala.active"
@@ -8039,6 +8060,13 @@
         "harddependencies": [
           "shrines.kiahtoza.found"
         ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "medohsemblem",
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.kiahtoza.active"
         ]
@@ -8102,6 +8130,13 @@
         ],
         "harddependencies": [
           "shrines.kihiromoh.found"
+        ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "naborissemblem",
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.kihiromoh.active"
@@ -8610,6 +8645,13 @@
         ],
         "harddependencies": [
           "shrines.maheliya.found"
+        ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "rutasemblem",
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.maheliya.active"
@@ -9338,6 +9380,12 @@
         "harddependencies": [
           "shrines.noerajee.found"
         ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "medohsemblem",
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.noerajee.active"
@@ -9923,6 +9971,13 @@
         ],
         "harddependencies": [
           "shrines.rinuhonika.found"
+        ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "rudaniasemblem",
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.rinuhonika.active"
@@ -10570,6 +10625,13 @@
         "harddependencies": [
           "shrines.satokoda.found"
         ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "rutasemblem",
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.satokoda.pedestal"
         ]
@@ -10993,6 +11055,13 @@
         "harddependencies": [
           "shrines.sharolun.found"
         ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "rudaniasemblem",
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.sharolun.active"
         ]
@@ -11318,6 +11387,13 @@
         ],
         "harddependencies": [
           "shrines.shiragomar.found"
+        ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "medohsemblem",
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.shiragomar.active"
