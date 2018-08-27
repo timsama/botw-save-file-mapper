@@ -12936,6 +12936,24 @@
       }
     }
   },
+  "starfragment": {
+    "location": {
+      "entries": [
+        {
+          "offset": 537688,
+          "value": "variable"
+        },
+        {
+          "offset": 537696,
+          "value": "variable"
+        },
+        {
+          "offset": 537704,
+          "value": "variable"
+        }
+      ]
+    }
+  },
   "stats": {
     "heartcontainers": {
       "entries": [
