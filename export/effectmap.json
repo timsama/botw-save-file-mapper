@@ -511,6 +511,14 @@
         "softdependencies": [
           "divinebeasts.vahmedoh.map"
         ]
+      },
+      "terminalsremaining": {
+        "entries": [
+          {
+            "offset": 562912,
+            "value": "variable"
+          }
+        ]
       }
     },
     "vahnaboris": {
@@ -825,6 +833,14 @@
         ],
         "softdependencies": [
           "divinebeasts.vahnaboris.map"
+        ]
+      },
+      "terminalsremaining": {
+        "entries": [
+          {
+            "offset": 354080,
+            "value": "variable"
+          }
         ]
       }
     },
@@ -1168,6 +1184,14 @@
           "divinebeasts.vahrudania.map",
           "divinebeasts.vahrudania.defeatedallenemies.subtasks.glowingeyeball9"
         ]
+      },
+      "terminalsremaining": {
+        "entries": [
+          {
+            "offset": 944344,
+            "value": "variable"
+          }
+        ]
       }
     },
     "vahruta": {
@@ -1387,6 +1411,14 @@
         "softdependencies": [
           "divinebeasts.vahruta.map",
           "divinebeasts.vahruta.shortcutwaterfall"
+        ]
+      },
+      "terminalsremaining": {
+        "entries": [
+          {
+            "offset": 884248,
+            "value": "variable"
+          }
         ]
       }
     }
