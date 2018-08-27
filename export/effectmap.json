@@ -80,6 +80,60 @@
       }
     ]
   },
+  "championpowers": {
+    "daruksprotection": {
+      "plus": {
+        "entries": [
+          {
+            "offset": 885256,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championdarukssong.complete"
+        ]
+      }
+    },
+    "miphasgrace": {
+      "plus": {
+        "entries": [
+          {
+            "offset": 1012400,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championmiphassong.complete"
+        ]
+      }
+    },
+    "revalisgale": {
+      "plus": {
+        "entries": [
+          {
+            "offset": 538312,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championrevalissong.complete"
+        ]
+      }
+    },
+    "urbosasfury": {
+      "plus": {
+        "entries": [
+          {
+            "offset": 913760,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championurbosassong.complete"
+        ]
+      }
+    }
+  },
   "cutscenes": {
     "boardingvahnaboris": {
       "unviewed": {
