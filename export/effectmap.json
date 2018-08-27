@@ -12894,13 +12894,13 @@
             "value": 1
           }
         ],
+        "harddependencies": [
+          "sidequests.trialofthesword.begun"
+        ],
         "softdependencies": [
           "mastersword.fullyunlocked",
           "sidequests.trialofthesword.beginningtrials.complete",
           "sidequests.trialofthesword.middletrials.complete"
-        ],
-        "harddependencies": [
-          "sidequests.trialofthesword.begun"
         ]
       },
       "middletrials": {
