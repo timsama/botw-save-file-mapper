@@ -1716,6 +1716,223 @@
         ]
       }
     },
+    "championdarukssong": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 830752,
+            "value": 1
+          },
+          {
+            "offset": 822320,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.findthenewmonuments"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 44512,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.championdarukssong.begun"
+        ],
+        "softdependencies": [
+          "mainquests.championdarukssong.illusoryrealmbattleunlocked",
+          "memories.championdarukssong",
+          "championpowers.daruksprotection.plus"
+        ]
+      },
+      "illusoryrealmbattleunlocked": {
+        "entries": [
+          {
+            "offset": 43656,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.championdarukssong.begun"
+        ],
+        "softdependencies": [
+          "shrines.sharolun.complete",
+          "shrines.rinuhonika.complete",
+          "shrines.kamiaomuna.complete"
+        ]
+      }
+    },
+    "championmiphassong": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 382360,
+            "value": 1
+          },
+          {
+            "offset": 893600,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.findthenewmonuments"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 384256,
+            "value": 1
+          },
+          {
+            "offset": 476616,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.championmiphassong.begun"
+        ],
+        "softdependencies": [
+          "mainquests.championmiphassong.illusoryrealmbattleunlocked",
+          "memories.championmiphassong",
+          "championpowers.miphasgrace.plus"
+        ]
+      },
+      "illusoryrealmbattleunlocked": {
+        "entries": [
+          {
+            "offset": 62320,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.championmiphassong.begun"
+        ],
+        "softdependencies": [
+          "shrines.keedafunia.complete",
+          "shrines.maheliya.complete",
+          "shrines.satokoda.complete"
+        ]
+      }
+    },
+    "championrevalissong": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 886040,
+            "value": 1
+          },
+          {
+            "offset": 1021584,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.findthenewmonuments",
+          "mainquests.championrevalissong.dinraalglowinghornenabled"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 798888,
+            "value": 1
+          },
+          {
+            "offset": 31376,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.championrevalissong.begun"
+        ],
+        "softdependencies": [
+          "mainquests.championrevalissong.illusoryrealmbattleunlocked",
+          "memories.championrevalissong",
+          "championpowers.revalisgale.plus"
+        ]
+      },
+      "dinraalglowinghornenabled": {
+        "entries": [
+          {
+            "offset": 847416,
+            "value": 1
+          }
+        ]
+      },
+      "illusoryrealmbattleunlocked": {
+        "entries": [
+          {
+            "offset": 802736,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.championrevalissong.begun"
+        ],
+        "softdependencies": [
+          "shrines.kiahtoza.complete",
+          "shrines.noerajee.complete",
+          "shrines.shiragomar.complete"
+        ]
+      }
+    },
+    "championurbosassong": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 50320,
+            "value": 1
+          },
+          {
+            "offset": 898344,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.findthenewmonuments"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 337680,
+            "value": 1
+          },
+          {
+            "offset": 302968,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.championurbosassong.begun"
+        ],
+        "softdependencies": [
+          "mainquests.championurbosassong.illusoryrealmbattleunlocked",
+          "memories.championurbosassong",
+          "championpowers.urbosasfury.plus"
+        ]
+      },
+      "illusoryrealmbattleunlocked": {
+        "entries": [
+          {
+            "offset": 844056,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.championurbosassong.begun"
+        ],
+        "softdependencies": [
+          "shrines.keivetala.complete",
+          "shrines.takamashiri.complete",
+          "shrines.kihiromoh.complete"
+        ]
+      }
+    },
     "destroyganon": {
       "begun": {
         "entries": [
@@ -1903,7 +2120,8 @@
           }
         ],
         "harddependencies": [
-          "mainquests.divinebeastvahnaboris.entertheyigahideout"
+          "mainquests.divinebeastvahnaboris.entertheyigahideout",
+          "cutscenes.masterkohgaintro.viewed"
         ]
       },
       "entertheyigahideout": {
@@ -2667,6 +2885,171 @@
             "offset": 805208,
             "value": 1
           }
+        ],
+        "softdependencies": [
+          "mainquests.freethedivinebeasts.complete"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 334296,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.thechampionsballad.begun"
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.complete",
+          "memories.thechampionsballad",
+          "runes.mastercyclezero"
+        ]
+      },
+      "completethechampionsongs": {
+        "entries": [
+          {
+            "offset": 540304,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.thechampionsballad.begun"
+        ],
+        "softdependencies": [
+          "mainquests.championdarukssong.complete",
+          "mainquests.championmiphassong.complete",
+          "mainquests.championrevalissong.complete",
+          "mainquests.championurbosassong.complete"
+        ]
+      },
+      "conquerthemonsterbases": {
+        "entries": [
+          {
+            "offset": 452296,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.returntotheshrineofresurrection"
+        ]
+      },
+      "finaltrial": {
+        "begun": {
+          "entries": [
+            {
+              "offset": 20592,
+              "value": 1
+            },
+            {
+              "offset": 1026792,
+              "value": 1
+            },
+            {
+              "offset": 843896,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "mainquests.thechampionsballad.returntotheshrineofresurrectionagain"
+          ]
+        }
+      },
+      "findthenewmonuments": {
+        "daruksmonument": {
+          "unearthed": {
+            "entries": [
+              {
+                "offset": 351280,
+                "value": 1
+              }
+            ]
+          }
+        },
+        "entries": [
+          {
+            "offset": 34160,
+            "value": 1
+          }
+        ],
+        "miphasmonument": {
+          "unearthed": {
+            "entries": [
+              {
+                "offset": 385872,
+                "value": 1
+              }
+            ]
+          }
+        },
+        "monumentsremaining": {
+          "entries": [
+            {
+              "offset": 1025168,
+              "value": "variable"
+            }
+          ]
+        },
+        "revalismonument": {
+          "unearthed": {
+            "entries": [
+              {
+                "offset": 818104,
+                "value": 1
+              }
+            ]
+          }
+        },
+        "softdependencies": [
+          "mainquests.thechampionsballad.findthenewmonuments.daruksmonument.unearthed",
+          "mainquests.thechampionsballad.findthenewmonuments.miphasmonument.unearthed",
+          "mainquests.thechampionsballad.findthenewmonuments.revalismonument.unearthed",
+          "mainquests.thechampionsballad.findthenewmonuments.urbosasmonument.unearthed",
+          "mainquests.thechampionsballad.conquerthemonsterbases"
+        ],
+        "urbosasmonument": {
+          "unearthed": {
+            "entries": [
+              {
+                "offset": 834488,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "kassisontheplateau": {
+        "entries": [
+          {
+            "offset": 850320,
+            "value": 1
+          }
+        ]
+      },
+      "returntotheshrineofresurrection": {
+        "entries": [
+          {
+            "offset": 352576,
+            "value": 1
+          },
+          {
+            "offset": 1015600,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.thechampionsballad.begun"
+        ]
+      },
+      "returntotheshrineofresurrectionagain": {
+        "entries": [
+          {
+            "offset": 549800,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.completethechampionsongs"
         ]
       }
     },
@@ -2777,6 +3160,38 @@
         }
       ]
     },
+    "championdarukssong": {
+      "entries": [
+        {
+          "offset": 62448,
+          "value": 1
+        }
+      ]
+    },
+    "championmiphassong": {
+      "entries": [
+        {
+          "offset": 65304,
+          "value": 1
+        }
+      ]
+    },
+    "championrevalissong": {
+      "entries": [
+        {
+          "offset": 63384,
+          "value": 1
+        }
+      ]
+    },
+    "championurbosassong": {
+      "entries": [
+        {
+          "offset": 65640,
+          "value": 1
+        }
+      ]
+    },
     "daruksmettle": {
       "entries": [
         {
@@ -2865,6 +3280,14 @@
         }
       ]
     },
+    "thechampionsballad": {
+      "entries": [
+        {
+          "offset": 51592,
+          "value": 1
+        }
+      ]
+    },
     "themastersword": {
       "entries": [
         {
@@ -2912,6 +3335,16 @@
         "entries": [
           {
             "offset": 65152,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "traysi": {
+      "introduced": {
+        "entries": [
+          {
+            "offset": 69144,
             "value": 1
           }
         ]
@@ -5515,6 +5948,82 @@
         ]
       }
     },
+    "etsukorima": {
+      "active": {
+        "entries": [
+          {
+            "offset": 802504,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.etsukorima.found"
+        ],
+        "softdependencies": [
+          "shrines.etsukorima.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 69896,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.etsukorima.found"
+        ],
+        "softdependencies": [
+          "shrines.etsukorima.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 340000,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.etsukorima.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "monsterbaseconquered": {
+        "entries": [
+          {
+            "offset": 458504,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.etsukorima.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 50008,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.etsukorima.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 17192,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.conquerthemonsterbases",
+          "shrines.etsukorima.monsterbaseconquered"
+        ]
+      }
+    },
     "geeharah": {
       "active": {
         "entries": [
@@ -6336,6 +6845,74 @@
         ]
       }
     },
+    "kamiaomuna": {
+      "active": {
+        "entries": [
+          {
+            "offset": 370528,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kamiaomuna.found"
+        ],
+        "softdependencies": [
+          "shrines.kamiaomuna.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 909520,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kamiaomuna.found"
+        ],
+        "softdependencies": [
+          "shrines.kamiaomuna.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 826344,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.kamiaomuna.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 390432,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kamiaomuna.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 885752,
+            "value": 1
+          },
+          {
+            "offset": 28112,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championdarukssong.begun"
+        ]
+      }
+    },
     "kamurog": {
       "active": {
         "entries": [
@@ -6707,6 +7284,70 @@
         ]
       }
     },
+    "keedafunia": {
+      "active": {
+        "entries": [
+          {
+            "offset": 328768,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keedafunia.found"
+        ],
+        "softdependencies": [
+          "shrines.keedafunia.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 824352,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keedafunia.found"
+        ],
+        "softdependencies": [
+          "shrines.keedafunia.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 909176,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.keedafunia.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 453800,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keedafunia.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 449040,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championmiphassong.begun"
+        ]
+      }
+    },
     "keehayoog": {
       "active": {
         "entries": [
@@ -6817,6 +7458,75 @@
         ],
         "harddependencies": [
           "shrines.kehnamut.found"
+        ]
+      }
+    },
+    "keivetala": {
+      "active": {
+        "entries": [
+          {
+            "offset": 863688,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keivetala.found"
+        ],
+        "softdependencies": [
+          "shrines.keivetala.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 343056,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keivetala.found"
+        ],
+        "softdependencies": [
+          "shrines.keivetala.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 72736,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.keivetala.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 72808,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.keivetala.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 513176,
+            "value": 1
+          },
+          {
+            "offset": 557960,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championurbosassong.begun",
+          "npcs.traysi.introduced"
         ]
       }
     },
@@ -7062,6 +7772,134 @@
         ],
         "harddependencies": [
           "shrines.ketohwawai.found"
+        ]
+      }
+    },
+    "kiahtoza": {
+      "active": {
+        "entries": [
+          {
+            "offset": 343136,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kiahtoza.found"
+        ],
+        "softdependencies": [
+          "shrines.kiahtoza.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 863608,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kiahtoza.found"
+        ],
+        "softdependencies": [
+          "shrines.kiahtoza.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 799360,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.kiahtoza.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 298408,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kiahtoza.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 459752,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championrevalissong.begun"
+        ]
+      }
+    },
+    "kihiromoh": {
+      "active": {
+        "entries": [
+          {
+            "offset": 332480,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kihiromoh.found"
+        ],
+        "softdependencies": [
+          "shrines.kihiromoh.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 823240,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kihiromoh.found"
+        ],
+        "softdependencies": [
+          "shrines.kihiromoh.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 907160,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.kihiromoh.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 853792,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.kihiromoh.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 918120,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championurbosassong.begun"
         ]
       }
     },
@@ -7506,6 +8344,70 @@
         ],
         "harddependencies": [
           "shrines.maagnorah.found"
+        ]
+      }
+    },
+    "maheliya": {
+      "active": {
+        "entries": [
+          {
+            "offset": 801568,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maheliya.found"
+        ],
+        "softdependencies": [
+          "shrines.maheliya.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 73704,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maheliya.found"
+        ],
+        "softdependencies": [
+          "shrines.maheliya.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 345168,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.maheliya.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 514424,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.maheliya.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 67704,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championmiphassong.begun"
         ]
       }
     },
@@ -8172,6 +9074,71 @@
         ]
       }
     },
+    "noerajee": {
+      "active": {
+        "entries": [
+          {
+            "offset": 897144,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.noerajee.found"
+        ],
+        "softdependencies": [
+          "shrines.noerajee.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 387472,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.noerajee.found"
+        ],
+        ],
+        "softdependencies": [
+          "shrines.noerajee.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 302688,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.noerajee.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 1012296,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.noerajee.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 541592,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championrevalissong.begun"
+        ]
+      }
+    },
     "noyaneha": {
       "active": {
         "entries": [
@@ -8693,6 +9660,69 @@
         ]
       }
     },
+    "rinuhonika": {
+      "active": {
+        "entries": [
+          {
+            "offset": 62240,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.rinuhonika.found"
+        ],
+        "softdependencies": [
+          "shrines.rinuhonika.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 810464,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.rinuhonika.found"
+        ],
+        "softdependencies": [
+          "shrines.rinuhonika.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 852696,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.rinuhonika.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 856816,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.rinuhonika.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 535752,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championdarukssong.begun"
+        ]
+      }
+    },
     "ritaagzumo": {
       "active": {
         "entries": [
@@ -8753,6 +9783,82 @@
         ],
         "softdependencies": [
           "shrinequests.intothevortex.complete"
+        ]
+      }
+    },
+    "rohtachigah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 895248,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.rohtachigah.found"
+        ],
+        "softdependencies": [
+          "shrines.rohtachigah.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 391640,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.rohtachigah.found"
+        ],
+        "softdependencies": [
+          "shrines.rohtachigah.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 307336,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.rohtachigah.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "monsterbaseconquered": {
+        "entries": [
+          {
+            "offset": 854416,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.rohtachigah.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 1015616,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.rohtachigah.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 520136,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.conquerthemonsterbases",
+          "shrines.rohtachigah.monsterbaseconquered"
         ]
       }
     },
@@ -8952,6 +10058,82 @@
         ]
       }
     },
+    "ruvokorbah": {
+      "active": {
+        "entries": [
+          {
+            "offset": 61384,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.ruvokorbah.found"
+        ],
+        "softdependencies": [
+          "shrines.ruvokorbah.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 814512,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.ruvokorbah.found"
+        ],
+        "softdependencies": [
+          "shrines.ruvokorbah.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 857224,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.ruvokorbah.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "monsterbaseconquered": {
+        "entries": [
+          {
+            "offset": 825256,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.ruvokorbah.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 390632,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.ruvokorbah.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 474480,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.conquerthemonsterbases",
+          "shrines.ruvokorbah.monsterbaseconquered"
+        ]
+      }
+    },
     "saaskosah": {
       "active": {
         "entries": [
@@ -9121,6 +10303,69 @@
         ],
         "softdependencies": [
           "shrinequests.signoftheshadow.complete"
+        ]
+      }
+    },
+    "satokoda": {
+      "active": {
+        "entries": [
+          {
+            "offset": 356600,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.satokoda.found"
+        ],
+        "softdependencies": [
+          "shrines.satokoda.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 853520,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.satokoda.found"
+        ],
+        "softdependencies": [
+          "shrines.satokoda.pedestal"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 812864,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.satokoda.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 884624,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.satokoda.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 858672,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championmiphassong.begun"
         ]
       }
     },
@@ -9484,6 +10729,69 @@
         ]
       }
     },
+    "sharolun": {
+      "active": {
+        "entries": [
+          {
+            "offset": 845000,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.sharolun.found"
+        ],
+        "softdependencies": [
+          "shrines.sharolun.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 303936,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.sharolun.found"
+        ],
+        "softdependencies": [
+          "shrines.sharolun.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 389200,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.sharolun.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 940712,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.sharolun.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 460864,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championdarukssong.begun"
+        ]
+      }
+    },
     "shawarvo": {
       "active": {
         "entries": [
@@ -9740,6 +11048,75 @@
         ],
         "harddependencies": [
           "shrines.shehrata.found"
+        ]
+      }
+    },
+    "shiragomar": {
+      "active": {
+        "entries": [
+          {
+            "offset": 304048,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.shiragomar.found"
+        ],
+        "softdependencies": [
+          "shrines.shiragomar.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 873408,
+            "value": 1
+          },
+          {
+            "offset": 844880,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.shiragomar.found"
+        ],
+        "softdependencies": [
+          "shrines.shiragomar.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 897720,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.shiragomar.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 849632,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.shiragomar.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 25392,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championrevalissong.begun",
+          "mainquests.championrevalissong.dinraalglowinghornenabled"
         ]
       }
     },
@@ -10180,6 +11557,77 @@
         ],
         "harddependencies": [
           "shrines.tahnooah.found"
+        ]
+      }
+    },
+    "takamashiri": {
+      "active": {
+        "entries": [
+          {
+            "offset": 372336,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.takamashiri.found"
+        ],
+        "softdependencies": [
+          "shrines.takamashiri.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 904272,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.takamashiri.found"
+        ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "naborissemblem",
+            "unique": false
+          }
+        ],
+        "softdependencies": [
+          "shrines.takamashiri.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 822608,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.takamashiri.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 845480,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.takamashiri.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 19512,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.championurbosassong.begun"
         ]
       }
     },
@@ -10895,6 +12343,86 @@
         ],
         "harddependencies": [
           "shrines.yanaga.found"
+        ]
+      }
+    },
+    "yowakaita": {
+      "active": {
+        "entries": [
+          {
+            "offset": 351592,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.yowakaita.found"
+        ],
+        "softdependencies": [
+          "shrines.yowakaita.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 855104,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.yowakaita.found"
+        ],
+        "softdependencies": [
+          "shrines.yowakaita.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 813640,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.yowakaita.unearthed"
+        ]
+      },
+      "ischampionsballad": true,
+      "monsterbaseconquered": {
+        "entries": [
+          {
+            "offset": 388296,
+            "value": 1
+          },
+          {
+            "offset": 554528,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.yowakaita.unearthed"
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 565304,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.yowakaita.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+          {
+            "offset": 388296,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.conquerthemonsterbases",
+          "shrines.yowakaita.monsterbaseconquered"
         ]
       }
     },
