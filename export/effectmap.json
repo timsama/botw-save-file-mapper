@@ -321,6 +321,181 @@
     }
   },
   "divinebeasts": {
+    "finaltrial": {
+      "allterminals": {
+        "entries": [
+          {
+            "offset": 893088,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.terminal1",
+          "divinebeasts.finaltrial.terminal2",
+          "divinebeasts.finaltrial.terminal3",
+          "divinebeasts.finaltrial.terminal4"
+        ]
+      },
+      "bossunlocked": {
+        "entries": [
+          {
+            "offset": 458632,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.allterminals"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 526568,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.bossunlocked"
+        ]
+      },
+      "defeatedallenemies": {
+        "subtasks": {
+          "guardian1": {
+            "entries": [
+              {
+                "offset": 29032,
+                "value": 1
+              }
+            ]
+          },
+          "guardian2": {
+            "entries": [
+              {
+                "offset": 393392,
+                "value": 1
+              }
+            ]
+          },
+          "guardian3": {
+            "entries": [
+              {
+                "offset": 340032,
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "map": {
+        "entries": [
+          {
+            "offset": 863160,
+            "value": 1
+          },
+          {
+            "offset": 327912,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.finaltrial.begun"
+        ]
+      },
+      "state": {
+        "maindooropen": {
+          "entries": [
+            {
+              "offset": 336536,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "terminal1": {
+        "entries": [
+          {
+            "offset": 384520,
+            "value": 1
+          },
+          {
+            "offset": 482624,
+            "value": 1
+          },
+          {
+            "offset": 893088,
+            "value": 3
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.map"
+        ]
+      },
+      "terminal2": {
+        "entries": [
+          {
+            "offset": 50416,
+            "value": 1
+          },
+          {
+            "offset": 63592,
+            "value": 1
+          },
+          {
+            "offset": 893088,
+            "value": 2
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.map"
+        ]
+      },
+      "terminal3": {
+        "entries": [
+          {
+            "offset": 792192,
+            "value": 1
+          },
+          {
+            "offset": 74776,
+            "value": 1
+          },
+          {
+            "offset": 893088,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.map"
+        ]
+      },
+      "terminal4": {
+        "entries": [
+          {
+            "offset": 897688,
+            "value": 1
+          },
+          {
+            "offset": 1012704,
+            "value": 1
+          },
+          {
+            "offset": 893088,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.map"
+        ]
+      },
+      "terminalsremaining": {
+        "entries": [
+          {
+            "offset": 893088,
+            "value": "variable"
+          }
+        ]
+      }
+    },
     "vahmedoh": {
       "active": {
         "entries": [
