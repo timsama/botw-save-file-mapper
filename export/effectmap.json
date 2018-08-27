@@ -2188,6 +2188,7 @@
         ],
         "softdependencies": [
           "memories.urbosashand",
+          "mainquests.divinebeastvahnaboris.thunderhelmtaken",
           "mainquests.divinebeastvahnaboris.returnthethunderhelm.subtasks.rijuawaitsatlookout"
         ],
         "subtasks": {
@@ -2224,6 +2225,14 @@
             ]
           }
         }
+      },
+      "thunderhelmtaken": {
+        "entries": [
+          {
+            "offset": 912984,
+            "value": 1
+          }
+        ]
       }
     },
     "divinebeastvahrudania": {
