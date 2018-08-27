@@ -203,6 +203,108 @@
       }
     ]
   },
+  "mazliscamp": {
+    "entries": [
+      {
+        "offset": 801776,
+        "value": 3306691172
+      },
+      {
+        "offset": 801784,
+        "value": 1133627300
+      },
+      {
+        "offset": 801792,
+        "value": 3301818559
+      },
+      {
+        "offset": 453224,
+        "value": 1100720207
+      }
+    ]
+  },
+  "monuments": {
+    "daruk": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1151853775
+        },
+        {
+          "offset": 801784,
+          "value": 1140987648
+        },
+        {
+          "offset": 801792,
+          "value": 3306058858
+        },
+        {
+          "offset": 453224,
+          "value": 1120430729
+        }
+      ]
+    },
+    "mipha": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 1164607316
+        },
+        {
+          "offset": 801784,
+          "value": 1137585345
+        },
+        {
+          "offset": 801792,
+          "value": 1118777047
+        },
+        {
+          "offset": 453224,
+          "value": 3274092704
+        }
+      ]
+    },
+    "revali": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3311685902
+        },
+        {
+          "offset": 801784,
+          "value": 1134510505
+        },
+        {
+          "offset": 801792,
+          "value": 3298817780
+        },
+        {
+          "offset": 453224,
+          "value": 3274435097
+        }
+      ]
+    },
+    "urbosa": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3300357684
+        },
+        {
+          "offset": 801784,
+          "value": 1137787136
+        },
+        {
+          "offset": 801792,
+          "value": 1161335814
+        },
+        {
+          "offset": 453224,
+          "value": 3269020560
+        }
+      ]
+    }
+  },
   "outsidequkahnatashrine": {
     "entries": [
       {
@@ -3494,6 +3596,28 @@
         "value": 3274964992
       }
     ]
+  },
+  "yigahideout": {
+    "exitdoor": {
+      "entries": [
+        {
+          "offset": 801776,
+          "value": 3311088217
+        },
+        {
+          "offset": 801784,
+          "value": 1138534103
+        },
+        {
+          "offset": 801792,
+          "value": 1151541198
+        },
+        {
+          "offset": 453224,
+          "value": 1118412494
+        }
+      ]
+    }
   },
   "zorasdomain": {
     "entries": [
