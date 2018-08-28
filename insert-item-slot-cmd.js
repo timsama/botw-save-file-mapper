@@ -133,7 +133,15 @@ if (!!categoryFilename) {
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
-            const entries = json[name];
+            const rawEntries = json[name];
+            const slotWidth = 128;
+            const zeroFilledEntries = Array.apply(0, new Array(slotWidth / 8)).map((e, i) => {
+                return {
+                    offset: i * 8,
+                    value: 0
+                };
+            });
+            const entries = zeroFilledEntries.map((e, i) => rawEntries[i] || e);
 
             var slots = 1;
             var end = false;

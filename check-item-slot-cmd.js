@@ -18,7 +18,7 @@ const entries = relativeOffsets.map((relativeOffset) => {
     const value = offsetChecker(offset, filename);
     return {offset: relativeOffset, value: value};
 }).filter((entry, i) => {
-    return i < 4 || entry.value !== 0;
+    return entry.value !== 0;
 });
 
 entries.forEach((entry) => {

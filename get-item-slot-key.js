@@ -16,7 +16,7 @@ module.exports = (() => {
             const value = offsetChecker(offset, filename);
             return {offset: relativeOffset, value: value};
         }).filter((entry, i) => {
-            return i < 4 || entry.value !== 0;
+            return entry.value !== 0;
         });
         
         const itemFile = itemFileUtils.getCategoryFilepath(category);
@@ -25,7 +25,7 @@ module.exports = (() => {
         const itemKeys = json.getSortedKeys();
         return itemKeys.find((itemKey) => {
             const isMatch = json[itemKey].every((itemEntry, i) => {
-                return itemEntry.offset === entries[i].offset
+                return !!entries[i] && itemEntry.offset === entries[i].offset
                     && itemEntry.value === entries[i].value;
             });
 

@@ -11,10 +11,6 @@
     {
       "offset": 16,
       "value": 1769234251
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "amber": [
@@ -29,10 +25,6 @@
     {
       "offset": 16,
       "value": 1598423040
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "ancientcore": [
@@ -137,10 +129,6 @@
     {
       "offset": 16,
       "value": 1769234241
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "armoranth": [
@@ -389,10 +377,6 @@
     {
       "offset": 16,
       "value": 1769234252
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "chillfintrout": [
@@ -493,14 +477,6 @@
     {
       "offset": 8,
       "value": 1869440256
-    },
-    {
-      "offset": 16,
-      "value": 0
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "diamond": [
@@ -515,10 +491,6 @@
     {
       "offset": 16,
       "value": 1598095360
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "dinraalsclaw": [
@@ -839,10 +811,6 @@
     {
       "offset": 16,
       "value": 1769234245
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "flint": [
@@ -857,10 +825,6 @@
     {
       "offset": 16,
       "value": 1598619648
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "fortifiedpumpkin": [
@@ -875,10 +839,6 @@
     {
       "offset": 16,
       "value": 1769234250
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "freshmilk": [
@@ -1019,10 +979,6 @@
     {
       "offset": 16,
       "value": 1769234244
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "heartylizard": [
@@ -1199,10 +1155,6 @@
     {
       "offset": 16,
       "value": 1769234246
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "hylianrice": [
@@ -1451,10 +1403,6 @@
     {
       "offset": 16,
       "value": 1598488576
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "lynelguts": [
@@ -1523,10 +1471,6 @@
     {
       "offset": 16,
       "value": 1769234248
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "mightycarp": [
@@ -1829,10 +1773,6 @@
     {
       "offset": 16,
       "value": 1598357504
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "palmfruit": [
@@ -1847,10 +1787,6 @@
     {
       "offset": 16,
       "value": 1769234247
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "rawbirddrumstick": [
@@ -1865,10 +1801,6 @@
     {
       "offset": 16,
       "value": 1952395318
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "rawbirdthigh": [
@@ -1883,10 +1815,6 @@
     {
       "offset": 16,
       "value": 1952395319
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "rawgourmetmeat": [
@@ -1901,10 +1829,6 @@
     {
       "offset": 16,
       "value": 1952395569
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "rawmeat": [
@@ -1919,10 +1843,6 @@
     {
       "offset": 16,
       "value": 1952395313
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "rawprimemeat": [
@@ -1937,10 +1857,6 @@
     {
       "offset": 16,
       "value": 1952395314
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "rawwholebird": [
@@ -1955,10 +1871,6 @@
     {
       "offset": 16,
       "value": 1952395570
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "razorclawcrab": [
@@ -2063,10 +1975,6 @@
     {
       "offset": 16,
       "value": 1598554112
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "ruby": [
@@ -2081,10 +1989,6 @@
     {
       "offset": 16,
       "value": 1598160896
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "ruggedrhinobeetle": [
@@ -2179,10 +2083,6 @@
     {
       "offset": 16,
       "value": 1598226432
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "silentprincess": [
@@ -2287,10 +2187,6 @@
     {
       "offset": 16,
       "value": 1769234249
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "stamellashroom": [
@@ -2341,10 +2237,6 @@
     {
       "offset": 16,
       "value": 1598685184
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "stealthfintrout": [
@@ -2521,10 +2413,6 @@
     {
       "offset": 16,
       "value": 1598291968
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "voltfintrout": [
@@ -2557,10 +2445,6 @@
     {
       "offset": 16,
       "value": 1769234243
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "warmdarner": [
@@ -2629,10 +2513,6 @@
     {
       "offset": 16,
       "value": 1769234242
-    },
-    {
-      "offset": 24,
-      "value": 0
     }
   ],
   "winterwingbutterfly": [
