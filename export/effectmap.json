@@ -1791,26 +1791,6 @@
           "value": 1
         }
       ]
-    },
-    "sheikahslate": {
-      "entries": [
-        {
-          "offset": 394248,
-          "value": 1331849823
-        },
-        {
-          "offset": 394256,
-          "value": 1146246004
-        },
-        {
-          "offset": 394264,
-          "value": 1869505887
-        },
-        {
-          "offset": 394272,
-          "value": 1197831168
-        }
-      ]
     }
   },
   "mainquests": {
