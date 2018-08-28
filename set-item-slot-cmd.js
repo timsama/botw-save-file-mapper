@@ -144,9 +144,9 @@ if (!!categoryFilename) {
                 }
                 if (category === 'armor') {
                     if (!!color) {
-                        offsetSetter(base.color, color, saveFile);
+                        offsetSetter(base.quantity, color, saveFile);
                     } else {
-                        offsetSetter(base.color, dyes.ORIGINAL, saveFile);
+                        offsetSetter(base.quantity, dyes.ORIGINAL, saveFile);
                     }
                 }
                 if (category !== 'arrows' && category !== 'armor') {
