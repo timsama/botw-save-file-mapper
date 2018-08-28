@@ -1,0 +1,63 @@
+{
+  "mainquests": {
+    "followthesheikahslate": {
+      "begun": {
+        "entries": [
+          {
+            "offset": 931768,
+            "value": 1
+          }
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 551072,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "mainquests.followthesheikahslate.begun"
+        ]
+      }
+    }
+  },
+  "runes": {
+    "bombs": {
+      "entries": [
+        {
+          "offset": 38648,
+          "value": 1
+        },
+        {
+          "offset": 801992,
+          "value": 0
+        }
+      ]
+    },
+    "cryonis": {
+      "entries": [
+        {
+          "offset": 386608,
+          "value": 1
+        },
+        {
+          "offset": 801992,
+          "value": 4
+        }
+      ]
+    },
+    "mastercyclezero": {
+      "entries": [
+        {
+          "offset": 861792,
+          "value": 1
+        },
+        {
+          "offset": 801992,
+          "value": 6
+        }
+      ]
+    }
+  }
+}
