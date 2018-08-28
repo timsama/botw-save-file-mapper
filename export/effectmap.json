@@ -92,6 +92,22 @@
         "softdependencies": [
           "mainquests.championdarukssong.complete"
         ]
+      },
+      "ready": {
+        "entries": [
+          {
+            "offset": 470264,
+            "value": 0
+          }
+        ]
+      },
+      "uses": {
+        "entries": [
+          {
+            "offset": 949152,
+            "value": "variable"
+          }
+        ]
       }
     },
     "miphasgrace": {
@@ -104,6 +120,14 @@
         ],
         "softdependencies": [
           "mainquests.championmiphassong.complete"
+        ]
+      },
+      "ready": {
+        "entries": [
+          {
+            "offset": 797104,
+            "value": 0
+          }
         ]
       }
     },
@@ -118,6 +142,22 @@
         "softdependencies": [
           "mainquests.championrevalissong.complete"
         ]
+      },
+      "ready": {
+        "entries": [
+          {
+            "offset": 9624,
+            "value": 0
+          }
+        ]
+      },
+      "uses": {
+        "entries": [
+          {
+            "offset": 1023176,
+            "value": "variable"
+          }
+        ]
       }
     },
     "urbosasfury": {
@@ -130,6 +170,22 @@
         ],
         "softdependencies": [
           "mainquests.championurbosassong.complete"
+        ]
+      },
+      "ready": {
+        "entries": [
+          {
+            "offset": 27648,
+            "value": 0
+          }
+        ]
+      },
+      "uses": {
+        "entries": [
+          {
+            "offset": 563560,
+            "value": "variable"
+          }
         ]
       }
     }
