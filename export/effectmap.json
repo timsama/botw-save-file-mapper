@@ -2877,6 +2877,16 @@
             "offset": 931768,
             "value": 1
           }
+        ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "sheikahslate",
+            "unique": true
+          }
+        ],
+        "softdependencies": [
+          "sheikahslate.enabled"
         ]
       },
       "complete": {
@@ -13272,6 +13282,16 @@
         {
           "offset": 537704,
           "value": "variable"
+        }
+      ]
+    }
+  },
+  "sheikahslate": {
+    "enabled": {
+      "entries": [
+        {
+          "offset": 846056,
+          "value": 1
         }
       ]
     }
