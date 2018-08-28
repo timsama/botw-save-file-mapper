@@ -25,13 +25,9 @@ const shieldSlots = offsetChecker(0x00048cd8, filename);
 const bowSlots = offsetChecker(0x000e3348, filename);
 
 const quantityTypes = {
-    1098018159: 'unknown (armor)',
+    1098018159: 'dye',
     1466261872: 'durability',
 }
-
-const armorColorOffset = 0x00071250;
-const armorColorWidth = 8;
-const getArmorColorOffset = (slot) => armorColorOffset + slot * armorColorWidth;
 
 const bonusTypeOffset = 0x0005dd20;
 const bonusTypeWidth = 8;
@@ -148,7 +144,11 @@ while(!end) {
         } else {
             const quantityType = quantityTypes[entries[0].value];
             if (!!quantityType) {
-                return ` ${quantity} ${quantityType}`;
+                if (quantityType === 'dye') {
+                    return '';
+                } else {
+                    return ` ${quantity} ${quantityType}`;
+                }
             } else {
                 return ` x${quantity}`;
             }
@@ -186,7 +186,7 @@ while(!end) {
     const armorColorString = (() => {
         if ((slot - 1) >= slotStructure.armor.first && (slot - 1) <= slotStructure.armor.last) {
             const effectiveSlot = slot - slotStructure.armor.first;
-            const armorColorVal = offsetChecker(getArmorColorOffset(effectiveSlot - 1), filename);
+            const armorColorVal = offsetChecker(quantityOffset, filename);
             const armorColor = dyes[armorColorVal];
             if (!armorColor || armorColor === 'original') {
                 return '';

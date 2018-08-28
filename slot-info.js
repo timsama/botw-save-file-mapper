@@ -52,13 +52,6 @@ module.exports = (() => {
         return baseOffset + getBonusAmountLength(slot);
     };
 
-    const armorColorWidth = 8;
-    const armorColorOffset = 0x00071250;
-    const getArmorColorLength = (slots) => slots * armorColorWidth;
-    const getArmorColorOffset = (slot) => {
-        return armorColorOffset + getFoodHeartsLength(slot);
-    };
-
     const foodWidth = 16;
     const foodHeartsOffset = 0x000dcd90;
     const getFoodHeartsLength = (slots) => slots * foodWidth;
@@ -105,22 +98,12 @@ module.exports = (() => {
                 }
             })();
 
-            if (category === 'armor') {
-                return {
-                    item: getItemOffset(slot),
-                    quantity: getQuantitiesOffset(slot),
-                    equipped: getEquippedSlotOffset(slot),
-                    color: getArmorColorOffset(slotInCategory),
-                    bonus: bonus
-                };
-            } else {
-                return {
-                    item: getItemOffset(slot),
-                    quantity: getQuantitiesOffset(slot),
-                    equipped: getEquippedSlotOffset(slot),
-                    bonus: bonus
-                };
-            }
+            return {
+                item: getItemOffset(slot),
+                quantity: getQuantitiesOffset(slot),
+                equipped: getEquippedSlotOffset(slot),
+                bonus: bonus
+            };
         },
         getLengths: (slots, subsequentSlotsInCategory, category) => {
             const bonus = (() => {
@@ -139,22 +122,12 @@ module.exports = (() => {
                 }
             })();
 
-            if (category === 'armor') {
-                return {
-                    item: getItemLength(slots),
-                    quantity: getQuantitiesLength(slots),
-                    equipped: getEquippedSlotLength(slots),
-                    color: getArmorColorLength(subsequentSlotsInCategory),
-                    bonus: bonus
-                };
-            } else {
-                return {
-                    item: getItemLength(slots),
-                    quantity: getQuantitiesLength(slots),
-                    equipped: getEquippedSlotLength(slots),
-                    bonus: bonus
-                };
-            }
+            return {
+                item: getItemLength(slots),
+                quantity: getQuantitiesLength(slots),
+                equipped: getEquippedSlotLength(slots),
+                bonus: bonus
+            };
         }
     };
 })();

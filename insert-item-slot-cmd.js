@@ -155,14 +155,11 @@ if (!!categoryFilename) {
                     saveFileUtils.shiftData(saveFile, base.bonus.duration, next.bonus.duration, lengths.bonus.duration);
                     saveFileUtils.shiftData(saveFile, base.bonus.hearts, next.bonus.hearts, lengths.bonus.hearts);
                 }
-                if (category === 'armor') {
-                    saveFileUtils.shiftData(saveFile, base.color, next.color, lengths.color);
-                }
                 entries.forEach(entry => {
                     offsetSetter(base.item + entry.offset, entry.value, saveFile);
                 });
                 const actualBonusType = bonusType && bonusType.toUpperCase() || 'NONE';
-                if (!!quantity) {
+                if (!!quantity && category !== 'armor') {
                     if (category === 'food') {
                         const quarterhearts = (() => {
                             if (actualBonusType === 'HEARTY' && bonusAmount) {
@@ -175,12 +172,11 @@ if (!!categoryFilename) {
                     } else {
                         offsetSetter(base.quantity, quantity, saveFile);
                     }
-                }
-                if (category === 'armor') {
+                } else if (category === 'armor') {
                     if (!!color) {
-                        offsetSetter(base.color, color, saveFile);
+                        offsetSetter(base.quantity, color, saveFile);
                     } else {
-                        offsetSetter(base.color, dyes.ORIGINAL, saveFile);
+                        offsetSetter(base.quantity, dyes.ORIGINAL, saveFile);
                     }
                 }
                 if (category !== 'arrows' && category !== 'armor') {
