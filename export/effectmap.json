@@ -1685,6 +1685,16 @@
         ]
       }
     },
+    "malanya": {
+      "unlocked": {
+        "entries": [
+          {
+            "offset": 1024512,
+            "value": 1
+          }
+        ]
+      }
+    },
     "mija": {
       "unlocked": {
         "entries": [
