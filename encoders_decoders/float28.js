@@ -3,7 +3,7 @@ module.exports = (() => {
         encode: (intVal) => {
             const exponent = Math.floor(Math.log2(intVal)) - 7;
             const mantissa = intVal / (Math.pow(2, exponent) * 1.0) - 128;
-            return ((exponent + 6) << 23) | (mantissa * Math.pow(2, 16));
+            return (((exponent + 6) << 23) | (mantissa * Math.pow(2, 16))) | 0x40000000;
         },
         decode: (float28Val) => {
             const exponent = ((float28Val & 0x0F800000) >> 23) - 6;

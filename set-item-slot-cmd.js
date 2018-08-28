@@ -145,7 +145,7 @@ if (!!categoryFilename) {
                                 return Math.floor(parseFloat(quantityStr) * 4);
                             }
                         })();
-                        offsetSetter(base.bonus.hearts, float28.encode(quarterhearts) | 0x40000000, saveFile);
+                        offsetSetter(base.bonus.hearts, float28.encode(quarterhearts), saveFile);
                     } else {
                         offsetSetter(base.quantity, quantity, saveFile);
                     }
@@ -166,10 +166,10 @@ if (!!categoryFilename) {
                         const bonus = bonusAmount > maxBonus ? maxBonus : bonusAmount;
                         if (actualBonusType === 'ENERGIZING' && bonus) {
                             const staminaWheel = Math.floor(bonus) * 200;
-                            offsetSetter(base.bonus.amount, float28.encode(staminaWheel) | 0x40000000, saveFile);
+                            offsetSetter(base.bonus.amount, float28.encode(staminaWheel), saveFile);
                         } else if (actualBonusType === 'ENDURING' && bonus) {
                             const staminaOverfillSections = Math.floor(bonus);
-                            offsetSetter(base.bonus.amount, float28.encode(staminaOverfillSections) | 0x40000000, saveFile);
+                            offsetSetter(base.bonus.amount, float28.encode(staminaOverfillSections), saveFile);
                         } else if (foodBonusAmounts[bonus] !== undefined && actualBonusType !== 'HEARTY') {
                             offsetSetter(base.bonus.amount, foodBonusAmounts[bonus], saveFile);
                         }
