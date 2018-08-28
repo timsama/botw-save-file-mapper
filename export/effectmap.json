@@ -3783,6 +3783,14 @@
         }
       ]
     },
+    "enabled": {
+      "entries": [
+        {
+          "offset": 846056,
+          "value": 1
+        }
+      ]
+    },
     "hyrulecompendium": {
       "entries": [
         {
@@ -13282,16 +13290,6 @@
         {
           "offset": 537704,
           "value": "variable"
-        }
-      ]
-    }
-  },
-  "sheikahslate": {
-    "enabled": {
-      "entries": [
-        {
-          "offset": 846056,
-          "value": 1
         }
       ]
     }
