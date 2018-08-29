@@ -5451,7 +5451,97 @@
         ]
       }
     },
-    "all": {
+    "allchampionsballad": {
+      "active": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.yowakaita.active",
+          "shrines.rohtachigah.active",
+          "shrines.ruvokorbah.active",
+          "shrines.etsukorima.active",
+          "shrines.keedafunia.active",
+          "shrines.maheliya.active",
+          "shrines.satokoda.active",
+          "shrines.shiragomar.active",
+          "shrines.kiahtoza.active",
+          "shrines.noerajee.active",
+          "shrines.kamiaomuna.active",
+          "shrines.sharolun.active",
+          "shrines.rinuhonika.active",
+          "shrines.keivetala.active",
+          "shrines.takamashiri.active",
+          "shrines.kihoromoh.active"
+        ]
+      },
+      "complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.yowakaita.complete",
+          "shrines.rohtachigah.complete",
+          "shrines.ruvokorbah.complete",
+          "shrines.etsukorima.complete",
+          "shrines.keedafunia.complete",
+          "shrines.maheliya.complete",
+          "shrines.satokoda.complete",
+          "shrines.shiragomar.complete",
+          "shrines.kiahtoza.complete",
+          "shrines.noerajee.complete",
+          "shrines.kamiaomuna.complete",
+          "shrines.sharolun.complete",
+          "shrines.rinuhonika.complete",
+          "shrines.keivetala.complete",
+          "shrines.takamashiri.complete",
+          "shrines.kihoromoh.complete"
+        ]
+      },
+      "found": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.yowakaita.found",
+          "shrines.rohtachigah.found",
+          "shrines.ruvokorbah.found",
+          "shrines.etsukorima.found",
+          "shrines.keedafunia.found",
+          "shrines.maheliya.found",
+          "shrines.satokoda.found",
+          "shrines.shiragomar.found",
+          "shrines.kiahtoza.found",
+          "shrines.noerajee.found",
+          "shrines.kamiaomuna.found",
+          "shrines.sharolun.found",
+          "shrines.rinuhonika.found",
+          "shrines.keivetala.found",
+          "shrines.takamashiri.found",
+          "shrines.kihoromoh.found"
+        ]
+      },
+      "unearthed": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.yowakaita.unearthed",
+          "shrines.rohtachigah.unearthed",
+          "shrines.ruvokorbah.unearthed",
+          "shrines.etsukorima.unearthed",
+          "shrines.keedafunia.unearthed",
+          "shrines.maheliya.unearthed",
+          "shrines.satokoda.unearthed",
+          "shrines.shiragomar.unearthed",
+          "shrines.kiahtoza.unearthed",
+          "shrines.noerajee.unearthed",
+          "shrines.kamiaomuna.unearthed",
+          "shrines.sharolun.unearthed",
+          "shrines.rinuhonika.unearthed",
+          "shrines.keivetala.unearthed",
+          "shrines.takamashiri.unearthed",
+          "shrines.kihoromoh.unearthed"
+        ]
+      }
+    },
+    "allmainquest": {
       "active": {
         "entries": [
         ],
