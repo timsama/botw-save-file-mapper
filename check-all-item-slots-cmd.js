@@ -129,8 +129,8 @@ while(!end) {
     const isEquippedStr = isEquipped ? ' [equipped]' : '';
 
     const entries = relativeOffsets.map((relativeOffset) => {
-    const offset = baseOffset + relativeOffset;
-    const value = offsetChecker(offset, filename);
+        const offset = baseOffset + relativeOffset;
+        const value = offsetChecker(offset, filename);
         return {offset: relativeOffset, value: value};
     }).filter((entry, i) => {
         return entry.value !== 0;
