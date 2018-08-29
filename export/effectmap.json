@@ -2900,6 +2900,7 @@
           {
             "category": "keyitems",
             "name": "sheikahslate",
+            "stackable": false,
             "unique": true
           }
         ],
@@ -7189,6 +7190,7 @@
           {
             "category": "keyitems",
             "name": "rudaniasemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -7635,6 +7637,7 @@
           {
             "category": "keyitems",
             "name": "rutasemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -7819,6 +7822,7 @@
           {
             "category": "keyitems",
             "name": "naborissemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -8140,6 +8144,7 @@
           {
             "category": "keyitems",
             "name": "medohsemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -8211,6 +8216,7 @@
           {
             "category": "keyitems",
             "name": "naborissemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -8726,6 +8732,7 @@
           {
             "category": "keyitems",
             "name": "rutasemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -9460,6 +9467,7 @@
           {
             "category": "keyitems",
             "name": "medohsemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -10052,6 +10060,7 @@
           {
             "category": "keyitems",
             "name": "rudaniasemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -10706,6 +10715,7 @@
           {
             "category": "keyitems",
             "name": "rutasemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -11137,6 +11147,7 @@
           {
             "category": "keyitems",
             "name": "rudaniasemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -11471,6 +11482,7 @@
           {
             "category": "keyitems",
             "name": "medohsemblem",
+            "stackable": true,
             "unique": false
           }
         ],
@@ -11983,6 +11995,7 @@
           {
             "category": "keyitems",
             "name": "naborissemblem",
+            "stackable": true,
             "unique": false
           }
         ],
