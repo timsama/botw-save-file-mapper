@@ -1,86 +1,98 @@
 {
-  "ancientarrow": [
-    {
-      "offset": 0,
-      "value": 1097753449
-    },
-    {
-      "offset": 8,
-      "value": 1701737537
-    },
-    {
-      "offset": 16,
-      "value": 1920102263
-    }
-  ],
- "arrow": [
-    {
-      "offset": 0,
-      "value": 1315926637
-    },
-    {
-      "offset": 8,
-      "value": 1634484594
-    },
-    {
-      "offset": 16,
-      "value": 1919907584
-    }
-  ],
-"bombarrow": [
-    {
-      "offset": 0,
-      "value": 1114598754
-    },
-    {
-      "offset": 8,
-      "value": 1098019439
-    },
-    {
-      "offset": 16,
-      "value": 2002731264
-    }
-  ],
-"firearrow": [
-    {
-      "offset": 0,
-      "value": 1181315685
-    },
-    {
-      "offset": 8,
-      "value": 1098019439
-    },
-    {
-      "offset": 16,
-      "value": 1996488704
-    }
-  ],
-"icearrow": [
-    {
-      "offset": 0,
-      "value": 1231250753
-    },
-    {
-      "offset": 8,
-      "value": 1920102263
-    }
-  ],
-"shockarrow": [
-    {
-      "offset": 0,
-      "value": 1164731747
-    },
-    {
-      "offset": 8,
-      "value": 1953655139
-    },
-    {
-      "offset": 16,
-      "value": 1098019439
-    },
-    {
-      "offset": 24,
-      "value": 1996488704
-    }
-  ]
+  "ancientarrow": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1097753449
+      },
+      {
+        "offset": 8,
+        "value": 1701737537
+      },
+      {
+        "offset": 16,
+        "value": 1920102263
+      }
+    ]
+  },
+  "arrow": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1315926637
+      },
+      {
+        "offset": 8,
+        "value": 1634484594
+      },
+      {
+        "offset": 16,
+        "value": 1919907584
+      }
+    ]
+  },
+  "bombarrow": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1114598754
+      },
+      {
+        "offset": 8,
+        "value": 1098019439
+      },
+      {
+        "offset": 16,
+        "value": 2002731264
+      }
+    ]
+  },
+  "firearrow": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1181315685
+      },
+      {
+        "offset": 8,
+        "value": 1098019439
+      },
+      {
+        "offset": 16,
+        "value": 1996488704
+      }
+    ]
+  },
+  "icearrow": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1231250753
+      },
+      {
+        "offset": 8,
+        "value": 1920102263
+      }
+    ]
+  },
+  "shockarrow": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1164731747
+      },
+      {
+        "offset": 8,
+        "value": 1953655139
+      },
+      {
+        "offset": 16,
+        "value": 1098019439
+      },
+      {
+        "offset": 24,
+        "value": 1996488704
+      }
+    ]
+  }
 }

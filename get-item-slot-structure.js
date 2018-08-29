@@ -46,7 +46,7 @@ module.exports = (() => {
         const bowLast = arrowFirst - 1;
 
         const arrows = itemFileUtils.getFileAsJsonOrEmptyJsObject(itemFileUtils.getCategoryFilepath('arrows'));
-        const arrowTypes = arrows.getSortedKeys().map(key => arrows[key][0]);
+        const arrowTypes = arrows.getSortedKeys().map(key => arrows[key].entries[0]);
         const arrowSlots = (() => {
             const slots = arrowTypes.map((name, i) => i + arrowFirst);
             return slots.reduce((acc, slot) => {

@@ -1,470 +1,548 @@
 {
-  "ancientbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 842203136
-    }
-  ],
-  "bokobow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 808714240
-    }
-  ],
-  "bowoflight": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 925958144
-    }
-  ],
-  "dragonbonebokobow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 842465280
-    }
-  ],
-  "duplexbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 875560960
-    }
-  ],
-  "falconbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 825688064
-    }
-  ],
-  "forestdwellersbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 825425920
-    }
-  ],
-  "goldenbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 825556992
-    }
-  ],
-  "greateaglebow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 842530816
-    }
-  ],
-  "knightsbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 859111424
-    }
-  ],
-  "lizalbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 808845312
-    }
-  ],
-  "lynelbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 809041920
-    }
-  ],
-  "mightylynelbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 842399744
-    }
-  ],
-  "phrenicbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 842596352
-    }
-  ],
-  "royalbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 859176960
-    }
-  ],
-  "royalguardsbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 858980352
-    }
-  ],
-  "savagelynelbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 858914816
-    }
-  ],
-  "silverbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 825491456
-    }
-  ],
-  "soldiersbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 808583168
-    }
-  ],
-  "spikedbokobow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 808648704
-    }
-  ],
-  "steellizalbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 858783744
-    }
-  ],
-  "strengthenedlizalbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 825294848
-    }
-  ],
-  "swallowbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 825622528
-    }
-  ],
-  "travelersbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 808517632
-    }
-  ],
-  "twilightbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 926023680
-    }
-  ],
-  "woodenbow": [
-    {
-      "offset": 0,
-      "value": 1466261872
-    },
-    {
-      "offset": 8,
-      "value": 1869504322
-    },
-    {
-      "offset": 16,
-      "value": 1870094128
-    },
-    {
-      "offset": 24,
-      "value": 859308032
-    }
-  ]
+  "ancientbow": {
+    "durability": 12000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 842203136
+      }
+    ]
+  },
+  "bokobow": {
+    "durability": 1600,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 808714240
+      }
+    ]
+  },
+  "bowoflight": {
+    "durability": 10000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 925958144
+      }
+    ]
+  },
+  "dragonbonebokobow": {
+    "durability": 3000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 842465280
+      }
+    ]
+  },
+  "duplexbow": {
+    "durability": 1800,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 875560960
+      }
+    ]
+  },
+  "falconbow": {
+    "durability": 5000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 825688064
+      }
+    ]
+  },
+  "forestdwellersbow": {
+    "durability": 3500,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 825425920
+      }
+    ]
+  },
+  "goldenbow": {
+    "durability": 6000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 825556992
+      }
+    ]
+  },
+  "greateaglebow": {
+    "durability": 6000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 842530816
+      }
+    ]
+  },
+  "knightsbow": {
+    "durability": 4800,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 859111424
+      }
+    ]
+  },
+  "lizalbow": {
+    "durability": 2500,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 808845312
+      }
+    ]
+  },
+  "lynelbow": {
+    "durability": 3000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 809041920
+      }
+    ]
+  },
+  "mightylynelbow": {
+    "durability": 3500,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 842399744
+      }
+    ]
+  },
+  "phrenicbow": {
+    "durability": 4500,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 842596352
+      }
+    ]
+  },
+  "royalbow": {
+    "durability": 6000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 859176960
+      }
+    ]
+  },
+  "royalguardsbow": {
+    "durability": 2000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 858980352
+      }
+    ]
+  },
+  "savagelynelbow": {
+    "durability": 4500,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 858914816
+      }
+    ]
+  },
+  "silverbow": {
+    "durability": 4000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 825491456
+      }
+    ]
+  },
+  "soldiersbow": {
+    "durability": 3600,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 808583168
+      }
+    ]
+  },
+  "spikedbokobow": {
+    "durability": 2000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 808648704
+      }
+    ]
+  },
+  "steellizalbow": {
+    "durability": 5000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 858783744
+      }
+    ]
+  },
+  "strengthenedlizalbow": {
+    "durability": 3500,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 825294848
+      }
+    ]
+  },
+  "swallowbow": {
+    "durability": 3000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 825622528
+      }
+    ]
+  },
+  "travelersbow": {
+    "durability": 2200,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 808517632
+      }
+    ]
+  },
+  "twilightbow": {
+    "durability": 10000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 926023680
+      }
+    ]
+  },
+  "woodenbow": {
+    "durability": 2000,
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1466261872
+      },
+      {
+        "offset": 8,
+        "value": 1869504322
+      },
+      {
+        "offset": 16,
+        "value": 1870094128
+      },
+      {
+        "offset": 24,
+        "value": 859308032
+      }
+    ]
+  }
 }

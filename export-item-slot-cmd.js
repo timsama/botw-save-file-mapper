@@ -37,7 +37,7 @@ if (!!exportFilename) {
 
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(exportFilename);
 
-            json[name] = entries;
+            json[name] = {'entries': entries};
 
             itemFileUtils.saveJsonFile(exportFilename, json);
         }

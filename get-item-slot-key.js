@@ -24,7 +24,7 @@ module.exports = (() => {
 
         const itemKeys = json.getSortedKeys();
         return itemKeys.find((itemKey) => {
-            const isMatch = json[itemKey].every((itemEntry, i) => {
+            const isMatch = json[itemKey].entries.every((itemEntry, i) => {
                 return !!entries[i] && itemEntry.offset === entries[i].offset
                     && itemEntry.value === entries[i].value;
             });

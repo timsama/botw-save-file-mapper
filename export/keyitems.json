@@ -1,830 +1,902 @@
 {
-  "ancientbridle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1382377838
-    },
-    {
-      "offset": 32,
-      "value": 1935618352
-    }
-  ],
-  "ancientsaddle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1398891620
-    },
-    {
-      "offset": 32,
-      "value": 1818582833
-    },
-    {
-      "offset": 40,
-      "value": 805306368
-    }
-  ],
-  "classifiedenvelope": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1349676911
-    },
-    {
-      "offset": 16,
-      "value": 1715629935
-    },
-    {
-      "offset": 24,
-      "value": 1795162112
-    }
-  ],
-  "daruksprotection": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1214607983
-    },
-    {
-      "offset": 16,
-      "value": 1399813484
-    },
-    {
-      "offset": 24,
-      "value": 1598517106
-    },
-    {
-      "offset": 32,
-      "value": 1869479936
-    }
-  ],
-  "daruksprotectionplus": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1145848671
-    },
-    {
-      "offset": 16,
-      "value": 1214607983
-    },
-    {
-      "offset": 24,
-      "value": 1399813484
-    },
-    {
-      "offset": 32,
-      "value": 1598517106
-    },
-    {
-      "offset": 40,
-      "value": 1869479936
-    }
-  ],
-  "extravagantbridle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1382377838
-    },
-    {
-      "offset": 32,
-      "value": 1935618101
-    }
-  ],
-  "extravagantsaddle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1398891620
-    },
-    {
-      "offset": 32,
-      "value": 1818582832
-    },
-    {
-      "offset": 40,
-      "value": 889192448
-    }
-  ],
-  "hestusgift": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1349676911
-    },
-    {
-      "offset": 16,
-      "value": 1716219762
-    },
-    {
-      "offset": 24,
-      "value": 1869283328
-    }
-  ],
-  "hestusmaracas": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1298231905
-    },
-    {
-      "offset": 16,
-      "value": 1667330816
-    }
-  ],
-  "knightsbridle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1382377838
-    },
-    {
-      "offset": 32,
-      "value": 1935618099
-    }
-  ],
-  "knightssaddle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1398891620
-    },
-    {
-      "offset": 32,
-      "value": 1818582832
-    },
-    {
-      "offset": 40,
-      "value": 855638016
-    }
-  ],
-  "korokseed": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1265594991
-    },
-    {
-      "offset": 16,
-      "value": 1800303988
-    },
-    {
-      "offset": 24,
-      "value": 1929379840
-    }
-  ],
-  "medalofhonorhinox": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1349676911
-    },
-    {
-      "offset": 16,
-      "value": 1715956065
-    },
-    {
-      "offset": 24,
-      "value": 1853115241
-    },
-    {
-      "offset": 32,
-      "value": 1819043186
-    }
-  ],
-  "medalofhonormolduga": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1349676911
-    },
-    {
-      "offset": 16,
-      "value": 1716740462
-    },
-    {
-      "offset": 24,
-      "value": 1685548914
-    },
-    {
-      "offset": 32,
-      "value": 1833658732
-    },
-    {
-      "offset": 40,
-      "value": 1818587648
-    }
-  ],
-  "medalofhonortalus": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1349676911
-    },
-    {
-      "offset": 16,
-      "value": 1715957612
-    },
-    {
-      "offset": 24,
-      "value": 1701661545
-    },
-    {
-      "offset": 32,
-      "value": 1819043186
-    }
-  ],
-  "medohsemblem": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1145848671
-    },
-    {
-      "offset": 16,
-      "value": 1214607983
-    },
-    {
-      "offset": 24,
-      "value": 1399153004
-    },
-    {
-      "offset": 32,
-      "value": 1599236468
-    },
-    {
-      "offset": 40,
-      "value": 1862270976
-    }
-  ],
-  "miphasgrace": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1214607983
-    },
-    {
-      "offset": 16,
-      "value": 1399813484
-    },
-    {
-      "offset": 24,
-      "value": 1599762290
-    },
-    {
-      "offset": 32,
-      "value": 1627389952
-    }
-  ],
-  "miphasgraceplus": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1145848671
-    },
-    {
-      "offset": 16,
-      "value": 1214607983
-    },
-    {
-      "offset": 24,
-      "value": 1399813484
-    },
-    {
-      "offset": 32,
-      "value": 1599762290
-    },
-    {
-      "offset": 40,
-      "value": 1627389952
-    }
-  ],
-  "monsterbridle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1382377838
-    },
-    {
-      "offset": 32,
-      "value": 1935618100
-    }
-  ],
-  "monstersaddle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1398891620
-    },
-    {
-      "offset": 32,
-      "value": 1818582832
-    },
-    {
-      "offset": 40,
-      "value": 872415232
-    }
-  ],
-  "naborissemblem": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1145848671
-    },
-    {
-      "offset": 16,
-      "value": 1214607983
-    },
-    {
-      "offset": 24,
-      "value": 1399153004
-    },
-    {
-      "offset": 32,
-      "value": 1598514546
-    },
-    {
-      "offset": 40,
-      "value": 1969516288
-    }
-  ],
-  "paraglider": [
-    {
-      "offset": 0,
-      "value": 1349280121
-    },
-    {
-      "offset": 8,
-      "value": 1701991284
-    },
-    {
-      "offset": 16,
-      "value": 1869374770
-    }
-  ],
-  "pictureofthechampions": [
-    {
-      "offset": 0,
-      "value": 1197831263
-    },
-    {
-      "offset": 8,
-      "value": 1417113167
-    },
-    {
-      "offset": 16,
-      "value": 1651138372
-    },
-    {
-      "offset": 24,
-      "value": 1279483725
-    },
-    {
-      "offset": 32,
-      "value": 1701670770
-    },
-    {
-      "offset": 40,
-      "value": 1767992400
-    },
-    {
-      "offset": 48,
-      "value": 1768125557
-    },
-    {
-      "offset": 56,
-      "value": 1919246145
-    },
-    {
-      "offset": 64,
-      "value": 1596993792
-    }
-  ],
-  "revalisgale": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1214607983
-    },
-    {
-      "offset": 16,
-      "value": 1399813484
-    },
-    {
-      "offset": 24,
-      "value": 1599236468
-    },
-    {
-      "offset": 32,
-      "value": 1862270976
-    }
-  ],
-  "revalisgaleplus": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1145848671
-    },
-    {
-      "offset": 16,
-      "value": 1214607983
-    },
-    {
-      "offset": 24,
-      "value": 1399813484
-    },
-    {
-      "offset": 32,
-      "value": 1599236468
-    },
-    {
-      "offset": 40,
-      "value": 1862270976
-    }
-  ],
-  "royalbridle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1382377838
-    },
-    {
-      "offset": 32,
-      "value": 1935618098
-    }
-  ],
-  "royalsaddle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1398891620
-    },
-    {
-      "offset": 32,
-      "value": 1818582832
-    },
-    {
-      "offset": 40,
-      "value": 838860800
-    }
-  ],
-  "rudaniasemblem": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1145848671
-    },
-    {
-      "offset": 16,
-      "value": 1214607983
-    },
-    {
-      "offset": 24,
-      "value": 1399153004
-    },
-    {
-      "offset": 32,
-      "value": 1598517106
-    },
-    {
-      "offset": 40,
-      "value": 1869479936
-    }
-  ],
-  "rutasemblem": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1145848671
-    },
-    {
-      "offset": 16,
-      "value": 1214607983
-    },
-    {
-      "offset": 24,
-      "value": 1399153004
-    },
-    {
-      "offset": 32,
-      "value": 1599762290
-    },
-    {
-      "offset": 40,
-      "value": 1627389952
-    }
-  ],
-  "sheikahslate": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1146246004
-    },
-    {
-      "offset": 16,
-      "value": 1869505887
-    },
-    {
-      "offset": 24,
-      "value": 1197831168
-    }
-  ],
-  "spiritorb": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1148546663
-    },
-    {
-      "offset": 16,
-      "value": 1701801539
-    },
-    {
-      "offset": 24,
-      "value": 1818583410
-    },
-    {
-      "offset": 32,
-      "value": 1399153004
-    }
-  ],
-  "travelerssaddle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1398891620
-    },
-    {
-      "offset": 32,
-      "value": 1818582832
-    },
-    {
-      "offset": 40,
-      "value": 822083584
-    }
-  ],
-  "travelerssbridle": [
-    {
-      "offset": 0,
-      "value": 1197567333
-    },
-    {
-      "offset": 8,
-      "value": 1383034184
-    },
-    {
-      "offset": 16,
-      "value": 1869771621
-    },
-    {
-      "offset": 24,
-      "value": 1382377838
-    },
-    {
-      "offset": 32,
-      "value": 1935618097
-    }
-  ],
-  "travelmedallion": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1466004080
-    },
-    {
-      "offset": 16,
-      "value": 1145848576
-    }
-  ],
-  "urbosasfury": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1214607983
-    },
-    {
-      "offset": 16,
-      "value": 1399813484
-    },
-    {
-      "offset": 24,
-      "value": 1598514546
-    },
-    {
-      "offset": 32,
-      "value": 1969516288
-    }
-  ],
-  "urbosasfuryplus": [
-    {
-      "offset": 0,
-      "value": 1331849823
-    },
-    {
-      "offset": 8,
-      "value": 1145848671
-    },
-    {
-      "offset": 16,
-      "value": 1214607983
-    },
-    {
-      "offset": 24,
-      "value": 1399813484
-    },
-    {
-      "offset": 32,
-      "value": 1598514546
-    },
-    {
-      "offset": 40,
-      "value": 1969516288
-    }
-  ]
+  "ancientbridle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1382377838
+      },
+      {
+        "offset": 32,
+        "value": 1935618352
+      }
+    ]
+  },
+  "ancientsaddle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1398891620
+      },
+      {
+        "offset": 32,
+        "value": 1818582833
+      },
+      {
+        "offset": 40,
+        "value": 805306368
+      }
+    ]
+  },
+  "classifiedenvelope": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1349676911
+      },
+      {
+        "offset": 16,
+        "value": 1715629935
+      },
+      {
+        "offset": 24,
+        "value": 1795162112
+      }
+    ]
+  },
+  "daruksprotection": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1214607983
+      },
+      {
+        "offset": 16,
+        "value": 1399813484
+      },
+      {
+        "offset": 24,
+        "value": 1598517106
+      },
+      {
+        "offset": 32,
+        "value": 1869479936
+      }
+    ]
+  },
+  "daruksprotectionplus": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1145848671
+      },
+      {
+        "offset": 16,
+        "value": 1214607983
+      },
+      {
+        "offset": 24,
+        "value": 1399813484
+      },
+      {
+        "offset": 32,
+        "value": 1598517106
+      },
+      {
+        "offset": 40,
+        "value": 1869479936
+      }
+    ]
+  },
+  "extravagantbridle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1382377838
+      },
+      {
+        "offset": 32,
+        "value": 1935618101
+      }
+    ]
+  },
+  "extravagantsaddle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1398891620
+      },
+      {
+        "offset": 32,
+        "value": 1818582832
+      },
+      {
+        "offset": 40,
+        "value": 889192448
+      }
+    ]
+  },
+  "hestusgift": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1349676911
+      },
+      {
+        "offset": 16,
+        "value": 1716219762
+      },
+      {
+        "offset": 24,
+        "value": 1869283328
+      }
+    ]
+  },
+  "hestusmaracas": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1298231905
+      },
+      {
+        "offset": 16,
+        "value": 1667330816
+      }
+    ]
+  },
+  "knightsbridle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1382377838
+      },
+      {
+        "offset": 32,
+        "value": 1935618099
+      }
+    ]
+  },
+  "knightssaddle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1398891620
+      },
+      {
+        "offset": 32,
+        "value": 1818582832
+      },
+      {
+        "offset": 40,
+        "value": 855638016
+      }
+    ]
+  },
+  "korokseed": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1265594991
+      },
+      {
+        "offset": 16,
+        "value": 1800303988
+      },
+      {
+        "offset": 24,
+        "value": 1929379840
+      }
+    ]
+  },
+  "medalofhonorhinox": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1349676911
+      },
+      {
+        "offset": 16,
+        "value": 1715956065
+      },
+      {
+        "offset": 24,
+        "value": 1853115241
+      },
+      {
+        "offset": 32,
+        "value": 1819043186
+      }
+    ]
+  },
+  "medalofhonormolduga": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1349676911
+      },
+      {
+        "offset": 16,
+        "value": 1716740462
+      },
+      {
+        "offset": 24,
+        "value": 1685548914
+      },
+      {
+        "offset": 32,
+        "value": 1833658732
+      },
+      {
+        "offset": 40,
+        "value": 1818587648
+      }
+    ]
+  },
+  "medalofhonortalus": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1349676911
+      },
+      {
+        "offset": 16,
+        "value": 1715957612
+      },
+      {
+        "offset": 24,
+        "value": 1701661545
+      },
+      {
+        "offset": 32,
+        "value": 1819043186
+      }
+    ]
+  },
+  "medohsemblem": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1145848671
+      },
+      {
+        "offset": 16,
+        "value": 1214607983
+      },
+      {
+        "offset": 24,
+        "value": 1399153004
+      },
+      {
+        "offset": 32,
+        "value": 1599236468
+      },
+      {
+        "offset": 40,
+        "value": 1862270976
+      }
+    ]
+  },
+  "miphasgrace": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1214607983
+      },
+      {
+        "offset": 16,
+        "value": 1399813484
+      },
+      {
+        "offset": 24,
+        "value": 1599762290
+      },
+      {
+        "offset": 32,
+        "value": 1627389952
+      }
+    ]
+  },
+  "miphasgraceplus": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1145848671
+      },
+      {
+        "offset": 16,
+        "value": 1214607983
+      },
+      {
+        "offset": 24,
+        "value": 1399813484
+      },
+      {
+        "offset": 32,
+        "value": 1599762290
+      },
+      {
+        "offset": 40,
+        "value": 1627389952
+      }
+    ]
+  },
+  "monsterbridle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1382377838
+      },
+      {
+        "offset": 32,
+        "value": 1935618100
+      }
+    ]
+  },
+  "monstersaddle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1398891620
+      },
+      {
+        "offset": 32,
+        "value": 1818582832
+      },
+      {
+        "offset": 40,
+        "value": 872415232
+      }
+    ]
+  },
+  "naborissemblem": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1145848671
+      },
+      {
+        "offset": 16,
+        "value": 1214607983
+      },
+      {
+        "offset": 24,
+        "value": 1399153004
+      },
+      {
+        "offset": 32,
+        "value": 1598514546
+      },
+      {
+        "offset": 40,
+        "value": 1969516288
+      }
+    ]
+  },
+  "paraglider": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1349280121
+      },
+      {
+        "offset": 8,
+        "value": 1701991284
+      },
+      {
+        "offset": 16,
+        "value": 1869374770
+      }
+    ]
+  },
+  "pictureofthechampions": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197831263
+      },
+      {
+        "offset": 8,
+        "value": 1417113167
+      },
+      {
+        "offset": 16,
+        "value": 1651138372
+      },
+      {
+        "offset": 24,
+        "value": 1279483725
+      },
+      {
+        "offset": 32,
+        "value": 1701670770
+      },
+      {
+        "offset": 40,
+        "value": 1767992400
+      },
+      {
+        "offset": 48,
+        "value": 1768125557
+      },
+      {
+        "offset": 56,
+        "value": 1919246145
+      },
+      {
+        "offset": 64,
+        "value": 1596993792
+      }
+    ]
+  },
+  "revalisgale": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1214607983
+      },
+      {
+        "offset": 16,
+        "value": 1399813484
+      },
+      {
+        "offset": 24,
+        "value": 1599236468
+      },
+      {
+        "offset": 32,
+        "value": 1862270976
+      }
+    ]
+  },
+  "revalisgaleplus": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1145848671
+      },
+      {
+        "offset": 16,
+        "value": 1214607983
+      },
+      {
+        "offset": 24,
+        "value": 1399813484
+      },
+      {
+        "offset": 32,
+        "value": 1599236468
+      },
+      {
+        "offset": 40,
+        "value": 1862270976
+      }
+    ]
+  },
+  "royalbridle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1382377838
+      },
+      {
+        "offset": 32,
+        "value": 1935618098
+      }
+    ]
+  },
+  "royalsaddle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1398891620
+      },
+      {
+        "offset": 32,
+        "value": 1818582832
+      },
+      {
+        "offset": 40,
+        "value": 838860800
+      }
+    ]
+  },
+  "rudaniasemblem": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1145848671
+      },
+      {
+        "offset": 16,
+        "value": 1214607983
+      },
+      {
+        "offset": 24,
+        "value": 1399153004
+      },
+      {
+        "offset": 32,
+        "value": 1598517106
+      },
+      {
+        "offset": 40,
+        "value": 1869479936
+      }
+    ]
+  },
+  "rutasemblem": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1145848671
+      },
+      {
+        "offset": 16,
+        "value": 1214607983
+      },
+      {
+        "offset": 24,
+        "value": 1399153004
+      },
+      {
+        "offset": 32,
+        "value": 1599762290
+      },
+      {
+        "offset": 40,
+        "value": 1627389952
+      }
+    ]
+  },
+  "sheikahslate": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1146246004
+      },
+      {
+        "offset": 16,
+        "value": 1869505887
+      },
+      {
+        "offset": 24,
+        "value": 1197831168
+      }
+    ]
+  },
+  "spiritorb": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1148546663
+      },
+      {
+        "offset": 16,
+        "value": 1701801539
+      },
+      {
+        "offset": 24,
+        "value": 1818583410
+      },
+      {
+        "offset": 32,
+        "value": 1399153004
+      }
+    ]
+  },
+  "travelerssaddle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1398891620
+      },
+      {
+        "offset": 32,
+        "value": 1818582832
+      },
+      {
+        "offset": 40,
+        "value": 822083584
+      }
+    ]
+  },
+  "travelerssbridle": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1197567333
+      },
+      {
+        "offset": 8,
+        "value": 1383034184
+      },
+      {
+        "offset": 16,
+        "value": 1869771621
+      },
+      {
+        "offset": 24,
+        "value": 1382377838
+      },
+      {
+        "offset": 32,
+        "value": 1935618097
+      }
+    ]
+  },
+  "travelmedallion": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1466004080
+      },
+      {
+        "offset": 16,
+        "value": 1145848576
+      }
+    ]
+  },
+  "urbosasfury": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1214607983
+      },
+      {
+        "offset": 16,
+        "value": 1399813484
+      },
+      {
+        "offset": 24,
+        "value": 1598514546
+      },
+      {
+        "offset": 32,
+        "value": 1969516288
+      }
+    ]
+  },
+  "urbosasfuryplus": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1331849823
+      },
+      {
+        "offset": 8,
+        "value": 1145848671
+      },
+      {
+        "offset": 16,
+        "value": 1214607983
+      },
+      {
+        "offset": 24,
+        "value": 1399813484
+      },
+      {
+        "offset": 32,
+        "value": 1598514546
+      },
+      {
+        "offset": 40,
+        "value": 1969516288
+      }
+    ]
+  }
 }

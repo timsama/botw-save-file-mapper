@@ -116,7 +116,6 @@ if (!!categoryFilename) {
         if (!!nameStr) {
             const [quantityStr] = nameStr.split('x').reverse();
             const rawQuantity = parseInt(quantityStr);
-            const quantity = rawQuantity || 1;
             const nameWithBonus = (() => {
                 if (isNaN(rawQuantity)) {
                     return nameStr;
@@ -133,7 +132,9 @@ if (!!categoryFilename) {
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
-            const rawEntries = json[name];
+            const jsonItem = json[name];
+            const rawEntries = jsonItem.entries;
+            const quantity = rawQuantity || jsonItem.durability || jsonItem.quantity;
             const slotWidth = 128;
             const zeroFilledEntries = Array.apply(0, new Array(slotWidth / 8)).map((e, i) => {
                 return {
