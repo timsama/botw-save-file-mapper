@@ -110,16 +110,25 @@ if (!!categoryFilename) {
         const nameStr = nameGetter.getOrUndefined(process.argv[4], 'Item name: ', 'Unnamed items not allowed.');
 
         if (!!nameStr) {
-            const [nameWithBonus, quantityStr] = nameStr.split('x');
+            const [quantityStr] = nameStr.split('x').reverse();
+            const rawQuantity = parseInt(quantityStr);
+            const nameWithBonus = (() => {
+                if (isNaN(rawQuantity)) {
+                    return nameStr;
+                } else {
+                    return nameStr.split('x').slice(0, -1).join('x');
+                }
+            })();
             const terms = nameWithBonus.split('+');
             const colorTerm = terms.map(term => term.toUpperCase()).find(term => dyes[term] !== undefined);
             const color = colorTerm && dyes[colorTerm];
             const [name, bonusType, bonusAmount, bonusDuration] = terms.filter(term => term !== colorTerm);
-            const quantity = parseInt(quantityStr);
             
             const json = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilename);
 
-            const rawEntries = json[name];
+            const jsonItem = json[name];
+            const rawEntries = jsonItem.entries;
+            const quantity = rawQuantity || jsonItem.durability || jsonItem.quantity;
             const slotWidth = 128;
             const zeroFilledEntries = Array.apply(0, new Array(slotWidth / 8)).map((e, i) => {
                 return {
