@@ -5421,6 +5421,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -5862,6 +5869,13 @@
             "name": "swallowbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -5933,6 +5947,13 @@
             "name": "soldiersclaymore",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6008,6 +6029,13 @@
             "name": "guardianspear++",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6066,6 +6094,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6127,6 +6162,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6199,6 +6241,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6263,6 +6312,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6320,6 +6376,13 @@
             "name": "silverlongsword",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6398,6 +6461,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6456,6 +6526,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6513,6 +6590,13 @@
             "name": "thunderblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6570,6 +6654,13 @@
             "name": "barbarianarmor",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6628,6 +6719,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6691,6 +6789,13 @@
             "name": "falconbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6825,6 +6930,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6907,6 +7019,13 @@
             "name": "royalclaymore",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -6965,6 +7084,13 @@
             "name": "greatfrostblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7023,6 +7149,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7095,6 +7228,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7165,6 +7305,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7223,6 +7370,13 @@
             "quantity": 5,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7281,6 +7435,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7338,6 +7499,13 @@
             "name": "travelersclaymore",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7397,6 +7565,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7454,6 +7629,13 @@
             "name": "frostspear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7525,6 +7707,13 @@
             "name": "goldenclaymore",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7620,6 +7809,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7678,6 +7874,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7761,6 +7964,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7818,6 +8028,13 @@
             "name": "knightsclaymore",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7969,6 +8186,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8047,6 +8271,13 @@
             "name": "soldiersbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8110,6 +8341,13 @@
             "name": "royalhalberd",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8167,6 +8405,13 @@
             "name": "greatfrostblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8231,6 +8476,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8288,6 +8540,13 @@
             "name": "gerudoscimitar",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8353,6 +8612,13 @@
             "quantity": 5,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8498,6 +8764,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8569,6 +8842,13 @@
             "name": "travelersspear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8724,6 +9004,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8781,6 +9068,13 @@
             "name": "moonlightscimitar",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8851,6 +9145,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8908,6 +9209,13 @@
             "name": "knightsclaymore",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8966,6 +9274,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9169,6 +9484,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9229,6 +9551,13 @@
             "name": "flamespear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9301,6 +9630,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9372,6 +9708,13 @@
             "name": "frostblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9413,14 +9756,6 @@
         "harddependencies": [
           "shrines.laknarokee.found"
         ],
-        "rewards": [
-          {
-            "category": "weapons",
-            "name": "edgeofduality",
-            "stackable": false,
-            "unique": false
-          }
-        ],
         "softdependencies": [
           "shrines.laknarokee.pedestal"
         ]
@@ -9434,6 +9769,21 @@
         ],
         "harddependencies": [
           "shrines.laknarokee.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "edgeofduality",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.laknarokee.active"
@@ -9505,6 +9855,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9563,6 +9920,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9624,6 +9988,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9769,6 +10140,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9826,6 +10204,13 @@
             "name": "thunderblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9909,6 +10294,13 @@
             "name": "frostblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9989,6 +10381,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10048,6 +10447,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10105,6 +10511,13 @@
             "name": "knightsbroadsword",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10175,6 +10588,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10232,6 +10652,13 @@
             "name": "thunderblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10309,6 +10736,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10378,6 +10812,13 @@
             "name": "knightsbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10435,6 +10876,13 @@
             "name": "phrenicbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10504,6 +10952,13 @@
             "name": "frostspear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10561,6 +11016,13 @@
             "name": "zoraspear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10697,6 +11159,13 @@
             "name": "knightsshield",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10754,6 +11223,13 @@
             "name": "travelersbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10812,6 +11288,13 @@
             "name": "travelersshield",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10882,6 +11365,13 @@
             "name": "boomerang",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10940,6 +11430,13 @@
             "name": "barbarianlegwraps",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10997,6 +11494,13 @@
             "name": "knightsclaymore",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11055,6 +11559,13 @@
             "name": "rubbertights",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11115,6 +11626,13 @@
             "name": "radiantshield",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11186,6 +11704,13 @@
             "name": "climbersbandanna",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11254,6 +11779,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11385,6 +11917,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11544,6 +12083,13 @@
             "name": "drillshaft",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11601,6 +12147,13 @@
             "name": "greatflameblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11658,6 +12211,13 @@
             "name": "featherededge",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11722,6 +12282,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11873,6 +12440,13 @@
             "name": "flameblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11944,6 +12518,13 @@
             "name": "knightsbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12013,6 +12594,13 @@
             "name": "guardianspear+",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12154,6 +12742,13 @@
             "name": "greatfrostblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12211,6 +12806,13 @@
             "name": "thunderspear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12278,6 +12880,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12336,6 +12945,13 @@
             "quantity": 10,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12393,6 +13009,13 @@
             "name": "royalbroadsword",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12457,6 +13080,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12514,6 +13144,13 @@
             "name": "greatflameblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12665,6 +13302,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12722,6 +13366,13 @@
             "name": "greatthunderblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12793,6 +13444,13 @@
             "name": "eightfoldlongblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12850,6 +13508,13 @@
             "name": "serpentinespear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12914,6 +13579,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13050,6 +13722,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13123,6 +13802,13 @@
             "quantity": 5,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13192,6 +13878,13 @@
             "name": "royalbroadsword",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13296,6 +13989,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13324,40 +14024,6 @@
     },
     "sohkofi": {
       "active": {
-        "complete": {
-          "entries": [
-            {
-              "offset": 831088,
-              "value": 1
-            }
-          ],
-          "harddependencies": [
-            "shrines.sohkofi.found"
-          ],
-          "rewards": [
-            {
-              "category": "bows",
-              "name": "knightsbow",
-              "stackable": false,
-              "unique": false
-            },
-            {
-              "category": "shields",
-              "name": "guardianshield",
-              "stackable": false,
-              "unique": false
-            },
-            {
-              "category": "weapons",
-              "name": "guardiansword",
-              "stackable": false,
-              "unique": false
-            }
-          ],
-          "softdependencies": [
-            "shrines.sohkofi.pedestal"
-          ]
-        },
         "entries": [
           {
             "offset": 308264,
@@ -13369,6 +14035,47 @@
         ],
         "softdependencies": [
           "shrines.sohkofi.active"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 831088,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.sohkofi.found"
+        ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "knightsbow",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "shields",
+            "name": "guardianshield",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.sohkofi.pedestal"
         ]
       },
       "found": {
@@ -13422,6 +14129,13 @@
             "name": "moonlightscimitar",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13501,6 +14215,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13559,6 +14280,13 @@
             "name": "climbingboots",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13705,6 +14433,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13762,6 +14497,13 @@
             "name": "greatthunderblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13851,6 +14593,13 @@
             "name": "knightshalberd",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13908,6 +14657,13 @@
             "name": "goldenbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13983,6 +14739,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14054,6 +14817,13 @@
             "name": "royalclaymore",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14111,6 +14881,13 @@
             "name": "shieldofthemindseye",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14179,6 +14956,13 @@
             "name": "barbarianhelm",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14254,6 +15038,13 @@
             "name": "flamespear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14325,6 +15116,13 @@
             "name": "flameblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14397,6 +15195,13 @@
             "quantity": 1,
             "stackable": true,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14467,6 +15272,13 @@
             "name": "knightsbroadsword",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14524,6 +15336,13 @@
             "name": "eightfoldblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14661,6 +15480,13 @@
             "name": "knightsbow",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14718,6 +15544,13 @@
             "name": "silverscalespear",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14776,6 +15609,13 @@
             "name": "flameblade",
             "stackable": false,
             "unique": false
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
