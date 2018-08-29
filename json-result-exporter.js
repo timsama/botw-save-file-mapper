@@ -5,6 +5,7 @@ module.exports = (() => {
     const CONFIG = require('./config.js');
     const folderUtils = require('./folder-utils.js');
     const mapFileUtils = require('./map-file-utils.js');
+    const nameGetter = require('./name-getter.js');
 
     return (results, name, mightSaveAsVariableReasons, shouldRename, newName, saveQueryOverride, knownDependencies, skipLogging, appendToExisting) => {
         const toHexString = saveFileUtils.toHexString;
@@ -28,6 +29,11 @@ module.exports = (() => {
 
             const saveAsVariablePrompt = mightSaveAsVariableReasons.concat('Would you like to export it as a variable value?').join(' ');
             const saveAsVariable = mightSaveAsVariableReasons.length > 0 && query(saveAsVariablePrompt);
+
+            const variableIsFloat = saveAsVariable && query('Is this stored as a floating point value?');
+            const variableType = variableIsFloat ? 'float' : 'integer';
+
+            const variableUnit  = saveAsVariable && nameGetter.getOptional(undefined, 'What is the unit type of this variable value? (i.e. What is it counting?) ', `Unit will be set to 'unnamed'. Are you sure you don't want to specify it?`) || 'unnamed';
             
             const resultsToAppend = (() => {
                 if (appendToExisting) {
@@ -40,7 +46,7 @@ module.exports = (() => {
             const finalResult = {
                 entries: results.filter(a => !!a).map((result) => {
                     if (saveAsVariable) {
-                        return {offset: result.offset, value: 'variable'};
+                        return {offset: result.offset, value: variableType, unit: variableUnit};
                     } else {
                         return result;
                     }

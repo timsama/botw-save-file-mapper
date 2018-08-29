@@ -6,6 +6,7 @@ module.exports = (saveFileOverride) => {
     const CONFIG = require('./config.js');
     const mapFileUtils = require('./map-file-utils.js');
     const readline = require('readline-sync');
+    const float28 = require('./encoders_decoders/float28.js');
     
     const saveFilename = 'game_data.sav';
     const saveFilepath = saveFileOverride || `${CONFIG.savepath}${saveFilename}`;
@@ -46,18 +47,22 @@ module.exports = (saveFileOverride) => {
                             effect.softdependencies.forEach(applyChange);
                         }
 
-                        const variableValuesExist = effect.entries.some(entry => entry.value === 'variable');
+                        const variableValuesExist = effect.entries.some(entry => entry.value === 'float' || entry.value === 'integer');
 
                         if (variableValuesExist) {
                             if (isEmpty(value)) {
-                                value = parseInt(readline.question(`${keypath} is a variable value. What would you like to set it to? `));
+                                const unitEntry = effect.entries.find(entry => !!entry.unit);
+                                const unit = unitEntry && unitEntry.unit;
+                                value = parseInt(readline.question(`${keypath} is a variable value with unit "${unit}". What would you like to set it to? `));
                             }
                         }
 
                         if (!(variableValuesExist && isEmpty(value))) {
                             effect.entries.forEach((entry) => {
-                                if (entry.value === 'variable') {
+                                if (entry.value === 'integer') {
                                     writeToOffset(entry.offset, value);
+                                } else if (entry.value === 'float') {
+                                    writeToOffset(entry.offset, float28.encode(value));
                                 } else {
                                     writeToOffset(entry.offset, entry.value);
                                 }

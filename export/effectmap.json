@@ -4,7 +4,8 @@
       "entries": [
         {
           "offset": 339464,
-          "value": "variable"
+          "unit": "seconds",
+          "value": "float"
         }
       ]
     },
@@ -29,7 +30,8 @@
     "entries": [
       {
         "offset": 930632,
-        "value": "variable"
+        "unit": "slots",
+        "value": "integer"
       }
     ],
     "softdependencies": [
@@ -101,11 +103,21 @@
           }
         ]
       },
+      "readytimer": {
+        "entries": [
+          {
+            "offset": 470264,
+            "unit": "seconds",
+            "value": "float"
+          }
+        ]
+      },
       "uses": {
         "entries": [
           {
             "offset": 949152,
-            "value": "variable"
+            "unit": "charges",
+            "value": "integer"
           }
         ]
       }
@@ -127,6 +139,15 @@
           {
             "offset": 797104,
             "value": 0
+          }
+        ]
+      },
+      "readytimer": {
+        "entries": [
+          {
+            "offset": 797104,
+            "unit": "seconds",
+            "value": "float"
           }
         ]
       }
@@ -151,11 +172,21 @@
           }
         ]
       },
+      "readytimer": {
+        "entries": [
+          {
+            "offset": 9624,
+            "unit": "seconds",
+            "value": "float"
+          }
+        ]
+      },
       "uses": {
         "entries": [
           {
             "offset": 1023176,
-            "value": "variable"
+            "unit": "charges",
+            "value": "integer"
           }
         ]
       }
@@ -180,11 +211,21 @@
           }
         ]
       },
+      "readytimer": {
+        "entries": [
+          {
+            "offset": 27648,
+            "unit": "seconds",
+            "value": "float"
+          }
+        ]
+      },
       "uses": {
         "entries": [
           {
             "offset": 563560,
-            "value": "variable"
+            "unit": "charges",
+            "value": "integer"
           }
         ]
       }
@@ -547,7 +588,8 @@
         "entries": [
           {
             "offset": 893088,
-            "value": "variable"
+            "unit": "terminals",
+            "value": "integer"
           }
         ]
       }
@@ -747,7 +789,8 @@
         "entries": [
           {
             "offset": 562912,
-            "value": "variable"
+            "unit": "terminals",
+            "value": "integer"
           }
         ]
       }
@@ -1070,7 +1113,8 @@
         "entries": [
           {
             "offset": 354080,
-            "value": "variable"
+            "unit": "terminals",
+            "value": "integer"
           }
         ]
       }
@@ -1420,7 +1464,8 @@
         "entries": [
           {
             "offset": 944344,
-            "value": "variable"
+            "unit": "terminals",
+            "value": "integer"
           }
         ]
       }
@@ -1648,7 +1693,8 @@
         "entries": [
           {
             "offset": 884248,
-            "value": "variable"
+            "unit": "terminals",
+            "value": "integer"
           }
         ]
       }
@@ -1709,7 +1755,8 @@
       "entries": [
         {
           "offset": 65280,
-          "value": "variable"
+          "unit": "stars",
+          "value": "integer"
         }
       ]
     },
@@ -1746,34 +1793,6 @@
     }
   },
   "keyitems": {
-    "korokseeds": {
-      "entries": [
-        {
-          "offset": 466088,
-          "value": "variable"
-        }
-      ]
-    },
-    "korokseeds2": {
-      "entries": [
-        {
-          "offset": 398856,
-          "value": 1331849823
-        },
-        {
-          "offset": 398864,
-          "value": 1265594991
-        },
-        {
-          "offset": 398872,
-          "value": 1800303988
-        },
-        {
-          "offset": 398880,
-          "value": 1929379840
-        }
-      ]
-    },
     "nosheikahslate": {
       "entries": [
         {
@@ -1784,18 +1803,6 @@
     },
     "paraglider": {
       "entries": [
-        {
-          "offset": 398728,
-          "value": 1349280121
-        },
-        {
-          "offset": 398736,
-          "value": 1701991284
-        },
-        {
-          "offset": 398744,
-          "value": 1869374770
-        },
         {
           "offset": 1024072,
           "value": 1
@@ -1880,7 +1887,8 @@
         "entries": [
           {
             "offset": 481944,
-            "value": "variable"
+            "unit": "memories",
+            "value": "integer"
           }
         ]
       },
@@ -3281,7 +3289,8 @@
           "entries": [
             {
               "offset": 1025168,
-              "value": "variable"
+              "unit": "monuments",
+              "value": "integer"
             }
           ]
         },
@@ -3425,7 +3434,8 @@
       "entries": [
         {
           "offset": 517248,
-          "value": "variable"
+          "unit": "points of damage (0 to 30)",
+          "value": "integer"
         }
       ]
     },
@@ -3822,7 +3832,8 @@
     "entries": [
       {
         "offset": 298200,
-        "value": "variable"
+        "unit": "slots",
+        "value": "integer"
       }
     ],
     "softdependencies": [
@@ -3833,7 +3844,8 @@
     "entries": [
       {
         "offset": 921912,
-        "value": "variable"
+        "unit": "shrines",
+        "value": "integer"
       }
     ]
   },
@@ -13291,15 +13303,18 @@
       "entries": [
         {
           "offset": 537688,
-          "value": "variable"
+          "unit": "unknown (location)",
+          "value": "float"
         },
         {
           "offset": 537696,
-          "value": "variable"
+          "unit": "unknown (location)",
+          "value": "float"
         },
         {
           "offset": 537704,
-          "value": "variable"
+          "unit": "unknown (location)",
+          "value": "float"
         }
       ]
     }
@@ -13309,7 +13324,8 @@
       "entries": [
         {
           "offset": 67952,
-          "value": "variable"
+          "unit": "quarter hearts",
+          "value": "integer"
         }
       ]
     },
@@ -13317,7 +13333,8 @@
       "entries": [
         {
           "offset": 846320,
-          "value": "variable"
+          "unit": "quarter hearts",
+          "value": "integer"
         }
       ]
     },
@@ -13325,7 +13342,8 @@
       "entries": [
         {
           "offset": 60152,
-          "value": "variable"
+          "unit": "rupees",
+          "value": "integer"
         }
       ]
     },
@@ -13333,7 +13351,8 @@
       "entries": [
         {
           "offset": 463576,
-          "value": "variable"
+          "unit": "orbs",
+          "value": "integer"
         }
       ]
     },
@@ -13341,7 +13360,8 @@
       "entries": [
         {
           "offset": 328648,
-          "value": "variable"
+          "unit": "thousandths of a stamina circle",
+          "value": "float"
         }
       ]
     }
@@ -13375,7 +13395,8 @@
       "entries": [
         {
           "offset": 791728,
-          "value": "variable"
+          "unit": "sun's position in degrees",
+          "value": "float"
         }
       ]
     },
@@ -13876,7 +13897,8 @@
     "entries": [
       {
         "offset": 544840,
-        "value": "variable"
+        "unit": "slots",
+        "value": "integer"
       }
     ],
     "softdependencies": [
