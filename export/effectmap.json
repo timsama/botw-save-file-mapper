@@ -2292,6 +2292,26 @@
         "harddependencies": [
           "mainquests.divinebeastvahmedoh.talktosaki"
         ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "snowquillheaddress",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "armor",
+            "name": "snowquilltunic",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "armor",
+            "name": "snowquilltrousers",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "cutscenes.meetingteba.viewed"
         ]
@@ -2502,6 +2522,26 @@
           {
             "offset": 908472,
             "value": 1
+          }
+        ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "flamebreakerhelm",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "armor",
+            "name": "flamebreakerarmor",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "armor",
+            "name": "flamebreakerboots",
+            "stackable": false,
+            "unique": false
           }
         ],
         "softdependencies": [
@@ -2953,6 +2993,26 @@
         "harddependencies": [
           "mainquests.forbiddencityentry.buygerudoclothes"
         ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "gerudoveil",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "armor",
+            "name": "gerudotop",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "armor",
+            "name": "gerudosirwal",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "cutscenes.boardingvahnaboris.unviewed"
         ]
@@ -3085,6 +3145,14 @@
           {
             "offset": 943064,
             "value": 1
+          }
+        ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "zoraarmor",
+            "stackable": false,
+            "unique": false
           }
         ],
         "softdependencies": [
@@ -3232,6 +3300,14 @@
           {
             "offset": 452296,
             "value": 1
+          }
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "onehitobliterator",
+            "stackable": false,
+            "unique": true
           }
         ],
         "softdependencies": [
@@ -3423,6 +3499,14 @@
         "harddependencies": [
           "mainquests.theisolatedplateau.begun"
         ],
+        "rewards": [
+          {
+            "category": "keyitems",
+            "name": "paraglider",
+            "stackable": false,
+            "unique": true
+          }
+        ],
         "softdependencies": [
           "mainquests.seekoutimpa.begun",
           "mainquests.destroyganon.begun"
@@ -3456,6 +3540,14 @@
           "offset": 796864,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "bladesoftheyiga": {
@@ -3463,6 +3555,14 @@
         {
           "offset": 36968,
           "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
         }
       ]
     },
@@ -3504,6 +3604,14 @@
           "offset": 535400,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "despair": {
@@ -3511,6 +3619,14 @@
         {
           "offset": 804576,
           "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
         }
       ]
     },
@@ -3520,6 +3636,14 @@
           "offset": 807008,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "miphastouch": {
@@ -3527,6 +3651,14 @@
         {
           "offset": 536064,
           "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
         }
       ]
     },
@@ -3536,6 +3668,14 @@
           "offset": 44504,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "returnofcalamityganon": {
@@ -3543,6 +3683,14 @@
         {
           "offset": 801800,
           "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
         }
       ]
     },
@@ -3552,6 +3700,14 @@
           "offset": 533312,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "shelterfromthestorm": {
@@ -3559,6 +3715,14 @@
         {
           "offset": 800136,
           "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
         }
       ]
     },
@@ -3568,6 +3732,14 @@
           "offset": 797992,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "slumberingpower": {
@@ -3576,6 +3748,14 @@
           "offset": 805240,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "subduedceremony": {
@@ -3583,6 +3763,14 @@
         {
           "offset": 43488,
           "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
         }
       ]
     },
@@ -3608,6 +3796,14 @@
           "offset": 800440,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "urbosashand": {
@@ -3615,6 +3811,14 @@
         {
           "offset": 537944,
           "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
         }
       ]
     },
@@ -3624,6 +3828,14 @@
           "offset": 816584,
           "value": 1
         }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
+        }
       ]
     },
     "zeldasresentment": {
@@ -3631,6 +3843,14 @@
         {
           "offset": 33248,
           "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "category": "armor",
+          "name": "championstunic",
+          "stackable": false,
+          "unique": true
         }
       ]
     }
@@ -5145,6 +5365,28 @@
         "harddependencies": [
           "shrines.akhvaquot.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "featheredspear",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "materials",
+            "name": "sapphire",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.akhvaquot.active"
         ]
@@ -5571,6 +5813,21 @@
         "harddependencies": [
           "shrines.bareedanaag.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "diamond",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "bows",
+            "name": "swallowbow",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.bareedanaag.active"
         ]
@@ -5634,6 +5891,14 @@
         "harddependencies": [
           "shrines.boshkala.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "soldiersclaymore",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.boshkala.active"
         ]
@@ -5683,6 +5948,32 @@
         "harddependencies": [
           "shrines.chaasqeta.found"
         ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "climbinggear",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear++",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.chaasqeta.active"
         ]
@@ -5731,6 +6022,15 @@
         ],
         "harddependencies": [
           "shrines.daagchokah.found"
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.daagchokah.active"
@@ -5783,6 +6083,15 @@
         ],
         "harddependencies": [
           "shrines.dagahkeek.found"
+        ],
+        "rewards": [
+          {
+            "category": "rupees",
+            "name": "silver",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.dagahkeek.active"
@@ -5847,6 +6156,23 @@
         "harddependencies": [
           "shrines.dahhesho.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe",
+            "stackable": false,
+            "unique": false
+          }
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "giantancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.dahhesho.active"
         ]
@@ -5896,6 +6222,21 @@
         "harddependencies": [
           "shrines.dahkaso.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "guardianspeard",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.dahkaso.active"
         ]
@@ -5944,6 +6285,14 @@
         ],
         "harddependencies": [
           "shrines.dakatuss.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "silverlongsword",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.dakatuss.active"
@@ -5995,6 +6344,34 @@
         "harddependencies": [
           "shrines.dakotah.found"
         ],
+        "rewards": [
+          {
+            "category": "shields",
+            "name": "radiantshield",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "weapons",
+            "name": "moonlightscimitar",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "rupees",
+            "name": "silver",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.dakotah.active"
         ]
@@ -6043,6 +6420,15 @@
         ],
         "harddependencies": [
           "shrines.daqakoh.found"
+        ],
+        "rewards": [
+          {
+            "category": "rupees",
+            "name": "silver",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.daqakoh.active"
@@ -6093,6 +6479,14 @@
         "harddependencies": [
           "shrines.daqochisay.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "thunderblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.daqochisay.active"
         ]
@@ -6141,6 +6535,14 @@
         ],
         "harddependencies": [
           "shrines.dilamaag.found"
+        ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "barbarianarmor",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.dilamaag.active"
@@ -6191,6 +6593,32 @@
         "harddependencies": [
           "shrines.downaeh.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "zorasword",
+            "stackable": false,
+            "unique": false
+          }
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "amber",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.downaeh.active"
         ]
@@ -6239,6 +6667,20 @@
         ],
         "harddependencies": [
           "shrines.dunbataag.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "greatthunderblade",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "bows",
+            "name": "falconbow",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.dunbataag.active"
@@ -6365,6 +6807,15 @@
         "harddependencies": [
           "shrines.geeharah.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "diamond",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.geeharah.active"
         ]
@@ -6413,6 +6864,39 @@
         ],
         "harddependencies": [
           "shrines.gomaasaagh.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "guardiansword++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "royalclaymore",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.gomaasaagh.active"
@@ -6464,6 +6948,14 @@
         "harddependencies": [
           "shrines.goraetorr.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "greatfrostblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.goraetorr.active"
         ]
@@ -6512,6 +7004,15 @@
         ],
         "harddependencies": [
           "shrines.hadahamar.found"
+        ],
+        "rewards": [
+          {
+            "category": "rupees",
+            "name": "purple",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.hadahamar.active"
@@ -6562,6 +7063,29 @@
         "harddependencies": [
           "shrines.hawakoth.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "materials",
+            "name": "sapphire",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "rupees",
+            "name": "gold",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.hawakoth.active"
         ]
@@ -6610,6 +7134,27 @@
         ],
         "harddependencies": [
           "shrines.hiamiu.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "sapphire",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.hiamiu.active"
@@ -6660,6 +7205,15 @@
         "harddependencies": [
           "shrines.hilarao.found"
         ],
+        "rewards": [
+          {
+            "category": "arrows",
+            "name": "icearrow",
+            "stackable": true,
+            "unique": false,
+            "quantity": 5
+          }
+        ],
         "softdependencies": [
           "shrines.hilarao.active"
         ]
@@ -6709,6 +7263,15 @@
         "harddependencies": [
           "shrines.ishtosoh.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.ishtosoh.active"
         ]
@@ -6757,6 +7320,14 @@
         ],
         "harddependencies": [
           "shrines.jabaij.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "travelersclaymore",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.jabaij.active",
@@ -6808,6 +7379,15 @@
         "harddependencies": [
           "shrines.jeenoh.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.jeenoh.active"
         ]
@@ -6856,6 +7436,14 @@
         ],
         "harddependencies": [
           "shrines.jitansami.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "frostspear",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.jitansami.active"
@@ -6920,6 +7508,14 @@
         "harddependencies": [
           "shrines.joloonah.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "goldenclaymore",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.joloonah.active"
         ]
@@ -6980,6 +7576,41 @@
         "harddependencies": [
           "shrines.kaamyatak.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "edgeofduality",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "knightsbroadsword",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "diamond",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "rupees",
+            "name": "silver",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.kaamyatak.active"
         ]
@@ -7028,6 +7659,15 @@
         ],
         "harddependencies": [
           "shrines.kahmael.found"
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "diamond",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.kahmael.active"
@@ -7078,6 +7718,40 @@
         "harddependencies": [
           "shrines.kahokeo.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "korokleaf",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "rupees",
+            "name": "gold",
+            "stackable": true,
+            "unique": false,
+            "quantity": 2
+          },
+          {
+            "category": "weapons",
+            "name": "forestdwellerssword",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "thunderspear",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "giantancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.kahokeo.active"
         ]
@@ -7126,6 +7800,14 @@
         ],
         "harddependencies": [
           "shrines.kahyah.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "knightsclaymore",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.kahyah.active"
@@ -7191,7 +7873,8 @@
             "category": "keyitems",
             "name": "rudaniasemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7262,6 +7945,21 @@
         "harddependencies": [
           "shrines.kamurog.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "soldiersspear",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.kamurog.complete"
         ]
@@ -7325,6 +8023,21 @@
         "harddependencies": [
           "shrines.kaomakagh.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "bows",
+            "name": "soldiersbow",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.kaomakagh.active"
         ]
@@ -7373,6 +8086,20 @@
         ],
         "harddependencies": [
           "shrines.katahchuki.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "guardianspear",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "royalhalberd",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.katahchuki.active"
@@ -7423,6 +8150,14 @@
         "harddependencies": [
           "shrines.katosaaug.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "greatfrostblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.katosaaug.active"
         ]
@@ -7471,6 +8206,21 @@
         ],
         "harddependencies": [
           "shrines.kayawan.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "knightsbroadsword",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.kayawan.active"
@@ -7521,6 +8271,14 @@
         "harddependencies": [
           "shrines.kaynoh.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "gerudoscimitar",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.kaynoh.active"
         ]
@@ -7569,6 +8327,22 @@
         ],
         "harddependencies": [
           "shrines.kayramah.found"
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "ruby",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "arrows",
+            "name": "bombarrow",
+            "stackable": true,
+            "unique": false,
+            "quantity": 5
+          }
         ],
         "softdependencies": [
           "shrines.kayramah.active"
@@ -7638,7 +8412,8 @@
             "category": "keyitems",
             "name": "rutasemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7705,6 +8480,15 @@
         "harddependencies": [
           "shrines.keehayoog.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "diamond",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.keehayoog.active"
         ]
@@ -7753,6 +8537,14 @@
         ],
         "harddependencies": [
           "shrines.kehnamut.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "travelersspear",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.kehnamut.pedestal"
@@ -7823,7 +8615,8 @@
             "category": "keyitems",
             "name": "naborissemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -7895,6 +8688,33 @@
         "harddependencies": [
           "shrines.kemakosassa.found"
         ],
+        "rewards": [
+          {
+            "category": "shields",
+            "name": "guardianshield++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "rupees",
+            "name": "silver",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.kemakosassa.active"
         ]
@@ -7943,6 +8763,14 @@
         ],
         "harddependencies": [
           "shrines.kemazoos.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "moonlightscimitar",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.kemazoos.active"
@@ -7993,6 +8821,27 @@
         "harddependencies": [
           "shrines.kenaishakah.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "sapphire",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.kenaishakah.active"
         ]
@@ -8042,6 +8891,14 @@
         "harddependencies": [
           "shrines.keoruug.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "knightsclaymore",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.keoruug.active"
         ]
@@ -8090,6 +8947,15 @@
         ],
         "harddependencies": [
           "shrines.ketohwawai.found"
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.ketohwawai.active"
@@ -8217,7 +9083,8 @@
             "category": "keyitems",
             "name": "naborissemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8284,6 +9151,15 @@
         "harddependencies": [
           "shrines.korguchideh.found"
         ],
+        "rewards": [
+          {
+            "category": "rupees",
+            "name": "gold",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.korguchideh.active"
         ]
@@ -8335,6 +9211,14 @@
         ],
         "harddependencies": [
           "shrines.korshohu.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "flamespear",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.korshohu.active"
@@ -8399,6 +9283,15 @@
         "harddependencies": [
           "shrines.kuhnsidajj.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "giantancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.kuhnsidajj.active"
         ]
@@ -8462,6 +9355,14 @@
         "harddependencies": [
           "shrines.kuhtakkar.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "frostblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.kuhtakkar.active"
         ]
@@ -8500,6 +9401,14 @@
         ],
         "harddependencies": [
           "shrines.laknarokee.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "edgeofduality",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.laknarokee.pedestal"
@@ -8578,6 +9487,15 @@
         "harddependencies": [
           "shrines.lannokooh.found"
         ],
+        "rewards": [
+          {
+            "category": "rupees",
+            "name": "gold",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.lannokooh.active"
         ]
@@ -8626,6 +9544,15 @@
         ],
         "harddependencies": [
           "shrines.maaghalan.found"
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "giantancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.maaghalan.active"
@@ -8678,6 +9605,15 @@
         ],
         "harddependencies": [
           "shrines.maagnorah.found"
+        ],
+        "rewards": [
+          {
+            "category": "rupees",
+            "name": "silver",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.maagnorah.active"
@@ -8733,7 +9669,8 @@
             "category": "keyitems",
             "name": "rutasemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8800,6 +9737,29 @@
         "harddependencies": [
           "shrines.makarah.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "diamond",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "arrows",
+            "name": "bombarrow",
+            "stackable": true,
+            "unique": false,
+            "quantity": 10
+          },
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.makarah.active"
         ]
@@ -8848,6 +9808,14 @@
         ],
         "harddependencies": [
           "shrines.mezzalo.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "thunderblade",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.mezzalo.active"
@@ -8912,6 +9880,26 @@
         "harddependencies": [
           "shrines.mijahrokee.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "guardiansword+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianshield+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "frostblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.mijahrokee.active"
         ]
@@ -8971,6 +9959,27 @@
         "harddependencies": [
           "shrines.mirroshaz.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "ironsledgehammer",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "ironsledgehammer",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "giantancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.mirroshaz.active"
         ]
@@ -9021,6 +10030,15 @@
         "harddependencies": [
           "shrines.misaesuma.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "diamond",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.misaesuma.active"
         ]
@@ -9069,6 +10087,14 @@
         ],
         "harddependencies": [
           "shrines.moakeet.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "knightsbroadsword",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.moakeet.active"
@@ -9119,6 +10145,27 @@
         "harddependencies": [
           "shrines.mogglatan.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "forestdwellersspear",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "bows",
+            "name": "forestdwellersbow",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "rupees",
+            "name": "gold",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.mogglatan.active"
         ]
@@ -9167,6 +10214,14 @@
         ],
         "harddependencies": [
           "shrines.monyatoma.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "thunderblade",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.monyatoma.active"
@@ -9218,6 +10273,33 @@
         "harddependencies": [
           "shrines.mozoshenno.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "guardiansword++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "diamond",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.mozoshenno.active"
         ]
@@ -9266,6 +10348,26 @@
         ],
         "harddependencies": [
           "shrines.muwojeem.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "shields",
+            "name": "guardianshield+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "bows",
+            "name": "knightsbow",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.muwojeem.active"
@@ -9316,6 +10418,14 @@
         "harddependencies": [
           "shrines.myahmagana.found"
         ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "phrenicbow",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.myahmagana.active"
         ]
@@ -9365,6 +10475,26 @@
         "harddependencies": [
           "shrines.namikaozz.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "frostspear",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.namikaozz.active"
         ]
@@ -9413,6 +10543,14 @@
         ],
         "harddependencies": [
           "shrines.neezyohma.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "zoraspear",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.neezyohma.active"
@@ -9468,7 +10606,8 @@
             "category": "keyitems",
             "name": "medohsemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9535,6 +10674,20 @@
         "harddependencies": [
           "shrines.noyaneha.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "shields",
+            "name": "knightsshield",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.noyaneha.active"
         ]
@@ -9583,6 +10736,14 @@
         ],
         "harddependencies": [
           "shrines.omanau.found"
+        ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "travelersbow",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.omanau.active",
@@ -9634,6 +10795,14 @@
         "harddependencies": [
           "shrines.owadaim.found"
         ],
+        "rewards": [
+          {
+            "category": "shields",
+            "name": "travelersshield",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.owadaim.active",
           "runes.stasis"
@@ -9683,6 +10852,26 @@
         ],
         "harddependencies": [
           "shrines.pumaagnitae.found"
+        ],
+        "rewards": [
+          {
+            "category": "shields",
+            "name": "guardianshield",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "boomerang",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.pumaagnitae.active"
@@ -9734,6 +10923,14 @@
         "harddependencies": [
           "shrines.qazatokki.found"
         ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "barbarianlegwraps",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.qazatokki.active"
         ]
@@ -9782,6 +10979,14 @@
         ],
         "harddependencies": [
           "shrines.quaraym.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "knightsclaymore",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.quaraym.active"
@@ -9832,6 +11037,14 @@
         ],
         "harddependencies": [
           "shrines.qukahnata.found"
+        ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "rubbertights",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.qukahnata.active"
@@ -9884,6 +11097,14 @@
         ],
         "harddependencies": [
           "shrines.raqazunzo.found"
+        ],
+        "rewards": [
+          {
+            "category": "shields",
+            "name": "radiantshield",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.raqazunzo.active"
@@ -9948,6 +11169,14 @@
         "harddependencies": [
           "shrines.reedahee.found"
         ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "climbersbandanna",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.reedahee.active"
         ]
@@ -10007,6 +11236,15 @@
         "harddependencies": [
           "shrines.rinoyaa.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.rinoyaa.active"
         ]
@@ -10061,7 +11299,8 @@
             "category": "keyitems",
             "name": "rudaniasemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10127,6 +11366,15 @@
         ],
         "harddependencies": [
           "shrines.ritaagzumo.found"
+        ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "giantancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.ritaagzumo.active"
@@ -10267,6 +11515,26 @@
         "harddependencies": [
           "shrines.rokuwog.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "guardianspear",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "drillshaft",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.rokuwog.active"
         ]
@@ -10315,6 +11583,14 @@
         ],
         "harddependencies": [
           "shrines.ronakachta.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "greatflameblade",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.ronakachta.active"
@@ -10365,6 +11641,14 @@
         "harddependencies": [
           "shrines.rotaooh.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "featherededge",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.rotaooh.active"
         ]
@@ -10413,6 +11697,21 @@
         ],
         "harddependencies": [
           "shrines.ruccomaag.found"
+        ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "silverbow",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.ruccomaag.active"
@@ -10539,6 +11838,32 @@
         "harddependencies": [
           "shrines.saaskosah.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "flameblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.saaskosah.active"
         ]
@@ -10602,6 +11927,14 @@
         "harddependencies": [
           "shrines.sahdahaj.found"
         ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "knightsbow",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.sahdahaj.active"
         ]
@@ -10650,6 +11983,26 @@
         ],
         "harddependencies": [
           "shrines.sasakai.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "frostblade",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardianspear+",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.sasakai.active"
@@ -10716,7 +12069,8 @@
             "category": "keyitems",
             "name": "rutasemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10783,6 +12137,14 @@
         "harddependencies": [
           "shrines.shadanaw.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "greatfrostblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.shadanaw.active"
         ]
@@ -10831,6 +12193,14 @@
         ],
         "harddependencies": [
           "shrines.shaekatha.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "thunderspear",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.shaekatha.active"
@@ -10884,6 +12254,21 @@
         "harddependencies": [
           "shrines.shaeloya.found"
         ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "falconbow",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "topaz",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.shaeloya.active"
         ]
@@ -10932,6 +12317,23 @@
         ],
         "harddependencies": [
           "shrines.shaemosah.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "stonesmasher",
+            "stackable": false,
+            "unique": false
+          }
+        ],
+        "rewards": [
+          {
+            "category": "arrows",
+            "name": "icearrow",
+            "stackable": true,
+            "unique": false,
+            "quantity": 10
+          }
         ],
         "softdependencies": [
           "shrines.shaemosah.active"
@@ -10982,6 +12384,14 @@
         "harddependencies": [
           "shrines.shagehma.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "royalbroadsword",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.shagehma.active"
         ]
@@ -11031,6 +12441,21 @@
         "harddependencies": [
           "shrines.shaiutoh.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "edgeofduality",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "ancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.shaiutoh.active"
         ]
@@ -11079,6 +12504,14 @@
         ],
         "harddependencies": [
           "shrines.shaiyota.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "greatflameblade",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.shaiyota.active"
@@ -11148,7 +12581,8 @@
             "category": "keyitems",
             "name": "rudaniasemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11215,6 +12649,21 @@
         "harddependencies": [
           "shrines.shawarvo.found"
         ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "knightsbow",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "rupees",
+            "name": "purple",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.shawarvo.active"
         ]
@@ -11263,6 +12712,14 @@
         ],
         "harddependencies": [
           "shrines.sheemdagoze.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "greatthunderblade",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.sheemdagoze.active"
@@ -11327,6 +12784,14 @@
         "harddependencies": [
           "shrines.sheevaneer.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "eightfoldlongblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.sheevaneer.active"
         ]
@@ -11376,6 +12841,14 @@
         "harddependencies": [
           "shrines.sheevenath.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "serpentinespear",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.sheevenath.active"
         ]
@@ -11424,6 +12897,21 @@
         ],
         "harddependencies": [
           "shrines.shehrata.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "giantboomerang",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.shehrata.active"
@@ -11483,7 +12971,8 @@
             "category": "keyitems",
             "name": "medohsemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11551,6 +13040,15 @@
         "harddependencies": [
           "shrines.shodantu.found"
         ],
+        "rewards": [
+          {
+            "category": "rupees",
+            "name": "silver",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.shodantu.active"
         ]
@@ -11615,6 +13113,15 @@
         "harddependencies": [
           "shrines.shodasah.found"
         ],
+        "rewards": [
+          {
+            "category": "arrows",
+            "name": "icearrow",
+            "stackable": true,
+            "unique": false,
+            "quantity": 5
+          }
+        ],
         "softdependencies": [
           "shrines.shodasah.active"
         ]
@@ -11663,6 +13170,26 @@
         ],
         "harddependencies": [
           "shrines.shoqatatone.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "guardianspear+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "shields",
+            "name": "guardianshield+",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "royalbroadsword",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.shoqatatone.active"
@@ -11727,6 +13254,47 @@
         "harddependencies": [
           "shrines.shorahah.found"
         ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "royalbow",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "greatflameblade",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "giantancientcore",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "weapons",
+            "name": "forestdwellerssword",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "arrows",
+            "name": "icearrow",
+            "stackable": true,
+            "unique": false,
+            "quantity": 10
+          },
+          {
+            "category": "rupees",
+            "name": "silver",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.shorahah.active"
         ]
@@ -11761,6 +13329,26 @@
         ],
         "harddependencies": [
           "shrines.sohkofi.found"
+        ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "knightsbow",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "shields",
+            "name": "guardianshield",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.sohkofi.pedestal"
@@ -11824,6 +13412,14 @@
         ],
         "harddependencies": [
           "shrines.sumasahma.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "moonlightscimitar",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.sumasahma.active"
@@ -11889,6 +13485,21 @@
         "harddependencies": [
           "shrines.tahmuhl.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "cobblecrusher",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "ruby",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.tahmuhl.active"
         ]
@@ -11938,6 +13549,14 @@
         ],
         "harddependencies": [
           "shrines.tahnooah.found"
+        ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "climbingboots",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.tahnooah.active"
@@ -11996,7 +13615,8 @@
             "category": "keyitems",
             "name": "naborissemblem",
             "stackable": true,
-            "unique": false
+            "unique": false,
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12063,6 +13683,27 @@
         "harddependencies": [
           "shrines.talohnaeg.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "eightfoldblade",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "shields",
+            "name": "shieldofthemindseye",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.talohnaeg.active"
         ]
@@ -12111,6 +13752,14 @@
         ],
         "harddependencies": [
           "shrines.tawajinn.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "greatthunderblade",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.tawajinn.active"
@@ -12175,6 +13824,32 @@
         "harddependencies": [
           "shrines.tenakosah.found"
         ],
+        "rewards": [
+          {
+            "category": "shields",
+            "name": "guardianshield++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "ancientbattleaxe++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "knightshalberd",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.tenakosah.active"
         ]
@@ -12223,6 +13898,14 @@
         ],
         "harddependencies": [
           "shrines.thokayu.found"
+        ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "goldenbow",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.thokayu.active"
@@ -12283,6 +13966,21 @@
         ],
         "harddependencies": [
           "shrines.tohyahsa.found"
+        ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "rubberarmor",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
         ],
         "softdependencies": [
           "shrines.tohyahsa.active"
@@ -12347,6 +14045,14 @@
         "harddependencies": [
           "shrines.toquomo.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "royalclaymore",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.toquomo.active"
         ]
@@ -12395,6 +14101,14 @@
         ],
         "harddependencies": [
           "shrines.totosah.found"
+        ],
+        "rewards": [
+          {
+            "category": "shields",
+            "name": "shieldofthemindseye",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.totosah.active"
@@ -12456,6 +14170,14 @@
         "harddependencies": [
           "shrines.tukaloh.found"
         ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "barbarianhelm",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.tukaloh.active"
         ]
@@ -12504,6 +14226,32 @@
         ],
         "harddependencies": [
           "shrines.tutsuwanima.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "guardianspear++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "shields",
+            "name": "guardianshield++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword++",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "flamespear",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.tutsuwanima.active"
@@ -12568,6 +14316,14 @@
         "harddependencies": [
           "shrines.voolota.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "flameblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.voolota.active"
         ]
@@ -12631,6 +14387,15 @@
         "harddependencies": [
           "shrines.wahgokatta.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "amber",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          }
+        ],
         "softdependencies": [
           "shrines.wahgokatta.active"
         ]
@@ -12680,6 +14445,27 @@
         "harddependencies": [
           "shrines.yahrin.found"
         ],
+        "rewards": [
+          {
+            "category": "materials",
+            "name": "opal",
+            "stackable": true,
+            "unique": false,
+            "quantity": 1
+          },
+          {
+            "category": "weapons",
+            "name": "guardiansword",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "weapons",
+            "name": "knightsbroadsword",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.yahrin.active"
         ]
@@ -12728,6 +14514,14 @@
         ],
         "harddependencies": [
           "shrines.yanaga.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "eightfoldblade",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.yanaga.active"
@@ -12858,6 +14652,14 @@
         "harddependencies": [
           "shrines.zaltawa.found"
         ],
+        "rewards": [
+          {
+            "category": "bows",
+            "name": "knightsbow",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.zaltawa.active"
         ]
@@ -12906,6 +14708,14 @@
         ],
         "harddependencies": [
           "shrines.zekasho.found"
+        ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "silverscalespear",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "shrines.zekasho.active"
@@ -12957,6 +14767,14 @@
         "harddependencies": [
           "shrines.zunakai.found"
         ],
+        "rewards": [
+          {
+            "category": "weapons",
+            "name": "flameblade",
+            "stackable": false,
+            "unique": false
+          }
+        ],
         "softdependencies": [
           "shrines.zunakai.active"
         ]
@@ -13004,6 +14822,26 @@
         ],
         "harddependencies": [
           "sidequests.agiftfromthemonks.begun"
+        ],
+        "rewards": [
+          {
+            "category": "armor",
+            "name": "capofthewild",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "armor",
+            "name": "tunicofthewild",
+            "stackable": false,
+            "unique": false
+          },
+          {
+            "category": "armor",
+            "name": "trousersofthewild",
+            "stackable": false,
+            "unique": false
+          }
         ],
         "softdependencies": [
           "sidequests.agiftfromthemonks.tookcap",
