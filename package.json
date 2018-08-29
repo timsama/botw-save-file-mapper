@@ -29,6 +29,7 @@
     "check-offset": "node offset-checker-cmd.js",
     "check-item-slot": "node check-item-slot-cmd.js",
     "create-blank-snapshot": "node create-blank-snapshot.js",
+    "create-offset-map": "node create-offset-map.js",
     "decode-float": "node decode-float-cmd.js",
     "delete-item-slot": "node delete-item-slot-cmd.js",
     "encode-float": "node encode-float-cmd.js",
