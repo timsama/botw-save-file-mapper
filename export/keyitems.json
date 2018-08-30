@@ -21,7 +21,9 @@
         "offset": 32,
         "value": 1935618352
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "ancientsaddle": {
     "entries": [
@@ -49,7 +51,9 @@
         "offset": 40,
         "value": 805306368
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "classifiedenvelope": {
     "entries": [
@@ -69,7 +73,9 @@
         "offset": 24,
         "value": 1795162112
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "daruksprotection": {
     "entries": [
@@ -93,7 +99,9 @@
         "offset": 32,
         "value": 1869479936
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "daruksprotectionplus": {
     "entries": [
@@ -121,7 +129,9 @@
         "offset": 40,
         "value": 1869479936
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "extravagantbridle": {
     "entries": [
@@ -145,7 +155,9 @@
         "offset": 32,
         "value": 1935618101
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "extravagantsaddle": {
     "entries": [
@@ -173,7 +185,9 @@
         "offset": 40,
         "value": 889192448
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "hestusgift": {
     "entries": [
@@ -193,7 +207,9 @@
         "offset": 24,
         "value": 1869283328
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "hestusmaracas": {
     "entries": [
@@ -209,7 +225,9 @@
         "offset": 16,
         "value": 1667330816
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "knightsbridle": {
     "entries": [
@@ -233,7 +251,9 @@
         "offset": 32,
         "value": 1935618099
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "knightssaddle": {
     "entries": [
@@ -261,7 +281,9 @@
         "offset": 40,
         "value": 855638016
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "korokseed": {
     "entries": [
@@ -281,7 +303,9 @@
         "offset": 24,
         "value": 1929379840
       }
-    ]
+    ],
+    "unique": false,
+    "stackable": true
   },
   "medalofhonorhinox": {
     "entries": [
@@ -305,7 +329,9 @@
         "offset": 32,
         "value": 1819043186
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "medalofhonormolduga": {
     "entries": [
@@ -333,7 +359,9 @@
         "offset": 40,
         "value": 1818587648
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "medalofhonortalus": {
     "entries": [
@@ -357,7 +385,9 @@
         "offset": 32,
         "value": 1819043186
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "medohsemblem": {
     "entries": [
@@ -385,7 +415,9 @@
         "offset": 40,
         "value": 1862270976
       }
-    ]
+    ],
+    "unique": false,
+    "stackable": true
   },
   "miphasgrace": {
     "entries": [
@@ -409,7 +441,9 @@
         "offset": 32,
         "value": 1627389952
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "miphasgraceplus": {
     "entries": [
@@ -437,7 +471,9 @@
         "offset": 40,
         "value": 1627389952
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "monsterbridle": {
     "entries": [
@@ -461,7 +497,9 @@
         "offset": 32,
         "value": 1935618100
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "monstersaddle": {
     "entries": [
@@ -489,7 +527,9 @@
         "offset": 40,
         "value": 872415232
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "naborissemblem": {
     "entries": [
@@ -517,7 +557,9 @@
         "offset": 40,
         "value": 1969516288
       }
-    ]
+    ],
+    "unique": false,
+    "stackable": true
   },
   "paraglider": {
     "entries": [
@@ -533,7 +575,9 @@
         "offset": 16,
         "value": 1869374770
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "pictureofthechampions": {
     "entries": [
@@ -573,7 +617,9 @@
         "offset": 64,
         "value": 1596993792
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "revalisgale": {
     "entries": [
@@ -597,7 +643,9 @@
         "offset": 32,
         "value": 1862270976
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "revalisgaleplus": {
     "entries": [
@@ -625,7 +673,9 @@
         "offset": 40,
         "value": 1862270976
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "royalbridle": {
     "entries": [
@@ -649,7 +699,9 @@
         "offset": 32,
         "value": 1935618098
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "royalsaddle": {
     "entries": [
@@ -677,7 +729,9 @@
         "offset": 40,
         "value": 838860800
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "rudaniasemblem": {
     "entries": [
@@ -705,7 +759,9 @@
         "offset": 40,
         "value": 1869479936
       }
-    ]
+    ],
+    "unique": false,
+    "stackable": true
   },
   "rutasemblem": {
     "entries": [
@@ -733,7 +789,9 @@
         "offset": 40,
         "value": 1627389952
       }
-    ]
+    ],
+    "unique": false,
+    "stackable": true
   },
   "sheikahslate": {
     "entries": [
@@ -753,7 +811,9 @@
         "offset": 24,
         "value": 1197831168
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "spiritorb": {
     "entries": [
@@ -777,7 +837,9 @@
         "offset": 32,
         "value": 1399153004
       }
-    ]
+    ],
+    "unique": false,
+    "stackable": true
   },
   "travelerssaddle": {
     "entries": [
@@ -805,7 +867,9 @@
         "offset": 40,
         "value": 822083584
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "travelerssbridle": {
     "entries": [
@@ -829,7 +893,9 @@
         "offset": 32,
         "value": 1935618097
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "travelmedallion": {
     "entries": [
@@ -845,7 +911,9 @@
         "offset": 16,
         "value": 1145848576
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "urbosasfury": {
     "entries": [
@@ -869,7 +937,9 @@
         "offset": 32,
         "value": 1969516288
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   },
   "urbosasfuryplus": {
     "entries": [
@@ -897,6 +967,8 @@
         "offset": 40,
         "value": 1969516288
       }
-    ]
+    ],
+    "unique": true,
+    "stackable": false
   }
 }
