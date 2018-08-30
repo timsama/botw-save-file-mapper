@@ -12,7 +12,7 @@ module.exports = (() => {
                 }
             })(time);
             
-            return (0x4 << 28) | float28.encode(seconds);
+            return float28.encode(seconds);
         },
         decode: (value) => {
             const totalSeconds = float28.decode(value);

@@ -10,12 +10,13 @@ module.exports = (() => {
         const items = [];
 
         for (let slot = slotStructure.first; slot <= slotStructure.last; slot++) {
+            const slotInCategory = slot - slotStructure.first;
             const name = getItemNameAtSlot(saveFile, slot, category);
             if (!!name) {
                 const itemJson = itemsJson[name];
                 itemJson.name = name;
 
-                const item = func(itemJson, slot);
+                const item = func(itemJson, slot, slotInCategory);
 
                 items.push(item);
             } else {
