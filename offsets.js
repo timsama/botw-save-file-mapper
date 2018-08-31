@@ -75,7 +75,9 @@ module.exports = (() => {
     };
 
     return {
+        foodWidth: foodWidth,
         getItemOffset: getItemOffset,
+        getItemLength: getItemLength,
         getQuantitiesLength: getQuantitiesLength,
         getQuantitiesOffset: getQuantitiesOffset,
         getEquippedSlotLength: getEquippedSlotLength,
@@ -91,6 +93,7 @@ module.exports = (() => {
         getFoodBonusTypeLength: getFoodBonusTypeLength,
         getFoodBonusTypeOffset: getFoodBonusTypeOffset,
         getFoodBonusAmountLength: getFoodBonusAmountLength,
-        getFoodBonusAmountOffset: getFoodBonusAmountOffset
+        getFoodBonusAmountOffset: getFoodBonusAmountOffset,
+        slotWidth: slotWidth
     };    
 })();

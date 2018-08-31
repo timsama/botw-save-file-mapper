@@ -1,8 +1,7 @@
 module.exports = (() => {
     const Offsets = require('./offsets.js');
     const OffsetChecker = require('./offset-checker.js');
-    const slotWidth = 128;
-    const relativeOffsets = Array.apply(0, new Array(slotWidth / 8)).map((e, i) => i * 8);
+    const relativeOffsets = Array.apply(0, new Array(Offsets.slotWidth / 8)).map((e, i) => i * 8);
 
     return (saveFile, slot) => {
         const baseOffset = Offsets.getItemOffset(slot);

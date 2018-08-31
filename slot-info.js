@@ -13,7 +13,7 @@ module.exports = (() => {
                         amount: Offsets.getFoodBonusAmountOffset(slotInCategory),
                         duration: Offsets.getFoodBonusDurationOffset(slotInCategory),
                         hearts: Offsets.getFoodHeartsOffset(slotInCategory),
-                        width: foodWidth
+                        width: Offsets.foodWidth
                     };
                 } else if (canCalculateBonus) {
                     return {
