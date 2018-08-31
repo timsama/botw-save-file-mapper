@@ -2297,21 +2297,15 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "snowquillheaddress",
-            "stackable": false,
-            "unique": false
+            "name": "snowquillheaddress"
           },
           {
             "category": "armor",
-            "name": "snowquilltunic",
-            "stackable": false,
-            "unique": false
+            "name": "snowquilltunic"
           },
           {
             "category": "armor",
-            "name": "snowquilltrousers",
-            "stackable": false,
-            "unique": false
+            "name": "snowquilltrousers"
           }
         ],
         "softdependencies": [
@@ -2529,21 +2523,15 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "flamebreakerhelm",
-            "stackable": false,
-            "unique": false
+            "name": "flamebreakerhelm"
           },
           {
             "category": "armor",
-            "name": "flamebreakerarmor",
-            "stackable": false,
-            "unique": false
+            "name": "flamebreakerarmor"
           },
           {
             "category": "armor",
-            "name": "flamebreakerboots",
-            "stackable": false,
-            "unique": false
+            "name": "flamebreakerboots"
           }
         ],
         "softdependencies": [
@@ -2941,9 +2929,7 @@
         "rewards": [
           {
             "category": "keyitems",
-            "name": "sheikahslate",
-            "stackable": false,
-            "unique": true
+            "name": "sheikahslate"
           }
         ],
         "softdependencies": [
@@ -2998,21 +2984,15 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "gerudoveil",
-            "stackable": false,
-            "unique": false
+            "name": "gerudoveil"
           },
           {
             "category": "armor",
-            "name": "gerudotop",
-            "stackable": false,
-            "unique": false
+            "name": "gerudotop"
           },
           {
             "category": "armor",
-            "name": "gerudosirwal",
-            "stackable": false,
-            "unique": false
+            "name": "gerudosirwal"
           }
         ],
         "softdependencies": [
@@ -3152,9 +3132,7 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "zoraarmor",
-            "stackable": false,
-            "unique": false
+            "name": "zoraarmor"
           }
         ],
         "softdependencies": [
@@ -3307,9 +3285,7 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "onehitobliterator",
-            "stackable": false,
-            "unique": true
+            "name": "onehitobliterator"
           }
         ],
         "softdependencies": [
@@ -3537,9 +3513,7 @@
         "rewards": [
           {
             "category": "keyitems",
-            "name": "paraglider",
-            "stackable": false,
-            "unique": true
+            "name": "paraglider"
           }
         ],
         "softdependencies": [
@@ -3580,9 +3554,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3596,9 +3568,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3644,9 +3614,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3660,9 +3628,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3676,9 +3642,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3692,9 +3656,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3708,9 +3670,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3724,9 +3684,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3740,9 +3698,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3756,9 +3712,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3772,9 +3726,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3788,9 +3740,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3804,9 +3754,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3836,9 +3784,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3852,9 +3798,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3868,9 +3812,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     },
@@ -3884,9 +3826,7 @@
       "rewards": [
         {
           "category": "armor",
-          "name": "championstunic",
-          "stackable": false,
-          "unique": true
+          "name": "championstunic"
         }
       ]
     }
@@ -5439,29 +5379,21 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "featheredspear",
-            "stackable": false,
-            "unique": false
+            "name": "featheredspear"
           },
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "materials",
             "name": "sapphire",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -5985,21 +5917,15 @@
           {
             "category": "materials",
             "name": "diamond",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "bows",
-            "name": "swallowbow",
-            "stackable": false,
-            "unique": false
+            "name": "swallowbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6069,15 +5995,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "soldiersclaymore",
-            "stackable": false,
-            "unique": false
+            "name": "soldiersclaymore"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6133,33 +6055,23 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "climbinggear",
-            "stackable": false,
-            "unique": false
+            "name": "climbinggear"
           },
           {
             "category": "weapons",
-            "name": "ancientbattleaxe++",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe++"
           },
           {
             "category": "weapons",
-            "name": "guardiansword++",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword++"
           },
           {
             "category": "weapons",
-            "name": "guardianspear++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear++"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6216,15 +6128,11 @@
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6284,15 +6192,11 @@
           {
             "category": "rupees",
             "name": "silver",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6363,15 +6267,11 @@
           {
             "category": "materials",
             "name": "giantancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6427,22 +6327,16 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardianspeard",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspeard"
           },
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6498,15 +6392,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "silverlongsword",
-            "stackable": false,
-            "unique": false
+            "name": "silverlongsword"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6563,35 +6453,25 @@
         "rewards": [
           {
             "category": "shields",
-            "name": "radiantshield",
-            "stackable": false,
-            "unique": false
+            "name": "radiantshield"
           },
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "weapons",
-            "name": "moonlightscimitar",
-            "stackable": false,
-            "unique": false
+            "name": "moonlightscimitar"
           },
           {
             "category": "rupees",
             "name": "silver",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6648,15 +6528,11 @@
           {
             "category": "rupees",
             "name": "silver",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6712,15 +6588,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "thunderblade",
-            "stackable": false,
-            "unique": false
+            "name": "thunderblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6776,15 +6648,11 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "barbarianarmor",
-            "stackable": false,
-            "unique": false
+            "name": "barbarianarmor"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6841,15 +6709,11 @@
           {
             "category": "materials",
             "name": "amber",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -6905,21 +6769,15 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "greatthunderblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatthunderblade"
           },
           {
             "category": "bows",
-            "name": "falconbow",
-            "stackable": false,
-            "unique": false
+            "name": "falconbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7052,15 +6910,11 @@
           {
             "category": "materials",
             "name": "diamond",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7116,40 +6970,28 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardiansword++",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword++"
           },
           {
             "category": "weapons",
-            "name": "ancientbattleaxe++",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe++"
           },
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "weapons",
-            "name": "guardianspear++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear++"
           },
           {
             "category": "weapons",
-            "name": "royalclaymore",
-            "stackable": false,
-            "unique": false
+            "name": "royalclaymore"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7206,15 +7048,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "greatfrostblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatfrostblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7271,15 +7109,11 @@
           {
             "category": "rupees",
             "name": "purple",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7336,29 +7170,21 @@
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "materials",
             "name": "sapphire",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "rupees",
             "name": "gold",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7414,28 +7240,20 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "ancientbattleaxe++",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe++"
           },
           {
             "category": "weapons",
-            "name": "guardianspear++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear++"
           },
           {
             "category": "materials",
             "name": "sapphire",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7492,15 +7310,11 @@
           {
             "category": "arrows",
             "name": "icearrow",
-            "quantity": 5,
-            "stackable": true,
-            "unique": false
+            "quantity": 5
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7557,15 +7371,11 @@
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7621,15 +7431,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "travelersclaymore",
-            "stackable": false,
-            "unique": false
+            "name": "travelersclaymore"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7687,15 +7493,11 @@
           {
             "category": "materials",
             "name": "opal",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7751,15 +7553,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "frostspear",
-            "stackable": false,
-            "unique": false
+            "name": "frostspear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7829,15 +7627,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "goldenclaymore",
-            "stackable": false,
-            "unique": false
+            "name": "goldenclaymore"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7904,42 +7698,30 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "edgeofduality",
-            "stackable": false,
-            "unique": false
+            "name": "edgeofduality"
           },
           {
             "category": "weapons",
-            "name": "knightsbroadsword",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbroadsword"
           },
           {
             "category": "materials",
             "name": "diamond",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "rupees",
             "name": "silver",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -7996,15 +7778,11 @@
           {
             "category": "materials",
             "name": "diamond",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8060,41 +7838,29 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "korokleaf",
-            "stackable": false,
-            "unique": false
+            "name": "korokleaf"
           },
           {
             "category": "rupees",
             "name": "gold",
-            "quantity": 2,
-            "stackable": true,
-            "unique": false
+            "quantity": 2
           },
           {
             "category": "weapons",
-            "name": "forestdwellerssword",
-            "stackable": false,
-            "unique": false
+            "name": "forestdwellerssword"
           },
           {
             "category": "weapons",
-            "name": "thunderspear",
-            "stackable": false,
-            "unique": false
+            "name": "thunderspear"
           },
           {
             "category": "materials",
             "name": "giantancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8150,15 +7916,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "knightsclaymore",
-            "stackable": false,
-            "unique": false
+            "name": "knightsclaymore"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8225,9 +7987,7 @@
           {
             "category": "keyitems",
             "name": "rudaniasemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8301,22 +8061,16 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "soldiersspear",
-            "stackable": false,
-            "unique": false
+            "name": "soldiersspear"
           },
           {
             "category": "materials",
             "name": "opal",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8387,21 +8141,15 @@
           {
             "category": "materials",
             "name": "opal",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "bows",
-            "name": "soldiersbow",
-            "stackable": false,
-            "unique": false
+            "name": "soldiersbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8457,21 +8205,15 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardianspear",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear"
           },
           {
             "category": "weapons",
-            "name": "royalhalberd",
-            "stackable": false,
-            "unique": false
+            "name": "royalhalberd"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8527,15 +8269,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "greatfrostblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatfrostblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8591,22 +8329,16 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "knightsbroadsword",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbroadsword"
           },
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8662,15 +8394,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "gerudoscimitar",
-            "stackable": false,
-            "unique": false
+            "name": "gerudoscimitar"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8727,22 +8455,16 @@
           {
             "category": "materials",
             "name": "ruby",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "arrows",
             "name": "bombarrow",
-            "quantity": 5,
-            "stackable": true,
-            "unique": false
+            "quantity": 5
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8813,9 +8535,7 @@
           {
             "category": "keyitems",
             "name": "rutasemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -8886,15 +8606,11 @@
           {
             "category": "materials",
             "name": "diamond",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -8964,15 +8680,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "travelersspear",
-            "stackable": false,
-            "unique": false
+            "name": "travelersspear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9030,9 +8742,7 @@
           {
             "category": "keyitems",
             "name": "naborissemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9107,34 +8817,24 @@
         "rewards": [
           {
             "category": "shields",
-            "name": "guardianshield++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianshield++"
           },
           {
             "category": "weapons",
-            "name": "ancientbattleaxe++",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe++"
           },
           {
             "category": "weapons",
-            "name": "guardianspear++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear++"
           },
           {
             "category": "rupees",
             "name": "silver",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9190,15 +8890,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "moonlightscimitar",
-            "stackable": false,
-            "unique": false
+            "name": "moonlightscimitar"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9254,28 +8950,20 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "ancientbattleaxe+",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe+"
           },
           {
             "category": "weapons",
-            "name": "guardiansword+",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword+"
           },
           {
             "category": "materials",
             "name": "sapphire",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9331,15 +9019,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "knightsclaymore",
-            "stackable": false,
-            "unique": false
+            "name": "knightsclaymore"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9396,15 +9080,11 @@
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9460,9 +9140,7 @@
         "rewards": [
           {
             "category": "keyitems",
-            "name": "medohsemblem",
-            "stackable": true,
-            "unique": false
+            "name": "medohsemblem"
           }
         ],
         "softdependencies": [
@@ -9533,9 +9211,7 @@
           {
             "category": "keyitems",
             "name": "naborissemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -9606,15 +9282,11 @@
           {
             "category": "rupees",
             "name": "gold",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9673,15 +9345,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "flamespear",
-            "stackable": false,
-            "unique": false
+            "name": "flamespear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9752,15 +9420,11 @@
           {
             "category": "materials",
             "name": "giantancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9830,15 +9494,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "frostblade",
-            "stackable": false,
-            "unique": false
+            "name": "frostblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9898,15 +9558,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "edgeofduality",
-            "stackable": false,
-            "unique": false
+            "name": "edgeofduality"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -9977,15 +9633,11 @@
           {
             "category": "rupees",
             "name": "gold",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10042,15 +9694,11 @@
           {
             "category": "materials",
             "name": "giantancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10110,15 +9758,11 @@
           {
             "category": "rupees",
             "name": "silver",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10175,9 +9819,7 @@
           {
             "category": "keyitems",
             "name": "rutasemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -10248,29 +9890,21 @@
           {
             "category": "materials",
             "name": "diamond",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "arrows",
             "name": "bombarrow",
-            "quantity": 10,
-            "stackable": true,
-            "unique": false
+            "quantity": 10
           },
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10326,15 +9960,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "thunderblade",
-            "stackable": false,
-            "unique": false
+            "name": "thunderblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10404,27 +10034,19 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardiansword+",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword+"
           },
           {
             "category": "weapons",
-            "name": "guardianshield+",
-            "stackable": false,
-            "unique": false
+            "name": "guardianshield+"
           },
           {
             "category": "weapons",
-            "name": "frostblade",
-            "stackable": false,
-            "unique": false
+            "name": "frostblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10490,28 +10112,20 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "ironsledgehammer",
-            "stackable": false,
-            "unique": false
+            "name": "ironsledgehammer"
           },
           {
             "category": "weapons",
-            "name": "ironsledgehammer",
-            "stackable": false,
-            "unique": false
+            "name": "ironsledgehammer"
           },
           {
             "category": "materials",
             "name": "giantancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10569,15 +10183,11 @@
           {
             "category": "materials",
             "name": "diamond",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10633,15 +10243,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "knightsbroadsword",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbroadsword"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10697,28 +10303,20 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "forestdwellersspear",
-            "stackable": false,
-            "unique": false
+            "name": "forestdwellersspear"
           },
           {
             "category": "bows",
-            "name": "forestdwellersbow",
-            "stackable": false,
-            "unique": false
+            "name": "forestdwellersbow"
           },
           {
             "category": "rupees",
             "name": "gold",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10774,15 +10372,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "thunderblade",
-            "stackable": false,
-            "unique": false
+            "name": "thunderblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10839,34 +10433,24 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardiansword++",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword++"
           },
           {
             "category": "weapons",
-            "name": "ancientbattleaxe++",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe++"
           },
           {
             "category": "weapons",
-            "name": "guardianspear++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear++"
           },
           {
             "category": "materials",
             "name": "diamond",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10922,27 +10506,19 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "ancientbattleaxe+",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe+"
           },
           {
             "category": "shields",
-            "name": "guardianshield+",
-            "stackable": false,
-            "unique": false
+            "name": "guardianshield+"
           },
           {
             "category": "bows",
-            "name": "knightsbow",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -10998,15 +10574,11 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "phrenicbow",
-            "stackable": false,
-            "unique": false
+            "name": "phrenicbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11062,27 +10634,19 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "ancientbattleaxe+",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe+"
           },
           {
             "category": "weapons",
-            "name": "guardianspear+",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear+"
           },
           {
             "category": "weapons",
-            "name": "frostspear",
-            "stackable": false,
-            "unique": false
+            "name": "frostspear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11138,15 +10702,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "zoraspear",
-            "stackable": false,
-            "unique": false
+            "name": "zoraspear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11203,9 +10763,7 @@
           {
             "category": "keyitems",
             "name": "medohsemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -11275,21 +10833,15 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "ancientbattleaxe",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe"
           },
           {
             "category": "shields",
-            "name": "knightsshield",
-            "stackable": false,
-            "unique": false
+            "name": "knightsshield"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11345,15 +10897,11 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "travelersbow",
-            "stackable": false,
-            "unique": false
+            "name": "travelersbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11410,15 +10958,11 @@
         "rewards": [
           {
             "category": "shields",
-            "name": "travelersshield",
-            "stackable": false,
-            "unique": false
+            "name": "travelersshield"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11475,27 +11019,19 @@
         "rewards": [
           {
             "category": "shields",
-            "name": "guardianshield",
-            "stackable": false,
-            "unique": false
+            "name": "guardianshield"
           },
           {
             "category": "weapons",
-            "name": "guardiansword",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword"
           },
           {
             "category": "weapons",
-            "name": "boomerang",
-            "stackable": false,
-            "unique": false
+            "name": "boomerang"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11552,15 +11088,11 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "barbarianlegwraps",
-            "stackable": false,
-            "unique": false
+            "name": "barbarianlegwraps"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11616,15 +11148,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "knightsclaymore",
-            "stackable": false,
-            "unique": false
+            "name": "knightsclaymore"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11681,15 +11209,11 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "rubbertights",
-            "stackable": false,
-            "unique": false
+            "name": "rubbertights"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11748,15 +11272,11 @@
         "rewards": [
           {
             "category": "shields",
-            "name": "radiantshield",
-            "stackable": false,
-            "unique": false
+            "name": "radiantshield"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11826,15 +11346,11 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "climbersbandanna",
-            "stackable": false,
-            "unique": false
+            "name": "climbersbandanna"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11901,15 +11417,11 @@
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -11966,9 +11478,7 @@
           {
             "category": "keyitems",
             "name": "rudaniasemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12039,15 +11549,11 @@
           {
             "category": "materials",
             "name": "giantancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12193,27 +11699,19 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardianspear",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear"
           },
           {
             "category": "weapons",
-            "name": "guardianspear",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear"
           },
           {
             "category": "weapons",
-            "name": "drillshaft",
-            "stackable": false,
-            "unique": false
+            "name": "drillshaft"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12269,15 +11767,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "greatflameblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatflameblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12333,15 +11827,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "featherededge",
-            "stackable": false,
-            "unique": false
+            "name": "featherededge"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12397,22 +11887,16 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "silverbow",
-            "stackable": false,
-            "unique": false
+            "name": "silverbow"
           },
           {
             "category": "materials",
             "name": "opal",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12544,33 +12028,23 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "ancientbattleaxe++",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe++"
           },
           {
             "category": "weapons",
-            "name": "guardianspear++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear++"
           },
           {
             "category": "weapons",
-            "name": "guardiansword++",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword++"
           },
           {
             "category": "weapons",
-            "name": "flameblade",
-            "stackable": false,
-            "unique": false
+            "name": "flameblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12640,15 +12114,11 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "knightsbow",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12704,27 +12174,19 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "frostblade",
-            "stackable": false,
-            "unique": false
+            "name": "frostblade"
           },
           {
             "category": "weapons",
-            "name": "guardiansword+",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword+"
           },
           {
             "category": "weapons",
-            "name": "guardianspear+",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear+"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12792,9 +12254,7 @@
           {
             "category": "keyitems",
             "name": "rutasemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -12864,15 +12324,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "greatfrostblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatfrostblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12928,15 +12384,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "thunderspear",
-            "stackable": false,
-            "unique": false
+            "name": "thunderspear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -12995,22 +12447,16 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "falconbow",
-            "stackable": false,
-            "unique": false
+            "name": "falconbow"
           },
           {
             "category": "materials",
             "name": "topaz",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13067,15 +12513,11 @@
           {
             "category": "arrows",
             "name": "icearrow",
-            "quantity": 10,
-            "stackable": true,
-            "unique": false
+            "quantity": 10
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13131,15 +12573,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "royalbroadsword",
-            "stackable": false,
-            "unique": false
+            "name": "royalbroadsword"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13195,22 +12633,16 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "edgeofduality",
-            "stackable": false,
-            "unique": false
+            "name": "edgeofduality"
           },
           {
             "category": "materials",
             "name": "ancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13266,15 +12698,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "greatflameblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatflameblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13345,9 +12773,7 @@
           {
             "category": "keyitems",
             "name": "rudaniasemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13417,22 +12843,16 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "knightsbow",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbow"
           },
           {
             "category": "rupees",
             "name": "purple",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13488,15 +12908,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "greatthunderblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatthunderblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13566,15 +12982,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "eightfoldlongblade",
-            "stackable": false,
-            "unique": false
+            "name": "eightfoldlongblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13630,15 +13042,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "serpentinespear",
-            "stackable": false,
-            "unique": false
+            "name": "serpentinespear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13694,22 +13102,16 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "giantboomerang",
-            "stackable": false,
-            "unique": false
+            "name": "giantboomerang"
           },
           {
             "category": "materials",
             "name": "opal",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13770,9 +13172,7 @@
           {
             "category": "keyitems",
             "name": "medohsemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -13844,15 +13244,11 @@
           {
             "category": "rupees",
             "name": "silver",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13924,15 +13320,11 @@
           {
             "category": "arrows",
             "name": "icearrow",
-            "quantity": 5,
-            "stackable": true,
-            "unique": false
+            "quantity": 5
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -13988,27 +13380,19 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardianspear+",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear+"
           },
           {
             "category": "shields",
-            "name": "guardianshield+",
-            "stackable": false,
-            "unique": false
+            "name": "guardianshield+"
           },
           {
             "category": "weapons",
-            "name": "royalbroadsword",
-            "stackable": false,
-            "unique": false
+            "name": "royalbroadsword"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14078,48 +13462,34 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "royalbow",
-            "stackable": false,
-            "unique": false
+            "name": "royalbow"
           },
           {
             "category": "weapons",
-            "name": "greatflameblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatflameblade"
           },
           {
             "category": "materials",
             "name": "giantancientcore",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "weapons",
-            "name": "forestdwellerssword",
-            "stackable": false,
-            "unique": false
+            "name": "forestdwellerssword"
           },
           {
             "category": "arrows",
             "name": "icearrow",
-            "quantity": 10,
-            "stackable": true,
-            "unique": false
+            "quantity": 10
           },
           {
             "category": "rupees",
             "name": "silver",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14175,27 +13545,19 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "knightsbow",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbow"
           },
           {
             "category": "shields",
-            "name": "guardianshield",
-            "stackable": false,
-            "unique": false
+            "name": "guardianshield"
           },
           {
             "category": "weapons",
-            "name": "guardiansword",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14251,15 +13613,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "moonlightscimitar",
-            "stackable": false,
-            "unique": false
+            "name": "moonlightscimitar"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14330,22 +13688,16 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "cobblecrusher",
-            "stackable": false,
-            "unique": false
+            "name": "cobblecrusher"
           },
           {
             "category": "materials",
             "name": "ruby",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14402,15 +13754,11 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "climbingboots",
-            "stackable": false,
-            "unique": false
+            "name": "climbingboots"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14470,9 +13818,7 @@
           {
             "category": "keyitems",
             "name": "naborissemblem",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -14542,28 +13888,20 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "eightfoldblade",
-            "stackable": false,
-            "unique": false
+            "name": "eightfoldblade"
           },
           {
             "category": "shields",
-            "name": "shieldofthemindseye",
-            "stackable": false,
-            "unique": false
+            "name": "shieldofthemindseye"
           },
           {
             "category": "materials",
             "name": "opal",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14619,15 +13957,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "greatthunderblade",
-            "stackable": false,
-            "unique": false
+            "name": "greatthunderblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14697,33 +14031,23 @@
         "rewards": [
           {
             "category": "shields",
-            "name": "guardianshield++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianshield++"
           },
           {
             "category": "weapons",
-            "name": "ancientbattleaxe++",
-            "stackable": false,
-            "unique": false
+            "name": "ancientbattleaxe++"
           },
           {
             "category": "weapons",
-            "name": "guardiansword++",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword++"
           },
           {
             "category": "weapons",
-            "name": "knightshalberd",
-            "stackable": false,
-            "unique": false
+            "name": "knightshalberd"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14779,15 +14103,11 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "goldenbow",
-            "stackable": false,
-            "unique": false
+            "name": "goldenbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14854,22 +14174,16 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "rubberarmor",
-            "stackable": false,
-            "unique": false
+            "name": "rubberarmor"
           },
           {
             "category": "materials",
             "name": "opal",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -14939,15 +14253,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "royalclaymore",
-            "stackable": false,
-            "unique": false
+            "name": "royalclaymore"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15003,15 +14313,11 @@
         "rewards": [
           {
             "category": "shields",
-            "name": "shieldofthemindseye",
-            "stackable": false,
-            "unique": false
+            "name": "shieldofthemindseye"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15078,15 +14384,11 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "barbarianhelm",
-            "stackable": false,
-            "unique": false
+            "name": "barbarianhelm"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15142,33 +14444,23 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardianspear++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianspear++"
           },
           {
             "category": "shields",
-            "name": "guardianshield++",
-            "stackable": false,
-            "unique": false
+            "name": "guardianshield++"
           },
           {
             "category": "weapons",
-            "name": "guardiansword++",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword++"
           },
           {
             "category": "weapons",
-            "name": "flamespear",
-            "stackable": false,
-            "unique": false
+            "name": "flamespear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15238,15 +14530,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "flameblade",
-            "stackable": false,
-            "unique": false
+            "name": "flameblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15317,15 +14605,11 @@
           {
             "category": "materials",
             "name": "amber",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15382,27 +14666,19 @@
           {
             "category": "materials",
             "name": "opal",
-            "quantity": 1,
-            "stackable": true,
-            "unique": false
+            "quantity": 1
           },
           {
             "category": "weapons",
-            "name": "guardiansword",
-            "stackable": false,
-            "unique": false
+            "name": "guardiansword"
           },
           {
             "category": "weapons",
-            "name": "knightsbroadsword",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbroadsword"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15458,15 +14734,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "eightfoldblade",
-            "stackable": false,
-            "unique": false
+            "name": "eightfoldblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15602,15 +14874,11 @@
         "rewards": [
           {
             "category": "bows",
-            "name": "knightsbow",
-            "stackable": false,
-            "unique": false
+            "name": "knightsbow"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15666,15 +14934,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "silverscalespear",
-            "stackable": false,
-            "unique": false
+            "name": "silverscalespear"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15731,15 +14995,11 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "flameblade",
-            "stackable": false,
-            "unique": false
+            "name": "flameblade"
           },
           {
             "category": "keyitems",
             "name": "spiritorb",
-            "stackable": true,
-            "unique": false,
             "quantity": 1
           }
         ],
@@ -15794,21 +15054,15 @@
         "rewards": [
           {
             "category": "armor",
-            "name": "capofthewild",
-            "stackable": false,
-            "unique": false
+            "name": "capofthewild"
           },
           {
             "category": "armor",
-            "name": "tunicofthewild",
-            "stackable": false,
-            "unique": false
+            "name": "tunicofthewild"
           },
           {
             "category": "armor",
-            "name": "trousersofthewild",
-            "stackable": false,
-            "unique": false
+            "name": "trousersofthewild"
           }
         ],
         "softdependencies": [
