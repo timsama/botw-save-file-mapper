@@ -3932,7 +3932,19 @@
           "offset": 801992,
           "value": 0
         }
-      ]
+      ],
+      "plus": {
+        "entries": [
+          {
+            "offset": 449632,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "runes.bombs",
+          "sidequests.slatedforupgrades.askforsomethinggood"
+        ]
+      }
     },
     "camera": {
       "entries": [
@@ -3988,7 +4000,19 @@
           "offset": 801992,
           "value": 3
         }
-      ]
+      ],
+      "plus": {
+        "entries": [
+          {
+            "offset": 791896,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "runes.stasis",
+          "sidequests.slatedforupgrades.askforsomethinggood"
+        ]
+      }
     }
   },
   "settings": {
@@ -4082,7 +4106,18 @@
           "offset": 863256,
           "value": 1
         }
-      ]
+      ],
+      "plus": {
+        "entries": [
+          {
+            "offset": 814808,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "sidequests.slatedforupgrades.askforsomethinggood"
+        ]
+      }
     }
   },
   "shieldstash": {
@@ -15967,6 +16002,17 @@
       }
     },
     "slatedforupgrades": {
+      "askforsomethinggood": {
+        "entries": [
+          {
+            "offset": 20176,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "sidequests.slatedforupgrades.begun"
+        ]
+      },
       "begun": {
         "entries": [
           {
@@ -15980,6 +16026,22 @@
         ],
         "softdependencies": [
           "sidequests.robbiesresearch.begun"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 833704,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "sidequests.slatedforupgrades.begun"
+        ],
+        "softdependencies": [
+          "sheikahslate.sensor.plus",
+          "runes.bombs.plus",
+          "runes.stasis.plus"
         ]
       }
     },
