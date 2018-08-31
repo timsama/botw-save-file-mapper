@@ -27,8 +27,10 @@ module.exports = (() => {
         },
         write: (modelJson, saveFile) => {
             writeItemSlots(saveFile, modelJson.slots, 'keyitems', (item, slot, slotInCategory) => {
+                const equippedOffset = Offsets.getEquippedSlotOffset(slot);
                 const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
 
+                OffsetSetter(equippedOffset, 0, saveFile);
                 OffsetSetter(quantitiesOffset, item.quantity || 1, saveFile);
             });
         }

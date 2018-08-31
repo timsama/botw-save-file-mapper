@@ -129,6 +129,9 @@ module.exports = (() => {
                 const typeOffset = Offsets.getFoodBonusTypeOffset(slotInCategory);
                 const amountOffset = Offsets.getFoodBonusAmountOffset(slotInCategory);
                 const durationOffset = Offsets.getFoodBonusDurationOffset(slotInCategory);
+                const equippedOffset = Offsets.getEquippedSlotOffset(slot);
+                
+                OffsetSetter(equippedOffset, 0, saveFile);
 
                 const fullHearts = (item.bonus && item.bonus.type === 'hearty') ? item.bonus.amount : item.hearts;
                 const quarterHearts = fullHearts * 4;
