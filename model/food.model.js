@@ -32,9 +32,18 @@ module.exports = (() => {
             const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
             const heartsOffset = Offsets.getFoodHeartsOffset(slotInCategory);
 
-            const rawHearts = Float28.decode(OffsetChecker(heartsOffset, saveFile)) / 4.0;
+            const quarterHearts = Float28.decode(OffsetChecker(heartsOffset, saveFile));
+            const fullHearts = quarterHearts / 4.0;
 
             const bonus = (() => {
+                if (item.name.slice(0, 6) === 'frozen' || item.name.slice(0, 3) === 'icy') {
+                    return {
+                        amount: 1,
+                        type: 'chilly',
+                        duration: '01:00'
+                    };
+                }
+
                 const typeOffset = Offsets.getFoodBonusTypeOffset(slotInCategory);
                 const amountOffset = Offsets.getFoodBonusAmountOffset(slotInCategory);
                 const durationOffset = Offsets.getFoodBonusDurationOffset(slotInCategory);
@@ -42,7 +51,7 @@ module.exports = (() => {
                 const type = bonusTypes[OffsetChecker(typeOffset, saveFile)];
                 if (type === 'hearty') {
                     return {
-                        amount: rawHearts,
+                        amount: fullHearts,
                         type: type
                     };
                 } else if (type === 'energizing') {
@@ -70,7 +79,8 @@ module.exports = (() => {
                 }
             })();
 
-            const hearts = (bonus && bonus.type === 'hearty') ? 'fullrecovery' : rawHearts;
+            const nonStackableHearts = (bonus && bonus.type === 'hearty') ? 'fullrecovery' : fullHearts;
+            const hearts = item.stackable ? item.hearts : nonStackableHearts;
 
             return {
                 name: item.name,
@@ -88,7 +98,7 @@ module.exports = (() => {
                 slots: getFoodSlots(saveFile)
             };
         },
-        write: (saveFile, modelJson) => {
+        write: (modelJson, saveFile) => {
             const slotStructure = getItemSlotStructure(saveFile);
             
 

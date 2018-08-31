@@ -21,15 +21,14 @@ module.exports = (() => {
                 keyitems: KeyItems.read(saveFile)
             };
         },
-        write: (saveFile, modelJson) => {
-            Weapons.write(saveFile, modelJson.weapons);
-            Bows.write(saveFile, modelJson.bows);
-            Arrows.write(saveFile, modelJson.arrows);
-            Shields.write(saveFile, modelJson.shields);
-            Armor.write(saveFile, modelJson.armor);
-            Materials.write(saveFile, modelJson.materials);
-            Food.write(saveFile, modelJson.food);
-            KeyItems.write(saveFile, modelJson.keyitems);
+        write: (modelJson, saveFile) => {
+            Weapons.write(modelJson.weapons, saveFile);
+            Bows.write(modelJson.bows, saveFile);
+            Arrows.write(modelJson.arrows, saveFile);
+            Shields.write(modelJson.shields, saveFile);
+            Armor.write(modelJson.armor, saveFile);
+            Materials.write(modelJson.materials, saveFile);
+            KeyItems.write(modelJson.keyitems, saveFile);
         }
     };
 })();

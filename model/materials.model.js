@@ -1,8 +1,10 @@
 module.exports = (() => {
     const Offsets = require('../offsets.js');
     const OffsetChecker = require('../offset-checker.js');
+    const OffsetSetter = require('../offset-setter.js');
     const getItemSlotStructure = require('../get-item-slot-structure.js');
     const mapItemSlots = require('./map-item-slots.js');
+    const writeItemSlots = require('./write-item-slots.js');
 
     const getMaterialsSlots = (saveFile) => {
         return mapItemSlots(saveFile, 'materials', (item, slot) => {
@@ -21,10 +23,12 @@ module.exports = (() => {
                 slots: getMaterialsSlots(saveFile)
             };
         },
-        write: (saveFile, modelJson) => {
-            const slotStructure = getItemSlotStructure(saveFile);
-            
+        write: (modelJson, saveFile) => {
+            writeItemSlots(saveFile, modelJson.slots, 'materials', (item, slot, slotInCategory) => {
+                const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
 
+                OffsetSetter(quantitiesOffset, item.quantity, saveFile);
+            });
         }
     };
 })();

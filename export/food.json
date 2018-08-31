@@ -39,6 +39,7 @@
         "value": 855638016
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "bakedfortifiedpumpkin": {
@@ -60,6 +61,7 @@
         "value": 889192448
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "bakedpalmfruit": {
@@ -81,6 +83,7 @@
         "value": 805306368
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "blackenedcrab": {
@@ -106,6 +109,7 @@
         "value": 889192448
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "blueshellescargot": {
@@ -131,6 +135,7 @@
         "value": 822083584
       }
     ],
+    "hearts": 4.5,
     "stackable": true
   },
   "campfireegg": {
@@ -152,6 +157,7 @@
         "value": 822083584
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "carrotcake": {
@@ -215,6 +221,7 @@
         "value": 855638016
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "clamchowder": {
@@ -853,6 +860,7 @@
         "value": 1596993792
       }
     ],
+    "hearts": 2,
     "stackable": true
   },
   "frozenbirddrumstick": {
@@ -874,6 +882,7 @@
         "value": 1596994560
       }
     ],
+    "hearts": 1,
     "stackable": true
   },
   "frozenbirdthigh": {
@@ -895,6 +904,7 @@
         "value": 1596994816
       }
     ],
+    "hearts": 1,
     "stackable": true
   },
   "frozencarp": {
@@ -920,6 +930,7 @@
         "value": 1596994560
       }
     ],
+    "hearts": 1,
     "stackable": true
   },
   "frozencrab": {
@@ -945,6 +956,7 @@
         "value": 1596995328
       }
     ],
+    "hearts": 2,
     "stackable": true
   },
   "frozenheartybass": {
@@ -970,6 +982,7 @@
         "value": 1596995072
       }
     ],
+    "hearts": 2,
     "stackable": true
   },
   "frozenheartysalmon": {
@@ -995,6 +1008,7 @@
         "value": 1596994048
       }
     ],
+    "hearts": 4,
     "stackable": true
   },
   "frozenporgy": {
@@ -1020,6 +1034,7 @@
         "value": 1596994816
       }
     ],
+    "hearts": 1,
     "stackable": true
   },
   "frozenriversnail": {
@@ -1045,6 +1060,7 @@
         "value": 1596995584
       }
     ],
+    "hearts": 1,
     "stackable": true
   },
   "frozentrout": {
@@ -1070,6 +1086,7 @@
         "value": 1596994304
       }
     ],
+    "hearts": 1,
     "stackable": true
   },
   "frozenwholebird": {
@@ -1091,6 +1108,7 @@
         "value": 1596995072
       }
     ],
+    "hearts": 3,
     "stackable": true
   },
   "fruitandmushroommix": {
@@ -1532,6 +1550,7 @@
         "value": 1596994304
       }
     ],
+    "hearts": 3,
     "stackable": true
   },
   "icyheartyblueshellsnail": {
@@ -1557,6 +1576,7 @@
         "value": 1596995840
       }
     ],
+    "hearts": 3,
     "stackable": true
   },
   "icymeat": {
@@ -1578,6 +1598,7 @@
         "value": 1596993792
       }
     ],
+    "hearts": 1,
     "stackable": true
   },
   "icyprimemeat": {
@@ -1599,6 +1620,7 @@
         "value": 1596994048
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "meatandmushroomskewer": {
@@ -2376,6 +2398,7 @@
         "value": 939524096
       }
     ],
+    "hearts": 0.5,
     "stackable": true
   },
   "roastedarmoranth": {
@@ -2397,6 +2420,7 @@
         "value": 939524096
       }
     ],
+    "hearts": 0.5,
     "stackable": true
   },
   "roastedbass": {
@@ -2422,6 +2446,7 @@
         "value": 822083584
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "roastedbigradish": {
@@ -2443,6 +2468,7 @@
         "value": 956301312
       }
     ],
+    "hearts": 6,
     "stackable": true
   },
   "roastedbirddrumstick": {
@@ -2464,6 +2490,7 @@
         "value": 838860800
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "roastedbirdthigh": {
@@ -2485,6 +2512,7 @@
         "value": 822083584
       }
     ],
+    "hearts": 2.25,
     "stackable": true
   },
   "roastedcarp": {
@@ -2510,6 +2538,7 @@
         "value": 922746880
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "roastedenduracarrot": {
@@ -2531,6 +2560,7 @@
         "value": 805306368
       }
     ],
+    "hearts": 3,
     "stackable": true
   },
   "roastedheartybass": {
@@ -2556,6 +2586,7 @@
         "value": 838860800
       }
     ],
+    "hearts": 3,
     "stackable": true
   },
   "roastedheartydurian": {
@@ -2577,6 +2608,7 @@
         "value": 956301312
       }
     ],
+    "hearts": 4.5,
     "stackable": true
   },
   "roastedheartysalmon": {
@@ -2602,6 +2634,7 @@
         "value": 872415232
       }
     ],
+    "hearts": 4.5,
     "stackable": true
   },
   "roastedhydromelon": {
@@ -2623,6 +2656,7 @@
         "value": 838860800
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "roastedlotusseeds": {
@@ -2644,6 +2678,7 @@
         "value": 905969664
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "roastedmightybananas": {
@@ -2665,6 +2700,7 @@
         "value": 822083584
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "roastedmightythistle": {
@@ -2686,6 +2722,7 @@
         "value": 922746880
       }
     ],
+    "hearts": 0.5,
     "stackable": true
   },
   "roastedporgy": {
@@ -2711,6 +2748,7 @@
         "value": 956301312
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "roastedradish": {
@@ -2732,6 +2770,7 @@
         "value": 939524096
       }
     ],
+    "hearts": 3.75,
     "stackable": true
   },
   "roastedswiftcarrot": {
@@ -2753,6 +2792,7 @@
         "value": 872415232
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "roastedtreenut": {
@@ -2774,6 +2814,7 @@
         "value": 838860800
       }
     ],
+    "hearts": 0.5,
     "stackable": true
   },
   "roastedtrout": {
@@ -2799,6 +2840,7 @@
         "value": 855638016
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "roastedvoltfruit": {
@@ -2820,6 +2862,7 @@
         "value": 939524096
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "roastedwholebird": {
@@ -2841,6 +2884,7 @@
         "value": 905969664
       }
     ],
+    "hearts": 4.5,
     "stackable": true
   },
   "roastedwildberry": {
@@ -2862,6 +2906,7 @@
         "value": 922746880
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "rockhardfood": {
@@ -3260,6 +3305,7 @@
         "value": 889192448
       }
     ],
+    "hearts": 4.5,
     "stackable": true
   },
   "searedprimesteak": {
@@ -3281,6 +3327,7 @@
         "value": 805306368
       }
     ],
+    "hearts": 2.25,
     "stackable": true
   },
   "searedsteak": {
@@ -3302,6 +3349,7 @@
         "value": 822083584
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "simmeredfruit": {
@@ -3348,6 +3396,7 @@
         "value": 855638016
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "spicedmeatskewer": {
@@ -3369,7 +3418,7 @@
         "value": 808648704
       }
     ],
-    "stackable": true
+    "stackable": false
   },
   "steamedfish": {
     "entries": [
@@ -3390,7 +3439,7 @@
         "value": 808714240
       }
     ],
-    "stackable": true
+    "stackable": false
   },
   "steamedfruit": {
     "entries": [
@@ -3411,7 +3460,7 @@
         "value": 808648704
       }
     ],
-    "stackable": true
+    "stackable": false
   },
   "steamedmeat": {
     "entries": [
@@ -3432,7 +3481,7 @@
         "value": 808779776
       }
     ],
-    "stackable": true
+    "stackable": false
   },
   "steamedmushrooms": {
     "entries": [
@@ -3453,7 +3502,7 @@
         "value": 808583168
       }
     ],
-    "stackable": true
+    "stackable": false
   },
   "toastedbigheartytruffle": {
     "entries": [
@@ -3474,6 +3523,7 @@
         "value": 956301312
       }
     ],
+    "hearts": 4.5,
     "stackable": true
   },
   "toastedheartytruffle": {
@@ -3495,6 +3545,7 @@
         "value": 889192448
       }
     ],
+    "hearts": 3,
     "stackable": true
   },
   "toastychillshroom": {
@@ -3516,6 +3567,7 @@
         "value": 822083584
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "toastyendurashroom": {
@@ -3537,6 +3589,7 @@
         "value": 855638016
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "toastyhylianshroom": {
@@ -3558,6 +3611,7 @@
         "value": 905969664
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "toastyironshroom": {
@@ -3579,6 +3633,7 @@
         "value": 939524096
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "toastyrazorshroom": {
@@ -3600,6 +3655,7 @@
         "value": 922746880
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "toastyrushroom": {
@@ -3621,6 +3677,7 @@
         "value": 905969664
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "toastysilentshroom": {
@@ -3642,6 +3699,7 @@
         "value": 956301312
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "toastystamellashroom": {
@@ -3663,6 +3721,7 @@
         "value": 872415232
       }
     ],
+    "hearts": 1.5,
     "stackable": true
   },
   "toastysunshroom": {
@@ -3684,6 +3743,7 @@
         "value": 838860800
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "toastyzapshroom": {
@@ -3705,6 +3765,7 @@
         "value": 855638016
       }
     ],
+    "hearts": 0.75,
     "stackable": true
   },
   "vegetablecurry": {

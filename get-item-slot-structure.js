@@ -117,13 +117,13 @@ module.exports = (() => {
         }
 
         return {
-            weapons: {first: weaponFirst, last: weaponLast},
-            bows: {first: bowFirst, last: bowLast},
-            arrows: {first: arrowFirst, last: arrowLast},
-            shields: {first: shieldFirst, last: shieldLast},
-            armor: {first: armorFirst, last: armorLast},
-            materials: {first: materialFirst, last: materialLast},
-            food: {first: foodFirst, last: foodLast},
+            weapons: {first: weaponFirst, last: weaponLast, next: 'bows'},
+            bows: {first: bowFirst, last: bowLast, next: 'arrows'},
+            arrows: {first: arrowFirst, last: arrowLast, next: 'shields'},
+            shields: {first: shieldFirst, last: shieldLast, next: 'armor'},
+            armor: {first: armorFirst, last: armorLast, next: 'materials'},
+            materials: {first: materialFirst, last: materialLast, next: 'food'},
+            food: {first: foodFirst, last: foodLast, next: 'keyitems'},
             keyitems: {first: keyItemFirst, last: keyItemLast}
         };
     };
