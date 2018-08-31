@@ -1,8 +1,10 @@
 module.exports = (() => {
     const Offsets = require('../offsets.js');
     const OffsetChecker = require('../offset-checker.js');
+    const OffsetSetter = require('../offset-setter.js');
     const getItemSlotStructure = require('../get-item-slot-structure.js');
     const mapItemSlots = require('./map-item-slots.js');
+    const writeItemSlots = require('./write-item-slots.js');
     const Float28 = require('../encoders_decoders/float28.js');
     const FoodDuration = require('../encoders_decoders/foodduration.js');
 
@@ -25,6 +27,28 @@ module.exports = (() => {
         0x3f800000: 1,
         0x40000000: 2,
         0x40400000: 3
+    };
+
+    const typeEnum = {
+        'none': 0xbf800000,
+        'hearty': 0x40000000,
+        'chilly': 0x40800000,
+        'spicy': 0x40a00000,
+        'electro': 0x40c00000,
+        'mighty': 0x41200000,
+        'tough': 0x41300000,
+        'sneaky': 0x41400000,
+        'hasty': 0x41500000,
+        'energizing': 0x41600000,
+        'enduring': 0x41700000,
+        'fireproof': 0x41800000
+    };
+
+    const amountsEnum = {
+        0: 0,
+        1: 0x3f800000,
+        2: 0x40000000,
+        3: 0x40400000
     };
 
     const getFoodSlots = (saveFile) => {
@@ -99,9 +123,50 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile) => {
-            const slotStructure = getItemSlotStructure(saveFile);
-            
+            writeItemSlots(saveFile, modelJson.slots, 'food', (item, slot, slotInCategory) => {
+                const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
+                const heartsOffset = Offsets.getFoodHeartsOffset(slotInCategory);
+                const typeOffset = Offsets.getFoodBonusTypeOffset(slotInCategory);
+                const amountOffset = Offsets.getFoodBonusAmountOffset(slotInCategory);
+                const durationOffset = Offsets.getFoodBonusDurationOffset(slotInCategory);
 
+                const fullHearts = (item.bonus && item.bonus.type === 'hearty') ? item.bonus.amount : item.hearts;
+                const quarterHearts = fullHearts * 4;
+
+                if (!item.stackable) {
+                    OffsetSetter(heartsOffset, Float28.encode(quarterHearts), saveFile);
+                    OffsetSetter(quantitiesOffset, 1, saveFile);
+                } else {
+                    OffsetSetter(heartsOffset, 0xbf800000, saveFile);
+                    OffsetSetter(quantitiesOffset, item.quantity, saveFile);
+                }
+
+                if (!!item.bonus && !!item.bonus.type && !!item.bonus.amount) {
+                    OffsetSetter(typeOffset, typeEnum[item.bonus.type], saveFile);
+
+                    if (item.bonus.type === 'energizing') {
+                        OffsetSetter(amountOffset, Float28.encode(item.bonus.amount * 1000), saveFile);
+                        OffsetSetter(durationOffset, 0, saveFile);
+                    } else if (item.bonus.type === 'enduring') {
+                        OffsetSetter(amountOffset, Float28.encode(item.bonus.amount * 5.0), saveFile);
+                        OffsetSetter(durationOffset, 0, saveFile);
+                    } else if (item.bonus.type === 'hearty') {
+                        OffsetSetter(amountOffset, Float28.encode(quarterHearts), saveFile);
+                        OffsetSetter(durationOffset, 0, saveFile);
+                    } else if (!!item.bonus.duration) {
+                        OffsetSetter(amountOffset, amountsEnum[item.bonus.amount], saveFile);
+                        OffsetSetter(durationOffset, FoodDuration.encode(item.bonus.duration), saveFile);
+                    } else {
+                        OffsetSetter(typeOffset, typeEnum['none'], saveFile);
+                        OffsetSetter(amountOffset, 0, saveFile);
+                        OffsetSetter(durationOffset, 0, saveFile);
+                    }
+                } else {
+                    OffsetSetter(typeOffset, typeEnum['none'], saveFile);
+                    OffsetSetter(amountOffset, 0, saveFile);
+                    OffsetSetter(durationOffset, 0, saveFile);
+                }
+            });
         }
     };
 })();

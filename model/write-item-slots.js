@@ -8,7 +8,33 @@ module.exports = (() => {
     const getCondensedItems = (items, category) => {
         const itemCounts = {};
 
-        const filteredItems = items.filter((item) => {
+        const fullyKeyedItems = items.map(item => {
+            const categoryFilepath = itemFileUtils.getCategoryFilepath(category);
+            const categoryJson = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilepath);
+            
+            const copy = {};
+
+            Object.keys(item).forEach(key => {
+                if (Array.isArray(item[key])) {
+                    copy[key] = item[key].slice();    
+                } else {
+                    copy[key] = item[key];
+                }
+            });
+
+            if (!!categoryJson[item.name]) {
+                copy.entries = categoryJson[item.name].entries.slice();
+                copy.stackable = categoryJson[item.name].stackable;
+                copy.unique = categoryJson[item.name].unique;
+            } else {
+                console.error(`${item.name} not found in ${category} item file!`);
+                copy.entries = [];
+            }
+
+            return copy;
+        });
+
+        const filteredItems = fullyKeyedItems.filter((item) => {
             if (item.unique && itemCounts[item.name]) {
                 return false
             } else if (item.stackable) {
@@ -29,33 +55,14 @@ module.exports = (() => {
                 itemCounts[item.name] = item.quantity;
                 return true;
             }
+        })
+
+        const condensedItems = filteredItems.map(item => {
+            item.quantity = itemCounts[item.name];
+            return item;
         });
 
-        return filteredItems.map(item => {
-            const categoryFilepath = itemFileUtils.getCategoryFilepath(category);
-            const categoryJson = itemFileUtils.getFileAsJsonOrEmptyJsObject(categoryFilepath);
-            
-            const copy = {};
-
-            Object.keys(item).forEach(key => {
-                if (Array.isArray(item[key])) {
-                    copy[key] = item[key].slice();    
-                } else {
-                    copy[key] = item[key];
-                }
-            });
-
-            copy.quantity = itemCounts[item.name];
-
-            if (!!categoryJson[item.name]) {
-                copy.entries = categoryJson[item.name].entries.slice();
-            } else {
-                console.error(`${item.name} not found in ${category} item file!`);
-                copy.entries = [];
-            }
-
-            return copy;
-        });
+        return condensedItems;
     }
 
     const deleteUnusedSlotsInCategory = (saveFile, firstSlot, slotsUsed, category) => {

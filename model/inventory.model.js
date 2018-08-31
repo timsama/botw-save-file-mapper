@@ -28,6 +28,7 @@ module.exports = (() => {
             Shields.write(modelJson.shields, saveFile);
             Armor.write(modelJson.armor, saveFile);
             Materials.write(modelJson.materials, saveFile);
+            Food.write(modelJson.food, saveFile);
             KeyItems.write(modelJson.keyitems, saveFile);
         }
     };
