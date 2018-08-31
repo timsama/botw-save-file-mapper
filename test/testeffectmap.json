@@ -59,5 +59,68 @@
         }
       ]
     }
+  },
+  "shrines": {
+    "hadahamar": {
+      "active": {
+        "entries": [
+          {
+            "offset": 471200,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.hadahamar.found"
+        ],
+        "softdependencies": [
+          "shrines.hadahamar.pedestal"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 918920,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.hadahamar.found"
+        ],
+        "rewards": [
+          {
+            "category": "rupees",
+            "name": "purple",
+            "quantity": 1
+          },
+          {
+            "category": "keyitems",
+            "name": "spiritorb",
+            "quantity": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.hadahamar.active"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 543880,
+            "value": 1
+          }
+        ]
+      },
+      "pedestal": {
+        "entries": [
+          {
+            "offset": 894664,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "shrines.hadahamar.found"
+        ]
+      }
+    }
   }
 }

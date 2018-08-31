@@ -3,7 +3,7 @@ const applyChanges = require('../apply-changes.js')('./test/test.sav');
 const fs = require('fs');
 const CONFIG = require('../config.js');
 const md5 = require('md5-file').sync;
-const effectmapFilePath = `${CONFIG.exportpath}effectmap.json`;
+const effectmapFilePath = `./test/testeffectmap.json`;
 
 const baseFilePath = './test/blank.sav';
 const testFilePath = './test/test.sav';
@@ -19,7 +19,7 @@ describe('apply-changes.js', function() {
 
     it('should apply singular changes', function() {
         fs.copyFileSync(baseFilePath, testFilePath);
-        applyChanges(effectmapFilePath, ['keyitems.paraglider']);
+        applyChanges(effectmapFilePath, ['runes.bombs']);
         
         assert(md5(testFilePath) == md5(singleExpectedFile), `${md5(testFilePath)} !== ${md5(singleExpectedFile)}`);
     });
@@ -40,14 +40,14 @@ describe('apply-changes.js', function() {
 
     it('should apply both changes and their dependencies', function() {
         fs.copyFileSync(baseFilePath, testFilePath);
-        applyChanges(effectmapFilePath, ['shrines.dagahkeek.complete']);
+        applyChanges(effectmapFilePath, ['shrines.hadahamar.complete']);
         
         assert(md5(testFilePath) == md5(withDependenciesExpectedFile), `${md5(testFilePath)} !== ${md5(withDependenciesExpectedFile)}`);
     });
 
     it('should skip soft dependencies of a change when specified', function() {
         fs.copyFileSync(baseFilePath, testFilePath);
-        applyChanges(effectmapFilePath, ['shrines.dagahkeek.complete'], true);
+        applyChanges(effectmapFilePath, ['shrines.hadahamar.complete'], true);
         
         assert(md5(testFilePath) == md5(skipSoftDependenciesExpectedFile), `${md5(testFilePath)} !== ${md5(skipSoftDependenciesExpectedFile)}`);
     });
