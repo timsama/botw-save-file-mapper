@@ -52,11 +52,16 @@ module.exports = (() => {
             const color = dyes[OffsetChecker(colorOffset, saveFile)];
             const equipped = !!OffsetChecker(equippedOffset, saveFile);
 
-            return {
+            const armor = {
                 name: item.name,
                 equipped: equipped,
-                color: color
             };
+
+            if (color !== 'original') {
+                armor.color = color;
+            }
+
+            return armor;
         });
     };
 

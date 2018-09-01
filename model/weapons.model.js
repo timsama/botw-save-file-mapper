@@ -7,7 +7,6 @@ module.exports = (() => {
     const writeItemSlots = require('./write-item-slots.js');
 
     const bonusTypes = {
-        0: 'none',
         0x1: 'attack',
         0x2: 'durability',
         0x4: 'critical',
@@ -19,7 +18,6 @@ module.exports = (() => {
     };
 
     const bonusEnum = {
-        'none': 0,
         'attack': 0x1,
         'durability': 0x2,
         'critical': 0x4,
@@ -68,6 +66,7 @@ module.exports = (() => {
     return {
         read: (saveFile) => {
             return {
+                stash: OffsetChecker(weaponStashOffset, saveFile),
                 slots: getWeaponSlots(saveFile)
             };
         },

@@ -219,7 +219,7 @@ while(!end) {
         const itemKeys = json.getSortedKeys();
         return itemKeys.some((itemKey) => {
             const isMatch = json[itemKey].entries.every((itemEntry, i) => {
-                return itemEntry.offset === entries[i].offset
+                return entries[i] && itemEntry.offset === entries[i].offset
                     && itemEntry.value === entries[i].value;
             });
 

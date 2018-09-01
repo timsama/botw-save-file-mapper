@@ -29,7 +29,7 @@ module.exports = (() => {
             return slotCount;
         })();
         const bowFirst = weaponSlots;
-        const weaponLast = bowFirst - 1;
+        const weaponLast = Math.max(bowFirst - 1, 0);
 
         const bowSlots = (() => {
             const maxBowSlots = offsetChecker(0x000e3348, saveFile);
@@ -43,7 +43,7 @@ module.exports = (() => {
             return slotCount;
         })();
         const arrowFirst = bowFirst + bowSlots;
-        const bowLast = arrowFirst - 1;
+        const bowLast = Math.max(arrowFirst - 1, 0);
 
         const arrows = itemFileUtils.getFileAsJsonOrEmptyJsObject(itemFileUtils.getCategoryFilepath('arrows'));
         const arrowTypes = arrows.getSortedKeys().map(key => arrows[key].entries[0]);
@@ -58,7 +58,7 @@ module.exports = (() => {
             }, []).filter(s => !!s).length;
         })();
         const shieldFirst = arrowFirst + arrowSlots;
-        const arrowLast = shieldFirst - 1;
+        const arrowLast = Math.max(shieldFirst - 1, 0);
 
         const shieldSlots = (() => {
             const maxShieldSlots = offsetChecker(0x00048cd8, saveFile);
@@ -72,7 +72,7 @@ module.exports = (() => {
             return slotCount;
         })();
         const armorFirst = shieldFirst + shieldSlots;
-        const shieldLast = armorFirst - 1;
+        const shieldLast = Math.max(armorFirst - 1, 0);
 
         const armorSlots = (() => {
             let slotCount = 0;
@@ -82,7 +82,7 @@ module.exports = (() => {
             return slotCount;
         })();
         const materialFirst = armorFirst + armorSlots;
-        const armorLast = materialFirst - 1;
+        const armorLast = Math.max(materialFirst - 1, 0);
 
         const countCategorySlots = (start, category) => {
             const categoryFilepath = itemFileUtils.getCategoryFilepath(category);
@@ -96,14 +96,14 @@ module.exports = (() => {
 
         const materialSlots = countCategorySlots(materialFirst, 'materials');
         const foodFirst = materialFirst + materialSlots;
-        const materialLast = foodFirst - 1;
+        const materialLast = Math.max(foodFirst - 1, 0);
 
         const foodSlots = countCategorySlots(foodFirst, 'food');
         const keyItemFirst = foodFirst + foodSlots;
-        const foodLast = keyItemFirst - 1;
+        const foodLast = Math.max(keyItemFirst - 1, 0);
 
         const keyItemSlots = countCategorySlots(keyItemFirst, 'keyitems');
-        const keyItemLast = keyItemFirst + keyItemSlots - 1;
+        const keyItemLast = Math.max(keyItemFirst + keyItemSlots - 1, 0);
 
         if (withLogging) {
             console.log(`weapons: total: ${weaponLast - weaponFirst + 1}, first: ${weaponFirst}, last: ${weaponLast}`);

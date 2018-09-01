@@ -1,6 +1,7 @@
 module.exports = (() => {
     const getItemSlotStructure = require('../get-item-slot-structure.js');
     const setItemEntries = require('../set-item-entries.js');
+    const batchSetItemSlots = require('../batch-set-item-slots.js');
     const itemFileUtils = require('../item-file-utils.js');
     const saveFileUtils = require('../save-file-utils.js');
     const slotInfo = require('../slot-info.js');
@@ -113,11 +114,18 @@ module.exports = (() => {
 
         const writeableItems = getCondensedItems(items, category);
 
+        const slotEntries = writeableItems.map((item, slotInCategory) => {
+            const slot = firstSlot + slotInCategory;
+            return {
+                slot: slot,
+                entries: item.entries
+            };
+        });
+
+        batchSetItemSlots(slotEntries, saveFile);
+
         writeableItems.forEach((item, slotInCategory) => {
             const slot = firstSlot + slotInCategory;
-
-            setItemEntries(saveFile, item.entries, slot);
-
             func(item, slot, slotInCategory);
         });
 

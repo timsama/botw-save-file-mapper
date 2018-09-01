@@ -18,7 +18,7 @@
     "mocha": "^5.0.4"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --recursive",
     "apply-changes": "node apply-changes-cmd.js",
     "apply-location-change": "node apply-location-change-cmd.js",
     "apply-raw-changes": "node apply-raw-changes-cmd.js",

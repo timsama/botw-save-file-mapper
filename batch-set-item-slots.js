@@ -3,7 +3,7 @@ module.exports = (() => {
     const BatchOffsetSetter = require('./batch-offset-setter.js');
     const relativeOffsets = Array.apply(0, new Array(Offsets.slotWidth / 8)).map((e, i) => i * 8);
 
-    return (saveFile, entries, slot) => {
+    const getWriteableEntriesForSlot = (slot, entries) => {
         const baseOffset = Offsets.getItemOffset(slot);
 
         const zeroFilledEntries = relativeOffsets.map((relativeOffset) => {
@@ -14,11 +14,19 @@ module.exports = (() => {
         });
 
         const combinedEntries = zeroFilledEntries.map((e, i) => entries[i] || e);
-        const writeableEntries = combinedEntries.map(entry => {
+        return combinedEntries.map(entry => {
             return {
                 offset: baseOffset + entry.offset,
                 value: entry.value
             };
+        });
+    };
+
+    return (slotEntries, saveFile) => {
+        let writeableEntries = [];
+
+        slotEntries.forEach(slotEntry => {
+            writeableEntries = writeableEntries.concat(getWriteableEntriesForSlot(slotEntry.slot, slotEntry.entries));
         });
 
         BatchOffsetSetter(writeableEntries, saveFile);

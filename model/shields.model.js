@@ -7,7 +7,6 @@ module.exports = (() => {
     const writeItemSlots = require('./write-item-slots.js');
 
     const bonusTypes = {
-        0: 'none',
         0x2: 'durability',
         0x80: 'shieldsurf',
         0x100: 'shieldguard',
@@ -17,7 +16,6 @@ module.exports = (() => {
     };
 
     const bonusEnum = {
-        'none': 0,
         'durability': 0x2,
         'shieldsurf': 0x80,
         'shieldguard': 0x100,
@@ -64,6 +62,7 @@ module.exports = (() => {
     return {
         read: (saveFile) => {
             return {
+                stash: OffsetChecker(shieldStashOffset, saveFile),
                 slots: getShieldSlots(saveFile)
             };
         },
