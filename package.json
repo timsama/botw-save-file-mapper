@@ -43,6 +43,7 @@
     "load-snapshot": "node load-snapshot-cmd.js",
     "make-backup": "node make-backup.js",
     "quest-analyzer": "node quest-analyzer.js",
+    "read-changes": "node read-changes-cmd.js",
     "restore-backup": "node restore-backup.js",
     "resave-changes": "node resave-changes.js",
     "set-hearts": "node set-hearts-cmd.js",

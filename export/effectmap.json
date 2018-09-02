@@ -3088,8 +3088,8 @@
           "mainquests.lockedmementos.talktopurah"
         ],
         "softdependencies": [
-          "runes.camera",
-          "sheikahslate.sensor",
+          "runes.camera.enabled",
+          "sheikahslate.sensor.enabled",
           "sheikahslate.album",
           "sheikahslate.hyrulecompendium"
         ]
@@ -3255,7 +3255,7 @@
         "softdependencies": [
           "divinebeasts.finaltrial.complete",
           "memories.thechampionsballad",
-          "runes.mastercyclezero"
+          "runes.mastercyclezero.enabled"
         ]
       },
       "completethechampionsongs": {
@@ -3863,96 +3863,185 @@
       ]
     },
     "bombs": {
-      "entries": [
-        {
-          "offset": 38648,
-          "value": 1
-        },
-        {
-          "offset": 801992,
-          "value": 0
-        }
-      ],
-      "plus": {
+      "enabled": {
         "entries": [
           {
-            "offset": 449632,
+            "offset": 38648,
             "value": 1
           }
         ],
         "softdependencies": [
-          "runes.bombs",
-          "sidequests.slatedforupgrades.askforsomethinggood"
+          "shrines.jabaij.active"
         ]
+      },
+      "disabled": {
+        "entries": [
+          {
+            "offset": 38648,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "runes.bombs.plus.disabled"
+        ]
+      },
+      "plus": {
+        "enabled": {
+          "entries": [
+            {
+              "offset": 449632,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "runes.bombs.enabled",
+            "sidequests.slatedforupgrades.askforsomethinggood"
+          ]
+        },
+        "disabled": {
+          "entries": [
+            {
+              "offset": 449632,
+              "value": 0
+            }
+          ]
+        }
       }
     },
     "camera": {
-      "entries": [
-        {
-          "offset": 1013160,
-          "value": 1
-        }
-      ]
-    },
-    "cryonis": {
-      "entries": [
-        {
-          "offset": 386608,
-          "value": 1
-        },
-        {
-          "offset": 801992,
-          "value": 4
-        }
-      ]
-    },
-    "magnesis": {
-      "entries": [
-        {
-          "offset": 514936,
-          "value": 1
-        },
-        {
-          "offset": 801992,
-          "value": 2
-        }
-      ]
-    },
-    "mastercyclezero": {
-      "entries": [
-        {
-          "offset": 861792,
-          "value": 1
-        },
-        {
-          "offset": 801992,
-          "value": 6
-        }
-      ]
-    },
-    "stasis": {
-      "entries": [
-        {
-          "offset": 483584,
-          "value": 1
-        },
-        {
-          "offset": 801992,
-          "value": 3
-        }
-      ],
-      "plus": {
+      "enabled": {
         "entries": [
           {
-            "offset": 791896,
+            "offset": 1013160,
+            "value": 1
+          }
+        ]
+      },
+      "disabled": {
+        "entries": [
+          {
+            "offset": 1013160,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "cryonis": {
+      "enabled": {
+        "entries": [
+          {
+            "offset": 386608,
             "value": 1
           }
         ],
         "softdependencies": [
-          "runes.stasis",
-          "sidequests.slatedforupgrades.askforsomethinggood"
+          "shrines.kehnamut.active"
+        ]
+      },
+      "disabled": {
+        "entries": [
+          {
+            "offset": 386608,
+            "value": 0
+          }
         ]
       }
+    },
+    "magnesis": {
+      "enabled": {
+        "entries": [
+          {
+            "offset": 514936,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.omanau.active"
+        ]
+      },
+      "disabled": {
+        "entries": [
+          {
+            "offset": 514936,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "mastercyclezero": {
+      "enabled": {
+        "entries": [
+          {
+            "offset": 861792,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.thechampionsballad.complete"
+        ]
+      },
+      "disabled": {
+        "entries": [
+          {
+            "offset": 861792,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "stasis": {
+      "enabled": {
+        "entries": [
+          {
+            "offset": 483584,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.owadaim.active"
+        ]
+      },
+      "disabled": {
+        "entries": [
+          {
+            "offset": 483584,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "runes.stasis.plus.disabled"
+        ]
+      },      
+      "plus": {
+        "enabled": {
+          "entries": [
+            {
+              "offset": 791896,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "runes.stasis.enabled",
+            "sidequests.slatedforupgrades.askforsomethinggood"
+          ]
+        },
+        "disabled": {
+          "entries": [
+            {
+              "offset": 791896,
+              "value": 0
+            }
+          ]
+        }
+      }
+    },
+    "selected": {
+      "entries": [
+        {
+          "offset": 801992,
+          "value": "integer"
+        }
+      ]
     }
   },
   "settings": {
@@ -4041,22 +4130,45 @@
       ]
     },
     "sensor": {
-      "entries": [
-        {
-          "offset": 863256,
-          "value": 1
-        }
-      ],
-      "plus": {
+      "enabled": {
         "entries": [
           {
-            "offset": 814808,
+            "offset": 863256,
             "value": 1
+          }
+        ] 
+      },
+      "disabled": {
+        "entries": [
+          {
+            "offset": 863256,
+            "value": 0
           }
         ],
         "softdependencies": [
-          "sidequests.slatedforupgrades.askforsomethinggood"
+          "sheikahslate.sensor.plus.disabled"
         ]
+      },
+      "plus": {
+        "enabled": {
+          "entries": [
+            {
+              "offset": 814808,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "sidequests.slatedforupgrades.askforsomethinggood"
+          ]
+        },
+        "disabled": {
+          "entries": [
+            {
+              "offset": 814808,
+              "value": 0
+            }
+          ]
+        }
       }
     }
   },
@@ -4253,7 +4365,7 @@
           }
         ],
         "softdependencies": [
-          "runes.camera"
+          "runes.camera.enabled"
         ]
       },
       "complete": {
@@ -7441,7 +7553,7 @@
         ],
         "softdependencies": [
           "shrines.jabaij.active",
-          "runes.bombs"
+          "runes.bombs.enabled"
         ]
       },
       "found": {
@@ -8690,7 +8802,7 @@
         ],
         "softdependencies": [
           "shrines.kehnamut.active",
-          "runes.cryonis"
+          "runes.cryonis.enabled"
         ]
       },
       "found": {
@@ -10907,7 +11019,7 @@
         ],
         "softdependencies": [
           "shrines.omanau.active",
-          "runes.magnesis"
+          "runes.magnesis.enabled"
         ]
       },
       "found": {
@@ -10968,7 +11080,7 @@
         ],
         "softdependencies": [
           "shrines.owadaim.active",
-          "runes.stasis"
+          "runes.stasis.enabled"
         ]
       },
       "found": {
@@ -15293,9 +15405,9 @@
           "sidequests.slatedforupgrades.begun"
         ],
         "softdependencies": [
-          "sheikahslate.sensor.plus",
-          "runes.bombs.plus",
-          "runes.stasis.plus"
+          "sheikahslate.sensor.plus.enabled",
+          "runes.bombs.plus.enabled",
+          "runes.stasis.plus.enabled"
         ]
       }
     },
