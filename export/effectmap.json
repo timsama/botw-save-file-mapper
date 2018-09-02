@@ -460,17 +460,6 @@
           "divinebeasts.finaltrial.allterminals.activated"
         ]
       },
-      "incomplete": {
-        "entries": [
-          {
-            "offset": 526568,
-            "value": 0
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.finaltrial.allterminals.notyetactivated"
-        ]
-      },
       "defeatedallenemies": {
         "subtasks": {
           "guardian1": {
@@ -499,22 +488,18 @@
           }
         }
       },
+      "incomplete": {
+        "entries": [
+          {
+            "offset": 526568,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.finaltrial.allterminals.notyetactivated"
+        ]
+      },
       "map": {
-        "obtained": {
-          "entries": [
-            {
-              "offset": 863160,
-              "value": 1
-            },
-            {
-              "offset": 327912,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "mainquests.thechampionsballad.finaltrial.begun"
-          ]
-        },
         "notobtained": {
           "entries": [
             {
@@ -532,18 +517,25 @@
             "divinebeasts.finaltrial.terminal3.off",
             "divinebeasts.finaltrial.terminal4.off"
           ]
+        },
+        "obtained": {
+          "entries": [
+            {
+              "offset": 863160,
+              "value": 1
+            },
+            {
+              "offset": 327912,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "mainquests.thechampionsballad.finaltrial.begun"
+          ]
         }
       },
       "state": {
         "maindoor": {
-          "open": {
-            "entries": [
-              {
-                "offset": 336536,
-                "value": 1
-              }
-            ]
-          },
           "closed": {
             "entries": [
               {
@@ -551,25 +543,18 @@
                 "value": 0
               }
             ]
+          },
+          "open": {
+            "entries": [
+              {
+                "offset": 336536,
+                "value": 1
+              }
+            ]
           }
         }
       },
       "terminal1": {
-        "on": {
-          "entries": [
-            {
-              "offset": 384520,
-              "value": 1
-            },
-            {
-              "offset": 482624,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.finaltrial.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -583,25 +568,25 @@
           ],
           "softdependencies": [
             "divinebeasts.finaltrial.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 384520,
+              "value": 1
+            },
+            {
+              "offset": 482624,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.finaltrial.map.obtained"
           ]
         }
       },
       "terminal2": {
-        "on": {
-          "entries": [
-            {
-              "offset": 50416,
-              "value": 1
-            },
-            {
-              "offset": 63592,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.finaltrial.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -615,25 +600,25 @@
           ],
           "softdependencies": [
             "divinebeasts.finaltrial.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 50416,
+              "value": 1
+            },
+            {
+              "offset": 63592,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.finaltrial.map.obtained"
           ]
         }
       },
       "terminal3": {
-        "on": {
-          "entries": [
-            {
-              "offset": 792192,
-              "value": 1
-            },
-            {
-              "offset": 74776,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.finaltrial.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -647,25 +632,25 @@
           ],
           "softdependencies": [
             "divinebeasts.finaltrial.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 792192,
+              "value": 1
+            },
+            {
+              "offset": 74776,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.finaltrial.map.obtained"
           ]
         }
       },
       "terminal4": {
-        "on": {
-          "entries": [
-            {
-              "offset": 897688,
-              "value": 1
-            },
-            {
-              "offset": 1012704,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.finaltrial.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -679,6 +664,21 @@
           ],
           "softdependencies": [
             "divinebeasts.finaltrial.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 897688,
+              "value": 1
+            },
+            {
+              "offset": 1012704,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.finaltrial.map.obtained"
           ]
         }
       },
@@ -707,20 +707,8 @@
           "divinebeasts.vahmedoh.pedestal.on"
         ]
       },
-      "inactive": {
-        "entries": [
-          {
-            "offset": 1022888,
-            "value": 0
-          }
-        ],
-        "harddependencies": [
-          "divinebeasts.vahmedoh.map.notobtained",
-          "divinebeasts.vahmedoh.pedestal.off"
-        ]
-      },
       "allterminals": {
-        "activated" : {
+        "activated": {
           "entries": [
             {
               "offset": 850456,
@@ -735,7 +723,7 @@
             "divinebeasts.vahmedoh.terminal5.on"
           ]
         },
-        "notyetactivated" : {
+        "notyetactivated": {
           "entries": [
             {
               "offset": 850456,
@@ -782,21 +770,6 @@
           "sidequests.findkheel.available"
         ]
       },
-      "incomplete": {
-        "entries": [
-          {
-            "offset": 327216,
-            "value": 0
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahmedoh.bossnotdefeated",
-          "divinebeasts.vahmedoh.nottargeting",
-          "divinebeasts.vahmedoh.heartcontainer.nottaken",
-          "divinebeasts.vahmedoh.heartcontainer.notavailable",
-          "sidequests.findkheel.notavailable"
-        ]
-      },
       "found": {
         "entries": [
           {
@@ -806,18 +779,6 @@
         ],
         "softdependencies": [
           "mainquests.divinebeastvahmedoh.boardvahmedoh"
-        ]
-      },
-      "notfound": {
-        "entries": [
-          {
-            "offset": 950680,
-            "value": 0
-          }
-        ],
-        "harddependencies": [
-          "divinebeasts.vahmedoh.inactive",
-          "divinebeasts.vahmedoh.incomplete"
         ]
       },
       "heartcontainer": {
@@ -837,14 +798,6 @@
             }
           ]
         },
-        "taken": {
-          "entries": [
-            {
-              "offset": 300472,
-              "value": 1
-            }
-          ]
-        },
         "nottaken": {
           "entries": [
             {
@@ -852,24 +805,44 @@
               "value": 0
             }
           ]
-        }
-      },
-      "map": {
-        "obtained": {
+        },
+        "taken": {
           "entries": [
             {
-              "offset": 792264,
-              "value": 1
-            },
-            {
-              "offset": 804488,
+              "offset": 300472,
               "value": 1
             }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahmedoh.active"
           ]
-        },
+        }
+      },
+      "inactive": {
+        "entries": [
+          {
+            "offset": 1022888,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahmedoh.map.notobtained",
+          "divinebeasts.vahmedoh.pedestal.off"
+        ]
+      },
+      "incomplete": {
+        "entries": [
+          {
+            "offset": 327216,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahmedoh.bossnotdefeated",
+          "divinebeasts.vahmedoh.nottargeting",
+          "divinebeasts.vahmedoh.heartcontainer.nottaken",
+          "divinebeasts.vahmedoh.heartcontainer.notavailable",
+          "sidequests.findkheel.notavailable"
+        ]
+      },
+      "map": {
         "notobtained": {
           "entries": [
             {
@@ -888,22 +861,57 @@
             "divinebeasts.vahmedoh.terminal4.off",
             "divinebeasts.vahmedoh.terminal5.off"
           ]
-        }
-      },
-      "pedestal": {
-        "on": {
+        },
+        "obtained": {
           "entries": [
             {
-              "offset": 353688,
+              "offset": 792264,
+              "value": 1
+            },
+            {
+              "offset": 804488,
               "value": 1
             }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahmedoh.active"
           ]
-        },
+        }
+      },
+      "notfound": {
+        "entries": [
+          {
+            "offset": 950680,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahmedoh.inactive",
+          "divinebeasts.vahmedoh.incomplete"
+        ]
+      },
+      "nottargeting": {
+        "entries": [
+          {
+            "offset": 526576,
+            "value": 0
+          }
+        ]
+      },
+      "pedestal": {
         "off": {
           "entries": [
             {
               "offset": 353688,
               "value": 0
+            }
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 353688,
+              "value": 1
             }
           ]
         }
@@ -916,26 +924,7 @@
           }
         ]
       },
-      "nottargeting": {
-        "entries": [
-          {
-            "offset": 526576,
-            "value": 0
-          }
-        ]
-      },
       "terminal1": {
-        "on": {
-          "entries": [
-            {
-              "offset": 1015280,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahmedoh.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -945,21 +934,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahmedoh.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 1015280,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahmedoh.map.obtained"
           ]
         }
       },
       "terminal2": {
-        "on": {
-          "entries": [
-            {
-              "offset": 948280,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahmedoh.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -969,21 +958,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahmedoh.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 948280,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahmedoh.map.obtained"
           ]
         }
       },
       "terminal3": {
-        "on": {
-          "entries": [
-            {
-              "offset": 362408,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahmedoh.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -993,21 +982,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahmedoh.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 362408,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahmedoh.map.obtained"
           ]
         }
       },
       "terminal4": {
-        "on": {
-          "entries": [
-            {
-              "offset": 547760,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahmedoh.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -1017,21 +1006,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahmedoh.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 547760,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahmedoh.map.obtained"
           ]
         }
       },
       "terminal5": {
-        "on": {
-          "entries": [
-            {
-              "offset": 526424,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahmedoh.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -1041,6 +1030,17 @@
           ],
           "softdependencies": [
             "divinebeasts.vahmedoh.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 526424,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahmedoh.map.obtained"
           ]
         }
       },
@@ -1068,19 +1068,6 @@
         "softdependencies": [
           "divinebeasts.vahnaboris.pedestal.on",
           "cutscenes.boardingvahnaboris.viewed"
-        ]
-      },
-      "inactive": {
-        "entries": [
-          {
-            "offset": 940352,
-            "value": 0
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahnaboris.pedestal.off",
-          "divinebeasts.vahnaboris.map.notobtained",
-          "cutscenes.boardingvahnaboris.unviewed"
         ]
       },
       "allterminals": {
@@ -1150,30 +1137,6 @@
               {
                 "offset": 857664,
                 "value": 1
-              }
-            ]
-          }
-        }
-      },
-      "incomplete": {
-        "entries": [
-          {
-            "offset": 38168,
-            "value": 0
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahnaboris.bossnotdefeated",
-          "divinebeasts.vahnaboris.heartcontainer.notavailable",
-          "divinebeasts.vahnaboris.heartcontainer.nottaken",
-          "divinebeasts.vahnaboris.incomplete.subtasks.rijuremainsattheoutpost"
-        ],
-        "subtasks": {
-          "rijuremainsattheoutpost": {
-            "entries": [
-              {
-                "offset": 857664,
-                "value": 0
               }
             ]
           }
@@ -1290,18 +1253,6 @@
           "mainquests.divinebeastvahnaboris.boardingvahnaboris"
         ]
       },
-      "notfound": {
-        "entries": [
-          {
-            "offset": 38432,
-            "value": 0
-          }
-        ],
-        "harddependencies": [
-          "divinebeasts.vahnaboris.inactive",
-          "divinebeasts.vahnaboris.incomplete"
-        ]
-      },
       "heartcontainer": {
         "available": {
           "entries": [
@@ -1319,14 +1270,6 @@
             }
           ]
         },
-        "taken": {
-          "entries": [
-            {
-              "offset": 341328,
-              "value": 1
-            }
-          ]
-        },
         "nottaken": {
           "entries": [
             {
@@ -1334,26 +1277,54 @@
               "value": 0
             }
           ]
+        },
+        "taken": {
+          "entries": [
+            {
+              "offset": 341328,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "inactive": {
+        "entries": [
+          {
+            "offset": 940352,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.pedestal.off",
+          "divinebeasts.vahnaboris.map.notobtained",
+          "cutscenes.boardingvahnaboris.unviewed"
+        ]
+      },
+      "incomplete": {
+        "entries": [
+          {
+            "offset": 38168,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.bossnotdefeated",
+          "divinebeasts.vahnaboris.heartcontainer.notavailable",
+          "divinebeasts.vahnaboris.heartcontainer.nottaken",
+          "divinebeasts.vahnaboris.incomplete.subtasks.rijuremainsattheoutpost"
+        ],
+        "subtasks": {
+          "rijuremainsattheoutpost": {
+            "entries": [
+              {
+                "offset": 857664,
+                "value": 0
+              }
+            ]
+          }
         }
       },
       "map": {
-        "obtained": {
-          "entries": [
-            {
-              "offset": 18424,
-              "value": 1
-            },
-            {
-              "offset": 302064,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahnaboris.active",
-            "divinebeasts.vahnaboris.defeatedallenemies.subtasks.guardian1",
-            "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball1"
-          ]
-        },
         "notobtained": {
           "entries": [
             {
@@ -1372,22 +1343,51 @@
             "divinebeasts.vahnaboris.terminal4.off",
             "divinebeasts.vahnaboris.terminal5.off"
           ]
-        }
-      },
-      "pedestal": {
-        "on" :{
+        },
+        "obtained": {
           "entries": [
             {
-              "offset": 42792,
+              "offset": 18424,
+              "value": 1
+            },
+            {
+              "offset": 302064,
               "value": 1
             }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.active",
+            "divinebeasts.vahnaboris.defeatedallenemies.subtasks.guardian1",
+            "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball1"
           ]
-        },
-        "off" :{
+        }
+      },
+      "notfound": {
+        "entries": [
+          {
+            "offset": 38432,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahnaboris.inactive",
+          "divinebeasts.vahnaboris.incomplete"
+        ]
+      },
+      "pedestal": {
+        "off": {
           "entries": [
             {
               "offset": 42792,
               "value": 0
+            }
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 42792,
+              "value": 1
             }
           ]
         }
@@ -1431,17 +1431,6 @@
         }
       },
       "terminal1": {
-        "on": {
-          "entries": [
-            {
-              "offset": 544096,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahnaboris.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -1451,21 +1440,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahnaboris.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 544096,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.map.obtained"
           ]
         }
       },
       "terminal2": {
-        "on": {
-          "entries": [
-            {
-              "offset": 950888,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahnaboris.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -1475,21 +1464,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahnaboris.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 950888,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.map.obtained"
           ]
         }
       },
       "terminal3": {
-        "on": {
-          "entries": [
-            {
-              "offset": 794808,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahnaboris.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -1500,9 +1489,31 @@
           "softdependencies": [
             "divinebeasts.vahnaboris.allterminals.notyetactivated"
           ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 794808,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.map.obtained"
+          ]
         }
       },
       "terminal4": {
+        "off": {
+          "entries": [
+            {
+              "offset": 913192,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.allterminals.notyetactivated"
+          ]
+        },
         "on": {
           "entries": [
             {
@@ -1514,20 +1525,20 @@
             "divinebeasts.vahnaboris.map.obtained",
             "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball7"
           ]
-        },
+        }
+      },
+      "terminal5": {
         "off": {
           "entries": [
             {
-              "offset": 913192,
+              "offset": 819656,
               "value": 0
             }
           ],
           "softdependencies": [
             "divinebeasts.vahnaboris.allterminals.notyetactivated"
           ]
-        }
-      },
-      "terminal5": {
+        },
         "on": {
           "entries": [
             {
@@ -1537,17 +1548,6 @@
           ],
           "softdependencies": [
             "divinebeasts.vahnaboris.map.obtained"
-          ]
-        },
-        "off": {
-          "entries": [
-            {
-              "offset": 819656,
-              "value": 0
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahnaboris.allterminals.notyetactivated"
           ]
         }
       },
@@ -1576,18 +1576,6 @@
           "divinebeasts.vahrudania.pedestal.on"
         ]
       },
-      "inactive": {
-        "entries": [
-          {
-            "offset": 533944,
-            "value": 0
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahrudania.pedestal.off",
-          "divinebeasts.vahrudania.map.notobtained"
-        ]
-      },
       "allterminals": {
         "activated": {
           "entries": [
@@ -1610,7 +1598,7 @@
               "offset": 830256,
               "value": 0
             }
-          ]          
+          ]
         }
       },
       "bossdefeated": {
@@ -1650,51 +1638,39 @@
           "divinebeasts.vahrudania.heartcontainer.taken"
         ]
       },
-      "incomplete": {
-        "entries": [
-          {
-            "offset": 336264,
-            "value": 0
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahrudania.bossnotdefeated",
-          "divinebeasts.vahrudania.heartcontainer.notavailable"
-        ]
-      },
       "cutscenes": {
         "torch3releasedball": {
-          "viewed": {
-            "entries": [
-              {
-                "offset": 76224,
-                "value": 1
-              }
-            ]
-          },
           "unviewed": {
             "entries": [
               {
                 "offset": 76224,
                 "value": 0
+              }
+            ]
+          },
+          "viewed": {
+            "entries": [
+              {
+                "offset": 76224,
+                "value": 1
               }
             ]
           }
         },
         "torch4openeddoor": {
-          "viewed": {
-            "entries": [
-              {
-                "offset": 69904,
-                "value": 1
-              }
-            ]
-          },
           "unviewed": {
             "entries": [
               {
                 "offset": 69904,
                 "value": 0
+              }
+            ]
+          },
+          "viewed": {
+            "entries": [
+              {
+                "offset": 69904,
+                "value": 1
               }
             ]
           }
@@ -1787,18 +1763,6 @@
           "mainquests.divinebeastvahrudania.boardingvahrudania"
         ]
       },
-      "notfound": {
-        "entries": [
-          {
-            "offset": 543264,
-            "value": 0
-          }
-        ],
-        "harddependencies": [
-          "divinebeasts.vahrudania.inactive",
-          "divinebeasts.vahrudania.incomplete"
-        ]
-      },
       "heartcontainer": {
         "available": {
           "entries": [
@@ -1816,14 +1780,6 @@
             }
           ]
         },
-        "taken": {
-          "entries": [
-            {
-              "offset": 24120,
-              "value": 1
-            }
-          ]
-        },
         "nottaken": {
           "entries": [
             {
@@ -1831,9 +1787,65 @@
               "value": 0
             }
           ]
+        },
+        "taken": {
+          "entries": [
+            {
+              "offset": 24120,
+              "value": 1
+            }
+          ]
         }
       },
+      "inactive": {
+        "entries": [
+          {
+            "offset": 533944,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.pedestal.off",
+          "divinebeasts.vahrudania.map.notobtained"
+        ]
+      },
+      "incomplete": {
+        "entries": [
+          {
+            "offset": 336264,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahrudania.bossnotdefeated",
+          "divinebeasts.vahrudania.heartcontainer.notavailable"
+        ]
+      },
       "map": {
+        "notobtained": {
+          "entries": [
+            {
+              "offset": 509440,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahrudania.shutters.closed",
+            "divinebeasts.vahrudania.map.notobtained.subtasks.pedestal",
+            "divinebeasts.vahrudania.state.torch1.unlit",
+            "divinebeasts.vahrudania.state.torch2.unlit"
+          ],
+          "subtasks": {
+            "pedestal": {
+              "entries": [
+                {
+                  "offset": 1010376,
+                  "value": 0
+                }
+              ]
+            }
+          }
+        },
         "obtained": {
           "entries": [
             {
@@ -1861,41 +1873,21 @@
               ]
             }
           }
-        },
-        "notobtained": {
-          "entries": [
-            {
-              "offset": 509440,
-              "value": 0
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahrudania.shutters.closed",
-            "divinebeasts.vahrudania.map.notobtained.subtasks.pedestal",
-            "divinebeasts.vahrudania.state.torch1.unlit",
-            "divinebeasts.vahrudania.state.torch2.unlit"
-          ],
-          "subtasks": {
-            "pedestal": {
-              "entries": [
-                {
-                  "offset": 1010376,
-                  "value": 0
-                }
-              ]
-            }
-          }
         }
       },
+      "notfound": {
+        "entries": [
+          {
+            "offset": 543264,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahrudania.inactive",
+          "divinebeasts.vahrudania.incomplete"
+        ]
+      },
       "pedestal": {
-        "on": {
-          "entries": [
-            {
-              "offset": 941976,
-              "value": 1
-            }
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -1903,22 +1895,30 @@
               "value": 0
             }
           ]
-        }
-      },
-      "shutters": {
-        "open": {
+        },
+        "on": {
           "entries": [
             {
-              "offset": 449024,
+              "offset": 941976,
               "value": 1
             }
           ]
-        },
+        }
+      },
+      "shutters": {
         "closed": {
           "entries": [
             {
               "offset": 449024,
               "value": 0
+            }
+          ]
+        },
+        "open": {
+          "entries": [
+            {
+              "offset": 449024,
+              "value": 1
             }
           ]
         }
@@ -2010,17 +2010,6 @@
         }
       },
       "terminal1": {
-        "on": {
-          "entries": [
-            {
-              "offset": 325000,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahrudania.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -2030,21 +2019,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahrudania.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 325000,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahrudania.map.obtained"
           ]
         }
       },
       "terminal2": {
-        "on": {
-          "entries": [
-            {
-              "offset": 534696,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahrudania.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -2055,9 +2044,31 @@
           "softdependencies": [
             "divinebeasts.vahrudania.allterminals.notyetactivated"
           ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 534696,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahrudania.map.obtained"
+          ]
         }
       },
       "terminal3": {
+        "off": {
+          "entries": [
+            {
+              "offset": 477040,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahrudania.allterminals.notyetactivated"
+          ]
+        },
         "on": {
           "entries": [
             {
@@ -2069,20 +2080,20 @@
             "divinebeasts.vahrudania.map.obtained",
             "divinebeasts.vahrudania.state.torch3.lit"
           ]
-        },
+        }
+      },
+      "terminal4": {
         "off": {
           "entries": [
             {
-              "offset": 477040,
+              "offset": 309824,
               "value": 0
             }
           ],
           "softdependencies": [
             "divinebeasts.vahrudania.allterminals.notyetactivated"
           ]
-        }
-      },
-      "terminal4": {
+        },
         "on": {
           "entries": [
             {
@@ -2094,20 +2105,20 @@
             "divinebeasts.vahrudania.map.obtained",
             "divinebeasts.vahrudania.state.torch4.lit"
           ]
-        },
+        }
+      },
+      "terminal5": {
         "off": {
           "entries": [
             {
-              "offset": 309824,
+              "offset": 949696,
               "value": 0
             }
           ],
           "softdependencies": [
             "divinebeasts.vahrudania.allterminals.notyetactivated"
           ]
-        }
-      },
-      "terminal5": {
+        },
         "on": {
           "entries": [
             {
@@ -2118,17 +2129,6 @@
           "softdependencies": [
             "divinebeasts.vahrudania.map.obtained",
             "divinebeasts.vahrudania.defeatedallenemies.subtasks.glowingeyeball9"
-          ]
-        },
-        "off": {
-          "entries": [
-            {
-              "offset": 949696,
-              "value": 0
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahrudania.allterminals.notyetactivated"
           ]
         }
       },
@@ -2155,18 +2155,6 @@
         ],
         "softdependencies": [
           "divinebeasts.vahruta.pedestal.on"
-        ]
-      },
-      "inactive": {
-        "entries": [
-          {
-            "offset": 817632,
-            "value": 0
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahruta.pedestal.off",
-          "divinebeasts.vahruta.map.notobtained"
         ]
       },
       "allterminals": {
@@ -2257,6 +2245,63 @@
           }
         }
       },
+      "found": {
+        "entries": [
+          {
+            "offset": 458016,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "mainquests.divinebeastvahruta.boardvahruta"
+        ]
+      },
+      "heartcontainer": {
+        "available": {
+          "entries": [
+            {
+              "offset": 39808,
+              "value": 1
+            }
+          ]
+        },
+        "notavailable": {
+          "entries": [
+            {
+              "offset": 39808,
+              "value": 0
+            }
+          ]
+        },
+        "nottaken": {
+          "entries": [
+            {
+              "offset": 951232,
+              "value": 0
+            }
+          ]
+        },
+        "taken": {
+          "entries": [
+            {
+              "offset": 951232,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "inactive": {
+        "entries": [
+          {
+            "offset": 817632,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.pedestal.off",
+          "divinebeasts.vahruta.map.notobtained"
+        ]
+      },
       "incomplete": {
         "entries": [
           {
@@ -2281,80 +2326,7 @@
           }
         }
       },
-      "found": {
-        "entries": [
-          {
-            "offset": 458016,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "mainquests.divinebeastvahruta.boardvahruta"
-        ]
-      },
-      "notfound": {
-        "entries": [
-          {
-            "offset": 458016,
-            "value": 0
-          }
-        ],
-        "harddependencies": [
-          "divinebeasts.vahruta.inactive",
-          "divinebeasts.vahruta.incomplete"
-        ]
-      },
-      "heartcontainer": {
-        "available": {
-          "entries": [
-            {
-              "offset": 39808,
-              "value": 1
-            }
-          ]
-        },
-        "notavailable": {
-          "entries": [
-            {
-              "offset": 39808,
-              "value": 0
-            }
-          ]
-        },
-        "taken": {
-          "entries": [
-            {
-              "offset": 951232,
-              "value": 1
-            }
-          ]
-        },
-        "nottaken": {
-          "entries": [
-            {
-              "offset": 951232,
-              "value": 0
-            }
-          ]
-        }
-      },
       "map": {
-        "obtained": {
-          "entries": [
-            {
-              "offset": 509352,
-              "value": 1
-            },
-            {
-              "offset": 915344,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahruta.active",
-            "divinebeasts.vahruta.beginningenemies"
-          ]
-        },
         "notobtained": {
           "entries": [
             {
@@ -2373,56 +2345,73 @@
             "divinebeasts.vahruta.terminal4.off",
             "divinebeasts.vahruta.terminal5.off"
           ]
-        }
-      },
-      "pedestal": {
-        "on": {
+        },
+        "obtained": {
           "entries": [
             {
-              "offset": 950168,
+              "offset": 509352,
+              "value": 1
+            },
+            {
+              "offset": 915344,
               "value": 1
             }
-          ]          
-        },
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.active",
+            "divinebeasts.vahruta.beginningenemies"
+          ]
+        }
+      },
+      "notfound": {
+        "entries": [
+          {
+            "offset": 458016,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahruta.inactive",
+          "divinebeasts.vahruta.incomplete"
+        ]
+      },
+      "pedestal": {
         "off": {
           "entries": [
             {
               "offset": 950168,
               "value": 0
+            }
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 950168,
+              "value": 1
             }
           ]
         }
       },
       "shortcutwaterfall": {
-        "on": {
-          "entries": [
-            {
-              "offset": 468496,
-              "value": 1
-            }
-          ]
-        },
         "off": {
           "entries": [
             {
               "offset": 468496,
               "value": 0
+            }
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 468496,
+              "value": 1
             }
           ]
         }
       },
       "terminal1": {
-        "on": {
-          "entries": [
-            {
-              "offset": 32888,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahruta.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -2432,21 +2421,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahruta.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 32888,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.map.obtained"
           ]
         }
       },
       "terminal2": {
-        "on": {
-          "entries": [
-            {
-              "offset": 477296,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahruta.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -2456,21 +2445,21 @@
           ],
           "softdependencies": [
             "divinebeasts.vahruta.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 477296,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.map.obtained"
           ]
         }
       },
       "terminal3": {
-        "on": {
-          "entries": [
-            {
-              "offset": 832616,
-              "value": 1
-            }
-          ],
-          "softdependencies": [
-            "divinebeasts.vahruta.map.obtained"
-          ]
-        },
         "off": {
           "entries": [
             {
@@ -2481,21 +2470,20 @@
           "softdependencies": [
             "divinebeasts.vahruta.allterminals.notyetactivated"
           ]
-        }
-      },
-      "terminal4": {
+        },
         "on": {
           "entries": [
             {
-              "offset": 338744,
+              "offset": 832616,
               "value": 1
             }
           ],
           "softdependencies": [
-            "divinebeasts.vahruta.map.obtained",
-            "divinebeasts.vahruta.shortcutwaterfall.on"
+            "divinebeasts.vahruta.map.obtained"
           ]
-        },
+        }
+      },
+      "terminal4": {
         "off": {
           "entries": [
             {
@@ -2507,20 +2495,21 @@
             "divinebeasts.vahruta.allterminals.notyetactivated",
             "divinebeasts.vahruta.shortcutwaterfall.off"
           ]
-        }
-      },
-      "terminal5": {
+        },
         "on": {
           "entries": [
             {
-              "offset": 43576,
+              "offset": 338744,
               "value": 1
             }
           ],
           "softdependencies": [
-            "divinebeasts.vahruta.map.obtained"
+            "divinebeasts.vahruta.map.obtained",
+            "divinebeasts.vahruta.shortcutwaterfall.on"
           ]
-        },
+        }
+      },
+      "terminal5": {
         "off": {
           "entries": [
             {
@@ -2530,6 +2519,17 @@
           ],
           "softdependencies": [
             "divinebeasts.vahruta.allterminals.notyetactivated"
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 43576,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.map.obtained"
           ]
         }
       },
@@ -4705,17 +4705,6 @@
       ]
     },
     "bombs": {
-      "enabled": {
-        "entries": [
-          {
-            "offset": 38648,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "shrines.jabaij.active"
-        ]
-      },
       "disabled": {
         "entries": [
           {
@@ -4727,7 +4716,26 @@
           "runes.bombs.plus.disabled"
         ]
       },
+      "enabled": {
+        "entries": [
+          {
+            "offset": 38648,
+            "value": 1
+          }
+        ],
+        "softdependencies": [
+          "shrines.jabaij.active"
+        ]
+      },
       "plus": {
+        "disabled": {
+          "entries": [
+            {
+              "offset": 449632,
+              "value": 0
+            }
+          ]
+        },
         "enabled": {
           "entries": [
             {
@@ -4739,26 +4747,10 @@
             "runes.bombs.enabled",
             "sidequests.slatedforupgrades.askforsomethinggood"
           ]
-        },
-        "disabled": {
-          "entries": [
-            {
-              "offset": 449632,
-              "value": 0
-            }
-          ]
         }
       }
     },
     "camera": {
-      "enabled": {
-        "entries": [
-          {
-            "offset": 1013160,
-            "value": 1
-          }
-        ]
-      },
       "disabled": {
         "entries": [
           {
@@ -4766,9 +4758,25 @@
             "value": 0
           }
         ]
+      },
+      "enabled": {
+        "entries": [
+          {
+            "offset": 1013160,
+            "value": 1
+          }
+        ]
       }
     },
     "cryonis": {
+      "disabled": {
+        "entries": [
+          {
+            "offset": 386608,
+            "value": 0
+          }
+        ]
+      },
       "enabled": {
         "entries": [
           {
@@ -4779,17 +4787,17 @@
         "softdependencies": [
           "shrines.kehnamut.active"
         ]
-      },
-      "disabled": {
-        "entries": [
-          {
-            "offset": 386608,
-            "value": 0
-          }
-        ]
       }
     },
     "magnesis": {
+      "disabled": {
+        "entries": [
+          {
+            "offset": 514936,
+            "value": 0
+          }
+        ]
+      },
       "enabled": {
         "entries": [
           {
@@ -4800,17 +4808,17 @@
         "softdependencies": [
           "shrines.omanau.active"
         ]
-      },
-      "disabled": {
-        "entries": [
-          {
-            "offset": 514936,
-            "value": 0
-          }
-        ]
       }
     },
     "mastercyclezero": {
+      "disabled": {
+        "entries": [
+          {
+            "offset": 861792,
+            "value": 0
+          }
+        ]
+      },
       "enabled": {
         "entries": [
           {
@@ -4821,17 +4829,28 @@
         "softdependencies": [
           "mainquests.thechampionsballad.complete"
         ]
-      },
+      }
+    },
+    "selected": {
+      "entries": [
+        {
+          "offset": 801992,
+          "value": "integer"
+        }
+      ]
+    },
+    "stasis": {
       "disabled": {
         "entries": [
           {
-            "offset": 861792,
+            "offset": 483584,
             "value": 0
           }
+        ],
+        "softdependencies": [
+          "runes.stasis.plus.disabled"
         ]
-      }
-    },
-    "stasis": {
+      },
       "enabled": {
         "entries": [
           {
@@ -4843,18 +4862,15 @@
           "shrines.owadaim.active"
         ]
       },
-      "disabled": {
-        "entries": [
-          {
-            "offset": 483584,
-            "value": 0
-          }
-        ],
-        "softdependencies": [
-          "runes.stasis.plus.disabled"
-        ]
-      },      
       "plus": {
+        "disabled": {
+          "entries": [
+            {
+              "offset": 791896,
+              "value": 0
+            }
+          ]
+        },
         "enabled": {
           "entries": [
             {
@@ -4866,24 +4882,8 @@
             "runes.stasis.enabled",
             "sidequests.slatedforupgrades.askforsomethinggood"
           ]
-        },
-        "disabled": {
-          "entries": [
-            {
-              "offset": 791896,
-              "value": 0
-            }
-          ]
         }
       }
-    },
-    "selected": {
-      "entries": [
-        {
-          "offset": 801992,
-          "value": "integer"
-        }
-      ]
     }
   },
   "settings": {
@@ -4972,14 +4972,6 @@
       ]
     },
     "sensor": {
-      "enabled": {
-        "entries": [
-          {
-            "offset": 863256,
-            "value": 1
-          }
-        ] 
-      },
       "disabled": {
         "entries": [
           {
@@ -4991,7 +4983,23 @@
           "sheikahslate.sensor.plus.disabled"
         ]
       },
+      "enabled": {
+        "entries": [
+          {
+            "offset": 863256,
+            "value": 1
+          }
+        ]
+      },
       "plus": {
+        "disabled": {
+          "entries": [
+            {
+              "offset": 814808,
+              "value": 0
+            }
+          ]
+        },
         "enabled": {
           "entries": [
             {
@@ -5001,14 +5009,6 @@
           ],
           "softdependencies": [
             "sidequests.slatedforupgrades.askforsomethinggood"
-          ]
-        },
-        "disabled": {
-          "entries": [
-            {
-              "offset": 814808,
-              "value": 0
-            }
           ]
         }
       }
@@ -16096,14 +16096,6 @@
           }
         ]
       },
-      "notavailable": {
-        "entries": [
-          {
-            "offset": 932472,
-            "value": 0
-          }
-        ]
-      },
       "begun": {
         "entries": [
           {
@@ -16130,6 +16122,14 @@
         ],
         "softdependencies": [
           "sidequests.findkheel.talktokheel"
+        ]
+      },
+      "notavailable": {
+        "entries": [
+          {
+            "offset": 932472,
+            "value": 0
+          }
         ]
       },
       "talktokheel": {
