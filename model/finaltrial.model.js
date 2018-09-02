@@ -21,6 +21,7 @@ module.exports = (() => {
 
             const mapValues = readChanges([
                 'divinebeasts.finaltrial.complete',
+                'divinebeasts.finaltrial.map.obtained',
                 'divinebeasts.finaltrial.terminalsremaining',
                 'divinebeasts.finaltrial.terminal1.on',
                 'divinebeasts.finaltrial.terminal2.on',
@@ -30,6 +31,7 @@ module.exports = (() => {
 
             return {
                 complete: mapValues['divinebeasts.finaltrial.complete'],
+                map: mapValues['divinebeasts.finaltrial.map.obtained'],
                 terminalsremaining: mapValues['divinebeasts.finaltrial.terminalsremaining'],
                 terminal1: mapValues['divinebeasts.finaltrial.terminal1.on'],
                 terminal2: mapValues['divinebeasts.finaltrial.terminal2.on'],
@@ -50,6 +52,9 @@ module.exports = (() => {
 
             addKeyIfTrue(modelJson.complete, 'divinebeasts.finaltrial.complete');
             addKeyIfTrue(!modelJson.complete, 'divinebeasts.finaltrial.incomplete');
+
+            addKeyIfTrue(modelJson.map, 'divinebeasts.finaltrial.map.obtained');
+            addKeyIfTrue(!modelJson.map, 'divinebeasts.finaltrial.map.notobtained');
 
             let terminalsRemaining = 4;
             modelJson.terminal1 && terminalsRemaining--;

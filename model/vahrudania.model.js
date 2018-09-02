@@ -23,6 +23,7 @@ module.exports = (() => {
                 'divinebeasts.vahrudania.active',
                 'divinebeasts.vahrudania.complete',
                 'divinebeasts.vahrudania.found',
+                'divinebeasts.vahrudania.map.obtained',
                 'divinebeasts.vahrudania.terminalsremaining',
                 'divinebeasts.vahrudania.terminal1.on',
                 'divinebeasts.vahrudania.terminal2.on',
@@ -37,6 +38,7 @@ module.exports = (() => {
                 active: mapValues['divinebeasts.vahrudania.active'],
                 complete: mapValues['divinebeasts.vahrudania.complete'],
                 found: mapValues['divinebeasts.vahrudania.found'],
+                map: mapValues['divinebeasts.vahrudania.map.obtained'],
                 terminalsremaining: mapValues['divinebeasts.vahrudania.terminalsremaining'],
                 terminal1: mapValues['divinebeasts.vahrudania.terminal1.on'],
                 terminal2: mapValues['divinebeasts.vahrudania.terminal2.on'],
@@ -66,6 +68,9 @@ module.exports = (() => {
 
             addKeyIfTrue(modelJson.found, 'divinebeasts.vahrudania.found');
             addKeyIfTrue(!modelJson.found, 'divinebeasts.vahrudania.notfound');
+
+            addKeyIfTrue(modelJson.map, 'divinebeasts.vahrudania.map.obtained');
+            addKeyIfTrue(!modelJson.map, 'divinebeasts.vahrudania.map.notobtained');
 
             let terminalsRemaining = 5;
             modelJson.terminal1 && terminalsRemaining--;

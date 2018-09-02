@@ -23,6 +23,7 @@ module.exports = (() => {
                 'divinebeasts.vahmedoh.active',
                 'divinebeasts.vahmedoh.complete',
                 'divinebeasts.vahmedoh.found',
+                'divinebeasts.vahmedoh.map.obtained',
                 'divinebeasts.vahmedoh.terminalsremaining',
                 'divinebeasts.vahmedoh.terminal1.on',
                 'divinebeasts.vahmedoh.terminal2.on',
@@ -37,6 +38,7 @@ module.exports = (() => {
                 active: mapValues['divinebeasts.vahmedoh.active'],
                 complete: mapValues['divinebeasts.vahmedoh.complete'],
                 found: mapValues['divinebeasts.vahmedoh.found'],
+                map: mapValues['divinebeasts.vahmedoh.map.obtained'],
                 terminalsremaining: mapValues['divinebeasts.vahmedoh.terminalsremaining'],
                 terminal1: mapValues['divinebeasts.vahmedoh.terminal1.on'],
                 terminal2: mapValues['divinebeasts.vahmedoh.terminal2.on'],
@@ -66,6 +68,9 @@ module.exports = (() => {
 
             addKeyIfTrue(modelJson.found, 'divinebeasts.vahmedoh.found');
             addKeyIfTrue(!modelJson.found, 'divinebeasts.vahmedoh.notfound');
+
+            addKeyIfTrue(modelJson.map, 'divinebeasts.vahmedoh.map.obtained');
+            addKeyIfTrue(!modelJson.map, 'divinebeasts.vahmedoh.map.notobtained');
 
             let terminalsRemaining = 5;
             modelJson.terminal1 && terminalsRemaining--;
