@@ -1,4 +1,4 @@
-module.exports = (saveFileOverride) => {
+module.exports = (saveFileOverride, isAsync) => {
     const fs = require('fs');
     const arrayUtils = require('./array-utils.js');
     const jBinary = require('jbinary');
@@ -15,7 +15,7 @@ module.exports = (saveFileOverride) => {
     const applyChanges = (effectMapFile, names, skipSoftDependencies, logChangeNames) => {
         const mapFile = effectMapFile || jsonEffectMapFile;
 
-        saveFileUtils.withBinaryFileSync(saveFilepath, (binary) => {
+        return saveFileUtils.withBinaryFileSync(saveFilepath, (binary) => {
             const alreadyAppliedChanges = {};
 
             const writeToOffset = saveFileUtils.buildWriter('uint32', binary);
@@ -88,7 +88,11 @@ module.exports = (saveFileOverride) => {
 
             expandedNames.forEach(applyChange);
 
-            binary.saveAsSync(saveFilepath);
+            if (isAsync) {
+                return binary.saveAs(saveFilepath);
+            } else {
+                binary.saveAsSync(saveFilepath);
+            }
         });
     };
 

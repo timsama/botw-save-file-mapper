@@ -11,7 +11,7 @@ module.exports = (() => {
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
         return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+            return changeWriter(saveFile, true)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
         };
     };
 
@@ -107,7 +107,7 @@ module.exports = (() => {
             addKeyIfTrue(modelJson.mastercyclezero.enabled, 'runes.mastercyclezero.enabled');
             addKeyIfTrue(!modelJson.mastercyclezero.enabled, 'runes.mastercyclezero.disabled');
 
-            writeChanges(keys);
+            return writeChanges(keys);
         }
     };
 })();
