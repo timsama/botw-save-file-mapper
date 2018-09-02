@@ -2,7 +2,6 @@ module.exports = (() => {
     const Offsets = require('../offsets.js');
     const OffsetChecker = require('../offset-checker.js');
     const OffsetSetter = require('../offset-setter.js');
-    const getItemSlotStructure = require('../get-item-slot-structure.js');
     const mapItemSlots = require('./map-item-slots.js');
     const writeItemSlots = require('./write-item-slots.js');
 
@@ -30,8 +29,8 @@ module.exports = (() => {
 
     const weaponStashOffset = 0x00085048;
 
-    const getWeaponSlots = (saveFile) => {
-        return mapItemSlots(saveFile, 'weapons', (item, slot, slotInCategory) => {
+    const getWeaponSlots = (saveFile, startingSlot) => {
+        return mapItemSlots(saveFile, startingSlot, 'weapons', (item, slot, slotInCategory) => {
             const equippedOffset = Offsets.getEquippedSlotOffset(slot);
             const durabilityOffset = Offsets.getQuantitiesOffset(slot);
 
@@ -64,31 +63,49 @@ module.exports = (() => {
     };
 
     return {
-        read: (saveFile) => {
+        read: (saveFile, startingSlot) => {
             return {
                 stash: OffsetChecker(weaponStashOffset, saveFile),
-                slots: getWeaponSlots(saveFile)
+                slots: getWeaponSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile) => {
-            OffsetSetter(weaponStashOffset, modelJson.stash, saveFile);
-            writeItemSlots(saveFile, modelJson.slots, 'weapons', (item, slot, slotInCategory) => {
+        write: (modelJson, saveFile, startingSlot) => {
+            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'weapons', (item, slot, slotInCategory) => {
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
                 const durabilityOffset = Offsets.getQuantitiesOffset(slot);
-
-                OffsetSetter(equippedOffset, item.equipped ? 1 : 0, saveFile);
-                OffsetSetter(durabilityOffset, item.durability, saveFile);
-
                 const typeOffset = Offsets.getBonusTypeOffset(slotInCategory, 'weapons');
                 const amountOffset = Offsets.getBonusAmountOffset(slotInCategory, 'weapons');
-                
-                if (!!item.bonus) {
-                    OffsetSetter(typeOffset, bonusEnum[item.bonus.type] || 0, saveFile);
-                    OffsetSetter(amountOffset, item.bonus.amount, saveFile);
-                } else {
-                    OffsetSetter(typeOffset, 0, saveFile);
-                    OffsetSetter(amountOffset, 0, saveFile);
-                }
+
+                const valIfBonus = (lazyDef, fallback) => {
+                    if (!!item.bonus) {
+                        return lazyDef();
+                    } else {
+                        return fallback;
+                    }
+                };
+
+                return [
+                    {
+                        offset: weaponStashOffset,
+                        value: modelJson.stash
+                    },
+                    {
+                        offset: equippedOffset,
+                        value: item.equipped ? 1 : 0
+                    },
+                    {
+                        offset: durabilityOffset,
+                        value: item.durability
+                    },
+                    {
+                        offset: typeOffset,
+                        value: valIfBonus(() => { return bonusEnum[item.bonus.type] || 0; }, 0)
+                    },
+                    {
+                        offset: amountOffset,
+                        value: valIfBonus(() => { return item.bonus.amount; }, 0)
+                    }
+                ];
             });
         }
     };

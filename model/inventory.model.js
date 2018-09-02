@@ -10,26 +10,42 @@ module.exports = (() => {
 
     return {
         read: (saveFile) => {
+            const weapons = Weapons.read(saveFile, 0);
+            const bowStart = weapons.slots.length;
+            const bows = Bows.read(saveFile, bowStart);
+            const arrowStart = bowStart + bows.slots.length;
+            const arrows = Arrows.read(saveFile, arrowStart);
+            const shieldStart = arrowStart + arrows.slots.length;
+            const shields = Shields.read(saveFile, shieldStart);
+            const armorStart = shieldStart + shields.slots.length;
+            const armor = Armor.read(saveFile, armorStart);
+            const materialStart = armorStart + armor.slots.length;
+            const materials = Materials.read(saveFile, materialStart);
+            const foodStart = materialStart + materials.slots.length;
+            const food = Food.read(saveFile, foodStart);
+            const keyItemStart = foodStart + food.slots.length;
+            const keyitems = KeyItems.read(saveFile, keyItemStart);
+
             return {
-                weapons: Weapons.read(saveFile),
-                bows: Bows.read(saveFile),
-                arrows: Arrows.read(saveFile),
-                shields: Shields.read(saveFile),
-                armor: Armor.read(saveFile),
-                materials: Materials.read(saveFile),
-                food: Food.read(saveFile),
-                keyitems: KeyItems.read(saveFile)
+                weapons: weapons,
+                bows: bows,
+                arrows: arrows,
+                shields: shields,
+                armor: armor,
+                materials: materials,
+                food: food,
+                keyitems: keyitems
             };
         },
         write: (modelJson, saveFile) => {
-            Weapons.write(modelJson.weapons, saveFile);
-            Bows.write(modelJson.bows, saveFile);
-            Arrows.write(modelJson.arrows, saveFile);
-            Shields.write(modelJson.shields, saveFile);
-            Armor.write(modelJson.armor, saveFile);
-            Materials.write(modelJson.materials, saveFile);
-            Food.write(modelJson.food, saveFile);
-            KeyItems.write(modelJson.keyitems, saveFile);
+            return Weapons.write(modelJson.weapons, saveFile, 0)
+                .then(nextAvailableSlot => Bows.write(modelJson.bows, saveFile, nextAvailableSlot))
+                .then(nextAvailableSlot => Arrows.write(modelJson.arrows, saveFile, nextAvailableSlot))
+                .then(nextAvailableSlot => Shields.write(modelJson.shields, saveFile, nextAvailableSlot))
+                .then(nextAvailableSlot => Armor.write(modelJson.armor, saveFile, nextAvailableSlot))
+                .then(nextAvailableSlot => Materials.write(modelJson.materials, saveFile, nextAvailableSlot))
+                .then(nextAvailableSlot => Food.write(modelJson.food, saveFile, nextAvailableSlot))
+                .then(nextAvailableSlot => KeyItems.write(modelJson.keyitems, saveFile, nextAvailableSlot));
         }
     };
 })();

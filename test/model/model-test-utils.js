@@ -9,7 +9,7 @@ module.exports = (() => {
                 if (actualObj === undefined) {
                     return true;
                 } else {
-                    return !actualObj.hasOwnProperty(key);
+                    return !actualObj.hasOwnProperty(key) && expectedObj[key] !== undefined;
                 }
             });
             const allExpectedKeysPresent = missingKeys.length == 0;

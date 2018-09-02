@@ -128,11 +128,12 @@ while(!end) {
     const isEquipped = offsetChecker(isEquippedOffset, filename);
     const isEquippedStr = isEquipped ? ' [equipped]' : '';
 
-    const entries = relativeOffsets.map((relativeOffset) => {
+    const rawEntries = relativeOffsets.map((relativeOffset) => {
         const offset = baseOffset + relativeOffset;
         const value = offsetChecker(offset, filename);
         return {offset: relativeOffset, value: value};
-    }).filter((entry, i) => {
+    });
+    const entries = rawEntries.filter((entry, i) => {
         return entry.value !== 0;
     });
 
@@ -233,7 +234,7 @@ while(!end) {
 
     if (!matchFound) {
         console.log(`Unknown item in slot ${slot}`);
-        entries.forEach((entry) => {
+        rawEntries.forEach((entry) => {
             console.log(`0x${saveFileUtils.toHexString(entry.offset + baseOffset)}: 0x${saveFileUtils.toHexString(entry.value)} or ${entry.value} in decimal.`);
         });
     }

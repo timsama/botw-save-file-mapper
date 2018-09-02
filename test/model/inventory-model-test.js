@@ -5,31 +5,45 @@ module.exports = (() => {
     const ModelTestUtils = require('./model-test-utils.js');
     const baseFilePath = './test/blank.sav';
     
-    return (modelName, modelJson, useSeededBaseFile) => {
-        const Model = require(`../../model/${modelName}.model.js`);
-        const testFilePath = `./test/${modelName}.test.sav`;
-        const expectedFile = `./test/${modelName}.model.spec.sav`;
-        
-        describe(`${modelName}.model.js`, function() {
-            afterEach(function() {
-                if (fs.existsSync(testFilePath)) {
-                    fs.unlinkSync(testFilePath);
-                }
+    return async (modelName, modelJson, useSeededBaseFile) => {
+        return new Promise((resolve, reject) => {
+            const Model = require(`../../model/${modelName}.model.js`);
+            const testFilePath = `./test/${modelName}.test.sav`;
+            const expectedFile = `./test/${modelName}.model.spec.sav`;
+
+            // beforeEach(function() {
+            //     fs.copyFileSync(baseFilePath, testFilePath);
+            // });
+            
+            describe(`${modelName}.model.js`, function() {
+                // after(function() {
+                //     if (fs.existsSync(testFilePath)) {
+                //         fs.unlinkSync(testFilePath);
+                //     }
+                //     resolve();
+                // });
+
+                it(`should write and read the ${modelName} to/from the save file correctly`, function() {
+                    // test the read method
+                    const actualJson = Model.read(testFilePath, 0);
+                    if (modelName === 'food') {
+                        console.log(actualJson);
+                    }
+
+                    assert(ModelTestUtils.deepComparison(modelJson, actualJson, modelName));
+
+                    // test the write method
+                    return Model.write(modelJson, testFilePath, 0)
+                        .then(() => {
+                            const actualJson = Model.read(testFilePath, 0);
+                            if (modelName === 'food') {
+                                console.log(actualJson);
+                            }
+
+                            assert(ModelTestUtils.deepComparison(modelJson, actualJson, modelName));
+                        });
+                });
             });
-
-            it(`should write the ${modelName} to the save file correctly`, function() {
-                fs.copyFileSync(baseFilePath, testFilePath);
-
-                Model.write(modelJson, testFilePath);
-                
-                assert(md5(testFilePath) == md5(expectedFile), `${md5(testFilePath)} !== ${md5(expectedFile)}`);
-            }).timeout(10000);
-
-            it(`should read the ${modelName} from the save file correctly`, function() {
-                const actualJson = Model.read(expectedFile);
-
-                assert(ModelTestUtils.deepComparison(modelJson, actualJson, modelName));
-            });
-        });
+        }); 
     };
 })();

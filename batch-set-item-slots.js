@@ -29,6 +29,12 @@ module.exports = (() => {
             writeableEntries = writeableEntries.concat(getWriteableEntriesForSlot(slotEntry.slot, slotEntry.entries));
         });
 
-        BatchOffsetSetter(writeableEntries, saveFile);
+        const lastSlotEntry = slotEntries.slice(-1)[0];
+        const lastSlotUsed = lastSlotEntry.slot;
+        const nextAvailableSlot = lastSlotUsed + 1;
+
+        return BatchOffsetSetter(writeableEntries, saveFile).then(() => {
+            return nextAvailableSlot;
+        });
     };
 })();

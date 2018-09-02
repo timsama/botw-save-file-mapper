@@ -44,8 +44,8 @@ module.exports = (() => {
         "gray": 15
     };
 
-    const getArmorSlots = (saveFile) => {
-        return mapItemSlots(saveFile, 'armor', (item, slot) => {
+    const getArmorSlots = (saveFile, startingSlot) => {
+        return mapItemSlots(saveFile, startingSlot, 'armor', (item, slot) => {
             const colorOffset = Offsets.getQuantitiesOffset(slot);
             const equippedOffset = Offsets.getEquippedSlotOffset(slot);
 
@@ -66,18 +66,26 @@ module.exports = (() => {
     };
 
     return {
-        read: (saveFile) => {
+        read: (saveFile, startingSlot) => {
             return {
-                slots: getArmorSlots(saveFile)
+                slots: getArmorSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile) => {
-            writeItemSlots(saveFile, modelJson.slots, 'armor', (item, slot, slotInCategory) => {
+        write: (modelJson, saveFile, startingSlot) => {
+            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'armor', (item, slot, slotInCategory) => {
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
                 const colorOffset = Offsets.getQuantitiesOffset(slot);
 
-                OffsetSetter(equippedOffset, item.equipped ? 1 : 0, saveFile);
-                OffsetSetter(colorOffset, dyesEnum[item.color] || 0, saveFile);
+                return [
+                    {
+                        offset: equippedOffset,
+                        value: item.equipped ? 1 : 0
+                    },
+                    {
+                        offset: colorOffset,
+                        value: dyesEnum[item.color] || 0
+                    }
+                ];
             });
         }
     };

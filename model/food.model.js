@@ -2,7 +2,6 @@ module.exports = (() => {
     const Offsets = require('../offsets.js');
     const OffsetChecker = require('../offset-checker.js');
     const OffsetSetter = require('../offset-setter.js');
-    const getItemSlotStructure = require('../get-item-slot-structure.js');
     const mapItemSlots = require('./map-item-slots.js');
     const writeItemSlots = require('./write-item-slots.js');
     const Float28 = require('../encoders_decoders/float28.js');
@@ -51,8 +50,8 @@ module.exports = (() => {
         3: 0x40400000
     };
 
-    const getFoodSlots = (saveFile) => {
-        return mapItemSlots(saveFile, 'food', (item, slot, slotInCategory) => {
+    const getFoodSlots = (saveFile, startingSlot) => {
+        return mapItemSlots(saveFile, startingSlot, 'food', (item, slot, slotInCategory) => {
             const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
             const heartsOffset = Offsets.getFoodHeartsOffset(slotInCategory);
 
@@ -117,58 +116,125 @@ module.exports = (() => {
     };
 
     return {
-        read: (saveFile) => {
+        read: (saveFile, startingSlot) => {
             return {
-                slots: getFoodSlots(saveFile)
+                slots: getFoodSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile) => {
-            writeItemSlots(saveFile, modelJson.slots, 'food', (item, slot, slotInCategory) => {
+        write: (modelJson, saveFile, startingSlot) => {
+            const stackableHeartsPlaceholder = 0xbf800000;
+
+            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'food', (item, slot, slotInCategory) => {
                 const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
                 const heartsOffset = Offsets.getFoodHeartsOffset(slotInCategory);
                 const typeOffset = Offsets.getFoodBonusTypeOffset(slotInCategory);
                 const amountOffset = Offsets.getFoodBonusAmountOffset(slotInCategory);
                 const durationOffset = Offsets.getFoodBonusDurationOffset(slotInCategory);
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
-                
-                OffsetSetter(equippedOffset, 0, saveFile);
-
                 const fullHearts = (item.bonus && item.bonus.type === 'hearty') ? item.bonus.amount : item.hearts;
                 const quarterHearts = fullHearts * 4;
 
-                if (!item.stackable) {
-                    OffsetSetter(heartsOffset, Float28.encode(quarterHearts), saveFile);
-                    OffsetSetter(quantitiesOffset, 1, saveFile);
-                } else {
-                    OffsetSetter(heartsOffset, 0xbf800000, saveFile);
-                    OffsetSetter(quantitiesOffset, item.quantity, saveFile);
-                }
-
-                if (!!item.bonus && !!item.bonus.type && !!item.bonus.amount) {
-                    OffsetSetter(typeOffset, typeEnum[item.bonus.type], saveFile);
-
-                    if (item.bonus.type === 'energizing') {
-                        OffsetSetter(amountOffset, Float28.encode(item.bonus.amount * 1000), saveFile);
-                        OffsetSetter(durationOffset, 0, saveFile);
-                    } else if (item.bonus.type === 'enduring') {
-                        OffsetSetter(amountOffset, Float28.encode(item.bonus.amount * 5.0), saveFile);
-                        OffsetSetter(durationOffset, 0, saveFile);
-                    } else if (item.bonus.type === 'hearty') {
-                        OffsetSetter(amountOffset, Float28.encode(quarterHearts), saveFile);
-                        OffsetSetter(durationOffset, 0, saveFile);
-                    } else if (!!item.bonus.duration) {
-                        OffsetSetter(amountOffset, amountsEnum[item.bonus.amount], saveFile);
-                        OffsetSetter(durationOffset, FoodDuration.encode(item.bonus.duration), saveFile);
-                    } else {
-                        OffsetSetter(typeOffset, typeEnum['none'], saveFile);
-                        OffsetSetter(amountOffset, 0, saveFile);
-                        OffsetSetter(durationOffset, 0, saveFile);
+                const baseEntries = [
+                    {
+                        offset: equippedOffset,
+                        value: 0
+                    },
+                    {
+                        offset: quantitiesOffset,
+                        value: item.stackable ? item.quantity : 1
+                    },
+                    {
+                        offset: heartsOffset,
+                        value: item.stackable ? stackableHeartsPlaceholder : Float28.encode(quarterHearts)
                     }
-                } else {
-                    OffsetSetter(typeOffset, typeEnum['none'], saveFile);
-                    OffsetSetter(amountOffset, 0, saveFile);
-                    OffsetSetter(durationOffset, 0, saveFile);
-                }
+                ];
+
+                const bonusEntries = (() => {
+                    const blank = [
+                        {
+                            offset: typeOffset,
+                            value: typeEnum['none']
+                        },
+                        {
+                            offset: amountOffset,
+                            value: 0
+                        },
+                        {
+                            offset: durationOffset,
+                            value: 0
+                        }
+                    ];
+
+                    if (!!item.bonus && !!item.bonus.type && !!item.bonus.amount) {
+                        if (item.bonus.type === 'energizing') {
+                            return [
+                                {
+                                    offset: typeOffset,
+                                    value: typeEnum[item.bonus.type]
+                                },
+                                {
+                                    offset: amountOffset,
+                                    value: Float28.encode(item.bonus.amount * 1000)
+                                },
+                                {
+                                    offset: durationOffset,
+                                    value: 0
+                                }
+                            ];
+                        } else if (item.bonus.type === 'enduring') {
+                            return [
+                                {
+                                    offset: typeOffset,
+                                    value: typeEnum[item.bonus.type]
+                                },
+                                {
+                                    offset: amountOffset,
+                                    value: Float28.encode(item.bonus.amount * 5.0)
+                                },
+                                {
+                                    offset: durationOffset,
+                                    value: 0
+                                }
+                            ];
+                        } else if (item.bonus.type === 'hearty') {
+                            return [
+                                {
+                                    offset: typeOffset,
+                                    value: typeEnum[item.bonus.type]
+                                },
+                                {
+                                    offset: amountOffset,
+                                    value: Float28.encode(quarterHearts)
+                                },
+                                {
+                                    offset: durationOffset,
+                                    value: 0
+                                }
+                            ];
+                        } else if (!!item.bonus.duration) {
+                            return [
+                                {
+                                    offset: typeOffset,
+                                    value: typeEnum[item.bonus.type]
+                                },
+                                {
+                                    offset: amountOffset,
+                                    value: amountsEnum[item.bonus.amount]
+                                },
+                                {
+                                    offset: durationOffset,
+                                    value: FoodDuration.encode(item.bonus.duration)
+                                }
+                            ];
+                        } else {
+                            return blank;
+                        }
+                    } else {
+                        return blank;
+                    }
+                })();
+
+                return baseEntries.concat(bonusEntries);
             });
         }
     };

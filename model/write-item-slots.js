@@ -2,6 +2,7 @@ module.exports = (() => {
     const getItemSlotStructure = require('../get-item-slot-structure.js');
     const setItemEntries = require('../set-item-entries.js');
     const batchSetItemSlots = require('../batch-set-item-slots.js');
+    const batchOffsetSetter = require('../batch-offset-setter.js');
     const itemFileUtils = require('../item-file-utils.js');
     const saveFileUtils = require('../save-file-utils.js');
     const slotInfo = require('../slot-info.js');
@@ -73,23 +74,7 @@ module.exports = (() => {
 
         const firstUnusedSlot = firstSlot + slotsUsed;
 
-        if (!!categorySlotStructure.next) {
-            const nextCategory = slotStructure[categorySlotStructure.next];
-            const lastSlot = slotStructure['keyitems'].last;
-
-            const unusedSlotCount = nextCategory.first - firstUnusedSlot;
-            const subsequentSlotsToShift = lastSlot - nextCategory.first;
-
-            if (subsequentSlotsToShift > 0) {
-                const base = slotInfo.getOffsets(firstUnusedSlot);
-                const next = slotInfo.getOffsets(nextCategory.first);
-                const lengths = slotInfo.getLengths(subsequentSlotsToShift);
-
-                saveFileUtils.shiftData(saveFile, next.item, base.item, lengths.item);
-                saveFileUtils.shiftData(saveFile, next.quantity, base.quantity, lengths.quantity);
-                saveFileUtils.shiftData(saveFile, next.equipped, base.equipped, lengths.equipped);
-            }
-        } else {
+        if (!categorySlotStructure.next) {
             const deletionLength = categorySlotStructure.last - (firstUnusedSlot - 1);
             if (deletionLength > 0) {
                 const slotsToDelete = Array.apply(0, new Array(deletionLength)).map(e => {
@@ -107,28 +92,31 @@ module.exports = (() => {
         }
     };
 
-    return (saveFile, items, category, func) => {
-        const slotStructure = getItemSlotStructure(saveFile);
-        const categorySlotStructure = slotStructure[category];
-        const firstSlot = categorySlotStructure.first;
-
+    return (saveFile, items, firstAvailableSlot, category, func) => {
         const writeableItems = getCondensedItems(items, category);
 
         const slotEntries = writeableItems.map((item, slotInCategory) => {
-            const slot = firstSlot + slotInCategory;
+            const slot = firstAvailableSlot + slotInCategory;
             return {
                 slot: slot,
                 entries: item.entries
             };
         });
 
-        batchSetItemSlots(slotEntries, saveFile);
+        const secondaryEntries = writeableItems.map((item, slotInCategory) => {
+            const slot = firstAvailableSlot + slotInCategory;
+            return func(item, slot, slotInCategory);
+        }).reduce((acc, next) => {
+            return acc.concat(next);
+        }, []);
 
-        writeableItems.forEach((item, slotInCategory) => {
-            const slot = firstSlot + slotInCategory;
-            func(item, slot, slotInCategory);
+        return batchSetItemSlots(slotEntries, saveFile).then(nextAvailableSlot => {
+            return batchOffsetSetter(secondaryEntries, saveFile).then(() => {
+                return nextAvailableSlot;
+            });
         });
-
-        deleteUnusedSlotsInCategory(saveFile, firstSlot, writeableItems.length, category);
+        // .then(() => {
+        //     // deleteUnusedSlotsInCategory(saveFile, firstAvailableSlot, writeableItems.length, category);
+        // });
     };
 })();

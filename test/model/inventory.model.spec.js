@@ -3,6 +3,7 @@ const Inventory = require('../../model/inventory.model.js');
 const md5 = require('md5-file').sync;
 const fs = require('fs');
 const ModelTestUtils = require('./model-test-utils.js');
+const subModelTest = require('./inventory-model-test.js');
 
 const baseFilePath = './test/blank.sav';
 const testFilePath = './test/inventory.test.sav';
@@ -233,48 +234,44 @@ const inventoryJson = {
     "materials": {
         "slots": [
             {
-                "name": "heartydurian",
-                "quantity": 998
-            },
-            {
                 "name": "diamond",
-                "quantity": 998
-            },
-            {
-                "name": "wood",
-                "quantity": 100
-            },
-            {
-                "name": "topaz",
-                "quantity": 200
-            },
-            {
-                "name": "rawmeat",
-                "quantity": 300
-            },
-            {
-                "name": "ruby",
-                "quantity": 400
-            },
-            {
-                "name": "octoballoon",
-                "quantity": 500
-            },
-            {
-                "name": "staminokabass",
-                "quantity": 600
+                "quantity": 1
             },
             {
                 "name": "hyrulebass",
-                "quantity": 600
+                "quantity": 2
             },
             {
                 "name": "hyruleherb",
-                "quantity": 600
+                "quantity": 3
             },
             {
                 "name": "mightythistle",
-                "quantity": 600
+                "quantity": 4
+            },
+            {
+                "name": "octoballoon",
+                "quantity": 5
+            },
+            {
+                "name": "rawmeat",
+                "quantity": 6
+            },
+            {
+                "name": "ruby",
+                "quantity": 7
+            },
+            {
+                "name": "staminokabass",
+                "quantity": 8
+            },
+            {
+                "name": "topaz",
+                "quantity": 9
+            },
+            {
+                "name": "wood",
+                "quantity": 10
             }
         ]
     },
@@ -286,7 +283,9 @@ const inventoryJson = {
                 "bonus": {
                     "type": "hearty",
                     "amount": 8
-                }
+                },
+                "stackable": false,
+                "quantity": 1
             },
             {
                 "name": "friedwildgreens",
@@ -295,62 +294,81 @@ const inventoryJson = {
                     "type": "hasty",
                     "amount": 3,
                     "duration": "10:30"
-                }
+                },
+                "stackable": false,
+                "quantity": 1
             },
             {
                 "name": "steamedfish",
-                "hearts": 4
+                "hearts": 4,
+                "stackable": false,
+                "quantity": 1
             },
             {
                 "name": "searedprimesteak",
-                "quantity": 99
+                "hearts": 2.25,
+                "quantity": 99,
+                "stackable": true
             }
         ]
     },
     "keyitems": {
         "slots": [
             {
-                "name": "sheikahslate",
-                "unique": true
-            },
-            {
                 "name": "paraglider",
-                "unique": true
+                "unique": true,
+                "stackable": false,
+                "quantity": 1
             },
             {
                 "name": "royalbridle",
-                "unique": true
+                "unique": true,
+                "stackable": false,
+                "quantity": 1
+            },
+            {
+                "name": "sheikahslate",
+                "unique": true,
+                "stackable": false,
+                "quantity": 1
             },
             {
                 "name": "spiritorb",
-                "quantity": 60
-            },
-            {
-                "name": "spiritorb",
-                "quantity": 39
+                "unique": false,
+                "quantity": 99,
+                "stackable": true
             }
         ]
     }
 };
 
 describe('inventory.model.js', function() {
-    // afterEach(function() {
-    //     if (fs.existsSync(testFilePath)) {
-    //         fs.unlinkSync(testFilePath);
-    //     }
-    // });
+    afterEach(function() {
+        if (fs.existsSync(testFilePath)) {
+            fs.unlinkSync(testFilePath);
+        }
+    });
 
-    // it('should write the inventory to the save file correctly', function() {
-    //     fs.copyFileSync(baseFilePath, testFilePath);
+    it('should write the inventory to the save file correctly', function() {
+        fs.copyFileSync(baseFilePath, testFilePath);
 
-    //     Inventory.write(inventoryJson, testFilePath);
-        
-    //     assert(md5(testFilePath) == md5(expectedFile), `${md5(testFilePath)} !== ${md5(expectedFile)}`);
-    // }).timeout(10000);
+        return Inventory.write(inventoryJson, testFilePath).then(() => {
+            assert(md5(testFilePath) == md5(expectedFile), `${md5(testFilePath)} !== ${md5(expectedFile)}`);
+        });
+    }).timeout(10000);
 
-    // it('should read the inventory from the save file correctly', function() {
-    //     const actualInventoryJson = Inventory.read(expectedFile);
+    it('should read the inventory from the save file correctly', function() {
+        const actualInventoryJson = Inventory.read(expectedFile);
 
-    //     ModelTestUtils.doKeysMatch(inventoryJson, actualInventoryJson, 'inventory');
-    // });
+        ModelTestUtils.doKeysMatch(inventoryJson, actualInventoryJson, 'inventory');
+    });
+
+    subModelTest('weapons', inventoryJson.weapons)
+        .then(subModelTest('bows', inventoryJson.bows))
+        .then(subModelTest('arrows', inventoryJson.arrows))
+        .then(subModelTest('shields', inventoryJson.shields))
+        .then(subModelTest('armor', inventoryJson.armor))
+        .then(subModelTest('materials', inventoryJson.materials))
+        .then(subModelTest('food', inventoryJson.food))
+        .then(subModelTest('keyitems', inventoryJson.keyitems));
 });
