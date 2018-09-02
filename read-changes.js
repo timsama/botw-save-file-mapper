@@ -39,14 +39,20 @@ module.exports = (saveFileOverride) => {
                         // if this doesn't go before the dependencies, we can get into cycles of dependencies
                         alreadyCheckedChanges[name] = true;
 
-                        if (!!effect.harddependencies && effect.harddependencies.length > 0) {
-                            goodSoFar = goodSoFar && effect.harddependencies.every(checkValue);
-                        }
+                        const hardDependencies = (() => {
+                            if (!!effect.harddependencies && effect.harddependencies.length > 0) {
+                                return effect.harddependencies.map(checkValue);
+                            } else {
+                                return [];
+                            }
+                        })();
+                        
+                        goodSoFar = !effect.harddependencies || effect.harddependencies.length === hardDependencies.length;
 
                         const variableValuesExist = effect.entries.some(entry => entry.value === 'float' || entry.value === 'integer');
 
                         if (goodSoFar && variableValuesExist) {
-                            return {
+                            return hardDependencies.concat([{
                                 key: name,
                                 value: effect.entries.map((entry) => {
                                     if (entry.value === 'float') {
@@ -55,12 +61,14 @@ module.exports = (saveFileOverride) => {
                                         return readAtOffset(entry.offset)
                                     } 
                                 })[0]
-                            };
+                            }]);
                         } else if (goodSoFar) {
-                            return {
+                            return hardDependencies.concat([{
                                 key: name,
                                 value: effect.entries.every(entry => readAtOffset(entry.offset) == entry.value)
-                            };
+                            }]);
+                        } else {
+                            return hardDependencies;
                         }
                     }
                 } else {
@@ -83,7 +91,7 @@ module.exports = (saveFileOverride) => {
             }));
 
             const retVal = {};
-            expandedNames.map(checkValue).filter(entry => entry !== undefined).forEach(entry => {
+            arrayUtils.flatten(expandedNames.map(checkValue)).filter(entry => entry !== undefined).forEach(entry => {
                 retVal[entry.key] = entry.value;
             });
 

@@ -1484,23 +1484,45 @@
           "divinebeasts.vahruta.found"
         ],
         "softdependencies": [
-          "divinebeasts.vahruta.pedestal"
+          "divinebeasts.vahruta.pedestal.on"
         ]
       },
-      "allterminals": {
+      "inactive": {
         "entries": [
           {
-            "offset": 845656,
-            "value": 1
+            "offset": 817632,
+            "value": 0
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahruta.terminal1",
-          "divinebeasts.vahruta.terminal2",
-          "divinebeasts.vahruta.terminal3",
-          "divinebeasts.vahruta.terminal4",
-          "divinebeasts.vahruta.terminal5"
+          "divinebeasts.vahruta.pedestal.off",
+          "divinebeasts.vahruta.map.notobtained"
         ]
+      },
+      "allterminals": {
+        "activated": {
+          "entries": [
+            {
+              "offset": 845656,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.terminal1.on",
+            "divinebeasts.vahruta.terminal2.on",
+            "divinebeasts.vahruta.terminal3.on",
+            "divinebeasts.vahruta.terminal4.on",
+            "divinebeasts.vahruta.terminal5.on"
+          ]
+        },
+        "notyetactivated": {
+          "entries": [
+            {
+              "offset": 845656,
+              "value": 0
+            }
+          ]
+        }
       },
       "beginningenemies": {
         "entries": [
@@ -1526,8 +1548,19 @@
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahruta.allterminals",
+          "divinebeasts.vahruta.allterminals.activated",
           "divinebeasts.vahruta.heartcontainer.available"
+        ]
+      },
+      "bossnotdefeated": {
+        "entries": [
+          {
+            "offset": 892144,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahruta.incomplete"
         ]
       },
       "complete": {
@@ -1540,6 +1573,7 @@
         "softdependencies": [
           "divinebeasts.vahruta.bossdefeated",
           "divinebeasts.vahruta.complete.subtasks.movedfromlake",
+          "divinebeasts.vahruta.heartcontainer.available",
           "divinebeasts.vahruta.heartcontainer.taken"
         ],
         "subtasks": {
@@ -1548,6 +1582,30 @@
               {
                 "offset": 814688,
                 "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "incomplete": {
+        "entries": [
+          {
+            "offset": 828976,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahruta.bossnotdefeated",
+          "divinebeasts.vahruta.incomplete.subtasks.stillinlake",
+          "divinebeasts.vahruta.heartcontainer.notavailable",
+          "divinebeasts.vahruta.heartcontainer.nottaken"
+        ],
+        "subtasks": {
+          "stillinlake": {
+            "entries": [
+              {
+                "offset": 814688,
+                "value": 0
               }
             ]
           }
@@ -1564,12 +1622,32 @@
           "mainquests.divinebeastvahruta.boardvahruta"
         ]
       },
+      "notfound": {
+        "entries": [
+          {
+            "offset": 458016,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahruta.inactive",
+          "divinebeasts.vahruta.incomplete"
+        ]
+      },
       "heartcontainer": {
         "available": {
           "entries": [
             {
               "offset": 39808,
               "value": 1
+            }
+          ]
+        },
+        "notavailable": {
+          "entries": [
+            {
+              "offset": 39808,
+              "value": 0
             }
           ]
         },
@@ -1580,116 +1658,211 @@
               "value": 1
             }
           ]
+        },
+        "nottaken": {
+          "entries": [
+            {
+              "offset": 951232,
+              "value": 0
+            }
+          ]
         }
       },
       "map": {
-        "entries": [
-          {
-            "offset": 509352,
-            "value": 1
-          },
-          {
-            "offset": 915344,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahruta.active",
-          "divinebeasts.vahruta.beginningenemies"
-        ]
+        "obtained": {
+          "entries": [
+            {
+              "offset": 509352,
+              "value": 1
+            },
+            {
+              "offset": 915344,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.active",
+            "divinebeasts.vahruta.beginningenemies"
+          ]
+        },
+        "notobtained": {
+          "entries": [
+            {
+              "offset": 509352,
+              "value": 0
+            },
+            {
+              "offset": 915344,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.terminal1.off",
+            "divinebeasts.vahruta.terminal2.off",
+            "divinebeasts.vahruta.terminal3.off",
+            "divinebeasts.vahruta.terminal4.off",
+            "divinebeasts.vahruta.terminal5.off"
+          ]
+        }
       },
       "pedestal": {
-        "entries": [
-          {
-            "offset": 950168,
-            "value": 1
-          }
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 950168,
+              "value": 1
+            }
+          ]          
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 950168,
+              "value": 0
+            }
+          ]
+        }
       },
       "shortcutwaterfall": {
-        "entries": [
-          {
-            "offset": 468496,
-            "value": 1
-          }
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 468496,
+              "value": 1
+            }
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 468496,
+              "value": 0
+            }
+          ]
+        }
       },
       "terminal1": {
-        "entries": [
-          {
-            "offset": 884248,
-            "value": 4
-          },
-          {
-            "offset": 32888,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahruta.map"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 32888,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.map.obtained"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 32888,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminal2": {
-        "entries": [
-          {
-            "offset": 884248,
-            "value": 3
-          },
-          {
-            "offset": 477296,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahruta.map"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 477296,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.map.obtained"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 477296,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminal3": {
-        "entries": [
-          {
-            "offset": 884248,
-            "value": 2
-          },
-          {
-            "offset": 832616,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahruta.map"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 832616,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.map.obtained"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 832616,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminal4": {
-        "entries": [
-          {
-            "offset": 884248,
-            "value": 1
-          },
-          {
-            "offset": 338744,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahruta.map",
-          "divinebeasts.vahruta.shortcutwaterfall"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 338744,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.map.obtained",
+            "divinebeasts.vahruta.shortcutwaterfall.on"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 338744,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.allterminals.notyetactivated",
+            "divinebeasts.vahruta.shortcutwaterfall.off"
+          ]
+        }
       },
       "terminal5": {
-        "entries": [
-          {
-            "offset": 884248,
-            "value": 0
-          },
-          {
-            "offset": 43576,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahruta.map",
-          "divinebeasts.vahruta.shortcutwaterfall"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 43576,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.map.obtained",
+            "divinebeasts.vahruta.shortcutwaterfall"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 43576,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahruta.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminalsremaining": {
         "entries": [
