@@ -11,24 +11,21 @@ module.exports = (() => {
             const testFilePath = `./test/${modelName}.test.sav`;
             const expectedFile = `./test/${modelName}.model.spec.sav`;
 
-            // beforeEach(function() {
-            //     fs.copyFileSync(baseFilePath, testFilePath);
-            // });
+            beforeEach(function() {
+                fs.copyFileSync(baseFilePath, testFilePath);
+            });
             
             describe(`${modelName}.model.js`, function() {
-                // after(function() {
-                //     if (fs.existsSync(testFilePath)) {
-                //         fs.unlinkSync(testFilePath);
-                //     }
-                //     resolve();
-                // });
+                after(function() {
+                    if (fs.existsSync(testFilePath)) {
+                        fs.unlinkSync(testFilePath);
+                    }
+                    resolve();
+                });
 
                 it(`should write and read the ${modelName} to/from the save file correctly`, function() {
                     // test the read method
-                    const actualJson = Model.read(testFilePath, 0);
-                    if (modelName === 'food') {
-                        console.log(actualJson);
-                    }
+                    const actualJson = Model.read(expectedFile, 0);
 
                     assert(ModelTestUtils.deepComparison(modelJson, actualJson, modelName));
 
@@ -36,9 +33,6 @@ module.exports = (() => {
                     return Model.write(modelJson, testFilePath, 0)
                         .then(() => {
                             const actualJson = Model.read(testFilePath, 0);
-                            if (modelName === 'food') {
-                                console.log(actualJson);
-                            }
 
                             assert(ModelTestUtils.deepComparison(modelJson, actualJson, modelName));
                         });

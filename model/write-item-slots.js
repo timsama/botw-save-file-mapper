@@ -6,6 +6,9 @@ module.exports = (() => {
     const itemFileUtils = require('../item-file-utils.js');
     const saveFileUtils = require('../save-file-utils.js');
     const slotInfo = require('../slot-info.js');
+    const Offsets = require('../offsets.js');
+
+    const relativeOffsets = Array.apply(0, new Array(Offsets.slotWidth / 8)).map((e, i) => i * 8);
 
     const getCondensedItems = (items, category) => {
         const itemCounts = {};
@@ -67,33 +70,25 @@ module.exports = (() => {
         return condensedItems;
     }
 
-    const deleteUnusedSlotsInCategory = (saveFile, firstSlot, slotsUsed, category) => {
-        // the slot structure could have changed due to items being written, so we have to re-get it here
-        const slotStructure = getItemSlotStructure(saveFile);
-        const categorySlotStructure = slotStructure[category];
-
-        const firstUnusedSlot = firstSlot + slotsUsed;
-
-        if (!categorySlotStructure.next) {
-            const deletionLength = categorySlotStructure.last - (firstUnusedSlot - 1);
-            if (deletionLength > 0) {
-                const slotsToDelete = Array.apply(0, new Array(deletionLength)).map(e => {
-                    return {
-                        entries: []
-                    };
-                });
-
-                slotsToDelete.forEach((item, deletionIndex) => {
-                    const slot = firstUnusedSlot + deletionIndex;
-
-                    setItemEntries(saveFile, item.entries, slot);
-                });
-            }
-        }
-    };
-
     return (saveFile, items, firstAvailableSlot, category, func) => {
-        const writeableItems = getCondensedItems(items, category);
+        const realItems = getCondensedItems(items, category);
+
+        const writeableItems = (() => {
+            const isLastSection = category === 'keyitems';
+            if (isLastSection) {
+                // this deletes the slot after the last real key item
+                return realItems.concat([{
+                    entries: relativeOffsets.map(offset => {
+                        return {
+                            offset: offset,
+                            value: 0
+                        };
+                    })
+                }]);
+            } else {
+                return realItems;
+            }
+        })();
 
         const slotEntries = writeableItems.map((item, slotInCategory) => {
             const slot = firstAvailableSlot + slotInCategory;
@@ -103,7 +98,7 @@ module.exports = (() => {
             };
         });
 
-        const secondaryEntries = writeableItems.map((item, slotInCategory) => {
+        const secondaryEntries = realItems.map((item, slotInCategory) => {
             const slot = firstAvailableSlot + slotInCategory;
             return func(item, slot, slotInCategory);
         }).reduce((acc, next) => {
@@ -115,8 +110,5 @@ module.exports = (() => {
                 return nextAvailableSlot;
             });
         });
-        // .then(() => {
-        //     // deleteUnusedSlotsInCategory(saveFile, firstAvailableSlot, writeableItems.length, category);
-        // });
     };
 })();

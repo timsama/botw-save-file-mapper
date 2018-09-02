@@ -5,6 +5,7 @@ module.exports = (() => {
     const getItemNameFromEntries = require('../get-item-name-from-entries.js');
     const Offsets = require('../offsets.js');
     const itemFileUtils = require('../item-file-utils.js');
+    
     const relativeOffsets = Array.apply(0, new Array(Offsets.slotWidth / 8)).map((e, i) => i * 8);
 
     return (saveFile, firstSlotToRead, category, func) => {
