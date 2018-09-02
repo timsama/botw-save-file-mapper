@@ -1,4 +1,92 @@
 {
+  "ancienttechlabs": {
+    "akkala": {
+      "active": {
+        "entries": [
+          {
+            "offset": 523656,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "ancienttechlabs.akkala.found"
+        ],
+        "softdependencies": [
+          "sidequests.robbiesresearch.blueflamefurnace.lit"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 913952,
+            "value": 1
+          }
+        ]
+      },
+      "inactive": {
+        "entries": [
+          {
+            "offset": 523656,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "sidequests.robbiesresearch.blueflamefurnace.unlit"
+        ]
+      },
+      "notfound": {
+        "entries": [
+          {
+            "offset": 913952,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "ancienttechlabs.akkala.inactive"
+        ]
+      }
+    },
+    "hateno": {
+      "active": {
+        "entries": [
+          {
+            "offset": 561184,
+            "value": 1
+          }
+        ],
+        "harddependencies": [
+          "ancienttechlabs.hateno.found"
+        ]
+      },
+      "found": {
+        "entries": [
+          {
+            "offset": 474704,
+            "value": 1
+          }
+        ]
+      },
+      "inactive": {
+        "entries": [
+          {
+            "offset": 561184,
+            "value": 0
+          }
+        ]
+      },
+      "notfound": {
+        "entries": [
+          {
+            "offset": 474704,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "ancienttechlabs.hateno.inactive"
+        ]
+      }
+    }
+  },
   "bloodmoon": {
     "counter": {
       "entries": [
@@ -2615,27 +2703,6 @@
       }
     }
   },
-  "hatenoancienttechlab": {
-    "active": {
-      "entries": [
-        {
-          "offset": 561184,
-          "value": 1
-        }
-      ],
-      "harddependencies": [
-        "hatenoancienttechlab.found"
-      ]
-    },
-    "found": {
-      "entries": [
-        {
-          "offset": 474704,
-          "value": 1
-        }
-      ]
-    }
-  },
   "keyitems": {
     "nosheikahslate": {
       "entries": [
@@ -3951,7 +4018,7 @@
           "mainquests.lockedmementos.lightthefurnace"
         ],
         "softdependencies": [
-          "hatenoancienttechlab.active"
+          "ancienttechlabs.hateno.active"
         ]
       }
     },
@@ -16202,10 +16269,10 @@
           "sidequests.robbiesresearch.begun"
         ],
         "softdependencies": [
-          "sidequests.robbiesresearch.introducedtorobbieandjerrin"
+          "sidequests.robbiesresearch.blueflamefurnace.lit"
         ]
       },
-      "introducedtorobbieandjerrin": {
+      "introducedtojerrin": {
         "entries": [
           {
             "offset": 371704,
@@ -16215,6 +16282,30 @@
         "softdependencies": [
           "sidequests.robbiesresearch.begun"
         ]
+      },
+      "blueflamefurnace": {
+        "lit": {
+          "entries": [
+            {
+              "offset": 516328,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "sidequests.robbiesresearch.introducedtojerrin"
+          ],
+          "harddependencies": [
+            "sidequests.robbiesresearch.begun"
+          ]
+        },
+        "unlit": {
+          "entries": [
+            {
+              "offset": 516328,
+              "value": 0
+            }
+          ]
+        }
       }
     },
     "slatedforupgrades": {
