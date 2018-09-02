@@ -632,11 +632,11 @@
             }
           ],
           "softdependencies": [
-            "divinebeasts.vahmedoh.terminal1",
-            "divinebeasts.vahmedoh.terminal2",
-            "divinebeasts.vahmedoh.terminal3",
-            "divinebeasts.vahmedoh.terminal4",
-            "divinebeasts.vahmedoh.terminal5"
+            "divinebeasts.vahmedoh.terminal1.on",
+            "divinebeasts.vahmedoh.terminal2.on",
+            "divinebeasts.vahmedoh.terminal3.on",
+            "divinebeasts.vahmedoh.terminal4.on",
+            "divinebeasts.vahmedoh.terminal5.on"
           ]
         },
         "notyetactivated" : {
@@ -656,7 +656,7 @@
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahmedoh.allterminals",
+          "divinebeasts.vahmedoh.allterminals.activated",
           "divinebeasts.vahmedoh.heartcontainer.available"
         ]
       },
@@ -970,24 +970,47 @@
           "divinebeasts.vahnaboris.found"
         ],
         "softdependencies": [
-          "divinebeasts.vahnaboris.pedestal",
+          "divinebeasts.vahnaboris.pedestal.on",
           "cutscenes.boardingvahnaboris.viewed"
         ]
       },
-      "allterminals": {
+      "inactive": {
         "entries": [
           {
-            "offset": 457192,
-            "value": 1
+            "offset": 940352,
+            "value": 0
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahnaboris.terminal1",
-          "divinebeasts.vahnaboris.terminal2",
-          "divinebeasts.vahnaboris.terminal3",
-          "divinebeasts.vahnaboris.terminal4",
-          "divinebeasts.vahnaboris.terminal5"
+          "divinebeasts.vahnaboris.pedestal.off",
+          "divinebeasts.vahnaboris.map.notobtained",
+          "cutscenes.boardingvahnaboris.unviewed"
         ]
+      },
+      "allterminals": {
+        "activated": {
+          "entries": [
+            {
+              "offset": 457192,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.terminal1.on",
+            "divinebeasts.vahnaboris.terminal2.on",
+            "divinebeasts.vahnaboris.terminal3.on",
+            "divinebeasts.vahnaboris.terminal4.on",
+            "divinebeasts.vahnaboris.terminal5.on"
+          ]
+        },
+        "notyetactivated": {
+          "entries": [
+            {
+              "offset": 457192,
+              "value": 0
+            }
+          ]
+        }
       },
       "bossdefeated": {
         "entries": [
@@ -1001,6 +1024,17 @@
           "divinebeasts.vahnaboris.heartcontainer.available"
         ]
       },
+      "bossnotdefeated": {
+        "entries": [
+          {
+            "offset": 860200,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.incomplete"
+        ]
+      },
       "complete": {
         "entries": [
           {
@@ -1010,6 +1044,7 @@
         ],
         "softdependencies": [
           "divinebeasts.vahnaboris.bossdefeated",
+          "divinebeasts.vahnaboris.heartcontainer.available",
           "divinebeasts.vahnaboris.heartcontainer.taken",
           "divinebeasts.vahnaboris.complete.subtasks.rijureturnstogerudotown"
         ],
@@ -1019,6 +1054,30 @@
               {
                 "offset": 857664,
                 "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "incomplete": {
+        "entries": [
+          {
+            "offset": 38168,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "divinebeasts.vahnaboris.bossnotdefeated",
+          "divinebeasts.vahnaboris.heartcontainer.notavailable",
+          "divinebeasts.vahnaboris.heartcontainer.nottaken",
+          "divinebeasts.vahnaboris.incomplete.subtasks.rijuremainsattheoutpost"
+        ],
+        "subtasks": {
+          "rijuremainsattheoutpost": {
+            "entries": [
+              {
+                "offset": 857664,
+                "value": 0
               }
             ]
           }
@@ -1135,12 +1194,32 @@
           "mainquests.divinebeastvahnaboris.boardingvahnaboris"
         ]
       },
+      "notfound": {
+        "entries": [
+          {
+            "offset": 38432,
+            "value": 0
+          }
+        ],
+        "harddependencies": [
+          "divinebeasts.vahnaboris.inactive",
+          "divinebeasts.vahnaboris.incomplete"
+        ]
+      },
       "heartcontainer": {
         "available": {
           "entries": [
             {
               "offset": 46928,
               "value": 1
+            }
+          ]
+        },
+        "notavailable": {
+          "entries": [
+            {
+              "offset": 46928,
+              "value": 0
             }
           ]
         },
@@ -1151,126 +1230,230 @@
               "value": 1
             }
           ]
+        },
+        "nottaken": {
+          "entries": [
+            {
+              "offset": 341328,
+              "value": 0
+            }
+          ]
         }
       },
       "map": {
-        "entries": [
-          {
-            "offset": 18424,
-            "value": 1
-          },
-          {
-            "offset": 302064,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahnaboris.active",
-          "divinebeasts.vahnaboris.defeatedallenemies.subtasks.guardian1",
-          "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball1"
-        ]
-      },
-      "pedestal": {
-        "entries": [
-          {
-            "offset": 42792,
-            "value": 1
-          }
-        ]
-      },
-      "state": {
-        "blowuprockwall1": {
+        "obtained": {
           "entries": [
             {
-              "offset": 911640,
+              "offset": 18424,
+              "value": 1
+            },
+            {
+              "offset": 302064,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.active",
+            "divinebeasts.vahnaboris.defeatedallenemies.subtasks.guardian1",
+            "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball1"
+          ]
+        },
+        "notobtained": {
+          "entries": [
+            {
+              "offset": 18424,
+              "value": 0
+            },
+            {
+              "offset": 302064,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.terminal1.off",
+            "divinebeasts.vahnaboris.terminal2.off",
+            "divinebeasts.vahnaboris.terminal3.off",
+            "divinebeasts.vahnaboris.terminal4.off",
+            "divinebeasts.vahnaboris.terminal5.off"
+          ]
+        }
+      },
+      "pedestal": {
+        "on" :{
+          "entries": [
+            {
+              "offset": 42792,
               "value": 1
             }
           ]
         },
-        "blowuprockwall2": {
+        "off" :{
           "entries": [
             {
-              "offset": 567720,
-              "value": 1
+              "offset": 42792,
+              "value": 0
             }
           ]
         }
       },
-      "terminal1": {
-        "entries": [
-          {
-            "offset": 354080,
-            "value": 4
+      "state": {
+        "rockwall1": {
+          "blownup": {
+            "entries": [
+              {
+                "offset": 911640,
+                "value": 1
+              }
+            ]
           },
-          {
-            "offset": 544096,
-            "value": 1
+          "standing": {
+            "entries": [
+              {
+                "offset": 911640,
+                "value": 0
+              }
+            ]
           }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahnaboris.map"
-        ]
+        },
+        "rockwall2": {
+          "blownup": {
+            "entries": [
+              {
+                "offset": 567720,
+                "value": 1
+              }
+            ]
+          },
+          "standing": {
+            "entries": [
+              {
+                "offset": 567720,
+                "value": 0
+              }
+            ]
+          }
+        }
+      },
+      "terminal1": {
+        "on": {
+          "entries": [
+            {
+              "offset": 544096,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.map.obtained"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 544096,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminal2": {
-        "entries": [
-          {
-            "offset": 354080,
-            "value": 3
-          },
-          {
-            "offset": 950888,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahnaboris.map"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 950888,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.map.obtained"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 950888,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminal3": {
-        "entries": [
-          {
-            "offset": 354080,
-            "value": 2
-          },
-          {
-            "offset": 794808,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahnaboris.map"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 794808,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.map.obtained"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 794808,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminal4": {
-        "entries": [
-          {
-            "offset": 354080,
-            "value": 1
-          },
-          {
-            "offset": 913192,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahnaboris.map",
-          "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball7"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 913192,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.map.obtained",
+            "divinebeasts.vahnaboris.defeatedallenemies.subtasks.glowingeyeball7"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 913192,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminal5": {
-        "entries": [
-          {
-            "offset": 354080,
-            "value": 0
-          },
-          {
-            "offset": 819656,
-            "value": 1
-          }
-        ],
-        "softdependencies": [
-          "divinebeasts.vahnaboris.map"
-        ]
+        "on": {
+          "entries": [
+            {
+              "offset": 819656,
+              "value": 1
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.map.obtained"
+          ]
+        },
+        "off": {
+          "entries": [
+            {
+              "offset": 819656,
+              "value": 0
+            }
+          ],
+          "softdependencies": [
+            "divinebeasts.vahnaboris.allterminals.notyetactivated"
+          ]
+        }
       },
       "terminalsremaining": {
         "entries": [
