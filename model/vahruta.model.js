@@ -29,6 +29,7 @@ module.exports = (() => {
                 'divinebeasts.vahruta.terminal3.on',
                 'divinebeasts.vahruta.terminal4.on',
                 'divinebeasts.vahruta.terminal5.on',
+                'divinebeasts.vahruta.heartcontainer.available',
                 'divinebeasts.vahruta.heartcontainer.taken'
             ]);
 

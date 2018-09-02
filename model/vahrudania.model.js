@@ -29,6 +29,7 @@ module.exports = (() => {
                 'divinebeasts.vahrudania.terminal3.on',
                 'divinebeasts.vahrudania.terminal4.on',
                 'divinebeasts.vahrudania.terminal5.on',
+                'divinebeasts.vahrudania.heartcontainer.available',
                 'divinebeasts.vahrudania.heartcontainer.taken'
             ]);
 
