@@ -8,7 +8,7 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, effectMapPath) => {
-            DivineBeasts.write(modelJson.divinebeasts, saveFile, effectMapPath);
+            return DivineBeasts.write(modelJson.divinebeasts, saveFile, effectMapPath);
         }
     };
 })();
