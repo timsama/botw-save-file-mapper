@@ -1,35 +1,9 @@
 module.exports = (() => {
-    const CONFIG = require('../config.js');
-    const changeReader = require('../read-changes.js');
-    const changeWriter = require('../batch-apply-changes.js');
-    const defaultEffectMap = `${CONFIG.exportpath}effectmap.json`;
-    const mapFileUtils = require('../map-file-utils.js');
-
-    const getEffectMapReader = (effectMapPath) => {
-        const effectMap = mapFileUtils.getFileAsJsonOrEmptyJsObject(effectMapPath || defaultEffectMap);
-        return (keypath) => {
-            return mapFileUtils.getValueAtKeyPath(effectMap, keypath);
-        };
-    };
-
-    const getChangeReader = (saveFile, effectMapPath) => {
-        return (keys, withLogging) => {
-            return changeReader(saveFile)(effectMapPath || defaultEffectMap, keys, withLogging);
-        };
-    };
-    const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
-        };
-    };
-
     return {
-        read: (name, saveFile, effectMapPath) => {
-            const readChanges = getChangeReader(saveFile, effectMapPath);
-            const getValueAtKeyPath = getEffectMapReader(effectMapPath);
-            const hasUnearthedEntries = !!getValueAtKeyPath(`shrines.${name}.unearthed`);
-            const hasMonsterBaseEntries = !!getValueAtKeyPath(`shrines.${name}.monsterbase`);
-            const isChampionsBallad = !!getValueAtKeyPath(`shrines.${name}.ischampionsballad`);
+        read: (name, saveFile, keypathReader, changeReader) => {
+            const hasUnearthedEntries = !!keypathReader(`shrines.${name}.unearthed`);
+            const hasMonsterBaseEntries = !!keypathReader(`shrines.${name}.monsterbase`);
+            const isChampionsBallad = !!keypathReader(`shrines.${name}.ischampionsballad`);
 
             let keysToRead = [
                 `shrines.${name}.active`,
@@ -45,7 +19,7 @@ module.exports = (() => {
                 keysToRead.push(`shrines.${name}.monsterbase.conquered`);
             }
 
-            const mapValues = readChanges(keysToRead);
+            const mapValues = changeReader(keysToRead);
 
             const shrineJson = {
                 active: mapValues[`shrines.${name}.active`],
@@ -67,11 +41,9 @@ module.exports = (() => {
 
             return shrineJson;
         },
-        write: (name, modelJson, saveFile, effectMapPath) => {
-            const writeChanges = getChangeWriter(saveFile, effectMapPath);
-            const getValueAtKeyPath = getEffectMapReader(effectMapPath);
-            const hasUnearthedEntries = !!getValueAtKeyPath(`shrines.${name}.unearthed`);
-            const hasMonsterBaseEntries = !!getValueAtKeyPath(`shrines.${name}.monsterbase`);
+        write: (name, modelJson, saveFile, keypathReader, changeWriter) => {
+            const hasUnearthedEntries = !!keypathReader(`shrines.${name}.unearthed`);
+            const hasMonsterBaseEntries = !!keypathReader(`shrines.${name}.monsterbase`);
 
             const keys = [];
 
@@ -103,7 +75,7 @@ module.exports = (() => {
                 addKeyIfTrue(!modelJson.conquered, `shrines.${name}.monsterbase.unconquered`);
             }
 
-            return writeChanges(keys);
+            return changeWriter(keys);
         }
     };
 })();
