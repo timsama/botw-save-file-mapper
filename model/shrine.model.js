@@ -28,12 +28,16 @@ module.exports = (() => {
             const mapValues = changeReader(keysToRead);
 
             const shrineJson = {
-                found: mapValues[`shrines.${name}.found`],
                 active: mapValues[`shrines.${name}.active`],
-                complete: mapValues[`shrines.${name}.complete`],
                 pedestal: mapValues[`shrines.${name}.pedestal.on`]
             };
 
+            if (hasFoundFlag) {
+                shrineJson.found = mapValues[`shrines.${name}.found`];
+            }
+            if (hasCompleteFlag) {
+                shrineJson.complete = mapValues[`shrines.${name}.complete`];
+            }
             if (hasUnearthedEntries) {
                 shrineJson.unearthed = mapValues[`shrines.${name}.unearthed`];
             }
@@ -50,6 +54,8 @@ module.exports = (() => {
         write: (name, modelJson, saveFile, keypathReader, changeWriter) => {
             const hasUnearthedEntries = !!keypathReader(`shrines.${name}.unearthed`);
             const hasMonsterBaseEntries = !!keypathReader(`shrines.${name}.monsterbase`);
+            const hasFoundFlag = !!keypathReader(`shrines.${name}.found`);
+            const hasCompleteFlag = !!keypathReader(`shrines.${name}.complete`);
 
             const keys = [];
 
@@ -62,14 +68,18 @@ module.exports = (() => {
             addKeyIfTrue(modelJson.active, `shrines.${name}.active`);
             addKeyIfTrue(!modelJson.active, `shrines.${name}.inactive`);
 
-            addKeyIfTrue(modelJson.complete, `shrines.${name}.complete`);
-            addKeyIfTrue(!modelJson.complete, `shrines.${name}.incomplete`);
-
-            addKeyIfTrue(modelJson.found, `shrines.${name}.found`);
-            addKeyIfTrue(!modelJson.found, `shrines.${name}.notfound`);
-
             addKeyIfTrue(modelJson.pedestal, `shrines.${name}.pedestal.on`);
             addKeyIfTrue(!modelJson.pedestal, `shrines.${name}.pedestal.off`);
+
+            if (hasCompleteFlag) {
+                addKeyIfTrue(modelJson.complete, `shrines.${name}.complete`);
+                addKeyIfTrue(!modelJson.complete, `shrines.${name}.incomplete`);
+            }
+
+            if (hasFoundFlag) {
+                addKeyIfTrue(modelJson.found, `shrines.${name}.found`);
+                addKeyIfTrue(!modelJson.found, `shrines.${name}.notfound`);
+            }
 
             if (hasUnearthedEntries) {
                 addKeyIfTrue(modelJson.unearthed, `shrines.${name}.unearthed`);
@@ -77,8 +87,8 @@ module.exports = (() => {
             }
 
             if (hasMonsterBaseEntries) {
-                addKeyIfTrue(modelJson.conquered, `shrines.${name}.monsterbase.conquered`);
-                addKeyIfTrue(!modelJson.conquered, `shrines.${name}.monsterbase.unconquered`);
+                addKeyIfTrue(modelJson.monsterbaseconquered, `shrines.${name}.monsterbase.conquered`);
+                addKeyIfTrue(!modelJson.monsterbaseconquered, `shrines.${name}.monsterbase.unconquered`);
             }
 
             return changeWriter(keys);

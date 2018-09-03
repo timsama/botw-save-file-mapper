@@ -61,7 +61,7 @@ module.exports = (() => {
             const allValuesMatch = mismatchedValueKeys.length == 0;
 
             mismatchedValueKeys.forEach(key => {
-                assert.equal(expectedObj[key], actualObj[key], `Mismatch at '${path}.${key}'`);
+                assert.equal(actualObj[key], expectedObj[key], `Mismatch at '${path}.${key}'`);
             });
 
             return allValuesMatch;

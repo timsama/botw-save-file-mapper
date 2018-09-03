@@ -4,7 +4,7 @@ module.exports = () => {
     const md5 = require('md5-file').sync;
     const fs = require('fs');
     const ModelTestUtils = require('./model-test-utils.js');
-    const subModelTest = require('./inventory-model-test.js');
+    const subModelTest = require('./model-test-template.js');
 
     const baseFilePath = './test/blank.sav';
     const testFilePath = './test/inventory.test.sav';

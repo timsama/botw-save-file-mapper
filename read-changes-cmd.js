@@ -8,4 +8,4 @@ const names = process.argv.slice(2).filter(entry => !isLogNamesCommand(entry)) |
 
 const logChangeNames = process.argv.slice(3).some(isLogNamesCommand);
 
-readChanges(filepath, names, logChangeNames);
+console.log(readChanges(filepath, names, logChangeNames));

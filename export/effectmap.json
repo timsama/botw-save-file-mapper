@@ -8622,7 +8622,7 @@
         ],
         "softdependencies": [
           "mainquests.thechampionsballad.conquerthemonsterbases",
-          "shrines.etsukorima.monsterbaseconquered"
+          "shrines.etsukorima.monsterbase.conquered"
         ]
       }
     },
@@ -10599,7 +10599,7 @@
           }
         ],
         "softdependencies": [
-          "shrines.kamurog.complete"
+          "shrines.kamurog.active"
         ]
       },
       "found": {
@@ -16749,7 +16749,7 @@
         ],
         "softdependencies": [
           "mainquests.thechampionsballad.conquerthemonsterbases",
-          "shrines.rohtachigah.monsterbaseconquered"
+          "shrines.rohtachigah.monsterbase.conquered"
         ]
       }
     },
@@ -17314,7 +17314,7 @@
         ],
         "softdependencies": [
           "mainquests.thechampionsballad.conquerthemonsterbases",
-          "shrines.ruvokorbah.monsterbaseconquered"
+          "shrines.ruvokorbah.monsterbase.conquered"
         ]
       }
     },
@@ -17741,7 +17741,7 @@
           }
         ],
         "softdependencies": [
-          "shrines.satokoda.pedestal"
+          "shrines.satokoda.active"
         ]
       },
       "found": {
@@ -19929,7 +19929,7 @@
           }
         ],
         "softdependencies": [
-          "shrines.sohkofi.pedestal"
+          "shrines.sohkofi.active"
         ]
       },
       "found": {
@@ -22141,7 +22141,7 @@
         ],
         "softdependencies": [
           "mainquests.thechampionsballad.conquerthemonsterbases",
-          "shrines.yowakaita.monsterbaseconquered"
+          "shrines.yowakaita.monsterbase.conquered"
         ]
       }
     },
@@ -23191,7 +23191,7 @@
         "entries": [
           {
             "offset": 3648,
-            "value": 1
+            "value": 0
           }
         ],
         "softdependencies": [

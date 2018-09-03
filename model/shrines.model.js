@@ -177,7 +177,8 @@ module.exports = (() => {
             const changeWriter = getChangeWriter(saveFile, effectMapPath);
 
             // Main Questline Shrines
-            return Shrine.write('akhvaquot', modelJson.akhvaquot, saveFile, keypathReader, changeWriter)
+            return Shrine.write('resurrection', modelJson.resurrection, saveFile, keypathReader, changeWriter)
+                .then(() => Shrine.write('akhvaquot', modelJson.akhvaquot, saveFile, keypathReader, changeWriter))
                 .then(() => Shrine.write('bareedanaag', modelJson.bareedanaag, saveFile, keypathReader, changeWriter))
                 .then(() => Shrine.write('boshkala', modelJson.boshkala, saveFile, keypathReader, changeWriter))
                 .then(() => Shrine.write('chaasqeta', modelJson.chaasqeta, saveFile, keypathReader, changeWriter))

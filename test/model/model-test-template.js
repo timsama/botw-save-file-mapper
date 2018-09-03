@@ -5,7 +5,7 @@ module.exports = (() => {
     const ModelTestUtils = require('./model-test-utils.js');
     const baseFilePath = './test/blank.sav';
     
-    return async (modelName, modelJson, useSeededBaseFile) => {
+    return async (modelName, modelJson) => {
         return new Promise((resolve, reject) => {
             const Model = require(`../../model/${modelName}.model.js`);
             const testFilePath = `./test/${modelName}.test.sav`;
@@ -27,6 +27,7 @@ module.exports = (() => {
                     // test the read method
                     const actualJson = Model.read(expectedFile, 0);
 
+                    // comment this out when using this to generate a new .model.spec.sav file, or it will never get written
                     assert(ModelTestUtils.deepComparison(modelJson, actualJson, modelName));
 
                     // test the write method
@@ -36,7 +37,7 @@ module.exports = (() => {
 
                             assert(ModelTestUtils.deepComparison(modelJson, actualJson, modelName));
                         });
-                });
+                }).timeout(10000);
             });
         }); 
     };
