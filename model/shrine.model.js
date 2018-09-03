@@ -4,14 +4,20 @@ module.exports = (() => {
             const hasUnearthedEntries = !!keypathReader(`shrines.${name}.unearthed`);
             const hasMonsterBaseEntries = !!keypathReader(`shrines.${name}.monsterbase`);
             const isChampionsBallad = !!keypathReader(`shrines.${name}.ischampionsballad`);
+            const hasFoundFlag = !!keypathReader(`shrines.${name}.found`);
+            const hasCompleteFlag = !!keypathReader(`shrines.${name}.complete`);
 
             let keysToRead = [
                 `shrines.${name}.active`,
-                `shrines.${name}.complete`,
-                `shrines.${name}.found`,
                 `shrines.${name}.pedestal.on`
             ];
 
+            if (hasFoundFlag) {
+                keysToRead.push(`shrines.${name}.found`);
+            }
+            if (hasCompleteFlag) {
+                keysToRead.push(`shrines.${name}.complete`);
+            }
             if (hasUnearthedEntries) {
                 keysToRead.push(`shrines.${name}.unearthed`);
             }
@@ -22,9 +28,9 @@ module.exports = (() => {
             const mapValues = changeReader(keysToRead);
 
             const shrineJson = {
+                found: mapValues[`shrines.${name}.found`],
                 active: mapValues[`shrines.${name}.active`],
                 complete: mapValues[`shrines.${name}.complete`],
-                found: mapValues[`shrines.${name}.found`],
                 pedestal: mapValues[`shrines.${name}.pedestal.on`]
             };
 

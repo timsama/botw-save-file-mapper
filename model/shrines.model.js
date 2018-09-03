@@ -31,6 +31,7 @@ module.exports = (() => {
 
             return {
                 // Main Questline Shrines
+                resurrection: Shrine.read('resurrection', saveFile, keypathReader, changeReader),
                 akhvaquot: Shrine.read('akhvaquot', saveFile, keypathReader, changeReader),
                 bareedanaag: Shrine.read('bareedanaag', saveFile, keypathReader, changeReader),
                 boshkala: Shrine.read('boshkala', saveFile, keypathReader, changeReader),

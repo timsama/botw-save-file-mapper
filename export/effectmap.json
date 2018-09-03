@@ -16195,7 +16195,59 @@
             "offset": 51112,
             "value": 1
           }
+        ],
+        "softdependencies": [
+          "shrines.resurrection.pedestal.on",
+          "shrines.resurrection.door.open"
         ]
+      },
+      "door": {
+        "closed": {
+          "entries": [
+            {
+              "offset": 27240,
+              "value": 0
+            }
+          ]
+        },
+        "open": {
+          "entries": [
+            {
+              "offset": 27240,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "inactive": {
+        "entries": [
+          {
+            "offset": 51112,
+            "value": 0
+          }
+        ],
+        "softdependencies": [
+          "shrines.resurrection.pedestal.off",
+          "shrines.resurrection.door.closed"
+        ]
+      },
+      "pedestal": {
+        "off": {
+          "entries": [
+            {
+              "offset": 852816,
+              "value": 0
+            }
+          ]
+        },
+        "on": {
+          "entries": [
+            {
+              "offset": 852816,
+              "value": 1
+            }
+          ]
+        }
       }
     },
     "rinoyaa": {
