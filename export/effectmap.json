@@ -2646,6 +2646,14 @@
   },
   "fairyfountains": {
     "cotera": {
+      "locked": {
+        "entries": [
+          {
+            "offset": 1017248,
+            "value": 0
+          }
+        ]
+      },
       "unlocked": {
         "entries": [
           {
@@ -2656,6 +2664,14 @@
       }
     },
     "kaysa": {
+      "locked": {
+        "entries": [
+          {
+            "offset": 37008,
+            "value": 0
+          }
+        ]
+      },
       "unlocked": {
         "entries": [
           {
@@ -2666,6 +2682,14 @@
       }
     },
     "malanya": {
+      "locked": {
+        "entries": [
+          {
+            "offset": 1024512,
+            "value": 0
+          }
+        ]
+      },
       "unlocked": {
         "entries": [
           {
@@ -2676,6 +2700,14 @@
       }
     },
     "mija": {
+      "locked": {
+        "entries": [
+          {
+            "offset": 450496,
+            "value": 0
+          }
+        ]
+      },
       "unlocked": {
         "entries": [
           {
@@ -2695,6 +2727,14 @@
       ]
     },
     "tera": {
+      "locked": {
+        "entries": [
+          {
+            "offset": 541632,
+            "value": 0
+          }
+        ]
+      },
       "unlocked": {
         "entries": [
           {

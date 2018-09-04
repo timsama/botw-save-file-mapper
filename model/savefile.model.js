@@ -6,6 +6,7 @@ const SaveFile = (() => {
                 runes: Runes.read(saveFile),
                 map: Map.read(saveFile),
                 clock: Clock.read(saveFile),
+                fairyfountains: FairyFountains.read(saveFile)
             };
         },
         write: (modelJson, saveFile) => {
@@ -15,6 +16,8 @@ const SaveFile = (() => {
                 return Map.write(modelJson.map, saveFile);
             }).then(() => {
                 return Clock.write(modelJson.clock, saveFile);
+            }).then(() => {
+                return FairyFountains.write(modelJson.fairyfountains, saveFile);
             });
         }
     };
@@ -25,3 +28,4 @@ const Inventory = require('./inventory.model.js');
 const Runes = require('./runes.model.js');
 const Map = require('./map.model.js');
 const Clock = require('./clock.model.js');
+const FairyFountains = require('./fairyfountains.model.js');

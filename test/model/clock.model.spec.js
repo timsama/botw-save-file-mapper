@@ -1,4 +1,4 @@
-module.exports = () => {
+module.exports = (() => {
     const subModelTest = require('./model-test-template.js');
 
     const expectedJson = {
@@ -10,4 +10,4 @@ module.exports = () => {
     };
 
     return subModelTest('clock', expectedJson);
-};
+})();
