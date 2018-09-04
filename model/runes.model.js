@@ -1,7 +1,7 @@
 module.exports = (() => {
     const CONFIG = require('../config.js');
     const changeReader = require('../read-changes.js');
-    const changeWriter = require('../apply-changes.js');
+    const changeWriter = require('../batch-apply-changes.js');
     const defaultEffectMap = `${CONFIG.exportpath}effectmap.json`;
 
     const getChangeReader = (saveFile, effectMapPath) => {
@@ -11,7 +11,7 @@ module.exports = (() => {
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
         return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile, true)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
         };
     };
 
