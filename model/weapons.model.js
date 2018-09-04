@@ -70,6 +70,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, startingSlot) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'weapons', (item, slot, slotInCategory) => {
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
                 const durabilityOffset = Offsets.getQuantitiesOffset(slot);

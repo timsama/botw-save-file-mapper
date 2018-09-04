@@ -16,6 +16,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, effectMapPath) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             return VahMedoh.write(modelJson.vahmedoh, saveFile, effectMapPath)
                 .then(() => VahRudania.write(modelJson.vahrudania, saveFile, effectMapPath))
                 .then(() => VahRuta.write(modelJson.vahruta, saveFile, effectMapPath))

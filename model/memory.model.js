@@ -12,6 +12,9 @@ module.exports = (() => {
             };
         },
         write: (name, modelJson, saveFile, keypathReader, changeWriter) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             const keys = [];
 
             const addKeyIfTrue = (val, key) => {

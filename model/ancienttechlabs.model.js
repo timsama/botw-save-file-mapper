@@ -9,6 +9,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, effectMapPath) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             return AncientTechLab.write('hateno', modelJson.hateno, saveFile, effectMapPath)
                 .then(() => AncientTechLab.write('akkala', modelJson.akkala, saveFile, effectMapPath));
         }

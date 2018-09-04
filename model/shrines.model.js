@@ -173,6 +173,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, effectMapPath) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             const keypathReader = getKeypathReader(effectMapPath);
             const changeWriter = getChangeWriter(saveFile, effectMapPath);
 

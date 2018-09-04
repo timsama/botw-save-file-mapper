@@ -52,6 +52,9 @@ module.exports = (() => {
             return shrineJson;
         },
         write: (name, modelJson, saveFile, keypathReader, changeWriter) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             const hasUnearthedEntries = !!keypathReader(`shrines.${name}.unearthed`);
             const hasMonsterBaseEntries = !!keypathReader(`shrines.${name}.monsterbase`);
             const hasFoundFlag = !!keypathReader(`shrines.${name}.found`);

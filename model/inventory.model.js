@@ -38,6 +38,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             return Weapons.write(modelJson.weapons, saveFile, 0)
                 .then(nextAvailableSlot => Bows.write(modelJson.bows, saveFile, nextAvailableSlot))
                 .then(nextAvailableSlot => Arrows.write(modelJson.arrows, saveFile, nextAvailableSlot))

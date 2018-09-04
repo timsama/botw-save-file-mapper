@@ -14,6 +14,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, effectMapPath) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             return DivineBeasts.write(modelJson.divinebeasts, saveFile, effectMapPath)
                 .then(() => Towers.write(modelJson.towers, saveFile, effectMapPath))
                 .then(() => AncientTechLabs.write(modelJson.ancienttechlabs, saveFile, effectMapPath))

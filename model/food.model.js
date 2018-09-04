@@ -122,6 +122,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, startingSlot) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             const stackableHeartsPlaceholder = 0xbf800000;
 
             return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'food', (item, slot, slotInCategory) => {

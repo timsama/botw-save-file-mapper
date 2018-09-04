@@ -12,6 +12,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, effectMapPath) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             return MainQuests.write(modelJson.mainquests, saveFile, effectMapPath)
                 .then(() => SideQuests.write(modelJson.sidequests, saveFile, effectMapPath))
                 .then(() => Memories.write(modelJson.memories, saveFile, effectMapPath));

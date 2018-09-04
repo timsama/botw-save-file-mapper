@@ -50,6 +50,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, effectMapPath) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             const writeChanges = getChangeWriter(saveFile, effectMapPath);
 
             const keys = [

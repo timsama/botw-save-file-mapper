@@ -72,6 +72,9 @@ module.exports = (() => {
             };
         },
         write: (modelJson, saveFile, startingSlot) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'armor', (item, slot, slotInCategory) => {
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
                 const colorOffset = Offsets.getQuantitiesOffset(slot);

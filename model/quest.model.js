@@ -64,6 +64,9 @@ module.exports = (questCategory) => {
             };
         },
         write: (name, modelJson, saveFile, keypathReader, changeWriter) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
             const keys = modelJson.completedsteps;
 
             return changeWriter(keys);
