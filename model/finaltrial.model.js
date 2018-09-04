@@ -42,7 +42,9 @@ module.exports = (() => {
         write: (modelJson, saveFile, effectMapPath) => {
             const writeChanges = getChangeWriter(saveFile, effectMapPath);
 
-            const keys = [];
+            const keys = [
+                `divinebeasts.finaltrial.terminalsremaining=${modelJson.terminalsremaining}`
+            ];
 
             const addKeyIfTrue = (val, key) => {
                 if (val === true) {
@@ -55,13 +57,6 @@ module.exports = (() => {
 
             addKeyIfTrue(modelJson.map, 'divinebeasts.finaltrial.map.obtained');
             addKeyIfTrue(!modelJson.map, 'divinebeasts.finaltrial.map.notobtained');
-
-            let terminalsRemaining = 4;
-            modelJson.terminal1 && terminalsRemaining--;
-            modelJson.terminal2 && terminalsRemaining--;
-            modelJson.terminal3 && terminalsRemaining--;
-            modelJson.terminal4 && terminalsRemaining--;
-            keys.push(`divinebeasts.finaltrial.terminalsremaining=${terminalsRemaining}`);
             
             addKeyIfTrue(modelJson.terminal1, 'divinebeasts.finaltrial.terminal1.on');
             addKeyIfTrue(!modelJson.terminal1, 'divinebeasts.finaltrial.terminal1.off');

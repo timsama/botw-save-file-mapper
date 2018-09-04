@@ -52,7 +52,9 @@ module.exports = (() => {
         write: (modelJson, saveFile, effectMapPath) => {
             const writeChanges = getChangeWriter(saveFile, effectMapPath);
 
-            const keys = [];
+            const keys = [
+                `divinebeasts.vahnaboris.terminalsremaining=${modelJson.terminalsremaining}`
+            ];
 
             const addKeyIfTrue = (val, key) => {
                 if (val === true) {
@@ -71,14 +73,6 @@ module.exports = (() => {
 
             addKeyIfTrue(modelJson.map, 'divinebeasts.vahnaboris.map.obtained');
             addKeyIfTrue(!modelJson.map, 'divinebeasts.vahnaboris.map.notobtained');
-
-            let terminalsRemaining = 5;
-            modelJson.terminal1 && terminalsRemaining--;
-            modelJson.terminal2 && terminalsRemaining--;
-            modelJson.terminal3 && terminalsRemaining--;
-            modelJson.terminal4 && terminalsRemaining--;
-            modelJson.terminal5 && terminalsRemaining--;
-            keys.push(`divinebeasts.vahnaboris.terminalsremaining=${terminalsRemaining}`);
             
             addKeyIfTrue(modelJson.terminal1, 'divinebeasts.vahnaboris.terminal1.on');
             addKeyIfTrue(!modelJson.terminal1, 'divinebeasts.vahnaboris.terminal1.off');
