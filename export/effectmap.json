@@ -2822,7 +2822,7 @@
         ],
         "harddependencies": [
           "mainquests.capturedmemories.begun",
-          "memories.zeldasawakening"
+          "memories.zeldasawakening.remembered"
         ],
         "softdependencies": [
           "mainquests.capturedmemories.12memoriescomplete"
@@ -2849,84 +2849,84 @@
         "entries": [
         ],
         "harddependencies": [
-          "memories.subduedceremony"
+          "memories.subduedceremony.remembered"
         ]
       },
       "memory10": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.tomountlanayru"
+          "memories.tomountlanayru.remembered"
         ]
       },
       "memory11": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.returnofcalamityganon"
+          "memories.returnofcalamityganon.remembered"
         ]
       },
       "memory12": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.despair"
+          "memories.despair.remembered"
         ]
       },
       "memory2": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.resolveandgrief"
+          "memories.resolveandgrief.remembered"
         ]
       },
       "memory3": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.zeldasresentment"
+          "memories.zeldasresentment.remembered"
         ]
       },
       "memory4": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.bladesoftheyiga"
+          "memories.bladesoftheyiga.remembered"
         ]
       },
       "memory5": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.apremonition"
+          "memories.apremonition.remembered"
         ]
       },
       "memory6": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.silentprincess"
+          "memories.silentprincess.remembered"
         ]
       },
       "memory7": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.shelterfromthestorm"
+          "memories.shelterfromthestorm.remembered"
         ]
       },
       "memory8": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.fatheranddaughter"
+          "memories.fatheranddaughter.remembered"
         ]
       },
       "memory9": {
         "entries": [
         ],
         "harddependencies": [
-          "memories.slumberingpower"
+          "memories.slumberingpower.remembered"
         ]
       }
     },
@@ -2958,7 +2958,7 @@
         ],
         "softdependencies": [
           "mainquests.championdarukssong.illusoryrealmbattleunlocked",
-          "memories.championdarukssong",
+          "memories.championdarukssong.remembered",
           "championpowers.daruksprotection.plus"
         ]
       },
@@ -3011,7 +3011,7 @@
         ],
         "softdependencies": [
           "mainquests.championmiphassong.illusoryrealmbattleunlocked",
-          "memories.championmiphassong",
+          "memories.championmiphassong.remembered",
           "championpowers.miphasgrace.plus"
         ]
       },
@@ -3065,7 +3065,7 @@
         ],
         "softdependencies": [
           "mainquests.championrevalissong.illusoryrealmbattleunlocked",
-          "memories.championrevalissong",
+          "memories.championrevalissong.remembered",
           "championpowers.revalisgale.plus"
         ]
       },
@@ -3126,7 +3126,7 @@
         ],
         "softdependencies": [
           "mainquests.championurbosassong.illusoryrealmbattleunlocked",
-          "memories.championurbosassong",
+          "memories.championurbosassong.remembered",
           "championpowers.urbosasfury.plus"
         ]
       },
@@ -3228,7 +3228,7 @@
           "mainquests.divinebeastvahmedoh.begun"
         ],
         "softdependencies": [
-          "memories.revalisflap"
+          "memories.revalisflap.remembered"
         ]
       },
       "theflightrange": {
@@ -3415,7 +3415,7 @@
           "mainquests.divinebeastvahnaboris.obtainthethunderhelm"
         ],
         "softdependencies": [
-          "memories.urbosashand",
+          "memories.urbosashand.remembered",
           "mainquests.divinebeastvahnaboris.thunderhelmtaken",
           "mainquests.divinebeastvahnaboris.returnthethunderhelm.subtasks.rijuawaitsatlookout"
         ],
@@ -3758,7 +3758,7 @@
           "mainquests.divinebeastvahrudania.begun"
         ],
         "softdependencies": [
-          "memories.daruksmettle",
+          "memories.daruksmettle.remembered",
           "mainquests.divinebeastvahrudania.rescueyunobo"
         ]
       }
@@ -3827,7 +3827,7 @@
         ],
         "softdependencies": [
           "mainquests.divinebeastvahruta.begun",
-          "memories.miphastouch"
+          "memories.miphastouch.remembered"
         ]
       },
       "wearzoraarmor": {
@@ -4205,7 +4205,7 @@
         ],
         "softdependencies": [
           "divinebeasts.finaltrial.complete",
-          "memories.thechampionsballad",
+          "memories.thechampionsballad.remembered",
           "runes.mastercyclezero.enabled"
         ]
       },
@@ -4388,7 +4388,7 @@
         "softdependencies": [
           "cutscenes.findingthemastersword.viewed",
           "cutscenes.tryingtotakethemastersword.viewed",
-          "memories.themastersword",
+          "memories.themastersword.remembered",
           "mainquests.theherossword.masterswordtaken"
         ]
       },
@@ -4496,290 +4496,418 @@
   },
   "memories": {
     "apremonition": {
-      "entries": [
-        {
-          "offset": 796864,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 796864,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 796864,
+            "value": 0
+          }
+        ]
+      }
     },
     "bladesoftheyiga": {
-      "entries": [
-        {
-          "offset": 36968,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 36968,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 36968,
+            "value": 0
+          }
+        ]
+      }
     },
     "championdarukssong": {
-      "entries": [
-        {
-          "offset": 62448,
-          "value": 1
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 62448,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 62448,
+            "value": 0
+          }
+        ]
+      }
     },
     "championmiphassong": {
-      "entries": [
-        {
-          "offset": 65304,
-          "value": 1
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 65304,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 65304,
+            "value": 0
+          }
+        ]
+      }
     },
     "championrevalissong": {
-      "entries": [
-        {
-          "offset": 63384,
-          "value": 1
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 63384,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 63384,
+            "value": 0
+          }
+        ]
+      }
     },
     "championurbosassong": {
-      "entries": [
-        {
-          "offset": 65640,
-          "value": 1
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 65640,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 65640,
+            "value": 0
+          }
+        ]
+      }
     },
     "daruksmettle": {
-      "entries": [
-        {
-          "offset": 535400,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 535400,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 535400,
+            "value": 0
+          }
+        ]
+      }
     },
     "despair": {
-      "entries": [
-        {
-          "offset": 804576,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 804576,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 804576,
+            "value": 0
+          }
+        ]
+      }
     },
     "fatheranddaughter": {
-      "entries": [
-        {
-          "offset": 807008,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 807008,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 807008,
+            "value": 0
+          }
+        ]
+      }
     },
     "miphastouch": {
-      "entries": [
-        {
-          "offset": 536064,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 536064,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 536064,
+            "value": 0
+          }
+        ]
+      }
     },
     "resolveandgrief": {
-      "entries": [
-        {
-          "offset": 44504,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 44504,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 44504,
+            "value": 0
+          }
+        ]
+      }
     },
     "returnofcalamityganon": {
-      "entries": [
-        {
-          "offset": 801800,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 801800,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 801800,
+            "value": 0
+          }
+        ]
+      }
     },
     "revalisflap": {
-      "entries": [
-        {
-          "offset": 533312,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 533312,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 533312,
+            "value": 0
+          }
+        ]
+      }
     },
     "shelterfromthestorm": {
-      "entries": [
-        {
-          "offset": 800136,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 800136,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 800136,
+            "value": 0
+          }
+        ]
+      }
     },
     "silentprincess": {
-      "entries": [
-        {
-          "offset": 797992,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 797992,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 797992,
+            "value": 0
+          }
+        ]
+      }
     },
     "slumberingpower": {
-      "entries": [
-        {
-          "offset": 805240,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 805240,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 805240,
+            "value": 0
+          }
+        ]
+      }
     },
     "subduedceremony": {
-      "entries": [
-        {
-          "offset": 43488,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 43488,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 43488,
+            "value": 0
+          }
+        ]
+      }
     },
     "thechampionsballad": {
-      "entries": [
-        {
-          "offset": 51592,
-          "value": 1
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 51592,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 51592,
+            "value": 0
+          }
+        ]
+      }
     },
     "themastersword": {
-      "entries": [
-        {
-          "offset": 864224,
-          "value": 1
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 864224,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 864224,
+            "value": 0
+          }
+        ]
+      }
     },
     "tomountlanayru": {
-      "entries": [
-        {
-          "offset": 800440,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 800440,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 800440,
+            "value": 0
+          }
+        ]
+      }
     },
     "urbosashand": {
-      "entries": [
-        {
-          "offset": 537944,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 537944,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 537944,
+            "value": 0
+          }
+        ]
+      }
     },
     "zeldasawakening": {
-      "entries": [
-        {
-          "offset": 816584,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 816584,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 816584,
+            "value": 0
+          }
+        ]
+      }
     },
     "zeldasresentment": {
-      "entries": [
-        {
-          "offset": 33248,
-          "value": 1
-        }
-      ],
-      "rewards": [
-        {
-          "category": "armor",
-          "name": "championstunic"
-        }
-      ]
+      "remembered": {
+        "entries": [
+          {
+            "offset": 33248,
+            "value": 1
+          }
+        ]
+      },
+      "forgotten": {
+        "entries": [
+          {
+            "offset": 33248,
+            "value": 0
+          }
+        ]
+      }
     }
   },
   "npcs": {

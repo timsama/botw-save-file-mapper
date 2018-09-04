@@ -23,7 +23,7 @@ module.exports = (() => {
                     resolve();
                 });
 
-                it(`should write and read the ${modelName} to/from the save file correctly`, function() {
+                it(`should write and read the ${modelName} model to/from the save file correctly`, function() {
                     // test the read method
                     const actualJson = Model.read(expectedFile, 0);
 
