@@ -5135,15 +5135,6 @@
       "sidequests.thepricelessmaracas.complete"
     ]
   },
-  "shrinecompletioncount": {
-    "entries": [
-      {
-        "offset": 921912,
-        "unit": "shrines",
-        "value": "integer"
-      }
-    ]
-  },
   "shrinequests": {
     "abrothersroast": {
       "begun": {
@@ -22942,6 +22933,15 @@
         {
           "offset": 60152,
           "unit": "rupees",
+          "value": "integer"
+        }
+      ]
+    },
+    "shrinescompleted": {
+      "entries": [
+        {
+          "offset": 921912,
+          "unit": "shrines",
           "value": "integer"
         }
       ]
