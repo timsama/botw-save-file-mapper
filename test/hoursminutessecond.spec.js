@@ -1,0 +1,108 @@
+const assert = require('assert');
+const HoursMinutesSeconds = require('../encoders_decoders/hoursminutesseconds.js');
+
+const checkEncoding = (value, expectedEncoding) => {
+    const actualEncoding = HoursMinutesSeconds.encode(value);
+    assert(actualEncoding === expectedEncoding, `${value} was expected to have encoding 0x${expectedEncoding} but instead gave 0x${actualEncoding}`);
+};
+
+const checkDuration = (value, expectedDurationStr) => {
+    const actualDurationStr = HoursMinutesSeconds.decode(value).toString();
+    assert(actualDurationStr === expectedDurationStr, `0x${value} was expected to have duration ${expectedDurationStr} but instead gave ${actualDurationStr}`);
+};
+
+describe('hoursminutesseconds.js', function(){
+    it('should give correct hex values for known durations', function(){
+        checkEncoding('00:02', 2);
+        checkEncoding('00:03', 3);
+        checkEncoding('00:04', 4);
+        checkEncoding('00:05', 5);
+        checkEncoding('00:06', 6);
+        checkEncoding('00:07', 7);
+        checkEncoding('00:08', 8);
+        checkEncoding('00:09', 9);
+        checkEncoding('00:10', 10);
+        checkEncoding('00:15', 15);
+        checkEncoding('00:16', 16);
+        checkEncoding('00:17', 17);
+        checkEncoding('00:18', 18);
+        checkEncoding('00:30', 30);
+        checkEncoding('00:31', 31);
+        checkEncoding('00:32', 32);
+        checkEncoding('00:33', 33);
+        checkEncoding('00:36', 36);
+        checkEncoding('00:37', 37);
+        checkEncoding('00:38', 38);
+        checkEncoding('00:42', 42);
+        checkEncoding('02:08', 128);
+        checkEncoding('03:30', 210);
+        checkEncoding('03:31', 211);
+        checkEncoding('03:32', 212);
+        checkEncoding('03:33', 213);
+        checkEncoding('03:49', 229);
+        checkEncoding('04:00', 240);
+        checkEncoding('04:16', 256);
+        checkEncoding('04:18', 258);
+        checkEncoding('04:50', 290);
+        checkEncoding('08:32', 512);
+        checkEncoding('09:36', 576);
+        checkEncoding('10:40', 640);
+        checkEncoding('16:00', 960);
+        checkEncoding('16:04', 964);
+        checkEncoding('17:04', 1024);
+        checkEncoding('17:12', 1032);
+        checkEncoding('19:12', 1152);
+        checkEncoding('22:24', 1344);
+        checkEncoding('24:32', 1472);
+        checkEncoding('24:40', 1480);
+        checkEncoding('24:48', 1488);
+        checkEncoding('30:00', 1800);
+    });
+
+    it('should give correct durations for known values', function(){
+        checkDuration(2, '00:02');
+        checkDuration(3, '00:03');
+        checkDuration(4, '00:04');
+        checkDuration(5, '00:05');
+        checkDuration(6, '00:06');
+        checkDuration(7, '00:07');
+        checkDuration(8, '00:08');
+        checkDuration(9, '00:09');
+        checkDuration(10, '00:10');
+        checkDuration(15, '00:15');
+        checkDuration(16, '00:16');
+        checkDuration(17, '00:17');
+        checkDuration(18, '00:18');
+        checkDuration(30, '00:30');
+        checkDuration(31, '00:31');
+        checkDuration(32, '00:32');
+        checkDuration(33, '00:33');
+        checkDuration(36, '00:36');
+        checkDuration(37, '00:37');
+        checkDuration(38, '00:38');
+        checkDuration(42, '00:42');
+        checkDuration(128, '02:08');
+        checkDuration(210, '03:30');
+        checkDuration(211, '03:31');
+        checkDuration(212, '03:32');
+        checkDuration(213, '03:33');
+        checkDuration(229, '03:49');
+        checkDuration(240, '04:00');
+        checkDuration(256, '04:16');
+        checkDuration(258, '04:18');
+        checkDuration(290, '04:50');
+        checkDuration(512, '08:32');
+        checkDuration(576, '09:36');
+        checkDuration(640, '10:40');
+        checkDuration(960, '16:00');
+        checkDuration(964, '16:04');
+        checkDuration(1024, '17:04');
+        checkDuration(1032, '17:12');
+        checkDuration(1152, '19:12');
+        checkDuration(1344, '22:24');
+        checkDuration(1472, '24:32');
+        checkDuration(1480, '24:40');
+        checkDuration(1488, '24:48');
+        checkDuration(1800, '30:00');
+    });
+});

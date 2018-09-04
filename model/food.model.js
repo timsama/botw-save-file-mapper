@@ -5,7 +5,7 @@ module.exports = (() => {
     const mapItemSlots = require('./map-item-slots.js');
     const writeItemSlots = require('./write-item-slots.js');
     const Float28 = require('../encoders_decoders/float28.js');
-    const FoodDuration = require('../encoders_decoders/foodduration.js');
+    const FoodDuration = require('../encoders_decoders/floatseconds.js');
 
     const bonusTypes = {
         0x40000000: 'hearty',

@@ -97,21 +97,23 @@
         }
       ]
     },
-    "setfornextmidnight": {
-      "entries": [
-        {
-          "offset": 883488,
-          "value": 1
-        }
-      ]
-    },
-    "unsetfornextmidnight": {
-      "entries": [
-        {
-          "offset": 883488,
-          "value": 0
-        }
-      ]
+    "tonight": {
+      "set": {
+        "entries": [
+          {
+            "offset": 883488,
+            "value": 1
+          }
+        ]
+      },
+      "unset": {
+        "entries": [
+          {
+            "offset": 883488,
+            "value": 0
+          }
+        ]
+      }
     }
   },
   "bowstash": {

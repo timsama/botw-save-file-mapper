@@ -1,17 +1,17 @@
 const assert = require('assert');
-const foodduration = require('../encoders_decoders/foodduration.js');
+const FloatSeconds = require('../encoders_decoders/floatseconds.js');
 
 const checkEncoding = (value, expectedEncoding) => {
-    const actualEncoding = foodduration.encode(value);
+    const actualEncoding = FloatSeconds.encode(value);
     assert(actualEncoding === expectedEncoding, `${value} was expected to have encoding 0x${expectedEncoding.toString(16)} but instead gave 0x${actualEncoding.toString(16)}`);
 };
 
 const checkDuration = (value, expectedDurationStr) => {
-    const actualDurationStr = foodduration.decode(value).toString();
+    const actualDurationStr = FloatSeconds.decode(value).toString();
     assert(actualDurationStr === expectedDurationStr, `0x${value.toString(16)} was expected to have duration ${expectedDurationStr} but instead gave ${actualDurationStr}`);
 };
 
-describe('foodduration.js', function(){
+describe('floatseconds.js', function(){
     it('should give correct hex values for known durations', function(){
         checkEncoding('00:02', 0x40000000);
         checkEncoding('00:03', 0x40400000);

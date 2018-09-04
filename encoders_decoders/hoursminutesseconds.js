@@ -1,5 +1,3 @@
-const float28 = require('./float28.js');
-
 module.exports = (() => {
     return {
         encode: (time) => {
@@ -7,18 +5,19 @@ module.exports = (() => {
                 if (time.toString().indexOf(':') === -1) {
                     return time;
                 } else {
-                    const [minutes, seconds] = time.split(':').map(x => parseInt(x));
-                    return minutes * 60 + seconds;
+                    const [seconds, minutes, hours] = (time).toString()
+                        .split(':').reverse().map(x => parseInt(x)).concat([0, 0, 0]);
+                    return hours * 3600 + minutes * 60 + seconds;
                 }
             })(time);
             
-            return float28.encode(seconds);
+            return seconds;
         },
-        decode: (value) => {
-            const totalSeconds = float28.decode(value);
-
-            const minutes = Math.floor(totalSeconds / 60);
+        decode: (totalSeconds) => {
             const seconds = Math.floor(totalSeconds % 60);
+            const rawminutes = Math.floor(totalSeconds / 60);
+            const minutes = Math.floor(rawminutes % 60);
+            const hours = Math.floor(rawminutes / 60);
 
             const padNumber = (val) => {
                 const str = val.toString();
@@ -33,8 +32,13 @@ module.exports = (() => {
                 totalSeconds: totalSeconds,
                 minutes: minutes,
                 seconds: seconds,
+                hours: hours,
                 toString: () => {
-                    return `${padNumber(minutes)}:${padNumber(seconds)}`;
+                    if (hours > 0) {
+                        return `${padNumber(hours)}:${padNumber(minutes)}:${padNumber(seconds)}`;
+                    } else {
+                        return `${padNumber(minutes)}:${padNumber(seconds)}`;
+                    }
                 }
             };
         }
