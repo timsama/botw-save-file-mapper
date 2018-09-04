@@ -22979,7 +22979,6 @@
         ],
         "softdependencies": [
           "mastersword.fullyunlocked",
-          "sidequests.trialofthesword.beginningtrials.complete",
           "sidequests.trialofthesword.middletrials.complete"
         ]
       },
