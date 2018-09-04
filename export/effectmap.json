@@ -5129,6 +5129,98 @@
       }
     }
   },
+  "quicktips": {
+    "switcharrows": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 448208,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 448208,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "switchbows": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 830368,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 830368,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "switchshields": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 802776,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 802776,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "switchweapons": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 44720,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 44720,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "throwweapon": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 355024,
+            "value": 0
+          }
+        ]
+      },
+      "viewed": {
+        "entries": [
+          {
+            "offset": 355024,
+            "value": 1
+          }
+        ]
+      }
+    }
+  },
   "runes": {
     "alldisabled": {
       "entries": [
