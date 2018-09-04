@@ -31,8 +31,6 @@ module.exports = (saveFileOverride) => {
                         console.log(`Checking ${keypath}`);
                     }
 
-                    let goodSoFar = true;
-
                     if (!effect || !effect.entries) {
                         throw ('Entry ' + name + ' does not exist');
                     } else {
@@ -46,13 +44,19 @@ module.exports = (saveFileOverride) => {
                                 return [];
                             }
                         })();
-                        
-                        goodSoFar = !effect.harddependencies || effect.harddependencies.length === hardDependencies.length;
+
+                        const allHardDepsAreTrue = (() => {
+                            if (!!effect.harddependencies && effect.harddependencies.length > 0) {
+                                return effect.harddependencies.every(depName => alreadyCheckedChanges[depName].value);
+                            } else {
+                                return true;
+                            }
+                        })();
 
                         const variableValuesExist = effect.entries.some(entry => entry.value === 'float' || entry.value === 'integer');
 
-                        if (goodSoFar && variableValuesExist) {
-                            return hardDependencies.concat([{
+                        if (allHardDepsAreTrue && variableValuesExist) {
+                            const result = {
                                 key: name,
                                 value: effect.entries.map((entry) => {
                                     if (entry.value === 'float') {
@@ -61,14 +65,23 @@ module.exports = (saveFileOverride) => {
                                         return readAtOffset(entry.offset)
                                     } 
                                 })[0]
-                            }]);
-                        } else if (goodSoFar) {
-                            return hardDependencies.concat([{
+                            };
+                            alreadyCheckedChanges[name] = result;
+                            return hardDependencies.concat([result]);
+                        } else if (allHardDepsAreTrue) {
+                            const result = {
                                 key: name,
                                 value: effect.entries.every(entry => readAtOffset(entry.offset) == entry.value)
-                            }]);
+                            };
+                            alreadyCheckedChanges[name] = result;
+                            return hardDependencies.concat([result]);
                         } else {
-                            return hardDependencies;
+                            const result = {
+                                key: name,
+                                value: false
+                            };
+                            alreadyCheckedChanges[name] = result;
+                            return hardDependencies.concat([result]);
                         }
                     }
                 } else {

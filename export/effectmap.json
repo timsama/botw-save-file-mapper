@@ -1340,7 +1340,7 @@
           }
         ],
         "softdependencies": [
-          "mainquests.divinebeastvahnaboris.boardingvahnaboris"
+          "mainquests.divinebeastvahnaboris.boardvahnaboris"
         ]
       },
       "heartcontainer": {
@@ -1850,7 +1850,7 @@
           }
         ],
         "softdependencies": [
-          "mainquests.divinebeastvahrudania.boardingvahrudania"
+          "mainquests.divinebeastvahrudania.boardvahrudania"
         ]
       },
       "heartcontainer": {
@@ -2973,9 +2973,30 @@
           "mainquests.championdarukssong.begun"
         ],
         "softdependencies": [
-          "shrines.sharolun.complete",
-          "shrines.rinuhonika.complete",
+          "mainquests.championdarukssong.trial1complete",
+          "mainquests.championdarukssong.trial2complete",
+          "mainquests.championdarukssong.trial3complete"
+        ]
+      },
+      "trial1complete": {
+        "entries": [
+        ],
+        "harddependencies": [
           "shrines.kamiaomuna.complete"
+        ]
+      },
+      "trial2complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.sharolun.complete"
+        ]
+      },
+      "trial3complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.rinuhonika.complete"
         ]
       }
     },
@@ -3026,9 +3047,30 @@
           "mainquests.championmiphassong.begun"
         ],
         "softdependencies": [
-          "shrines.keedafunia.complete",
-          "shrines.maheliya.complete",
+          "mainquests.championmiphassong.trial1complete",
+          "mainquests.championmiphassong.trial2complete",
+          "mainquests.championmiphassong.trial3complete"
+        ]
+      },
+      "trial1complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.keedafunia.complete"
+        ]
+      },
+      "trial2complete": {
+        "entries": [
+        ],
+        "harddependencies": [
           "shrines.satokoda.complete"
+        ]
+      },
+      "trial3complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.maheliya.complete"
         ]
       }
     },
@@ -3088,9 +3130,30 @@
           "mainquests.championrevalissong.begun"
         ],
         "softdependencies": [
-          "shrines.kiahtoza.complete",
-          "shrines.noerajee.complete",
+          "mainquests.championrevalissong.trial1complete",
+          "mainquests.championrevalissong.trial2complete",
+          "mainquests.championrevalissong.trial3complete"
+        ]
+      },
+      "trial1complete": {
+        "entries": [
+        ],
+        "harddependencies": [
           "shrines.shiragomar.complete"
+        ]
+      },
+      "trial2complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.kiahtoza.complete"
+        ]
+      },
+      "trial3complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.noerajee.complete"
         ]
       }
     },
@@ -3141,8 +3204,29 @@
           "mainquests.championurbosassong.begun"
         ],
         "softdependencies": [
-          "shrines.keivetala.complete",
-          "shrines.takamashiri.complete",
+          "mainquests.championurbosassong.trial1complete",
+          "mainquests.championurbosassong.trial2complete",
+          "mainquests.championurbosassong.trial3complete"
+        ]
+      },
+      "trial1complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.keivetala.complete"
+        ]
+      },
+      "trial2complete": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "shrines.takamashiri.complete"
+        ]
+      },
+      "trial3complete": {
+        "entries": [
+        ],
+        "harddependencies": [
           "shrines.kihiromoh.complete"
         ]
       }
@@ -3157,6 +3241,18 @@
         ],
         "softdependencies": [
           "mainquests.theisolatedplateau.complete"
+        ]
+      },
+      "complete": {
+        "entries": [
+          {
+            "offset": 523120,
+            "value": 0
+          },
+          {
+            "offset": 523120,
+            "value": 1
+          }
         ]
       },
       "selected": {
@@ -3189,7 +3285,7 @@
           }
         ],
         "harddependencies": [
-          "mainquests.divinebeastvahmedoh.theflightrange"
+          "mainquests.divinebeastvahmedoh.impressteba"
         ],
         "softdependencies": [
           "divinebeasts.vahmedoh.active"
@@ -3203,7 +3299,8 @@
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahmedoh.complete"
+          "divinebeasts.vahmedoh.complete",
+          "mainquests.divinebeastvahmedoh.boardvahmedoh"
         ]
       },
       "impressteba": {
@@ -3214,6 +3311,7 @@
           }
         ],
         "harddependencies": [
+          "mainquests.divinebeastvahmedoh.begun",
           "mainquests.divinebeastvahmedoh.theflightrange"
         ]
       },
@@ -3243,7 +3341,7 @@
           }
         ],
         "harddependencies": [
-          "mainquests.divinebeastvahmedoh.talktosaki"
+          "mainquests.divinebeastvahmedoh.begun"
         ],
         "rewards": [
           {
@@ -3260,7 +3358,8 @@
           }
         ],
         "softdependencies": [
-          "cutscenes.meetingteba.viewed"
+          "cutscenes.meetingteba.viewed",
+          "mainquests.divinebeastvahmedoh.talktosaki"
         ]
       }
     },
@@ -3277,7 +3376,7 @@
           "cutscenes.meetingriju.viewed"
         ]
       },
-      "boardingvahnaboris": {
+      "boardvahnaboris": {
         "entries": [
           {
             "offset": 10232,
@@ -3292,7 +3391,7 @@
             "value": 0
           }
         ],
-        "harddependencies": [
+        "softdependencies": [
           "mainquests.divinebeastvahnaboris.meetrijuatlookout"
         ]
       },
@@ -3304,10 +3403,11 @@
           }
         ],
         "harddependencies": [
-          "mainquests.divinebeastvahnaboris.boardingvahnaboris"
+          "mainquests.divinebeastvahnaboris.begun"
         ],
         "softdependencies": [
           "divinebeasts.vahnaboris.complete",
+          "mainquests.divinebeastvahnaboris.boardvahnaboris",
           "mainquests.divinebeastvahnaboris.complete.subtasks.scimitarofthesevenanddaybreakeravailable"
         ],
         "subtasks": {
@@ -3325,9 +3425,6 @@
                 "offset": 385752,
                 "value": 1
               }
-            ],
-            "softdependencies": [
-              "mainquests.divinebeastvahnaboris.complete"
             ]
           },
           "scimitaroftheseventaken": {
@@ -3489,7 +3586,7 @@
           "cutscenes.vahrudaniaintro.viewed"
         ]
       },
-      "boardingvahrudania": {
+      "boardvahrudania": {
         "entries": [
           {
             "offset": 393664,
@@ -3497,19 +3594,19 @@
           }
         ],
         "harddependencies": [
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.getridofinvisiblewall",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.getridofinvisiblewall",
           "mainquests.divinebeastvahrudania.bridgeofeldin",
           "mainquests.divinebeastvahrudania.begun"
         ],
         "softdependencies": [
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.strategizewithyunobo",
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.startchallengemusic",
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.startchallenge",
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.triggersentinels",
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon1",
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon2",
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.cannon3",
-          "mainquests.divinebeastvahrudania.boardingvahrudania.subtasks.stopforcingboard",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.strategizewithyunobo",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.startchallengemusic",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.startchallenge",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.triggersentinels",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.cannon1",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.cannon2",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.cannon3",
+          "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.stopforcingboard",
           "divinebeasts.vahrudania.active"
         ],
         "subtasks": {
@@ -3683,6 +3780,7 @@
         ],
         "softdependencies": [
           "divinebeasts.vahrudania.complete",
+          "mainquests.divinebeastvahrudania.boardvahrudania",
           "mainquests.divinebeastvahrudania.complete.subtasks.boulderbreakeravailable"
         ],
         "subtasks": {
@@ -3784,8 +3882,8 @@
           }
         ],
         "softdependencies": [
-          "mainquests.divinebeastvahruta.rainstopped",
-          "mainquests.divinebeastvahruta.collectshockarrows"
+          "mainquests.divinebeastvahruta.collectshockarrows",
+          "mainquests.divinebeastvahruta.rainstopped"
         ]
       },
       "collectshockarrows": {
@@ -3807,7 +3905,8 @@
           }
         ],
         "softdependencies": [
-          "divinebeasts.vahruta.complete"
+          "divinebeasts.vahruta.complete",
+          "mainquests.divinebeastvahruta.boardvahruta"
         ]
       },
       "rainstopped": {
@@ -3975,9 +4074,37 @@
           "mainquests.freethedivinebeasts.begun"
         ],
         "softdependencies": [
-          "mainquests.divinebeastvahmedoh.complete",
-          "mainquests.divinebeastvahnaboris.complete",
-          "mainquests.divinebeastvahrudania.complete",
+          "mainquests.freethedivinebeasts.freevahmedoh",
+          "mainquests.freethedivinebeasts.freevahnaboris",
+          "mainquests.freethedivinebeasts.freevahrudania",
+          "mainquests.freethedivinebeasts.freevahruta"
+        ]
+      },
+      "freevahmedoh": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahmedoh.complete"
+        ]
+      },
+      "freevahnaboris": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahnaboris.complete"
+        ]
+      },
+      "freevahrudania": {
+        "entries": [
+        ],
+        "harddependencies": [
+          "mainquests.divinebeastvahrudania.complete"
+        ]
+      },
+      "freevahruta": {
+        "entries": [
+        ],
+        "harddependencies": [
           "mainquests.divinebeastvahruta.complete"
         ]
       }
@@ -4204,12 +4331,40 @@
           "mainquests.thechampionsballad.begun"
         ],
         "softdependencies": [
-          "divinebeasts.finaltrial.complete",
+          "mainquests.thechampionsballad.finaltrial.complete",
           "memories.thechampionsballad.remembered",
           "runes.mastercyclezero.enabled"
         ]
       },
       "completethechampionsongs": {
+        "championdarukssong": {
+          "entries": [
+          ],
+          "harddependencies": [
+            "mainquests.championdarukssong.complete"
+          ]
+        },
+        "championmiphassong": {
+          "entries": [
+          ],
+          "harddependencies": [
+            "mainquests.championmiphassong.complete"
+          ]
+        },
+        "championrevalissong": {
+          "entries": [
+          ],
+          "harddependencies": [
+            "mainquests.championrevalissong.complete"
+          ]
+        },
+        "championurbosassong": {
+          "entries": [
+          ],
+          "harddependencies": [
+            "mainquests.championurbosassong.complete"
+          ]
+        },
         "entries": [
           {
             "offset": 540304,
@@ -4220,10 +4375,10 @@
           "mainquests.thechampionsballad.begun"
         ],
         "softdependencies": [
-          "mainquests.championdarukssong.complete",
-          "mainquests.championmiphassong.complete",
-          "mainquests.championrevalissong.complete",
-          "mainquests.championurbosassong.complete"
+          "mainquests.thechampionsballad.completethechampionsongs.championdarukssong",
+          "mainquests.thechampionsballad.completethechampionsongs.championmiphassong",
+          "mainquests.thechampionsballad.completethechampionsongs.championrevalissong",
+          "mainquests.thechampionsballad.completethechampionsongs.championurbosassong"
         ]
       },
       "conquerthemonsterbases": {
@@ -4261,6 +4416,14 @@
           ],
           "softdependencies": [
             "mainquests.thechampionsballad.returntotheshrineofresurrectionagain"
+          ]
+        },
+        "complete": {
+          "entries": [
+          ],
+          "harddependencies": [
+            "mainquests.thechampionsballad.finaltrial.begun",
+            "divinebeasts.finaltrial.complete"
           ]
         }
       },
@@ -4470,8 +4633,42 @@
         "softdependencies": [
           "mainquests.seekoutimpa.begun",
           "mainquests.destroyganon.begun",
-          "mainquests.theisolatedplateau.collectedonespiritorb"
+          "mainquests.theisolatedplateau.collectedfourspiritorbs",
+          "mainquests.theisolatedplateau.shrines.jabaij",
+          "mainquests.theisolatedplateau.shrines.kehnamut",
+          "mainquests.theisolatedplateau.shrines.omanau",
+          "mainquests.theisolatedplateau.shrines.owadaim"
         ]
+      },
+      "shrines": {
+        "jabaij": {
+          "entries": [
+          ],
+          "softdependencies": [
+            "shrines.jabaij.complete"
+          ]
+        },
+        "kehnamut": {
+          "entries": [
+          ],
+          "softdependencies": [
+            "shrines.kehnamut.complete"
+          ]
+        },
+        "omanau": {
+          "entries": [
+          ],
+          "softdependencies": [
+            "shrines.omanau.complete"
+          ]
+        },
+        "owadaim": {
+          "entries": [
+          ],
+          "softdependencies": [
+            "shrines.owadaim.complete"
+          ]
+        }
       }
     }
   },
@@ -4496,415 +4693,415 @@
   },
   "memories": {
     "apremonition": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 796864,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 796864,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 796864,
+            "value": 1
           }
         ]
       }
     },
     "bladesoftheyiga": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 36968,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 36968,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 36968,
+            "value": 1
           }
         ]
       }
     },
     "championdarukssong": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 62448,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 62448,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 62448,
+            "value": 1
           }
         ]
       }
     },
     "championmiphassong": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 65304,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 65304,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 65304,
+            "value": 1
           }
         ]
       }
     },
     "championrevalissong": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 63384,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 63384,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 63384,
+            "value": 1
           }
         ]
       }
     },
     "championurbosassong": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 65640,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 65640,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 65640,
+            "value": 1
           }
         ]
       }
     },
     "daruksmettle": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 535400,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 535400,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 535400,
+            "value": 1
           }
         ]
       }
     },
     "despair": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 804576,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 804576,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 804576,
+            "value": 1
           }
         ]
       }
     },
     "fatheranddaughter": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 807008,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 807008,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 807008,
+            "value": 1
           }
         ]
       }
     },
     "miphastouch": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 536064,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 536064,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 536064,
+            "value": 1
           }
         ]
       }
     },
     "resolveandgrief": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 44504,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 44504,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 44504,
+            "value": 1
           }
         ]
       }
     },
     "returnofcalamityganon": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 801800,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 801800,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 801800,
+            "value": 1
           }
         ]
       }
     },
     "revalisflap": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 533312,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 533312,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 533312,
+            "value": 1
           }
         ]
       }
     },
     "shelterfromthestorm": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 800136,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 800136,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 800136,
+            "value": 1
           }
         ]
       }
     },
     "silentprincess": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 797992,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 797992,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 797992,
+            "value": 1
           }
         ]
       }
     },
     "slumberingpower": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 805240,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 805240,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 805240,
+            "value": 1
           }
         ]
       }
     },
     "subduedceremony": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 43488,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 43488,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 43488,
+            "value": 1
           }
         ]
       }
     },
     "thechampionsballad": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 51592,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 51592,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 51592,
+            "value": 1
           }
         ]
       }
     },
     "themastersword": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 864224,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 864224,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 864224,
+            "value": 1
           }
         ]
       }
     },
     "tomountlanayru": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 800440,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 800440,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 800440,
+            "value": 1
           }
         ]
       }
     },
     "urbosashand": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 537944,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 537944,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 537944,
+            "value": 1
           }
         ]
       }
     },
     "zeldasawakening": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 816584,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 816584,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 816584,
+            "value": 1
           }
         ]
       }
     },
     "zeldasresentment": {
-      "remembered": {
-        "entries": [
-          {
-            "offset": 33248,
-            "value": 1
-          }
-        ]
-      },
       "forgotten": {
         "entries": [
           {
             "offset": 33248,
             "value": 0
+          }
+        ]
+      },
+      "remembered": {
+        "entries": [
+          {
+            "offset": 33248,
+            "value": 1
           }
         ]
       }
@@ -14184,7 +14381,7 @@
       "unearthed": {
         "entries": [
         ],
-        "harddependencies": [
+        "softdependencies": [
           "shrinequests.underaredmoon.complete"
         ]
       }

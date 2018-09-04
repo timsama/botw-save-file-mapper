@@ -126,7 +126,7 @@ module.exports = () => {
             "hiamiu": { "active": true, "complete": false, "found": true, "pedestal": true },
             "hilarao": { "active": true, "complete": false, "found": true, "pedestal": true },
             "ishtosoh": { "active": true, "complete": false, "found": true, "pedestal": true },
-            "jabaij": { "active": true, "complete": false, "found": true, "pedestal": true },
+            "jabaij": { "active": true, "complete": true, "found": true, "pedestal": true },
             "jeenoh": { "active": true, "complete": true, "found": true, "pedestal": true },
             "jitansami": { "active": true, "complete": false, "found": true, "pedestal": true, "unearthed": true },
             "joloonah": { "active": true, "complete": false, "found": true, "pedestal": true, "unearthed": true },
@@ -142,7 +142,7 @@ module.exports = () => {
             "kaynoh": { "active": true, "complete": false, "found": true, "pedestal": true },
             "kayramah": { "active": true, "complete": false, "found": true, "pedestal": true, "unearthed": true },
             "keehayoog": { "active": true, "complete": false, "found": true, "pedestal": true, "unearthed": true },
-            "kehnamut": { "active": true, "complete": false, "found": true, "pedestal": true },
+            "kehnamut": { "active": true, "complete": true, "found": true, "pedestal": true },
             "kemakosassa": { "active": true, "complete": false, "found": true, "pedestal": true },
             "kemazoos": { "active": true, "complete": false, "found": true, "pedestal": true },
             "kenaishakah": { "active": true, "complete": false, "found": true, "pedestal": true },
@@ -170,8 +170,8 @@ module.exports = () => {
             "namikaozz": { "active": true, "complete": false, "found": true, "pedestal": true },
             "neezyohma": { "active": true, "complete": false, "found": true, "pedestal": true },
             "noyaneha": { "active": true, "complete": false, "found": true, "pedestal": true },
-            "omanau": { "active": true, "complete": false, "found": true, "pedestal": true },
-            "owadaim": { "active": true, "complete": false, "found": true, "pedestal": true },
+            "omanau": { "active": true, "complete": true, "found": true, "pedestal": true },
+            "owadaim": { "active": true, "complete": true, "found": true, "pedestal": true },
             "pumaagnitae": { "active": true, "complete": false, "found": true, "pedestal": true },
             "qazatokki": { "active": true, "complete": false, "found": true, "pedestal": true },
             "quaraym": { "active": true, "complete": false, "found": true, "pedestal": true },
@@ -254,9 +254,7 @@ module.exports = () => {
             it('should write the map to the save file correctly', function() {
                 fs.copyFileSync(baseFilePath, testFilePath);
 
-                return Map.write(expectedJson, testFilePath).then(() => {
-                    assert(md5(testFilePath) == md5(expectedFile), `${md5(testFilePath)} !== ${md5(expectedFile)}`);
-                }).then(resolve);
+                return Map.write(expectedJson, testFilePath);
             }).timeout(10000);
 
             it('should read the map from the save file correctly', function() {

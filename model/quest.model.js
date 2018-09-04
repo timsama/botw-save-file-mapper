@@ -3,7 +3,15 @@ module.exports = (questCategory) => {
         const begunKey = `${questCategory}.${name}.begun`;
         const completeKey = `${questCategory}.${name}.complete`;
 
+        const alreadyRetrievedKeys = {};
+
         const getPreviousStepKey = (key) => {
+            if (alreadyRetrievedKeys[key]) {
+                return [];
+            }
+
+            alreadyRetrievedKeys[key] = true;
+
             if (key === begunKey) {
                 return undefined;
             }
@@ -13,20 +21,22 @@ module.exports = (questCategory) => {
             const allDependencies = (currentStep.harddependencies || [])
                 .concat(currentStep.softdependencies || []);
 
-            const [previousStep] = allDependencies.filter(step => {
+            const previousSteps = allDependencies.filter(step => {
                 const [depCategory, depName] = step.split('.');
                 return step !== begunKey && depCategory === questCategory && depName === name;
             });
 
-            return previousStep || begunKey;
+            return previousSteps || [begunKey];
         };
 
         const stepKeys = [completeKey];
-        let currentKey = getPreviousStepKey(completeKey);
-        while(currentKey) {
-            stepKeys.push(currentKey);
-            currentKey = getPreviousStepKey(currentKey);
+        let currentKeys = getPreviousStepKey(completeKey);
+        while (currentKeys.length > 0) {
+            const nextKey = currentKeys.pop();
+            stepKeys.push(nextKey);
+            currentKeys = getPreviousStepKey(nextKey).concat(currentKeys);
         }
+        stepKeys.push(begunKey);
 
         return stepKeys.reverse();
     };
