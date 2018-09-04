@@ -41,9 +41,99 @@ module.exports = () => {
             }
         },
         "sidequests": {
+            "agiftfromthemonks": {
+                "begun": false,
+                "complete": false,
+                "completedsteps": [],
+                "incompletesteps": [
+                    'sidequests.agiftfromthemonks.begun',
+                    'sidequests.agiftfromthemonks.tookcap',
+                    'sidequests.agiftfromthemonks.complete'
+                ],
+                "rewards": [
+                    {
+                        "category": "armor",
+                        "name": "capofthewild"
+                    },
+                    {
+                        "category": "armor",
+                        "name": "tunicofthewild"
+                    },
+                    {
+                        "category": "armor",
+                        "name": "trousersofthewild"
+                    }
+                ]
+            },
+            "byfireflyslight": {
+                "begun": false,
+                "complete": false,
+                "completedsteps": [],
+                "incompletesteps": [
+                    'sidequests.byfireflyslight.begun',
+                    'sidequests.byfireflyslight.complete'
+                ]
+            },
+            "findkheel": {
+                "begun": false,
+                "complete": false,
+                "completedsteps": [],
+                "incompletesteps": [
+                    'sidequests.findkheel.begun',
+                    'sidequests.findkheel.talktokheel',
+                    'sidequests.findkheel.complete'
+                ]
+            },
+            "flownthecoop": {
+                "begun": false,
+                "complete": false,
+                "completedsteps": [],
+                "incompletesteps": [
+                    'sidequests.flownthecoop.begun',
+                    'sidequests.flownthecoop.returnthecuccos',
+                    'sidequests.flownthecoop.complete'
+                ]
+            },
+            "robbiesresearch": {
+                "begun": false,
+                "complete": false,
+                "completedsteps": [],
+                "incompletesteps": [
+                    'sidequests.robbiesresearch.begun',
+                    'sidequests.robbiesresearch.introducedtojerrin',
+                    'sidequests.robbiesresearch.blueflamefurnace.lit',
+                    'sidequests.robbiesresearch.complete'
+                ]
+            },
             "slatedforupgrades": {
-                "totalsteps": 3,
-                "currentstep": 2
+                "begun": false,
+                "complete": false,
+                "completedsteps": [],
+                "incompletesteps": [
+                    'sidequests.slatedforupgrades.begun',
+                    'sidequests.slatedforupgrades.complete'
+                ]
+            },
+            "thepricelessmaracas": {
+                "begun": false,
+                "complete": false,
+                "completedsteps": [],
+                "incompletesteps": [
+                    'sidequests.thepricelessmaracas.begun',
+                    'sidequests.thepricelessmaracas.complete'
+                ]
+            },
+            "trialofthesword": {
+                "begun": false,
+                "complete": false,
+                "completedsteps": [],
+                "incompletesteps": [
+                    'sidequests.trialofthesword.begun',
+                    'sidequests.trialofthesword.talktodekutree',
+                    'sidequests.trialofthesword.beginningtrials.complete',
+                    'sidequests.trialofthesword.middletrials.complete',
+                    'sidequests.trialofthesword.complete'
+                ]
             }
         },
         "memories": {
@@ -122,6 +212,7 @@ module.exports = () => {
     return new Promise((resolve, reject) => {
         describe('adventurelog.model.js', function() {
             subModelTest('memories', expectedJson.memories)
+                .then(subModelTest('sidequests', expectedJson.sidequests))
                 .then(resolve);
         });
     });    
