@@ -14,6 +14,6 @@ const outputFilename = (() => {
     }
 })();
 
-const saveJson = SaveFile.read(savefile);
+const saveJson = SaveFile.read(saveFile);
 
 MapFileUtils.saveJsonFile(`${CONFIG.exportpath}${outputFilename}`, saveJson);
