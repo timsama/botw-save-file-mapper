@@ -1,6 +1,6 @@
 const CONFIG = require('./config.js');
 const applyChanges = require('./apply-changes.js')();
-const filepath = `${CONFIG.exportpath}locations.json`;
+const filepath = `${CONFIG.mapfilepath}locations.json`;
 
 const location = process.argv[2];
 

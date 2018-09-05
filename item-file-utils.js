@@ -8,7 +8,7 @@ module.exports = (() => {
     const MapFileUtils = {
         getCategoryFilepath: (category) => {
             if (MapFileUtils.validCategories.indexOf(category) !== -1) {
-                return `${CONFIG.exportpath}${category}.json`;
+                return `${CONFIG.mapfilepath}${category}.json`;
             } else {
                 return undefined;
             }

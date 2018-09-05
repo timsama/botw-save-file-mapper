@@ -3,7 +3,7 @@ module.exports = (() => {
     const changeReader = require('../read-changes.js');
     const changeWriter = require('../apply-changes.js');
 
-    const defaultEffectMap = `${CONFIG.exportpath}effectmap.json`;
+    const defaultEffectMap = `${CONFIG.mapfilepath}effectmap.json`;
 
     const getChangeReader = (saveFile, effectMapPath) => {
         return (keys, withLogging) => {

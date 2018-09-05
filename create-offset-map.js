@@ -4,8 +4,8 @@
     const folderUtils = require('./folder-utils.js');
     const mapFileUtils = require('./map-file-utils.js');
 
-    const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
-    const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
+    const jsonOffsetMapFile = `${CONFIG.mapfilepath}offsetmap.json`;
+    const jsonEffectMapFile = `${CONFIG.mapfilepath}effectmap.json`;
 
     folderUtils.buildFoldersIfTheyDoNotExist(jsonOffsetMapFile);
     folderUtils.buildFoldersIfTheyDoNotExist(jsonEffectMapFile);

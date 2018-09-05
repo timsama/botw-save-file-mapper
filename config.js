@@ -4,8 +4,8 @@ const CONFIG = {
     tempoutputpath: './temp/',
     snapshotspath: './snapshots/',
     rawchangespath: './raw/',
-    filemapspath: './filemaps/',
     exportpath: './export/',
+    mapfilepath: './mapfiles/',
     logpath: './log/',
     saveFileLastOffset: 0x000fac80,
 	placeholderImagepath: './placeholder.jpg'

@@ -1,6 +1,6 @@
 const CONFIG = require('./config.js');
 const applyChanges = require('./apply-changes.js')();
-const filepath = `${CONFIG.exportpath}effectmap.json`;
+const filepath = `${CONFIG.mapfilepath}effectmap.json`;
 
 const hearts = parseFloat(process.argv[2]);
 if (!isNaN(hearts)) {

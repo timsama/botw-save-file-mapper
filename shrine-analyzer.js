@@ -7,7 +7,7 @@ const testSingles = require('./test-singles.js');
 const readline = require('readline-sync');
 const resultExporter = require('./json-result-exporter.js');
 
-const locationFilepath = `${CONFIG.exportpath}locations.json`;
+const locationFilepath = `${CONFIG.mapfilepath}locations.json`;
 const captionImagepath = `${CONFIG.savepath}caption.jpg`;
 const tempCaptionImagepath = `${CONFIG.tempoutputpath}caption.temp.jpg`;
 

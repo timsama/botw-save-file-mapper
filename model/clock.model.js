@@ -5,7 +5,7 @@ module.exports = (() => {
     const HoursMinutesSeconds = require('../encoders_decoders/hoursminutesseconds.js');
     const TimeOfDay = require('../encoders_decoders/timeofday.js');
 
-    const defaultEffectMap = `${CONFIG.exportpath}effectmap.json`;
+    const defaultEffectMap = `${CONFIG.mapfilepath}effectmap.json`;
 
     const getChangeReader = (saveFile, effectMapPath) => {
         return (keys, withLogging) => {

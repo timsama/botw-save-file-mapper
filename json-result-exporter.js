@@ -17,8 +17,8 @@ module.exports = (() => {
         const saveQuery = !!saveQueryOverride ? saveQueryOverride : () => query('Would you like to export this result?');
 
         if (results.length > 0 && saveQuery()) {
-            const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
-            const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
+            const jsonOffsetMapFile = `${CONFIG.mapfilepath}offsetmap.json`;
+            const jsonEffectMapFile = `${CONFIG.mapfilepath}effectmap.json`;
 
             folderUtils.buildFoldersIfTheyDoNotExist(jsonOffsetMapFile);
             folderUtils.buildFoldersIfTheyDoNotExist(jsonEffectMapFile);

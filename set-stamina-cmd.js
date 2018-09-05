@@ -1,6 +1,6 @@
 const CONFIG = require('./config.js');
 const applyChanges = require('./apply-changes.js')();
-const filepath = `${CONFIG.exportpath}effectmap.json`;
+const filepath = `${CONFIG.mapfilepath}effectmap.json`;
 const readline = require('readline-sync');
 
 const upgrades = [

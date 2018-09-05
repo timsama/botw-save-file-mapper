@@ -3,7 +3,7 @@ module.exports = (() => {
     const CONFIG = require('./config.js');
     const stringify = require('json-stable-stringify');
     const toHexString = require('./save-file-utils.js').toHexString;
-    const jsonOffsetMapFile = `${CONFIG.exportpath}offsetmap.json`;
+    const jsonOffsetMapFile = `${CONFIG.mapfilepath}offsetmap.json`;
 
     const MapFileUtils = {
         appendOffsetEffects: (obj, entries, effect) => {

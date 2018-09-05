@@ -1,6 +1,6 @@
 const saveNamedChange = require('./save-named-change.js')();
 const CONFIG = require('./config.js');
-const jsonEffectMapFile = `${CONFIG.exportpath}effectmap.json`;
+const jsonEffectMapFile = `${CONFIG.mapfilepath}effectmap.json`;
 
 const name = process.argv[2] || readline.question('Name of time: ');
 

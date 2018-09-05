@@ -2,7 +2,7 @@ const assert = require('assert');
 const testSingles = require('../test-singles.js');
 const offsetChecker = require('../offset-checker.js');
 const CONFIG = require('../config.js');
-const effectmapFilePath = `${CONFIG.exportpath}effectmap.json`;
+const effectmapFilePath = `${CONFIG.mapfilepath}effectmap.json`;
 
 const checkTest = (name, expectedOffset, expectedValue) => {
     const queryFunc = () => {
