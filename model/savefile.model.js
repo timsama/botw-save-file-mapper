@@ -1,4 +1,12 @@
-const SaveFile = (() => {
+module.exports = (() => {
+    const Inventory = require('./inventory.model.js');
+    const Runes = require('./runes.model.js');
+    const Map = require('./map.model.js');
+    const Clock = require('./clock.model.js');
+    const FairyFountains = require('./fairyfountains.model.js');
+    const Stats = require('./stats.model.js');
+    const AdventureLog = require('./adventurelog.model.js');
+
     return {
         read: (saveFile) => {
             return {
@@ -28,12 +36,3 @@ const SaveFile = (() => {
         }
     };
 })();
-
-module.exports = SaveFile;
-const Inventory = require('./inventory.model.js');
-const Runes = require('./runes.model.js');
-const Map = require('./map.model.js');
-const Clock = require('./clock.model.js');
-const FairyFountains = require('./fairyfountains.model.js');
-const Stats = require('./stats.model.js');
-const AdventureLog = require('./adventurelog.model.js');
