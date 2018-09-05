@@ -47,7 +47,9 @@ module.exports = (saveFileOverride) => {
 
                         const allHardDepsAreTrue = (() => {
                             if (!!effect.harddependencies && effect.harddependencies.length > 0) {
-                                return effect.harddependencies.every(depName => alreadyCheckedChanges[depName].value);
+                                return effect.harddependencies.every(depName => {
+                                    return alreadyCheckedChanges[depName] === true || alreadyCheckedChanges[depName].value
+                                });
                             } else {
                                 return true;
                             }
