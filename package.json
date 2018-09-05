@@ -1,7 +1,7 @@
 {
-  "name": "botw-savefile-editor",
+  "name": "botw-save-file-mapper",
   "version": "1.0.0",
-  "description": "Editor for Breath of the Wild save files",
+  "description": "Mapper and editor for Breath of the Wild save files",
   "main": "index.js",
   "dependencies": {
     "chokidar": "^2.0.0",
@@ -38,7 +38,9 @@
     "export-item-slot": "node export-item-slot-cmd.js",
     "export-named-location": "node export-named-location.js",
     "export-named-time": "node export-named-time.js",
+    "export-json": "node cmd/export-savefile-json.js",
     "find-overlap": "node find-overlap-cmd.js",
+    "import-json": "node cmd/import-savefile-json.js",
     "insert-item-slot": "node insert-item-slot-cmd.js",
     "load-snapshot": "node load-snapshot-cmd.js",
     "make-backup": "node make-backup.js",
