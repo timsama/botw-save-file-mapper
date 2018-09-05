@@ -64,20 +64,26 @@ module.exports = (() => {
                 }
             };
 
+            const addKeyIfFalse = (val, key) => {
+                if (val === false) {
+                    keys.push(key);
+                }
+            };
+
             addKeyIfTrue(modelJson.cotera.unlocked, 'fairyfountains.cotera.unlocked');
-            addKeyIfTrue(!modelJson.cotera.unlocked, 'fairyfountains.cotera.locked');
+            addKeyIfFalse(modelJson.cotera.unlocked, 'fairyfountains.cotera.locked');
 
             addKeyIfTrue(modelJson.kaysa.unlocked, 'fairyfountains.kaysa.unlocked');
-            addKeyIfTrue(!modelJson.kaysa.unlocked, 'fairyfountains.kaysa.locked');
+            addKeyIfFalse(modelJson.kaysa.unlocked, 'fairyfountains.kaysa.locked');
 
             addKeyIfTrue(modelJson.malanya.unlocked, 'fairyfountains.malanya.unlocked');
-            addKeyIfTrue(!modelJson.malanya.unlocked, 'fairyfountains.malanya.locked');
+            addKeyIfFalse(modelJson.malanya.unlocked, 'fairyfountains.malanya.locked');
 
             addKeyIfTrue(modelJson.mija.unlocked, 'fairyfountains.mija.unlocked');
-            addKeyIfTrue(!modelJson.mija.unlocked, 'fairyfountains.mija.locked');
+            addKeyIfFalse(modelJson.mija.unlocked, 'fairyfountains.mija.locked');
 
             addKeyIfTrue(modelJson.tera.unlocked, 'fairyfountains.tera.unlocked');
-            addKeyIfTrue(!modelJson.tera.unlocked, 'fairyfountains.tera.locked');
+            addKeyIfFalse(modelJson.tera.unlocked, 'fairyfountains.tera.locked');
 
             return writeChanges(keys);
         }

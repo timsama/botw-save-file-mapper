@@ -43,11 +43,17 @@ module.exports = (() => {
                 }
             };
 
+            const addKeyIfFalse = (val, key) => {
+                if (val === false) {
+                    keys.push(key);
+                }
+            };
+
             addKeyIfTrue(modelJson.active, `ancienttechlabs.${name}.active`);
-            addKeyIfTrue(!modelJson.active, `ancienttechlabs.${name}.inactive`);
+            addKeyIfFalse(modelJson.active, `ancienttechlabs.${name}.inactive`);
 
             addKeyIfTrue(modelJson.found, `ancienttechlabs.${name}.found`);
-            addKeyIfTrue(!modelJson.found, `ancienttechlabs.${name}.notfound`);
+            addKeyIfFalse(modelJson.found, `ancienttechlabs.${name}.notfound`);
 
             return writeChanges(keys);
         }

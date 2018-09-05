@@ -65,38 +65,44 @@ module.exports = (() => {
                 }
             };
 
+            const addKeyIfFalse = (val, key) => {
+                if (val === false) {
+                    keys.push(key);
+                }
+            };
+
             addKeyIfTrue(modelJson.active, 'divinebeasts.vahmedoh.active');
-            addKeyIfTrue(!modelJson.active, 'divinebeasts.vahmedoh.inactive');
+            addKeyIfFalse(modelJson.active, 'divinebeasts.vahmedoh.inactive');
 
             addKeyIfTrue(modelJson.complete, 'divinebeasts.vahmedoh.complete');
-            addKeyIfTrue(!modelJson.complete, 'divinebeasts.vahmedoh.incomplete');
+            addKeyIfFalse(modelJson.complete, 'divinebeasts.vahmedoh.incomplete');
 
             addKeyIfTrue(modelJson.found, 'divinebeasts.vahmedoh.found');
-            addKeyIfTrue(!modelJson.found, 'divinebeasts.vahmedoh.notfound');
+            addKeyIfFalse(modelJson.found, 'divinebeasts.vahmedoh.notfound');
 
             addKeyIfTrue(modelJson.map, 'divinebeasts.vahmedoh.map.obtained');
-            addKeyIfTrue(!modelJson.map, 'divinebeasts.vahmedoh.map.notobtained');
+            addKeyIfFalse(modelJson.map, 'divinebeasts.vahmedoh.map.notobtained');
             
             addKeyIfTrue(modelJson.terminal1, 'divinebeasts.vahmedoh.terminal1.on');
-            addKeyIfTrue(!modelJson.terminal1, 'divinebeasts.vahmedoh.terminal1.off');
+            addKeyIfFalse(modelJson.terminal1, 'divinebeasts.vahmedoh.terminal1.off');
             
             addKeyIfTrue(modelJson.terminal2, 'divinebeasts.vahmedoh.terminal2.on');
-            addKeyIfTrue(!modelJson.terminal2, 'divinebeasts.vahmedoh.terminal2.off');
+            addKeyIfFalse(modelJson.terminal2, 'divinebeasts.vahmedoh.terminal2.off');
             
             addKeyIfTrue(modelJson.terminal3, 'divinebeasts.vahmedoh.terminal3.on');
-            addKeyIfTrue(!modelJson.terminal3, 'divinebeasts.vahmedoh.terminal3.off');
+            addKeyIfFalse(modelJson.terminal3, 'divinebeasts.vahmedoh.terminal3.off');
             
             addKeyIfTrue(modelJson.terminal4, 'divinebeasts.vahmedoh.terminal4.on');
-            addKeyIfTrue(!modelJson.terminal4, 'divinebeasts.vahmedoh.terminal4.off');
+            addKeyIfFalse(modelJson.terminal4, 'divinebeasts.vahmedoh.terminal4.off');
             
             addKeyIfTrue(modelJson.terminal5, 'divinebeasts.vahmedoh.terminal5.on');
-            addKeyIfTrue(!modelJson.terminal5, 'divinebeasts.vahmedoh.terminal5.off');
+            addKeyIfFalse(modelJson.terminal5, 'divinebeasts.vahmedoh.terminal5.off');
 
             addKeyIfTrue(modelJson.heartcontaineravailable, 'divinebeasts.vahmedoh.heartcontainer.available');
-            addKeyIfTrue(!modelJson.heartcontaineravailable, 'divinebeasts.vahmedoh.heartcontainer.notavailable');
+            addKeyIfFalse(modelJson.heartcontaineravailable, 'divinebeasts.vahmedoh.heartcontainer.notavailable');
 
             addKeyIfTrue(modelJson.heartcontainertaken, 'divinebeasts.vahmedoh.heartcontainer.taken');
-            addKeyIfTrue(!modelJson.heartcontainertaken, 'divinebeasts.vahmedoh.heartcontainer.nottaken');
+            addKeyIfFalse(modelJson.heartcontainertaken, 'divinebeasts.vahmedoh.heartcontainer.nottaken');
 
             return writeChanges(keys);
         }

@@ -77,38 +77,44 @@ module.exports = (() => {
                 }
             };
 
+            const addKeyIfFalse = (val, key) => {
+                if (val === false) {
+                    keys.push(key);
+                }
+            };
+
             addKeyIfTrue(modelJson.enabled, `runes.selected=${modelJson.selectedIndex}`);
-            addKeyIfTrue(!modelJson.enabled, 'runes.alldisabled');
+            addKeyIfFalse(modelJson.enabled, 'runes.alldisabled');
 
             addKeyIfTrue(modelJson.bombs.enabled, 'runes.bombs.enabled');
-            addKeyIfTrue(!modelJson.bombs.enabled, 'runes.bombs.disabled');
+            addKeyIfFalse(modelJson.bombs.enabled, 'runes.bombs.disabled');
 
             addKeyIfTrue(modelJson.bombs.plus, 'runes.bombs.plus.enabled');
-            addKeyIfTrue(!modelJson.bombs.plus, 'runes.bombs.plus.disabled');
+            addKeyIfFalse(modelJson.bombs.plus, 'runes.bombs.plus.disabled');
 
             addKeyIfTrue(modelJson.stasis.enabled, 'runes.stasis.enabled');
-            addKeyIfTrue(!modelJson.stasis.enabled, 'runes.stasis.disabled');
+            addKeyIfFalse(modelJson.stasis.enabled, 'runes.stasis.disabled');
 
             addKeyIfTrue(modelJson.stasis.plus, 'runes.stasis.plus.enabled');
-            addKeyIfTrue(!modelJson.stasis.plus, 'runes.stasis.plus.disabled');
+            addKeyIfFalse(modelJson.stasis.plus, 'runes.stasis.plus.disabled');
 
             addKeyIfTrue(modelJson.sheikahsensor.enabled, 'sheikahslate.sensor.enabled');
-            addKeyIfTrue(!modelJson.sheikahsensor.enabled, 'sheikahslate.sensor.disabled');
+            addKeyIfFalse(modelJson.sheikahsensor.enabled, 'sheikahslate.sensor.disabled');
 
             addKeyIfTrue(modelJson.sheikahsensor.plus, 'sheikahslate.sensor.plus.enabled');
-            addKeyIfTrue(!modelJson.sheikahsensor.plus, 'sheikahslate.sensor.plus.disabled');
+            addKeyIfFalse(modelJson.sheikahsensor.plus, 'sheikahslate.sensor.plus.disabled');
 
             addKeyIfTrue(modelJson.magnesis.enabled, 'runes.magnesis.enabled');
-            addKeyIfTrue(!modelJson.magnesis.enabled, 'runes.magnesis.disabled');
+            addKeyIfFalse(modelJson.magnesis.enabled, 'runes.magnesis.disabled');
 
             addKeyIfTrue(modelJson.cryonis.enabled, 'runes.cryonis.enabled');
-            addKeyIfTrue(!modelJson.cryonis.enabled, 'runes.cryonis.disabled');
+            addKeyIfFalse(modelJson.cryonis.enabled, 'runes.cryonis.disabled');
 
             addKeyIfTrue(modelJson.camera.enabled, 'runes.camera.enabled');
-            addKeyIfTrue(!modelJson.camera.enabled, 'runes.camera.disabled');
+            addKeyIfFalse(modelJson.camera.enabled, 'runes.camera.disabled');
             
             addKeyIfTrue(modelJson.mastercyclezero.enabled, 'runes.mastercyclezero.enabled');
-            addKeyIfTrue(!modelJson.mastercyclezero.enabled, 'runes.mastercyclezero.disabled');
+            addKeyIfFalse(modelJson.mastercyclezero.enabled, 'runes.mastercyclezero.disabled');
 
             return writeChanges(keys);
         }

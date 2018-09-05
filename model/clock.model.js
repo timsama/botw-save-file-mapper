@@ -53,8 +53,14 @@ module.exports = (() => {
                 }
             };
 
+            const addKeyIfFalse = (val, key) => {
+                if (val === false) {
+                    keys.push(key);
+                }
+            };
+
             addKeyIfTrue(modelJson.bloodmoon.tonight, 'bloodmoon.tonight.set');
-            addKeyIfTrue(!modelJson.bloodmoon.tonight, 'bloodmoon.tonight.unset');
+            addKeyIfFalse(modelJson.bloodmoon.tonight, 'bloodmoon.tonight.unset');
 
             return writeChanges(keys);
         }

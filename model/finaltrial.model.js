@@ -55,23 +55,29 @@ module.exports = (() => {
                 }
             };
 
+            const addKeyIfFalse = (val, key) => {
+                if (val === false) {
+                    keys.push(key);
+                }
+            };
+
             addKeyIfTrue(modelJson.complete, 'divinebeasts.finaltrial.complete');
-            addKeyIfTrue(!modelJson.complete, 'divinebeasts.finaltrial.incomplete');
+            addKeyIfFalse(modelJson.complete, 'divinebeasts.finaltrial.incomplete');
 
             addKeyIfTrue(modelJson.map, 'divinebeasts.finaltrial.map.obtained');
-            addKeyIfTrue(!modelJson.map, 'divinebeasts.finaltrial.map.notobtained');
+            addKeyIfFalse(modelJson.map, 'divinebeasts.finaltrial.map.notobtained');
             
             addKeyIfTrue(modelJson.terminal1, 'divinebeasts.finaltrial.terminal1.on');
-            addKeyIfTrue(!modelJson.terminal1, 'divinebeasts.finaltrial.terminal1.off');
+            addKeyIfFalse(modelJson.terminal1, 'divinebeasts.finaltrial.terminal1.off');
             
             addKeyIfTrue(modelJson.terminal2, 'divinebeasts.finaltrial.terminal2.on');
-            addKeyIfTrue(!modelJson.terminal2, 'divinebeasts.finaltrial.terminal2.off');
+            addKeyIfFalse(modelJson.terminal2, 'divinebeasts.finaltrial.terminal2.off');
             
             addKeyIfTrue(modelJson.terminal3, 'divinebeasts.finaltrial.terminal3.on');
-            addKeyIfTrue(!modelJson.terminal3, 'divinebeasts.finaltrial.terminal3.off');
+            addKeyIfFalse(modelJson.terminal3, 'divinebeasts.finaltrial.terminal3.off');
             
             addKeyIfTrue(modelJson.terminal4, 'divinebeasts.finaltrial.terminal4.on');
-            addKeyIfTrue(!modelJson.terminal4, 'divinebeasts.finaltrial.terminal4.off');
+            addKeyIfFalse(modelJson.terminal4, 'divinebeasts.finaltrial.terminal4.off');
 
             return writeChanges(keys);
         }

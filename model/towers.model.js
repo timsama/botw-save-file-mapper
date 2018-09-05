@@ -57,8 +57,14 @@ module.exports = (() => {
                 }
             };
 
+            const addKeyIfFalse = (val, key) => {
+                if (val === false) {
+                    keys.push(key);
+                }
+            };
+
             addKeyIfTrue(modelJson.all.unearthed, 'towers.all.unearthed');
-            addKeyIfTrue(!modelJson.all.unearthed, 'towers.all.buried');
+            addKeyIfFalse(modelJson.all.unearthed, 'towers.all.buried');
 
             return writeChanges(keys)
                 .then(() => Tower.write('akkala', modelJson.akkala, saveFile, effectMapPath))

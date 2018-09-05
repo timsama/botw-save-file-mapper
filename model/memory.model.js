@@ -23,8 +23,14 @@ module.exports = (() => {
                 }
             };
 
+            const addKeyIfFalse = (val, key) => {
+                if (val === false) {
+                    keys.push(key);
+                }
+            };
+
             addKeyIfTrue(modelJson.remembered, `memories.${name}.remembered`);
-            addKeyIfTrue(!modelJson.remembered, `memories.${name}.forgotten`);
+            addKeyIfFalse(modelJson.remembered, `memories.${name}.forgotten`);
 
             return changeWriter(keys);
         }
