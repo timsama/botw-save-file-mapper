@@ -90,25 +90,29 @@ module.exports = (() => {
             }
         })();
 
-        const slotEntries = writeableItems.map((item, slotInCategory) => {
-            const slot = firstAvailableSlot + slotInCategory;
-            return {
-                slot: slot,
-                entries: item.entries
-            };
-        });
-
-        const secondaryEntries = realItems.map((item, slotInCategory) => {
-            const slot = firstAvailableSlot + slotInCategory;
-            return func(item, slot, slotInCategory);
-        }).reduce((acc, next) => {
-            return acc.concat(next);
-        }, []);
-
-        return batchSetItemSlots(slotEntries, saveFile).then(nextAvailableSlot => {
-            return batchOffsetSetter(secondaryEntries, saveFile).then(() => {
-                return nextAvailableSlot;
+        if (writeableItems.length === 0) {
+            return Promise.resolve(firstAvailableSlot);
+        } else {
+            const slotEntries = writeableItems.map((item, slotInCategory) => {
+                const slot = firstAvailableSlot + slotInCategory;
+                return {
+                    slot: slot,
+                    entries: item.entries
+                };
             });
-        });
+
+            const secondaryEntries = realItems.map((item, slotInCategory) => {
+                const slot = firstAvailableSlot + slotInCategory;
+                return func(item, slot, slotInCategory);
+            }).reduce((acc, next) => {
+                return acc.concat(next);
+            }, []);
+
+            return batchSetItemSlots(slotEntries, saveFile).then(nextAvailableSlot => {
+                return batchOffsetSetter(secondaryEntries, saveFile).then(() => {
+                    return nextAvailableSlot;
+                });
+            });
+        }
     };
 })();

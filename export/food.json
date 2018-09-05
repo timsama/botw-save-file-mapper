@@ -1405,6 +1405,26 @@
     ],
     "stackable": false
   },
+  "hardboiledegg": {
+    "entries": [
+      {
+        "offset": 0,
+        "value": 1232364909
+      },
+      {
+        "offset": 8,
+        "value": 1598189417
+      },
+      {
+        "offset": 16,
+        "value": 1818584159
+      },
+      {
+        "offset": 24,
+        "value": 808517632
+      }
+    ]
+  },
   "herbsaute": {
     "entries": [
       {

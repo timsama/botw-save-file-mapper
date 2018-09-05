@@ -2814,7 +2814,7 @@
     ]
   },
   "zorasword": {
-    "durability": 2700,
+    "durability": 2900,
     "entries": [
       {
         "offset": 0,
@@ -2830,7 +2830,7 @@
       },
       {
         "offset": 24,
-        "value": 1596994867
+        "value": 1596994103
       }
     ]
   }
