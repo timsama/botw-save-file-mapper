@@ -48,11 +48,36 @@ module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffs
             const results = recursiveSearcher.search(allChangesToApply, allChangesToUnapply, queryFunc, (a) => a);
 
             const mightSaveAsVariableReasons = [];
-            if (!nonVariable && (knownValue !== undefined || knownPreviousValue !== undefined)) {
+            if (!nonVariable && (knownValue !== undefined && knownValue !== 1 || knownPreviousValue !== undefined)) {
                 mightSaveAsVariableReasons.push('You searched for a known value.');
             }
 
-            resultExporter(results, newName || name, mightSaveAsVariableReasons, false, undefined, saveQuery, knownDependencies, skipLogging, appendToExisting);
+            // handling booleans for test-ones
+            const finalName = newName || name;
+            const [lastPartOfName] = finalName.split('.').reverse();
+            if (lastPartOfName === 'set' && knownValue === 1) {
+                const setResults = results.map(result => {
+                    return {
+                        offset: result.offset,
+                        value: true
+                    };
+                });
+                const unsetResults = results.map(result => {
+                    return {
+                        offset: result.offset,
+                        value: false
+                    };
+                });
+                const unsetName = finalName.split('.').slice(0, -1).concat('unset').join('.');
+                
+                const shouldSaveResult = query('Would you like to export this result?');
+                const saveQueryOverride = () => shouldSaveResult;
+
+                resultExporter(setResults, finalName, [], false, undefined, saveQueryOverride, knownDependencies, true, appendToExisting);
+                resultExporter(unsetResults, unsetName, [], false, undefined, saveQueryOverride, knownDependencies, true, appendToExisting);
+            } else {
+                resultExporter(results, newName || name, mightSaveAsVariableReasons, false, undefined, saveQuery, knownDependencies, skipLogging, appendToExisting);
+            }
 
             return results;
         });

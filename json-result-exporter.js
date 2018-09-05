@@ -55,10 +55,20 @@ module.exports = (() => {
 
             if (!!knownDependencies && knownDependencies.harddependencies && knownDependencies.harddependencies.length > 0) {
                 finalResult.harddependencies = knownDependencies.harddependencies;
+            } else if (appendToExisting) {
+                const existingDependencies = mapFileUtils.getValueAtKeyPath(effectMap, name.toLowerCase() + '.harddependencies') || [];
+                if (!!existingDependencies) {
+                    finalResult.harddependencies = existingDependencies;
+                }
             }
 
             if (!!knownDependencies && knownDependencies.softdependencies && knownDependencies.softdependencies.length > 0) {
                 finalResult.softdependencies = knownDependencies.softdependencies;
+            } else if (appendToExisting) {
+                const existingDependencies = mapFileUtils.getValueAtKeyPath(effectMap, name.toLowerCase() + '.softdependencies') || [];
+                if (!!existingDependencies) {
+                    finalResult.softdependencies = existingDependencies;
+                }
             }
 
             mapFileUtils.appendOffsetEffects(offsetMap, finalResult.entries, name);
