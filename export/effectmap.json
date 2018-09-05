@@ -11196,7 +11196,8 @@
         "softdependencies": [
           "shrines.bareedanaag.notfound",
           "shrines.bareedanaag.inactive",
-          "shrines.bareedanaag.incomplete"
+          "shrines.bareedanaag.incomplete",
+          "shrinequests.theancientritosong.complete.unset"
         ]
       },
       "complete": {
@@ -11602,7 +11603,8 @@
         ],
         "softdependencies": [
           "shrines.daagchokah.inactive",
-          "shrines.daagchokah.incomplete"
+          "shrines.daagchokah.incomplete",
+          "shrinequests.thelostpilgrimage.complete.unset"
         ]
       },
       "pedestal": {
@@ -14535,7 +14537,8 @@
         "softdependencies": [
           "shrines.kahyah.notfound",
           "shrines.kahyah.inactive",
-          "shrines.kahyah.incomplete"
+          "shrines.kahyah.incomplete",
+          "shrinequests.afragmentedmonument.complete.unset"
         ]
       },
       "complete": {
@@ -15453,7 +15456,8 @@
         "softdependencies": [
           "shrines.kayramah.notfound",
           "shrines.kayramah.inactive",
-          "shrines.kayramah.incomplete"
+          "shrines.kayramah.incomplete",
+          "shrinequests.abrothersroast.complete.unset"
         ]
       },
       "complete": {
@@ -17105,7 +17109,7 @@
           "shrines.kuhnsidajj.notfound",
           "shrines.kuhnsidajj.inactive",
           "shrines.kuhnsidajj.incomplete",
-          "shrinequests.trialofsecondsight.complete.set"
+          "shrinequests.trialofsecondsight.complete.unset"
         ]
       },
       "complete": {
@@ -17346,7 +17350,7 @@
           "shrines.laknarokee.notfound",
           "shrines.laknarokee.inactive",
           "shrines.laknarokee.incomplete",
-          "shrinequests.thestolenheirloom.complete.set"
+          "shrinequests.thestolenheirloom.complete.unset"
         ]
       },
       "complete": {
@@ -18028,7 +18032,7 @@
           "shrines.mezzalo.notfound",
           "shrines.mezzalo.inactive",
           "shrines.mezzalo.incomplete",
-          "shrinequests.thecrownedbeast.complete.set"
+          "shrinequests.thecrownedbeast.complete.unset"
         ]
       },
       "complete": {
@@ -19941,7 +19945,7 @@
         "softdependencies": [
           "shrines.qazatokki.incomplete",
           "shrines.qazatokki.pedestal.off",
-          "shrinequests.trialonthecliff.complete.set"
+          "shrinequests.trialonthecliff.complete.unset"
         ]
       },
       "incomplete": {
