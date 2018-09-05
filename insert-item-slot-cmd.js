@@ -8,7 +8,7 @@ const objUtils = require('./obj-utils.js');
 const saveFileUtils = require('./save-file-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
 const slotInfo = require('./slot-info.js');
-const foodduration = require('./encoders_decoders/foodduration.js');
+const FloatSeconds = require('./encoders_decoders/floatseconds.js');
 const float28 = require('./encoders_decoders/float28.js');
 
 const slot = parseInt(process.argv[3]);
@@ -209,9 +209,9 @@ if (!!categoryFilename) {
                     }
                 }
                 if (actualBonusType !== 'NONE' && !bonusDuration) {
-                    offsetSetter(base.bonus.duration, foodduration.encode('03:00'), saveFile);
+                    offsetSetter(base.bonus.duration, FloatSeconds.encode('03:00'), saveFile);
                 } else if (!!bonusDuration && base.bonus.duration) {
-                    offsetSetter(base.bonus.duration, foodduration.encode(bonusDuration || '00:00'), saveFile);
+                    offsetSetter(base.bonus.duration, FloatSeconds.encode(bonusDuration || '00:00'), saveFile);
                 }
                 if (actualBonusType === 'NONE' && category !== 'arrows' && category !== 'armor') {
                     offsetSetter(base.bonus.amount, 0, saveFile);
