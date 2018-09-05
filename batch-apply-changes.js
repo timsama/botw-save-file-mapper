@@ -62,6 +62,16 @@ module.exports = (saveFileOverride) => {
                                 offset: entry.offset,
                                 value: float28.encode(value)
                             };
+                        } else if (entry.value === true) {
+                            return {
+                                offset: entry.offset,
+                                value: 1
+                            };
+                        } else if (entry.value === false) {
+                            return {
+                                offset: entry.offset,
+                                value: 0
+                            };
                         } else {
                             return entry;
                         }

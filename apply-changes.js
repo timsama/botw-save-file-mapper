@@ -63,6 +63,10 @@ module.exports = (saveFileOverride, isAsync) => {
                                     writeToOffset(entry.offset, value);
                                 } else if (entry.value === 'float') {
                                     writeToOffset(entry.offset, float28.encode(value));
+                                } else if (entry.value === true) {
+                                    writeToOffset(entry.offset, 1);
+                                } else if (entry.value === false) {
+                                    writeToOffset(entry.offset, 0);
                                 } else {
                                     writeToOffset(entry.offset, entry.value);
                                 }

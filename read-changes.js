@@ -57,6 +57,16 @@ module.exports = (saveFileOverride) => {
 
                         const variableValuesExist = effect.entries.some(entry => entry.value === 'float' || entry.value === 'integer');
 
+                        const entryGivesExpectedValue = (entry) => {
+                            if (entry.value === true) {
+                                return !!readAtOffset(entry.offset) === true;
+                            } else if (entry.value === false) {
+                                return !!readAtOffset(entry.offset) === false;
+                            } else {
+                                return readAtOffset(entry.offset) == entry.value;
+                            }
+                        }
+
                         if (allHardDepsAreTrue && variableValuesExist) {
                             const result = {
                                 key: name,
@@ -73,7 +83,7 @@ module.exports = (saveFileOverride) => {
                         } else if (allHardDepsAreTrue) {
                             const result = {
                                 key: name,
-                                value: effect.entries.every(entry => readAtOffset(entry.offset) == entry.value)
+                                value: effect.entries.every(entryGivesExpectedValue)
                             };
                             alreadyCheckedChanges[name] = result;
                             return hardDependencies.concat([result]);
