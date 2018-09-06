@@ -4504,6 +4504,12 @@
                   "offset": 912984,
                   "value": false
                 }
+              ],
+              "consumes": [
+                {
+                  "category": "keyitems",
+                  "name": "thunderhelm"
+                }
               ]
             }
           }
@@ -4592,6 +4598,12 @@
           ],
           "harddependencies": [
             "mainquests.divinebeastvahnaboris.complete.unset"
+          ],
+          "rewards": [
+            {
+              "category": "keyitems",
+              "name": "thunderhelm"
+            }
           ],
           "softdependencies": [
             "memories.urbosashand.forgotten",
