@@ -70,7 +70,7 @@ module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffs
                 });
                 const unsetName = finalName.split('.').slice(0, -1).concat('unset').join('.');
                 
-                const shouldSaveResult = query('Would you like to export this result?');
+                const shouldSaveResult = results.length > 0 &&  query('Would you like to export this result?');
                 const saveQueryOverride = () => shouldSaveResult;
 
                 resultExporter(setResults, finalName, [], false, undefined, saveQueryOverride, knownDependencies, true, appendToExisting);
