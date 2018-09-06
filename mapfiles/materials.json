@@ -13,7 +13,8 @@
         "offset": 16,
         "value": 1769234251
       }
-    ]
+    ],
+    "stackable": true
   },
   "amber": {
     "entries": [
@@ -29,7 +30,8 @@
         "offset": 16,
         "value": 1598423040
       }
-    ]
+    ],
+    "stackable": true
   },
   "ancientcore": {
     "entries": [
@@ -49,7 +51,8 @@
         "offset": 24,
         "value": 805306368
       }
-    ]
+    ],
+    "stackable": true
   },
   "ancientgear": {
     "entries": [
@@ -69,7 +72,8 @@
         "offset": 24,
         "value": 905969664
       }
-    ]
+    ],
+    "stackable": true
   },
   "ancientscrew": {
     "entries": [
@@ -89,7 +93,8 @@
         "offset": 24,
         "value": 922746880
       }
-    ]
+    ],
+    "stackable": true
   },
   "ancientshaft": {
     "entries": [
@@ -109,7 +114,8 @@
         "offset": 24,
         "value": 956301312
       }
-    ]
+    ],
+    "stackable": true
   },
   "ancientspring": {
     "entries": [
@@ -129,7 +135,8 @@
         "offset": 24,
         "value": 939524096
       }
-    ]
+    ],
+    "stackable": true
   },
   "apple": {
     "entries": [
@@ -145,7 +152,8 @@
         "offset": 16,
         "value": 1769234241
       }
-    ]
+    ],
+    "stackable": true
   },
   "armoranth": {
     "entries": [
@@ -165,7 +173,8 @@
         "offset": 24,
         "value": 1952401408
       }
-    ]
+    ],
+    "stackable": true
   },
   "armoredcarp": {
     "entries": [
@@ -185,7 +194,8 @@
         "offset": 24,
         "value": 1598554112
       }
-    ]
+    ],
+    "stackable": true
   },
   "armoredporgy": {
     "entries": [
@@ -205,7 +215,8 @@
         "offset": 24,
         "value": 1598488576
       }
-    ]
+    ],
+    "stackable": true
   },
   "bigheartyradish": {
     "entries": [
@@ -225,7 +236,8 @@
         "offset": 24,
         "value": 1952400128
       }
-    ]
+    ],
+    "stackable": true
   },
   "bigheartytruffle": {
     "entries": [
@@ -245,7 +257,8 @@
         "offset": 24,
         "value": 1834962432
       }
-    ]
+    ],
+    "stackable": true
   },
   "birdegg": {
     "entries": [
@@ -265,7 +278,8 @@
         "offset": 24,
         "value": 1818177588
       }
-    ]
+    ],
+    "stackable": true
   },
   "bladedrhinobeetle": {
     "entries": [
@@ -285,7 +299,8 @@
         "offset": 24,
         "value": 1952401152
       }
-    ]
+    ],
+    "stackable": true
   },
   "bluenightshade": {
     "entries": [
@@ -305,7 +320,8 @@
         "offset": 24,
         "value": 1952401664
       }
-    ]
+    ],
+    "stackable": true
   },
   "bokoblinfang": {
     "entries": [
@@ -325,7 +341,8 @@
         "offset": 24,
         "value": 822083584
       }
-    ]
+    ],
+    "stackable": true
   },
   "bokoblinguts": {
     "entries": [
@@ -345,7 +362,8 @@
         "offset": 24,
         "value": 838860800
       }
-    ]
+    ],
+    "stackable": true
   },
   "bokoblinhorn": {
     "entries": [
@@ -365,7 +383,8 @@
         "offset": 24,
         "value": 805306368
       }
-    ]
+    ],
+    "stackable": true
   },
   "brighteyedcrab": {
     "entries": [
@@ -385,7 +404,8 @@
         "offset": 24,
         "value": 1702125402
       }
-    ]
+    ],
+    "stackable": true
   },
   "canesugar": {
     "entries": [
@@ -405,7 +425,8 @@
         "offset": 24,
         "value": 1818177585
       }
-    ]
+    ],
+    "stackable": true
   },
   "chickalootreenut": {
     "entries": [
@@ -421,7 +442,8 @@
         "offset": 16,
         "value": 1769234252
       }
-    ]
+    ],
+    "stackable": true
   },
   "chillfintrout": {
     "entries": [
@@ -441,7 +463,8 @@
         "offset": 24,
         "value": 1598226432
       }
-    ]
+    ],
+    "stackable": true
   },
   "chillshroom": {
     "entries": [
@@ -461,7 +484,8 @@
         "offset": 24,
         "value": 1834959360
       }
-    ]
+    ],
+    "stackable": true
   },
   "chuchujelly": {
     "entries": [
@@ -481,7 +505,8 @@
         "offset": 24,
         "value": 805306368
       }
-    ]
+    ],
+    "stackable": true
   },
   "colddarner": {
     "entries": [
@@ -501,7 +526,8 @@
         "offset": 24,
         "value": 1952400128
       }
-    ]
+    ],
+    "stackable": true
   },
   "coolsafflina": {
     "entries": [
@@ -521,7 +547,8 @@
         "offset": 24,
         "value": 1952400640
       }
-    ]
+    ],
+    "stackable": true
   },
   "courserbeehoney": {
     "entries": [
@@ -533,7 +560,8 @@
         "offset": 8,
         "value": 1869440256
       }
-    ]
+    ],
+    "stackable": true
   },
   "diamond": {
     "entries": [
@@ -549,7 +577,8 @@
         "offset": 16,
         "value": 1598095360
       }
-    ]
+    ],
+    "stackable": true
   },
   "dinraalsclaw": {
     "entries": [
@@ -569,7 +598,8 @@
         "offset": 24,
         "value": 956301312
       }
-    ]
+    ],
+    "stackable": true
   },
   "dinraalsfang": {
     "entries": [
@@ -589,7 +619,8 @@
         "offset": 24,
         "value": 922746880
       }
-    ]
+    ],
+    "stackable": true
   },
   "dinraalshorn": {
     "entries": [
@@ -609,7 +640,8 @@
         "offset": 24,
         "value": 939524096
       }
-    ]
+    ],
+    "stackable": true
   },
   "dinraalsscale": {
     "entries": [
@@ -629,7 +661,8 @@
         "offset": 24,
         "value": 939524096
       }
-    ]
+    ],
+    "stackable": true
   },
   "electricdarner": {
     "entries": [
@@ -649,7 +682,8 @@
         "offset": 24,
         "value": 1952401664
       }
-    ]
+    ],
+    "stackable": true
   },
   "electrickeesewing": {
     "entries": [
@@ -669,7 +703,8 @@
         "offset": 24,
         "value": 889192448
       }
-    ]
+    ],
+    "stackable": true
   },
   "electricsafflina": {
     "entries": [
@@ -689,7 +724,8 @@
         "offset": 24,
         "value": 1952402432
       }
-    ]
+    ],
+    "stackable": true
   },
   "enduracarrot": {
     "entries": [
@@ -709,7 +745,8 @@
         "offset": 24,
         "value": 1952403712
       }
-    ]
+    ],
+    "stackable": true
   },
   "endurashroom": {
     "entries": [
@@ -729,7 +766,8 @@
         "offset": 24,
         "value": 1834962688
       }
-    ]
+    ],
+    "stackable": true
   },
   "energeticrhinobeetle": {
     "entries": [
@@ -749,7 +787,8 @@
         "offset": 24,
         "value": 1952399681
       }
-    ]
+    ],
+    "stackable": true
   },
   "fairy": {
     "entries": [
@@ -769,7 +808,8 @@
         "offset": 24,
         "value": 1952400896
       }
-    ]
+    ],
+    "stackable": true
   },
   "faroshsclaw": {
     "entries": [
@@ -789,7 +829,8 @@
         "offset": 24,
         "value": 872415232
       }
-    ]
+    ],
+    "stackable": true
   },
   "faroshsfang": {
     "entries": [
@@ -809,7 +850,8 @@
         "offset": 24,
         "value": 889192448
       }
-    ]
+    ],
+    "stackable": true
   },
   "faroshshorn": {
     "entries": [
@@ -829,7 +871,8 @@
         "offset": 24,
         "value": 905969664
       }
-    ]
+    ],
+    "stackable": true
   },
   "faroshsscale": {
     "entries": [
@@ -849,7 +892,8 @@
         "offset": 24,
         "value": 855638016
       }
-    ]
+    ],
+    "stackable": true
   },
   "firekeesewing": {
     "entries": [
@@ -869,7 +913,8 @@
         "offset": 24,
         "value": 872415232
       }
-    ]
+    ],
+    "stackable": true
   },
   "fireprooflizard": {
     "entries": [
@@ -889,7 +934,8 @@
         "offset": 24,
         "value": 1952405504
       }
-    ]
+    ],
+    "stackable": true
   },
   "fleetlotusseeds": {
     "entries": [
@@ -905,7 +951,8 @@
         "offset": 16,
         "value": 1769234245
       }
-    ]
+    ],
+    "stackable": true
   },
   "flint": {
     "entries": [
@@ -921,7 +968,8 @@
         "offset": 16,
         "value": 1598619648
       }
-    ]
+    ],
+    "stackable": true
   },
   "fortifiedpumpkin": {
     "entries": [
@@ -937,7 +985,8 @@
         "offset": 16,
         "value": 1769234250
       }
-    ]
+    ],
+    "stackable": true
   },
   "freshmilk": {
     "entries": [
@@ -957,7 +1006,8 @@
         "offset": 24,
         "value": 1818177589
       }
-    ]
+    ],
+    "stackable": true
   },
   "giantancientcore": {
     "entries": [
@@ -977,7 +1027,8 @@
         "offset": 24,
         "value": 822083584
       }
-    ]
+    ],
+    "stackable": true
   },
   "goatbutter": {
     "entries": [
@@ -997,7 +1048,8 @@
         "offset": 24,
         "value": 1818177590
       }
-    ]
+    ],
+    "stackable": true
   },
   "goronspice": {
     "entries": [
@@ -1017,7 +1069,8 @@
         "offset": 24,
         "value": 1818177586
       }
-    ]
+    ],
+    "stackable": true
   },
   "hardboiledegg": {
     "entries": [
@@ -1037,7 +1090,8 @@
         "offset": 24,
         "value": 808517632
       }
-    ]
+    ],
+    "stackable": true
   },
   "heartybass": {
     "entries": [
@@ -1057,7 +1111,8 @@
         "offset": 24,
         "value": 1598160896
       }
-    ]
+    ],
+    "stackable": true
   },
   "heartyblueshellsnail": {
     "entries": [
@@ -1077,7 +1132,8 @@
         "offset": 24,
         "value": 1598750720
       }
-    ]
+    ],
+    "stackable": true
   },
   "heartydurian": {
     "entries": [
@@ -1093,7 +1149,8 @@
         "offset": 16,
         "value": 1769234244
       }
-    ]
+    ],
+    "stackable": true
   },
   "heartylizard": {
     "entries": [
@@ -1113,7 +1170,8 @@
         "offset": 24,
         "value": 1952402688
       }
-    ]
+    ],
+    "stackable": true
   },
   "heartyradish": {
     "entries": [
@@ -1133,7 +1191,8 @@
         "offset": 24,
         "value": 1952399872
       }
-    ]
+    ],
+    "stackable": true
   },
   "heartysalmon": {
     "entries": [
@@ -1153,7 +1212,8 @@
         "offset": 24,
         "value": 1598619648
       }
-    ]
+    ],
+    "stackable": true
   },
   "heartytruffle": {
     "entries": [
@@ -1173,7 +1233,8 @@
         "offset": 24,
         "value": 1834960384
       }
-    ]
+    ],
+    "stackable": true
   },
   "hightaillizard": {
     "entries": [
@@ -1193,7 +1254,8 @@
         "offset": 24,
         "value": 1952404224
       }
-    ]
+    ],
+    "stackable": true
   },
   "hinoxguts": {
     "entries": [
@@ -1213,7 +1275,8 @@
         "offset": 24,
         "value": 872415232
       }
-    ]
+    ],
+    "stackable": true
   },
   "hinoxtoenail": {
     "entries": [
@@ -1233,7 +1296,8 @@
         "offset": 24,
         "value": 838860800
       }
-    ]
+    ],
+    "stackable": true
   },
   "hinoxtooth": {
     "entries": [
@@ -1253,7 +1317,8 @@
         "offset": 24,
         "value": 855638016
       }
-    ]
+    ],
+    "stackable": true
   },
   "hotfootedfrog": {
     "entries": [
@@ -1273,7 +1338,8 @@
         "offset": 24,
         "value": 1952399616
       }
-    ]
+    ],
+    "stackable": true
   },
   "hydromelon": {
     "entries": [
@@ -1289,7 +1355,8 @@
         "offset": 16,
         "value": 1769234246
       }
-    ]
+    ],
+    "stackable": true
   },
   "hylianrice": {
     "entries": [
@@ -1309,7 +1376,8 @@
         "offset": 24,
         "value": 1818177587
       }
-    ]
+    ],
+    "stackable": true
   },
   "hylianshroom": {
     "entries": [
@@ -1329,7 +1397,8 @@
         "offset": 24,
         "value": 1834960128
       }
-    ]
+    ],
+    "stackable": true
   },
   "hyrulebass": {
     "entries": [
@@ -1349,7 +1418,8 @@
         "offset": 24,
         "value": 1598095360
       }
-    ]
+    ],
+    "stackable": true
   },
   "hyruleherb": {
     "entries": [
@@ -1369,7 +1439,8 @@
         "offset": 24,
         "value": 1952399616
       }
-    ]
+    ],
+    "stackable": true
   },
   "icekeesewing": {
     "entries": [
@@ -1389,7 +1460,8 @@
         "offset": 24,
         "value": 905969664
       }
-    ]
+    ],
+    "stackable": true
   },
   "icylizalfostail": {
     "entries": [
@@ -1409,7 +1481,8 @@
         "offset": 24,
         "value": 838860800
       }
-    ]
+    ],
+    "stackable": true
   },
   "ironshellcrab": {
     "entries": [
@@ -1429,7 +1502,8 @@
         "offset": 24,
         "value": 1702125391
       }
-    ]
+    ],
+    "stackable": true
   },
   "ironshroom": {
     "entries": [
@@ -1449,7 +1523,8 @@
         "offset": 24,
         "value": 1834962176
       }
-    ]
+    ],
+    "stackable": true
   },
   "keeseeyeball": {
     "entries": [
@@ -1469,7 +1544,8 @@
         "offset": 24,
         "value": 956301312
       }
-    ]
+    ],
+    "stackable": true
   },
   "keesewing": {
     "entries": [
@@ -1489,7 +1565,8 @@
         "offset": 24,
         "value": 939524096
       }
-    ]
+    ],
+    "stackable": true
   },
   "lizalfoshorn": {
     "entries": [
@@ -1509,7 +1586,8 @@
         "offset": 24,
         "value": 855638016
       }
-    ]
+    ],
+    "stackable": true
   },
   "lizalfostail": {
     "entries": [
@@ -1529,7 +1607,8 @@
         "offset": 24,
         "value": 889192448
       }
-    ]
+    ],
+    "stackable": true
   },
   "lizalfostalon": {
     "entries": [
@@ -1549,7 +1628,8 @@
         "offset": 24,
         "value": 872415232
       }
-    ]
+    ],
+    "stackable": true
   },
   "luminousstone": {
     "entries": [
@@ -1565,7 +1645,8 @@
         "offset": 16,
         "value": 1598488576
       }
-    ]
+    ],
+    "stackable": true
   },
   "lynelguts": {
     "entries": [
@@ -1585,7 +1666,8 @@
         "offset": 24,
         "value": 872415232
       }
-    ]
+    ],
+    "stackable": true
   },
   "lynelhoof": {
     "entries": [
@@ -1605,7 +1687,8 @@
         "offset": 24,
         "value": 855638016
       }
-    ]
+    ],
+    "stackable": true
   },
   "lynelhorn": {
     "entries": [
@@ -1625,7 +1708,8 @@
         "offset": 24,
         "value": 838860800
       }
-    ]
+    ],
+    "stackable": true
   },
   "mightybananas": {
     "entries": [
@@ -1641,7 +1725,8 @@
         "offset": 16,
         "value": 1769234248
       }
-    ]
+    ],
+    "stackable": true
   },
   "mightycarp": {
     "entries": [
@@ -1661,7 +1746,8 @@
         "offset": 24,
         "value": 1598357504
       }
-    ]
+    ],
+    "stackable": true
   },
   "mightyporgy": {
     "entries": [
@@ -1681,7 +1767,8 @@
         "offset": 24,
         "value": 1598423040
       }
-    ]
+    ],
+    "stackable": true
   },
   "mightythistle": {
     "entries": [
@@ -1701,7 +1788,8 @@
         "offset": 24,
         "value": 1952401152
       }
-    ]
+    ],
+    "stackable": true
   },
   "moblinfang": {
     "entries": [
@@ -1721,7 +1809,8 @@
         "offset": 24,
         "value": 922746880
       }
-    ]
+    ],
+    "stackable": true
   },
   "moblinguts": {
     "entries": [
@@ -1741,7 +1830,8 @@
         "offset": 24,
         "value": 939524096
       }
-    ]
+    ],
+    "stackable": true
   },
   "moblinhorn": {
     "entries": [
@@ -1761,7 +1851,8 @@
         "offset": 24,
         "value": 905969664
       }
-    ]
+    ],
+    "stackable": true
   },
   "moldugafin": {
     "entries": [
@@ -1781,7 +1872,8 @@
         "offset": 24,
         "value": 872415232
       }
-    ]
+    ],
+    "stackable": true
   },
   "moldugaguts": {
     "entries": [
@@ -1801,7 +1893,8 @@
         "offset": 24,
         "value": 889192448
       }
-    ]
+    ],
+    "stackable": true
   },
   "monsterextract": {
     "entries": [
@@ -1821,7 +1914,8 @@
         "offset": 24,
         "value": 1818177592
       }
-    ]
+    ],
+    "stackable": true
   },
   "naydrasclaw": {
     "entries": [
@@ -1841,7 +1935,8 @@
         "offset": 24,
         "value": 805306368
       }
-    ]
+    ],
+    "stackable": true
   },
   "naydrasfang": {
     "entries": [
@@ -1861,7 +1956,8 @@
         "offset": 24,
         "value": 822083584
       }
-    ]
+    ],
+    "stackable": true
   },
   "naydrashorn": {
     "entries": [
@@ -1881,7 +1977,8 @@
         "offset": 24,
         "value": 838860800
       }
-    ]
+    ],
+    "stackable": true
   },
   "naydrasscale": {
     "entries": [
@@ -1901,7 +1998,8 @@
         "offset": 24,
         "value": 956301312
       }
-    ]
+    ],
+    "stackable": true
   },
   "octoballoon": {
     "entries": [
@@ -1921,7 +2019,8 @@
         "offset": 24,
         "value": 922746880
       }
-    ]
+    ],
+    "stackable": true
   },
   "octorokeyeball": {
     "entries": [
@@ -1941,7 +2040,8 @@
         "offset": 24,
         "value": 822083584
       }
-    ]
+    ],
+    "stackable": true
   },
   "octoroktentacle": {
     "entries": [
@@ -1961,7 +2061,8 @@
         "offset": 24,
         "value": 805306368
       }
-    ]
+    ],
+    "stackable": true
   },
   "opal": {
     "entries": [
@@ -1977,7 +2078,8 @@
         "offset": 16,
         "value": 1598357504
       }
-    ]
+    ],
+    "stackable": true
   },
   "palmfruit": {
     "entries": [
@@ -1993,7 +2095,8 @@
         "offset": 16,
         "value": 1769234247
       }
-    ]
+    ],
+    "stackable": true
   },
   "rawbirddrumstick": {
     "entries": [
@@ -2009,7 +2112,8 @@
         "offset": 16,
         "value": 1952395318
       }
-    ]
+    ],
+    "stackable": true
   },
   "rawbirdthigh": {
     "entries": [
@@ -2025,7 +2129,8 @@
         "offset": 16,
         "value": 1952395319
       }
-    ]
+    ],
+    "stackable": true
   },
   "rawgourmetmeat": {
     "entries": [
@@ -2041,7 +2146,8 @@
         "offset": 16,
         "value": 1952395569
       }
-    ]
+    ],
+    "stackable": true
   },
   "rawmeat": {
     "entries": [
@@ -2057,7 +2163,8 @@
         "offset": 16,
         "value": 1952395313
       }
-    ]
+    ],
+    "stackable": true
   },
   "rawprimemeat": {
     "entries": [
@@ -2073,7 +2180,8 @@
         "offset": 16,
         "value": 1952395314
       }
-    ]
+    ],
+    "stackable": true
   },
   "rawwholebird": {
     "entries": [
@@ -2089,7 +2197,8 @@
         "offset": 16,
         "value": 1952395570
       }
-    ]
+    ],
+    "stackable": true
   },
   "razorclawcrab": {
     "entries": [
@@ -2109,7 +2218,8 @@
         "offset": 24,
         "value": 1702125387
       }
-    ]
+    ],
+    "stackable": true
   },
   "razorshroom": {
     "entries": [
@@ -2129,7 +2239,8 @@
         "offset": 24,
         "value": 1834961920
       }
-    ]
+    ],
+    "stackable": true
   },
   "redchuchujelly": {
     "entries": [
@@ -2149,7 +2260,8 @@
         "offset": 24,
         "value": 889192448
       }
-    ]
+    ],
+    "stackable": true
   },
   "redlizalfostail": {
     "entries": [
@@ -2169,7 +2281,8 @@
         "offset": 24,
         "value": 822083584
       }
-    ]
+    ],
+    "stackable": true
   },
   "restlesscricket": {
     "entries": [
@@ -2189,7 +2302,8 @@
         "offset": 24,
         "value": 1952401408
       }
-    ]
+    ],
+    "stackable": true
   },
   "rocksalt": {
     "entries": [
@@ -2205,7 +2319,8 @@
         "offset": 16,
         "value": 1598554112
       }
-    ]
+    ],
+    "stackable": true
   },
   "ruby": {
     "entries": [
@@ -2221,7 +2336,8 @@
         "offset": 16,
         "value": 1598160896
       }
-    ]
+    ],
+    "stackable": true
   },
   "ruggedrhinobeetle": {
     "entries": [
@@ -2241,7 +2357,8 @@
         "offset": 24,
         "value": 1952403456
       }
-    ]
+    ],
+    "stackable": true
   },
   "rushroom": {
     "entries": [
@@ -2265,7 +2382,8 @@
         "offset": 32,
         "value": 1598291968
       }
-    ]
+    ],
+    "stackable": true
   },
   "rushroom2": {
     "entries": [
@@ -2289,7 +2407,8 @@
         "offset": 32,
         "value": 1598291968
       }
-    ]
+    ],
+    "stackable": true
   },
   "sankecarp": {
     "entries": [
@@ -2309,7 +2428,8 @@
         "offset": 24,
         "value": 1599733760
       }
-    ]
+    ],
+    "stackable": true
   },
   "sapphire": {
     "entries": [
@@ -2325,7 +2445,8 @@
         "offset": 16,
         "value": 1598226432
       }
-    ]
+    ],
+    "stackable": true
   },
   "silentprincess": {
     "entries": [
@@ -2345,7 +2466,8 @@
         "offset": 24,
         "value": 1952401920
       }
-    ]
+    ],
+    "stackable": true
   },
   "silentshroom": {
     "entries": [
@@ -2365,7 +2487,8 @@
         "offset": 24,
         "value": 1834961408
       }
-    ]
+    ],
+    "stackable": true
   },
   "sizzlefintrout": {
     "entries": [
@@ -2385,7 +2508,8 @@
         "offset": 24,
         "value": 1598685184
       }
-    ]
+    ],
+    "stackable": true
   },
   "smotherwingbutterfly": {
     "entries": [
@@ -2405,7 +2529,8 @@
         "offset": 24,
         "value": 1952399682
       }
-    ]
+    ],
+    "stackable": true
   },
   "sneakyriversnail": {
     "entries": [
@@ -2425,7 +2550,8 @@
         "offset": 24,
         "value": 1598881792
       }
-    ]
+    ],
+    "stackable": true
   },
   "spicypepper": {
     "entries": [
@@ -2441,7 +2567,8 @@
         "offset": 16,
         "value": 1769234249
       }
-    ]
+    ],
+    "stackable": true
   },
   "stamellashroom": {
     "entries": [
@@ -2461,7 +2588,8 @@
         "offset": 24,
         "value": 1834959104
       }
-    ]
+    ],
+    "stackable": true
   },
   "staminokabass": {
     "entries": [
@@ -2481,7 +2609,8 @@
         "offset": 24,
         "value": 1598816256
       }
-    ]
+    ],
+    "stackable": true
   },
   "starfragment": {
     "entries": [
@@ -2497,7 +2626,8 @@
         "offset": 16,
         "value": 1598685184
       }
-    ]
+    ],
+    "stackable": true
   },
   "stealthfintrout": {
     "entries": [
@@ -2517,7 +2647,8 @@
         "offset": 24,
         "value": 1599602688
       }
-    ]
+    ],
+    "stackable": true
   },
   "summerwingbutterfly": {
     "entries": [
@@ -2537,7 +2668,8 @@
         "offset": 24,
         "value": 1952403712
       }
-    ]
+    ],
+    "stackable": true
   },
   "sunsetfirefly": {
     "entries": [
@@ -2557,7 +2689,8 @@
         "offset": 24,
         "value": 1952400640
       }
-    ]
+    ],
+    "stackable": true
   },
   "sunshroom": {
     "entries": [
@@ -2577,7 +2710,8 @@
         "offset": 24,
         "value": 1834959616
       }
-    ]
+    ],
+    "stackable": true
   },
   "swiftcarrot": {
     "entries": [
@@ -2597,7 +2731,8 @@
         "offset": 24,
         "value": 1952402688
       }
-    ]
+    ],
+    "stackable": true
   },
   "swiftviolet": {
     "entries": [
@@ -2617,7 +2752,8 @@
         "offset": 24,
         "value": 1952403200
       }
-    ]
+    ],
+    "stackable": true
   },
   "tabanthawheat": {
     "entries": [
@@ -2637,7 +2773,8 @@
         "offset": 24,
         "value": 1818177591
       }
-    ]
+    ],
+    "stackable": true
   },
   "thunderwingbutterfly": {
     "entries": [
@@ -2657,7 +2794,8 @@
         "offset": 24,
         "value": 1952403968
       }
-    ]
+    ],
+    "stackable": true
   },
   "tirelessfrog": {
     "entries": [
@@ -2677,7 +2815,8 @@
         "offset": 24,
         "value": 1952399872
       }
-    ]
+    ],
+    "stackable": true
   },
   "topaz": {
     "entries": [
@@ -2693,7 +2832,8 @@
         "offset": 16,
         "value": 1598291968
       }
-    ]
+    ],
+    "stackable": true
   },
   "voltfintrout": {
     "entries": [
@@ -2713,7 +2853,8 @@
         "offset": 24,
         "value": 1598291968
       }
-    ]
+    ],
+    "stackable": true
   },
   "voltfruit": {
     "entries": [
@@ -2729,7 +2870,8 @@
         "offset": 16,
         "value": 1769234243
       }
-    ]
+    ],
+    "stackable": true
   },
   "warmdarner": {
     "entries": [
@@ -2749,7 +2891,8 @@
         "offset": 24,
         "value": 1952404480
       }
-    ]
+    ],
+    "stackable": true
   },
   "warmsafflina": {
     "entries": [
@@ -2769,7 +2912,8 @@
         "offset": 24,
         "value": 1952400896
       }
-    ]
+    ],
+    "stackable": true
   },
   "whitechuchujelly": {
     "entries": [
@@ -2789,7 +2933,8 @@
         "offset": 24,
         "value": 922746880
       }
-    ]
+    ],
+    "stackable": true
   },
   "wildberry": {
     "entries": [
@@ -2805,7 +2950,8 @@
         "offset": 16,
         "value": 1769234242
       }
-    ]
+    ],
+    "stackable": true
   },
   "winterwingbutterfly": {
     "entries": [
@@ -2825,7 +2971,8 @@
         "offset": 24,
         "value": 1952402944
       }
-    ]
+    ],
+    "stackable": true
   },
   "wood": {
     "entries": [
@@ -2849,7 +2996,8 @@
         "offset": 32,
         "value": 1818558464
       }
-    ]
+    ],
+    "stackable": true
   },
   "yellowchuchujelly": {
     "entries": [
@@ -2869,7 +3017,8 @@
         "offset": 24,
         "value": 905969664
       }
-    ]
+    ],
+    "stackable": true
   },
   "yellowlizalfostail": {
     "entries": [
@@ -2889,7 +3038,8 @@
         "offset": 24,
         "value": 855638016
       }
-    ]
+    ],
+    "stackable": true
   },
   "zapshroom": {
     "entries": [
@@ -2909,6 +3059,7 @@
         "offset": 24,
         "value": 1834960896
       }
-    ]
+    ],
+    "stackable": true
   }
 }
