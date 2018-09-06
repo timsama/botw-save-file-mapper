@@ -2935,15 +2935,7 @@
         "set": {
           "counter": {
             "finish": 0,
-            "rewards": [
-              {
-                "atvalue": 1,
-                "category": "armor",
-                "name": "championstunic"
-              }
-            ],
             "start": 12,
-            "step": "mainquests.capturedmemories.begun",
             "variablekey": "mainquests.capturedmemories.memoriesremaining"
           },
           "entries": [
@@ -2980,7 +2972,38 @@
             "mainquests.capturedmemories.memory9.unset",
             "mainquests.capturedmemories.memory10.unset",
             "mainquests.capturedmemories.memory11.unset",
-            "mainquests.capturedmemories.memory12.unset"
+            "mainquests.capturedmemories.memory12.unset",
+            "mainquests.capturedmemories.championstunictaken.unset"
+          ]
+        }
+      },
+      "championstunictaken": {
+        "set": {
+          "entries": [
+            {
+              "offset": 358448,
+              "value": true
+            }
+          ],
+          "rewards": [
+            {
+              "category": "armor",
+              "name": "championstunic"
+            }
+          ]
+        },
+        "unset": {
+          "entries": [
+            {
+              "offset": 358448,
+              "value": false
+            }
+          ],
+          "consumes": [
+            {
+              "category": "armor",
+              "name": "championstunic"
+            }
           ]
         }
       },
@@ -3046,6 +3069,9 @@
           ],
           "harddependencies": [
             "memories.subduedceremony.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3062,6 +3088,9 @@
           ],
           "harddependencies": [
             "memories.tomountlanayru.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3078,6 +3107,9 @@
           ],
           "harddependencies": [
             "memories.returnofcalamityganon.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3094,6 +3126,9 @@
           ],
           "harddependencies": [
             "memories.despair.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3110,6 +3145,9 @@
           ],
           "harddependencies": [
             "memories.resolveandgrief.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3126,6 +3164,9 @@
           ],
           "harddependencies": [
             "memories.zeldasresentment.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3142,6 +3183,9 @@
           ],
           "harddependencies": [
             "memories.bladesoftheyiga.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3158,6 +3202,9 @@
           ],
           "harddependencies": [
             "memories.apremonition.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3174,6 +3221,9 @@
           ],
           "harddependencies": [
             "memories.silentprincess.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3190,6 +3240,9 @@
           ],
           "harddependencies": [
             "memories.shelterfromthestorm.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3206,6 +3259,9 @@
           ],
           "harddependencies": [
             "memories.fatheranddaughter.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -3222,6 +3278,9 @@
           ],
           "harddependencies": [
             "memories.slumberingpower.remembered"
+          ],
+          "softdependencies": [
+            "mainquests.capturedmemories.championstunictaken.set"
           ]
         },
         "unset": {
@@ -5521,12 +5580,6 @@
               "value": true
             }
           ],
-          "rewards": [
-            {
-              "category": "keyitems",
-              "name": "sheikahslate"
-            }
-          ],
           "softdependencies": [
             "sheikahslate.enabled"
           ]
@@ -5553,6 +5606,12 @@
           ],
           "harddependencies": [
             "mainquests.followthesheikahslate.begun.set"
+          ],
+          "rewards": [
+            {
+              "category": "keyitems",
+              "name": "sheikahslate"
+            }
           ]
         },
         "unset": {
@@ -11985,7 +12044,7 @@
         "rewards": [
           {
             "category": "weapons",
-            "name": "guardianspeard"
+            "name": "guardianspear"
           },
           {
             "category": "materials",
@@ -16738,7 +16797,8 @@
         "rewards": [
           {
             "category": "keyitems",
-            "name": "medohsemblem"
+            "name": "medohsemblem",
+            "quantity": 1
           }
         ],
         "softdependencies": [
@@ -18279,7 +18339,7 @@
             "name": "guardiansword+"
           },
           {
-            "category": "weapons",
+            "category": "shields",
             "name": "guardianshield+"
           },
           {
