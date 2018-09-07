@@ -14,6 +14,18 @@ const inputFilename = (() => {
     }
 })();
 
+
+const isSkipSoftDependencies = entry => entry == 'skip-soft-dependencies';
+const isWithLogging = entry => entry == 'with-logging';
+
+const skipSoftDependencies = process.argv.slice(3).some(isSkipSoftDependencies);
+const withLogging = process.argv.slice(3).some(isWithLogging);
+
+const options = {
+    skipSoftDependencies: skipSoftDependencies,
+    withLogging: withLogging,
+};
+
 const modelJson = MapFileUtils.getFileAsJsonOrEmptyJsObject(`${CONFIG.exportpath}${inputFilename}`);
 
-SaveFile.write(modelJson, saveFile, true);
+SaveFile.write(modelJson, saveFile, options);

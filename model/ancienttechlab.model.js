@@ -10,8 +10,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -29,7 +29,7 @@ module.exports = (() => {
                 found: mapValues[`ancienttechlabs.${name}.found`]
             };
         },
-        write: (name, modelJson, saveFile, effectMapPath) => {
+        write: (name, modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -49,7 +49,7 @@ module.exports = (() => {
             addKeyBranches(modelJson.active, `ancienttechlabs.${name}`, 'active', 'inactive');
             addKeyBranches(modelJson.found, `ancienttechlabs.${name}`, 'found', 'notfound');
 
-            return writeChanges(keys);
+            return writeChanges(keys, options);
         }
     };
 })();

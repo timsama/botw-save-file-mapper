@@ -51,7 +51,7 @@ module.exports = (() => {
 
             return shrineJson;
         },
-        write: (name, modelJson, saveFile, keypathReader, changeWriter) => {
+        write: (name, modelJson, saveFile, keypathReader, changeWriter, options) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -79,7 +79,7 @@ module.exports = (() => {
             hasMonsterBaseEntries && addKeyBranches(modelJson.monsterbaseconquered, `shrines.${name}.monsterbase`, 'conquered', 'unconquered');
             hasUnearthedEntries && addKeyBranches(modelJson.unearthed, `shrines.${name}`, 'unearthed', 'buried');
             
-            return changeWriter(keys);
+            return changeWriter(keys, options);
         }
     };
 })();

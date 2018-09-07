@@ -12,8 +12,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -43,7 +43,7 @@ module.exports = (() => {
                 woodland: Tower.read('woodland', saveFile, effectMapPath)
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -63,21 +63,21 @@ module.exports = (() => {
             modelJson.all && addKeyBranches(modelJson.all.unearthed, 'towers.all', 'unearthed', 'buried');
 
             return writeChanges(keys)
-                .then(() => Tower.write('akkala', modelJson.akkala, saveFile, effectMapPath))
-                .then(() => Tower.write('central', modelJson.central, saveFile, effectMapPath))
-                .then(() => Tower.write('duelingpeaks', modelJson.duelingpeaks, saveFile, effectMapPath))
-                .then(() => Tower.write('eldin', modelJson.eldin, saveFile, effectMapPath))
-                .then(() => Tower.write('faron', modelJson.faron, saveFile, effectMapPath))
-                .then(() => Tower.write('gerudo', modelJson.gerudo, saveFile, effectMapPath))
-                .then(() => Tower.write('greatplateau', modelJson.greatplateau, saveFile, effectMapPath))
-                .then(() => Tower.write('hateno', modelJson.hateno, saveFile, effectMapPath))
-                .then(() => Tower.write('hebra', modelJson.hebra, saveFile, effectMapPath))
-                .then(() => Tower.write('lake', modelJson.lake, saveFile, effectMapPath))
-                .then(() => Tower.write('lanayru', modelJson.lanayru, saveFile, effectMapPath))
-                .then(() => Tower.write('ridgeland', modelJson.ridgeland, saveFile, effectMapPath))
-                .then(() => Tower.write('tabantha', modelJson.tabantha, saveFile, effectMapPath))
-                .then(() => Tower.write('wasteland', modelJson.wasteland, saveFile, effectMapPath))
-                .then(() => Tower.write('woodland', modelJson.woodland, saveFile, effectMapPath));
+                .then(() => Tower.write('akkala', modelJson.akkala, saveFile, options, effectMapPath))
+                .then(() => Tower.write('central', modelJson.central, saveFile, options, effectMapPath))
+                .then(() => Tower.write('duelingpeaks', modelJson.duelingpeaks, saveFile, options, effectMapPath))
+                .then(() => Tower.write('eldin', modelJson.eldin, saveFile, options, effectMapPath))
+                .then(() => Tower.write('faron', modelJson.faron, saveFile, options, effectMapPath))
+                .then(() => Tower.write('gerudo', modelJson.gerudo, saveFile, options, effectMapPath))
+                .then(() => Tower.write('greatplateau', modelJson.greatplateau, saveFile, options, effectMapPath))
+                .then(() => Tower.write('hateno', modelJson.hateno, saveFile, options, effectMapPath))
+                .then(() => Tower.write('hebra', modelJson.hebra, saveFile, options, effectMapPath))
+                .then(() => Tower.write('lake', modelJson.lake, saveFile, options, effectMapPath))
+                .then(() => Tower.write('lanayru', modelJson.lanayru, saveFile, options, effectMapPath))
+                .then(() => Tower.write('ridgeland', modelJson.ridgeland, saveFile, options, effectMapPath))
+                .then(() => Tower.write('tabantha', modelJson.tabantha, saveFile, options, effectMapPath))
+                .then(() => Tower.write('wasteland', modelJson.wasteland, saveFile, options, effectMapPath))
+                .then(() => Tower.write('woodland', modelJson.woodland, saveFile, options, effectMapPath));
         }
     };
 })();

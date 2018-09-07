@@ -13,8 +13,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile, true)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile, true)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -36,7 +36,7 @@ module.exports = (() => {
                 }
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -58,7 +58,7 @@ module.exports = (() => {
 
             !!modelJson.bloodmoon && addKeyBranches(modelJson.bloodmoon.tonight, 'bloodmoon.tonight', 'set', 'unset');
 
-            return writeChanges(keys);
+            return writeChanges(keys, options);
         }
     };
 })();

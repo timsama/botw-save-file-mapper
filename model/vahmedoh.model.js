@@ -10,8 +10,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -49,7 +49,7 @@ module.exports = (() => {
                 heartcontainertaken: mapValues['divinebeasts.vahmedoh.heartcontainer.taken']
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -91,7 +91,7 @@ module.exports = (() => {
             addKeyBranches(modelJson.heartcontaineravailable, 'divinebeasts.vahmedoh.heartcontainer', 'available', 'notavailable');
             addKeyBranches(modelJson.heartcontainertaken, 'divinebeasts.vahmedoh.heartcontainer', 'taken', 'nottaken');
 
-            return writeChanges(keys);
+            return writeChanges(keys, options);
         }
     };
 })();

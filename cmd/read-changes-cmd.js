@@ -2,10 +2,10 @@ const CONFIG = require('../config.json');
 const readChanges = require('../lib/read-changes.js')();
 const filepath = `${CONFIG.mapfilepath}effectmap.json`;
 
-const isLogNamesCommand = entry => entry == 'log-names';
+const isWithLogging = entry => entry == 'with-logging';
 
-const names = process.argv.slice(2).filter(entry => !isLogNamesCommand(entry)) || ['unnamed'];
+const names = process.argv.slice(2).filter(entry => !isWithLogging(entry)) || ['unnamed'];
 
-const logChangeNames = process.argv.slice(3).some(isLogNamesCommand);
+const withLogging = process.argv.slice(3).some(isWithLogging);
 
-console.log(readChanges(filepath, names, logChangeNames));
+console.log(readChanges(filepath, names, withLogging));

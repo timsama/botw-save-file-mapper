@@ -37,18 +37,18 @@ module.exports = (() => {
                 keyitems: keyitems
             };
         },
-        write: (modelJson, saveFile) => {
+        write: (modelJson, saveFile, options) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
-            return Weapons.write(modelJson.weapons, saveFile, 0)
-                .then(nextAvailableSlot => Bows.write(modelJson.bows, saveFile, nextAvailableSlot))
-                .then(nextAvailableSlot => Arrows.write(modelJson.arrows, saveFile, nextAvailableSlot))
-                .then(nextAvailableSlot => Shields.write(modelJson.shields, saveFile, nextAvailableSlot))
-                .then(nextAvailableSlot => Armor.write(modelJson.armor, saveFile, nextAvailableSlot))
-                .then(nextAvailableSlot => Materials.write(modelJson.materials, saveFile, nextAvailableSlot))
-                .then(nextAvailableSlot => Food.write(modelJson.food, saveFile, nextAvailableSlot))
-                .then(nextAvailableSlot => KeyItems.write(modelJson.keyitems, saveFile, nextAvailableSlot));
+            return Weapons.write(modelJson.weapons, saveFile, 0, options)
+                .then(nextAvailableSlot => Bows.write(modelJson.bows, saveFile, nextAvailableSlot, options))
+                .then(nextAvailableSlot => Arrows.write(modelJson.arrows, saveFile, nextAvailableSlot, options))
+                .then(nextAvailableSlot => Shields.write(modelJson.shields, saveFile, nextAvailableSlot, options))
+                .then(nextAvailableSlot => Armor.write(modelJson.armor, saveFile, nextAvailableSlot, options))
+                .then(nextAvailableSlot => Materials.write(modelJson.materials, saveFile, nextAvailableSlot, options))
+                .then(nextAvailableSlot => Food.write(modelJson.food, saveFile, nextAvailableSlot, options))
+                .then(nextAvailableSlot => KeyItems.write(modelJson.keyitems, saveFile, nextAvailableSlot, options));
         }
     };
 })();

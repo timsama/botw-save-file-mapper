@@ -11,8 +11,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile, true)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile, true)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -36,7 +36,7 @@ module.exports = (() => {
                 rupees: mapValues['stats.rupees']
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -56,7 +56,7 @@ module.exports = (() => {
             addKeyIfDefined(modelJson.heartsfilled, `stats.heartsfilled=${modelJson.heartsfilled * 4}`);
             addKeyIfDefined(modelJson.rupees, `stats.rupees=${modelJson.rupees}`);
 
-            return writeChanges(keys);
+            return writeChanges(keys, options);
         }
     };
 })();

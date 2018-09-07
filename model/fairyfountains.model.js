@@ -11,8 +11,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile, true)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile, true)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -48,7 +48,7 @@ module.exports = (() => {
                 powerlevel: mapValues['fairyfountains.powerlevel']
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -73,7 +73,7 @@ module.exports = (() => {
             !!modelJson.mija && addKeyBranches(modelJson.mija.unlocked, 'fairyfountains.mija', 'unlocked', 'locked');
             !!modelJson.tera && addKeyBranches(modelJson.tera.unlocked, 'fairyfountains.tera', 'unlocked', 'locked');
 
-            return writeChanges(keys);
+            return writeChanges(keys, options);
         }
     };
 })();

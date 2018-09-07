@@ -15,15 +15,15 @@ module.exports = (() => {
                 finaltrial: FinalTrial.read(saveFile, effectMapPath)
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
-            return VahMedoh.write(modelJson.vahmedoh, saveFile, effectMapPath)
-                .then(() => VahRudania.write(modelJson.vahrudania, saveFile, effectMapPath))
-                .then(() => VahRuta.write(modelJson.vahruta, saveFile, effectMapPath))
-                .then(() => VahNaboris.write(modelJson.vahnaboris, saveFile, effectMapPath))
-                .then(() => FinalTrial.write(modelJson.finaltrial, saveFile, effectMapPath));
+            return VahMedoh.write(modelJson.vahmedoh, saveFile, options, effectMapPath)
+                .then(() => VahRudania.write(modelJson.vahrudania, saveFile, options, effectMapPath))
+                .then(() => VahRuta.write(modelJson.vahruta, saveFile, options, effectMapPath))
+                .then(() => VahNaboris.write(modelJson.vahnaboris, saveFile, options, effectMapPath))
+                .then(() => FinalTrial.write(modelJson.finaltrial, saveFile, options, effectMapPath));
         }
     };
 })();

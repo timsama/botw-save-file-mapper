@@ -70,8 +70,17 @@ module.exports = (() => {
         return condensedItems;
     }
 
-    return (saveFile, items, firstAvailableSlot, category, func) => {
+    return (saveFile, items, firstAvailableSlot, category, options, func) => {
         const realItems = getCondensedItems(items, category);
+        if (!!options && options.withLogging) {
+            realItems.forEach(item => {
+                if (!!item.quantity && item.quantity > 0) {
+                    console.log(`Preparing to write ${item.name} x${item.quantity} to save file.`);
+                } else {
+                    console.log(`Preparing to write ${item.name} to save file.`);
+                }
+            })
+        }
 
         const writeableItems = (() => {
             const isLastSection = category === 'keyitems';

@@ -12,8 +12,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -52,33 +52,33 @@ module.exports = (() => {
                 theisolatedplateau: MainQuest.read('theisolatedplateau', saveFile, keypathReader, changeReader)
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
             const keypathReader = getKeypathReader(effectMapPath);
             const changeWriter = getChangeWriter(saveFile, effectMapPath);
 
-            return MainQuest.write('capturedmemories', modelJson.capturedmemories, saveFile, keypathReader, changeWriter)
-                .then(() => MainQuest.write('championdarukssong', modelJson.championdarukssong, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('championmiphassong', modelJson.championmiphassong, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('championrevalissong', modelJson.championrevalissong, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('championurbosassong', modelJson.championurbosassong, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('destroyganon', modelJson.destroyganon, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('divinebeastvahmedoh', modelJson.divinebeastvahmedoh, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('divinebeastvahnaboris', modelJson.divinebeastvahnaboris, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('divinebeastvahrudania', modelJson.divinebeastvahrudania, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('divinebeastvahruta', modelJson.divinebeastvahruta, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('findthefairyfountain', modelJson.findthefairyfountain, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('followthesheikahslate', modelJson.followthesheikahslate, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('forbiddencityentry', modelJson.forbiddencityentry, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('freethedivinebeasts', modelJson.freethedivinebeasts, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('lockedmementos', modelJson.lockedmementos, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('reachzorasdomain', modelJson.reachzorasdomain, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('seekoutimpa', modelJson.seekoutimpa, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('thechampionsballad', modelJson.thechampionsballad, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('theherossword', modelJson.theherossword, saveFile, keypathReader, changeWriter))
-                .then(() => MainQuest.write('theisolatedplateau', modelJson.theisolatedplateau, saveFile, keypathReader, changeWriter));
+            return MainQuest.write('capturedmemories', modelJson.capturedmemories, saveFile, keypathReader, changeWriter, options)
+                .then(() => MainQuest.write('championdarukssong', modelJson.championdarukssong, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('championmiphassong', modelJson.championmiphassong, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('championrevalissong', modelJson.championrevalissong, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('championurbosassong', modelJson.championurbosassong, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('destroyganon', modelJson.destroyganon, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('divinebeastvahmedoh', modelJson.divinebeastvahmedoh, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('divinebeastvahnaboris', modelJson.divinebeastvahnaboris, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('divinebeastvahrudania', modelJson.divinebeastvahrudania, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('divinebeastvahruta', modelJson.divinebeastvahruta, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('findthefairyfountain', modelJson.findthefairyfountain, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('followthesheikahslate', modelJson.followthesheikahslate, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('forbiddencityentry', modelJson.forbiddencityentry, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('freethedivinebeasts', modelJson.freethedivinebeasts, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('lockedmementos', modelJson.lockedmementos, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('reachzorasdomain', modelJson.reachzorasdomain, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('seekoutimpa', modelJson.seekoutimpa, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('thechampionsballad', modelJson.thechampionsballad, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('theherossword', modelJson.theherossword, saveFile, keypathReader, changeWriter, options))
+                .then(() => MainQuest.write('theisolatedplateau', modelJson.theisolatedplateau, saveFile, keypathReader, changeWriter, options));
         }
     };
 })();

@@ -26,11 +26,11 @@ module.exports = (() => {
                 slots: getArrowSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile, startingSlot) => {
+        write: (modelJson, saveFile, startingSlot, options) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
-            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'arrows', (item, slot, slotInCategory) => {
+            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'arrows', options, (item, slot, slotInCategory) => {
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
                 const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
 

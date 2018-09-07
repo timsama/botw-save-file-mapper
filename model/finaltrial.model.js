@@ -10,8 +10,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -39,7 +39,7 @@ module.exports = (() => {
                 terminal4: mapValues['divinebeasts.finaltrial.terminal4.on']
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -76,12 +76,7 @@ module.exports = (() => {
             addKeyBranches(modelJson.terminal3, 'divinebeasts.finaltrial.terminal3', 'on', 'off');
             addKeyBranches(modelJson.terminal4, 'divinebeasts.finaltrial.terminal4', 'on', 'off');
 
-
-
-
-
-
-            return writeChanges(keys);
+            return writeChanges(keys, options);
         }
     };
 })();

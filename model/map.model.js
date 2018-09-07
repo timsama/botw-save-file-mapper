@@ -13,14 +13,14 @@ module.exports = (() => {
                 shrines: Shrines.read(saveFile, effectMapPath)
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
-            return DivineBeasts.write(modelJson.divinebeasts, saveFile, effectMapPath)
-                .then(() => Towers.write(modelJson.towers, saveFile, effectMapPath))
-                .then(() => AncientTechLabs.write(modelJson.ancienttechlabs, saveFile, effectMapPath))
-                .then(() => Shrines.write(modelJson.shrines, saveFile, effectMapPath));
+            return DivineBeasts.write(modelJson.divinebeasts, saveFile, options, effectMapPath)
+                .then(() => Towers.write(modelJson.towers, saveFile, options, effectMapPath))
+                .then(() => AncientTechLabs.write(modelJson.ancienttechlabs, saveFile, options, effectMapPath))
+                .then(() => Shrines.write(modelJson.shrines, saveFile, options, effectMapPath));
         }
     };
 })();

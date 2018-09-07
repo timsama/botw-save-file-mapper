@@ -13,14 +13,14 @@ module.exports = (() => {
                 memories: Memories.read(saveFile, effectMapPath)
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
-            return MainQuests.write(modelJson.mainquests, saveFile, effectMapPath)
-                .then(() => ShrineQuests.write(modelJson.shrinequests, saveFile, effectMapPath))
-                .then(() => SideQuests.write(modelJson.sidequests, saveFile, effectMapPath))
-                .then(() => Memories.write(modelJson.memories, saveFile, effectMapPath));
+            return MainQuests.write(modelJson.mainquests, saveFile, options, effectMapPath)
+                .then(() => ShrineQuests.write(modelJson.shrinequests, saveFile, options, effectMapPath))
+                .then(() => SideQuests.write(modelJson.sidequests, saveFile, options, effectMapPath))
+                .then(() => Memories.write(modelJson.memories, saveFile, options, effectMapPath));
         }
     };
 })();

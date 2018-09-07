@@ -121,13 +121,13 @@ module.exports = (() => {
                 slots: getFoodSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile, startingSlot) => {
+        write: (modelJson, saveFile, startingSlot, options) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
             const stackableHeartsPlaceholder = 0xbf800000;
 
-            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'food', (item, slot, slotInCategory) => {
+            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'food', options, (item, slot, slotInCategory) => {
                 const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
                 const heartsOffset = Offsets.getFoodHeartsOffset(slotInCategory);
                 const typeOffset = Offsets.getFoodBonusTypeOffset(slotInCategory);

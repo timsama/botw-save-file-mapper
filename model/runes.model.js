@@ -10,8 +10,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -63,10 +63,11 @@ module.exports = (() => {
                 },
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
+
             const writeChanges = getChangeWriter(saveFile, effectMapPath);
 
             const keys = [];
@@ -93,7 +94,7 @@ module.exports = (() => {
             modelJson.sheikahsensor && addKeyBranches(modelJson.sheikahsensor.enabled, 'sheikahslate.sensor', 'enabled', 'disabled');
             modelJson.sheikahsensor && addKeyBranches(modelJson.sheikahsensor.plus, 'sheikahslate.sensor.plus', 'enabled', 'disabled');
 
-            return writeChanges(keys);
+            return writeChanges(keys, options);
         }
     };
 })();

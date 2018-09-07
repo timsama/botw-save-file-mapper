@@ -12,8 +12,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -55,36 +55,36 @@ module.exports = (() => {
                 zeldasresentment: Memory.read('zeldasresentment', saveFile, keypathReader, changeReader)
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
             const keypathReader = getKeypathReader(effectMapPath);
             const changeWriter = getChangeWriter(saveFile, effectMapPath);
 
-            return Memory.write('apremonition', modelJson.apremonition, saveFile, keypathReader, changeWriter)
-                .then(() => Memory.write('bladesoftheyiga', modelJson.bladesoftheyiga, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('championdarukssong', modelJson.championdarukssong, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('championmiphassong', modelJson.championmiphassong, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('championrevalissong', modelJson.championrevalissong, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('championurbosassong', modelJson.championurbosassong, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('daruksmettle', modelJson.daruksmettle, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('despair', modelJson.despair, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('fatheranddaughter', modelJson.fatheranddaughter, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('miphastouch', modelJson.miphastouch, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('resolveandgrief', modelJson.resolveandgrief, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('returnofcalamityganon', modelJson.returnofcalamityganon, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('revalisflap', modelJson.revalisflap, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('shelterfromthestorm', modelJson.shelterfromthestorm, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('silentprincess', modelJson.silentprincess, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('slumberingpower', modelJson.slumberingpower, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('subduedceremony', modelJson.subduedceremony, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('thechampionsballad', modelJson.thechampionsballad, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('themastersword', modelJson.themastersword, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('tomountlanayru', modelJson.tomountlanayru, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('urbosashand', modelJson.urbosashand, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('zeldasawakening', modelJson.zeldasawakening, saveFile, keypathReader, changeWriter))
-                .then(() => Memory.write('zeldasresentment', modelJson.zeldasresentment, saveFile, keypathReader, changeWriter));
+            return Memory.write('apremonition', modelJson.apremonition, saveFile, keypathReader, changeWriter, options)
+                .then(() => Memory.write('bladesoftheyiga', modelJson.bladesoftheyiga, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('championdarukssong', modelJson.championdarukssong, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('championmiphassong', modelJson.championmiphassong, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('championrevalissong', modelJson.championrevalissong, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('championurbosassong', modelJson.championurbosassong, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('daruksmettle', modelJson.daruksmettle, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('despair', modelJson.despair, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('fatheranddaughter', modelJson.fatheranddaughter, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('miphastouch', modelJson.miphastouch, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('resolveandgrief', modelJson.resolveandgrief, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('returnofcalamityganon', modelJson.returnofcalamityganon, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('revalisflap', modelJson.revalisflap, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('shelterfromthestorm', modelJson.shelterfromthestorm, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('silentprincess', modelJson.silentprincess, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('slumberingpower', modelJson.slumberingpower, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('subduedceremony', modelJson.subduedceremony, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('thechampionsballad', modelJson.thechampionsballad, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('themastersword', modelJson.themastersword, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('tomountlanayru', modelJson.tomountlanayru, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('urbosashand', modelJson.urbosashand, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('zeldasawakening', modelJson.zeldasawakening, saveFile, keypathReader, changeWriter, options))
+                .then(() => Memory.write('zeldasresentment', modelJson.zeldasresentment, saveFile, keypathReader, changeWriter, options));
         }
     };
 })();

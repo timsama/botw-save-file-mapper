@@ -19,19 +19,19 @@ module.exports = (() => {
                 adventurelog: AdventureLog.read(saveFile)
             };
         },
-        write: (modelJson, saveFile) => {
-            return Inventory.write(modelJson.inventory, saveFile).then(() => {
-                return Runes.write(modelJson.runes, saveFile);
+        write: (modelJson, saveFile, options) => {
+            return Inventory.write(modelJson.inventory, saveFile, options).then(() => {
+                return Runes.write(modelJson.runes, saveFile, options);
             }).then(() => {
-                return Map.write(modelJson.map, saveFile);
+                return Map.write(modelJson.map, saveFile, options);
             }).then(() => {
-                return Clock.write(modelJson.clock, saveFile);
+                return Clock.write(modelJson.clock, saveFile, options);
             }).then(() => {
-                return FairyFountains.write(modelJson.fairyfountains, saveFile);
+                return FairyFountains.write(modelJson.fairyfountains, saveFile, options);
             }).then(() => {
-                return Stats.write(modelJson.stats, saveFile);
+                return Stats.write(modelJson.stats, saveFile, options);
             }).then(() => {
-                return AdventureLog.write(modelJson.adventurelog, saveFile);
+                return AdventureLog.write(modelJson.adventurelog, saveFile, options);
             });
         }
     };

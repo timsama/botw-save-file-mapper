@@ -47,7 +47,7 @@ describe('apply-changes.js', function() {
 
     it('should skip soft dependencies of a change when specified', function() {
         fs.copyFileSync(baseFilePath, testFilePath);
-        applyChanges(effectmapFilePath, ['shrines.hadahamar.complete'], true);
+        applyChanges(effectmapFilePath, ['shrines.hadahamar.complete'], { skipSoftDependencies: true });
         
         assert(md5(testFilePath) == md5(skipSoftDependenciesExpectedFile), `${md5(testFilePath)} !== ${md5(skipSoftDependenciesExpectedFile)}`);
     });

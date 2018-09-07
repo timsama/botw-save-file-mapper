@@ -12,8 +12,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -40,21 +40,21 @@ module.exports = (() => {
                 trialofthesword: SideQuest.read('trialofthesword', saveFile, keypathReader, changeReader)
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
             const keypathReader = getKeypathReader(effectMapPath);
             const changeWriter = getChangeWriter(saveFile, effectMapPath);
 
-            return SideQuest.write('agiftfromthemonks', modelJson.agiftfromthemonks, saveFile, keypathReader, changeWriter)
-                .then(() => SideQuest.write('byfireflyslight', modelJson.byfireflyslight, saveFile, keypathReader, changeWriter))
-                .then(() => SideQuest.write('findkheel', modelJson.findkheel, saveFile, keypathReader, changeWriter))
-                .then(() => SideQuest.write('flownthecoop', modelJson.flownthecoop, saveFile, keypathReader, changeWriter))
-                .then(() => SideQuest.write('robbiesresearch', modelJson.robbiesresearch, saveFile, keypathReader, changeWriter))
-                .then(() => SideQuest.write('slatedforupgrades', modelJson.slatedforupgrades, saveFile, keypathReader, changeWriter))
-                .then(() => SideQuest.write('thepricelessmaracas', modelJson.thepricelessmaracas, saveFile, keypathReader, changeWriter))
-                .then(() => SideQuest.write('trialofthesword', modelJson.trialofthesword, saveFile, keypathReader, changeWriter));
+            return SideQuest.write('agiftfromthemonks', modelJson.agiftfromthemonks, saveFile, keypathReader, changeWriter, options)
+                .then(() => SideQuest.write('byfireflyslight', modelJson.byfireflyslight, saveFile, keypathReader, changeWriter, options))
+                .then(() => SideQuest.write('findkheel', modelJson.findkheel, saveFile, keypathReader, changeWriter, options))
+                .then(() => SideQuest.write('flownthecoop', modelJson.flownthecoop, saveFile, keypathReader, changeWriter, options))
+                .then(() => SideQuest.write('robbiesresearch', modelJson.robbiesresearch, saveFile, keypathReader, changeWriter, options))
+                .then(() => SideQuest.write('slatedforupgrades', modelJson.slatedforupgrades, saveFile, keypathReader, changeWriter, options))
+                .then(() => SideQuest.write('thepricelessmaracas', modelJson.thepricelessmaracas, saveFile, keypathReader, changeWriter, options))
+                .then(() => SideQuest.write('trialofthesword', modelJson.trialofthesword, saveFile, keypathReader, changeWriter, options));
         }
     };
 })();

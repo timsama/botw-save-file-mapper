@@ -12,8 +12,8 @@ module.exports = (() => {
         };
     };
     const getChangeWriter = (saveFile, effectMapPath) => {
-        return (keys, skipSoftDependencies, withLogging) => {
-            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, skipSoftDependencies, withLogging);
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
         };
     };
 
@@ -74,55 +74,55 @@ module.exports = (() => {
                 watchoutfortheflowers: ShrineQuest.read('watchoutfortheflowers', saveFile, keypathReader, changeReader)
             };
         },
-        write: (modelJson, saveFile, effectMapPath) => {
+        write: (modelJson, saveFile, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
             const keypathReader = getKeypathReader(effectMapPath);
             const changeWriter = getChangeWriter(saveFile, effectMapPath);
 
-            return ShrineQuest.write('abrothersroast', modelJson.abrothersroast, saveFile, keypathReader, changeWriter)
-                .then(() => ShrineQuest.write('afragmentedmonument', modelJson.afragmentedmonument, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('alandscapeofastable', modelJson.alandscapeofastable, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('asongofstorms', modelJson.asongofstorms, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('atestofwill', modelJson.atestofwill, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('cliffsideetchings', modelJson.cliffsideetchings, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('guardianslideshow', modelJson.guardianslideshow, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('intothevortex', modelJson.intothevortex, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('masterofthewind', modelJson.masterofthewind, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('recitalatwarblersnest', modelJson.recitalatwarblersnest, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('secretofthecedars', modelJson.secretofthecedars, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('secretofthesnowypeaks', modelJson.secretofthesnowypeaks, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('shroudedshrine', modelJson.shroudedshrine, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('signoftheshadow', modelJson.signoftheshadow, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('strandedoneventide', modelJson.strandedoneventide, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('theancientritosong', modelJson.theancientritosong, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thebirdinthemountains', modelJson.thebirdinthemountains, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('theceremonialsong', modelJson.theceremonialsong, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thecrownedbeast', modelJson.thecrownedbeast, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thecursedstatue', modelJson.thecursedstatue, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thedesertlabyrinth', modelJson.thedesertlabyrinth, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('theeyeofthesandstorm', modelJson.theeyeofthesandstorm, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thegutcheckchallenge', modelJson.thegutcheckchallenge, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thelostpilgrimage', modelJson.thelostpilgrimage, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('theperfectdrink', modelJson.theperfectdrink, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('theserpentsjaws', modelJson.theserpentsjaws, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thesevenheroines', modelJson.thesevenheroines, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thesilentswordswomen', modelJson.thesilentswordswomen, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('theskullseye', modelJson.theskullseye, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thespringofpower', modelJson.thespringofpower, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thespringofwisdom', modelJson.thespringofwisdom, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thestolenheirloom', modelJson.thestolenheirloom, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thetestofwood', modelJson.thetestofwood, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thethreegiantbrothers', modelJson.thethreegiantbrothers, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('thetworings', modelJson.thetworings, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('theundefeatedchamp', modelJson.theundefeatedchamp, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('trialofsecondsight', modelJson.trialofsecondsight, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('trialofthelabyrinth', modelJson.trialofthelabyrinth, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('trialofthunder', modelJson.trialofthunder, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('trialonthecliff', modelJson.trialonthecliff, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('underaredmoon', modelJson.underaredmoon, saveFile, keypathReader, changeWriter))
-                .then(() => ShrineQuest.write('watchoutfortheflowers', modelJson.watchoutfortheflowers, saveFile, keypathReader, changeWriter));
+            return ShrineQuest.write('abrothersroast', modelJson.abrothersroast, saveFile, keypathReader, changeWriter, options)
+                .then(() => ShrineQuest.write('afragmentedmonument', modelJson.afragmentedmonument, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('alandscapeofastable', modelJson.alandscapeofastable, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('asongofstorms', modelJson.asongofstorms, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('atestofwill', modelJson.atestofwill, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('cliffsideetchings', modelJson.cliffsideetchings, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('guardianslideshow', modelJson.guardianslideshow, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('intothevortex', modelJson.intothevortex, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('masterofthewind', modelJson.masterofthewind, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('recitalatwarblersnest', modelJson.recitalatwarblersnest, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('secretofthecedars', modelJson.secretofthecedars, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('secretofthesnowypeaks', modelJson.secretofthesnowypeaks, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('shroudedshrine', modelJson.shroudedshrine, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('signoftheshadow', modelJson.signoftheshadow, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('strandedoneventide', modelJson.strandedoneventide, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('theancientritosong', modelJson.theancientritosong, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thebirdinthemountains', modelJson.thebirdinthemountains, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('theceremonialsong', modelJson.theceremonialsong, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thecrownedbeast', modelJson.thecrownedbeast, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thecursedstatue', modelJson.thecursedstatue, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thedesertlabyrinth', modelJson.thedesertlabyrinth, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('theeyeofthesandstorm', modelJson.theeyeofthesandstorm, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thegutcheckchallenge', modelJson.thegutcheckchallenge, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thelostpilgrimage', modelJson.thelostpilgrimage, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('theperfectdrink', modelJson.theperfectdrink, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('theserpentsjaws', modelJson.theserpentsjaws, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thesevenheroines', modelJson.thesevenheroines, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thesilentswordswomen', modelJson.thesilentswordswomen, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('theskullseye', modelJson.theskullseye, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thespringofpower', modelJson.thespringofpower, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thespringofwisdom', modelJson.thespringofwisdom, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thestolenheirloom', modelJson.thestolenheirloom, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thetestofwood', modelJson.thetestofwood, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thethreegiantbrothers', modelJson.thethreegiantbrothers, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('thetworings', modelJson.thetworings, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('theundefeatedchamp', modelJson.theundefeatedchamp, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('trialofsecondsight', modelJson.trialofsecondsight, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('trialofthelabyrinth', modelJson.trialofthelabyrinth, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('trialofthunder', modelJson.trialofthunder, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('trialonthecliff', modelJson.trialonthecliff, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('underaredmoon', modelJson.underaredmoon, saveFile, keypathReader, changeWriter, options))
+                .then(() => ShrineQuest.write('watchoutfortheflowers', modelJson.watchoutfortheflowers, saveFile, keypathReader, changeWriter, options));
         }
     };
 })();

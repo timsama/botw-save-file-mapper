@@ -11,7 +11,7 @@ module.exports = (() => {
                 remembered: mapValues[`memories.${name}.remembered`]
             };
         },
-        write: (name, modelJson, saveFile, keypathReader, changeWriter) => {
+        write: (name, modelJson, saveFile, keypathReader, changeWriter, options) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
@@ -28,7 +28,7 @@ module.exports = (() => {
 
             addKeyBranches(modelJson.remembered, `memories.${name}`, 'remembered', 'forgotten');
 
-            return changeWriter(keys);
+            return changeWriter(keys, options);
         }
     };
 })();

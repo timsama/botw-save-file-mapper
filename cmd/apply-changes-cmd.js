@@ -3,11 +3,11 @@ const applyChanges = require('../lib/apply-changes.js')();
 const filepath = `${CONFIG.mapfilepath}effectmap.json`;
 
 const isSkipSoftDependencies = entry => entry == 'skip-soft-dependencies';
-const isLogNamesCommand = entry => entry == 'log-names';
+const isWithLogging = entry => entry == 'with-logging';
 
-const names = process.argv.slice(2).filter(entry => !isSkipSoftDependencies(entry) && !isLogNamesCommand(entry)) || ['unnamed'];
+const names = process.argv.slice(2).filter(entry => !isSkipSoftDependencies(entry) && !isWithLogging(entry)) || ['unnamed'];
 
 const skipSoftDependencies = process.argv.slice(3).some(isSkipSoftDependencies);
-const logChangeNames = process.argv.slice(3).some(isLogNamesCommand);
+const withLogging = process.argv.slice(3).some(isWithLogging);
 
-applyChanges(filepath, names, skipSoftDependencies, logChangeNames);
+applyChanges(filepath, names, { skipSoftDependencies: skipSoftDependencies, withLogging: withLogging });

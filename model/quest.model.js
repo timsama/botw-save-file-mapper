@@ -87,13 +87,13 @@ module.exports = (questCategory) => {
 
             return questJson;
         },
-        write: (name, modelJson, saveFile, keypathReader, changeWriter) => {
+        write: (name, modelJson, saveFile, keypathReader, changeWriter, options) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
             const keys = modelJson.completedsteps;
 
-            return changeWriter(keys);
+            return changeWriter(keys, options);
         }
     };
 };
