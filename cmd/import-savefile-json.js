@@ -15,7 +15,7 @@ const inputFilename = (() => {
 })();
 
 
-const isSkipSoftDependencies = entry => entry == 'skip-soft-dependencies';
+const isSkipSoftDependencies = entry => entry == 'skip-soft-dependencies' || entry == 'skip-soft-deps';
 const isWithLogging = entry => entry == 'with-logging';
 
 const skipSoftDependencies = process.argv.slice(3).some(isSkipSoftDependencies);
