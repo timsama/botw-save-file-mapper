@@ -1,5 +1,5 @@
 const assert = require('assert');
-const saveNamedChange = require('../save-named-change.js')('./test/save-named-change.spec.sav');
+const saveNamedChange = require('../lib/save-named-change.js')('./test/save-named-change.spec.sav');
 const fs = require('fs');
 const mapFileUtils = require('../util/map-file-utils.js');
 

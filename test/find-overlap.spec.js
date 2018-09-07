@@ -1,5 +1,5 @@
 const assert = require('assert');
-const findOverlap = require('../find-overlap.js');
+const findOverlap = require('../lib/find-overlap.js');
 
 const changesToApply1 = [
     { offset: 0x0000f0b8, value: 0x4752e900 },

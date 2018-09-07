@@ -1,9 +1,9 @@
 module.exports = (() => {
-    const getItemNameAtSlot = require('../get-item-name-at-slot.js');
-    const getItemSlotStructure = require('../get-item-slot-structure.js');
-    const batchOffsetChecker = require('../batch-offset-checker.js');
-    const getItemNameFromEntries = require('../get-item-name-from-entries.js');
-    const Offsets = require('../offsets.js');
+    const getItemNameAtSlot = require('../lib/get-item-name-at-slot.js');
+    const getItemSlotStructure = require('../lib/get-item-slot-structure.js');
+    const batchOffsetChecker = require('../lib/batch-offset-checker.js');
+    const getItemNameFromEntries = require('../lib/get-item-name-from-entries.js');
+    const Offsets = require('../lib/offsets.js');
     const itemFileUtils = require('../util/item-file-utils.js');
     
     const relativeOffsets = Array.apply(0, new Array(Offsets.slotWidth / 8)).map((e, i) => i * 8);

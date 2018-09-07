@@ -1,7 +1,7 @@
 module.exports = (() => {
     const CONFIG = require('../config.js');
-    const changeReader = require('../read-changes.js');
-    const changeWriter = require('../apply-changes.js');
+    const changeReader = require('../lib/read-changes.js');
+    const changeWriter = require('../lib/apply-changes.js');
     const HoursMinutesSeconds = require('../encoders_decoders/hoursminutesseconds.js');
     const TimeOfDay = require('../encoders_decoders/timeofday.js');
 

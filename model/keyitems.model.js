@@ -1,7 +1,7 @@
 module.exports = (() => {
-    const Offsets = require('../offsets.js');
-    const OffsetChecker = require('../offset-checker.js');
-    const OffsetSetter = require('../offset-setter.js');
+    const Offsets = require('../lib/offsets.js');
+    const OffsetChecker = require('../lib/offset-checker.js');
+    const OffsetSetter = require('../lib/offset-setter.js');
     const mapItemSlots = require('./map-item-slots.js');
     const writeItemSlots = require('./write-item-slots.js');
 

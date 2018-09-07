@@ -1,8 +1,8 @@
 module.exports = (() => {
     const SideQuest = require('./quest.model.js')('sidequests');
     const CONFIG = require('../config.js');
-    const changeReader = require('../read-changes.js');
-    const changeWriter = require('../batch-apply-changes.js');
+    const changeReader = require('../lib/read-changes.js');
+    const changeWriter = require('../lib/batch-apply-changes.js');
     const defaultEffectMap = `${CONFIG.mapfilepath}effectmap.json`;
     const mapFileUtils = require('../util/map-file-utils.js');
 

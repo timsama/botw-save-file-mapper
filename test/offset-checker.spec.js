@@ -1,5 +1,5 @@
 const assert = require('assert');
-const offsetChecker = require('../offset-checker.js');
+const offsetChecker = require('../lib/offset-checker.js');
 
 describe('offset-checker.js', function() {
     it('should return what is at the specified offset in a save file', function() {

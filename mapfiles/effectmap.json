@@ -2993,16 +2993,16 @@
           ]
         },
         "unset": {
-          "entries": [
-            {
-              "offset": 358448,
-              "value": false
-            }
-          ],
           "consumes": [
             {
               "category": "armor",
               "name": "championstunic"
+            }
+          ],
+          "entries": [
+            {
+              "offset": 358448,
+              "value": false
             }
           ]
         }
@@ -4499,16 +4499,16 @@
               ]
             },
             "unset": {
-              "entries": [
-                {
-                  "offset": 912984,
-                  "value": false
-                }
-              ],
               "consumes": [
                 {
                   "category": "keyitems",
                   "name": "thunderhelm"
+                }
+              ],
+              "entries": [
+                {
+                  "offset": 912984,
+                  "value": false
                 }
               ]
             }

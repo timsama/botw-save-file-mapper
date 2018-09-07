@@ -1,0 +1,1 @@
+console.log('Welcome to BoTW Save File Mapper. Help file has currently not been implemented.');

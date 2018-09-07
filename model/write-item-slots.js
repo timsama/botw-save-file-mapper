@@ -1,12 +1,12 @@
 module.exports = (() => {
-    const getItemSlotStructure = require('../get-item-slot-structure.js');
-    const setItemEntries = require('../set-item-entries.js');
-    const batchSetItemSlots = require('../batch-set-item-slots.js');
-    const batchOffsetSetter = require('../batch-offset-setter.js');
+    const getItemSlotStructure = require('../lib/get-item-slot-structure.js');
+    const setItemEntries = require('../lib/set-item-entries.js');
+    const batchSetItemSlots = require('../lib/batch-set-item-slots.js');
+    const batchOffsetSetter = require('../lib/batch-offset-setter.js');
     const itemFileUtils = require('../util/item-file-utils.js');
     const saveFileUtils = require('../util/save-file-utils.js');
-    const slotInfo = require('../slot-info.js');
-    const Offsets = require('../offsets.js');
+    const slotInfo = require('../lib/slot-info.js');
+    const Offsets = require('../lib/offsets.js');
 
     const relativeOffsets = Array.apply(0, new Array(Offsets.slotWidth / 8)).map((e, i) => i * 8);
 
