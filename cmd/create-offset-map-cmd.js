@@ -27,7 +27,7 @@
                     addressesCovered++;
                     offsetMap[saveFileUtils.toHexString(entry.offset)] = `Affects ${nonEmptyPathSoFar.join('.')}`;
                 });
-            } else if (key !== 'softdependencies' && key !== 'harddependencies' && key !== 'rewards') {
+            } else if (key !== 'softdependencies' && key !== 'harddependencies' && key !== 'rewards' && key !== 'consumes' && key !== 'counter') {
                 exportEffects(effectSubmap[key], nonEmptyPathSoFar.concat(key));
             }
         });
