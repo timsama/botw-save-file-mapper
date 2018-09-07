@@ -121,7 +121,7 @@ module.exports = (() => {
                 slots: getFoodSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile, startingSlot, options) => {
+        write: (modelJson, saveFile, startingSlot, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }

@@ -71,7 +71,7 @@ module.exports = (() => {
                 slots: getArmorSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile, startingSlot, options) => {
+        write: (modelJson, saveFile, startingSlot, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }

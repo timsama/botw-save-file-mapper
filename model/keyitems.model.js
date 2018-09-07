@@ -24,7 +24,7 @@ module.exports = (() => {
                 slots: getKeyItemSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile, startingSlot, options) => {
+        write: (modelJson, saveFile, startingSlot, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }

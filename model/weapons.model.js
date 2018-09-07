@@ -4,6 +4,15 @@ module.exports = (() => {
     const OffsetSetter = require('../lib/offset-setter.js');
     const mapItemSlots = require('./map-item-slots.js');
     const writeItemSlots = require('./write-item-slots.js');
+    const CONFIG = require('../config.json');
+    const changeWriter = require('../lib/batch-apply-changes.js');
+    const defaultEffectMap = `${CONFIG.mapfilepath}effectmap.json`;
+
+    const getChangeWriter = (saveFile, effectMapPath) => {
+        return (keys, options) => {
+            return changeWriter(saveFile)(effectMapPath || defaultEffectMap, keys, options);
+        };
+    };
 
     const bonusTypes = {
         0x1: 'attack',
@@ -69,11 +78,21 @@ module.exports = (() => {
                 slots: getWeaponSlots(saveFile, startingSlot)
             };
         },
-        write: (modelJson, saveFile, startingSlot, options) => {
+        write: (modelJson, saveFile, startingSlot, options, effectMapPath) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
-            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'weapons', options, (item, slot, slotInCategory) => {
+
+            const quickTipsPromise = (() => {
+                if (!options.skipSoftDependenceis && modelJson.slots.length > 1) {
+                    const writeChanges = getChangeWriter(saveFile, effectMapPath);
+                    return writeChanges(['quicktips.switchweapons.viewed', 'quicktips.throwweapon.viewed'], options);
+                } else {
+                    return Promise.resolve();
+                }
+            })();
+
+            return quickTipsPromise.then(() => writeItemSlots(saveFile, modelJson.slots, startingSlot, 'weapons', options, (item, slot, slotInCategory) => {
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
                 const durabilityOffset = Offsets.getQuantitiesOffset(slot);
                 const typeOffset = Offsets.getBonusTypeOffset(slotInCategory, 'weapons');
@@ -109,7 +128,7 @@ module.exports = (() => {
                         value: valIfBonus(() => { return item.bonus.amount; }, 0)
                     }
                 ];
-            });
+            }));
         }
     };
 })();
