@@ -2,7 +2,7 @@ const findOverlap = require('./find-overlap.js');
 
 const CONFIG = require('./config.js');
 const fs = require('fs');
-const saveFileUtils = require('./save-file-utils.js');
+const saveFileUtils = require('./util/save-file-utils.js');
 
 const name1 = process.argv[2];
 const name2 = process.argv[3];

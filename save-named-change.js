@@ -1,9 +1,9 @@
 module.exports = (saveFileOverride) => {
     const fs = require('fs');
     const jBinary = require('jbinary');
-    const saveFileUtils = require('./save-file-utils.js');
+    const saveFileUtils = require('./util/save-file-utils.js');
     const CONFIG = require('./config.js');
-    const mapFileUtils = require('./map-file-utils.js');
+    const mapFileUtils = require('./util/map-file-utils.js');
     
     const saveFilename = 'game_data.sav';
     const saveFilepath = saveFileOverride || `${CONFIG.savepath}${saveFilename}`;

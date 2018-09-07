@@ -1,7 +1,7 @@
 const offsetChecker = require('./offset-checker.js');
-const saveFileUtils = require('./save-file-utils.js');
+const saveFileUtils = require('./util/save-file-utils.js');
 const CONFIG = require('./config.js');
-const itemFileUtils = require('./item-file-utils.js');
+const itemFileUtils = require('./util/item-file-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
 const float28 = require('./encoders_decoders/float28.js');
 

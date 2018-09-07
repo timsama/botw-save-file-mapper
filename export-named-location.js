@@ -1,6 +1,6 @@
 const saveNamedChange = require('./save-named-change.js')();
 const CONFIG = require('./config.js');
-const mapFileUtils = require('./map-file-utils.js');
+const mapFileUtils = require('./util/map-file-utils.js');
 const filepath = `${CONFIG.mapfilepath}locations.json`;
 
 const name = process.argv[2] || readline.question('Name of location: ');

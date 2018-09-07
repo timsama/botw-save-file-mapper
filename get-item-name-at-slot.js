@@ -3,7 +3,7 @@ module.exports = (() => {
     const OffsetChecker = require('./offset-checker.js');
     const getItemEntries = require('./get-item-entries.js');
     const getItemNameFromEntries = require('./get-item-name-from-entries.js');
-    const itemFileUtils = require('./item-file-utils.js');
+    const itemFileUtils = require('./util/item-file-utils.js');
 
     return (saveFile, slot, category) => {
         const entries = getItemEntries(saveFile, slot);

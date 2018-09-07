@@ -2,7 +2,7 @@ const nameGetter = require('./name-getter.js');
 const fs = require('fs');
 const buildHexDiff = require('./build-hex-diff.js');
 const CONFIG = require('./config.js');
-const folderUtils = require('./folder-utils.js');
+const folderUtils = require('./util/folder-utils.js');
 
 let beforeFilepath = CONFIG.snapshotspath + process.argv[3];
 if (beforeFilepath.split('').slice(-4).join('') !== '.sav') {

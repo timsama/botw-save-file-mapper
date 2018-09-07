@@ -3,8 +3,8 @@ module.exports = (() => {
     const setItemEntries = require('../set-item-entries.js');
     const batchSetItemSlots = require('../batch-set-item-slots.js');
     const batchOffsetSetter = require('../batch-offset-setter.js');
-    const itemFileUtils = require('../item-file-utils.js');
-    const saveFileUtils = require('../save-file-utils.js');
+    const itemFileUtils = require('../util/item-file-utils.js');
+    const saveFileUtils = require('../util/save-file-utils.js');
     const slotInfo = require('../slot-info.js');
     const Offsets = require('../offsets.js');
 

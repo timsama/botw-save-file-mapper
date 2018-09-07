@@ -1,11 +1,11 @@
 module.exports = (name, newName, knownValue, knownPreviousValue, filterKnownOffsets, nonVariable, saveQuery, knownDependencies, queryFuncOverride, skipLogging, pathOverride, appendToExisting) => {
-    const saveFileUtils = require('./save-file-utils.js');
+    const saveFileUtils = require('./util/save-file-utils.js');
     const buildRecursiveSearcher = require('./build-recursive-searcher.js');
     const resultExporter = require('./json-result-exporter.js');
     const fs = require('fs');
     const CONFIG = require('./config.js');
-    const folderUtils = require('./folder-utils.js');
-    const mapFileUtils = require('./map-file-utils.js');
+    const folderUtils = require('./util/folder-utils.js');
+    const mapFileUtils = require('./util/map-file-utils.js');
     const query = require('cli-interact').getYesNo;
 
     const changesFilename = name + '.raw.changes';

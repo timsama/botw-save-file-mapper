@@ -2,7 +2,7 @@ module.exports = (() => {
     const Offsets = require('./offsets.js');
     const OffsetChecker = require('./offset-checker.js');
     const getItemEntries = require('./get-item-entries.js');
-    const itemFileUtils = require('./item-file-utils.js');
+    const itemFileUtils = require('./util/item-file-utils.js');
 
     return (category) => {
         const categoryFilepath = itemFileUtils.getCategoryFilepath(category);

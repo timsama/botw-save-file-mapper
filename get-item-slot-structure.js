@@ -1,7 +1,7 @@
 module.exports = (() => {
     return (saveFile, withLogging) => {
         const offsetChecker = require('./offset-checker.js');
-        const itemFileUtils = require('./item-file-utils.js');
+        const itemFileUtils = require('./util/item-file-utils.js');
         const getItemSlotKey = require('./get-item-slot-key.js');
 
         const slotsOffset = 394248;

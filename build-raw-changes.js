@@ -3,7 +3,7 @@ module.exports = (name, skipBeforePrompt, beforePromptOverride, afterPromptOverr
 	const fs = require('fs');
 	const buildHexDiff = require('./build-hex-diff.js');
 	const CONFIG = require('./config.js');
-	const folderUtils = require('./folder-utils.js');
+	const folderUtils = require('./util/folder-utils.js');
 
 	const saveFilepath = `${CONFIG.savepath}game_data.sav`;
 	const saveFileBackup = `${CONFIG.tempoutputpath}backup.sav`;

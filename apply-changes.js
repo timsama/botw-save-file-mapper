@@ -1,10 +1,10 @@
 module.exports = (saveFileOverride, isAsync) => {
     const fs = require('fs');
-    const arrayUtils = require('./array-utils.js');
+    const arrayUtils = require('./util/array-utils.js');
     const jBinary = require('jbinary');
-    const saveFileUtils = require('./save-file-utils.js');
+    const saveFileUtils = require('./util/save-file-utils.js');
     const CONFIG = require('./config.js');
-    const mapFileUtils = require('./map-file-utils.js');
+    const mapFileUtils = require('./util/map-file-utils.js');
     const readline = require('readline-sync');
     const float28 = require('./encoders_decoders/float28.js');
     

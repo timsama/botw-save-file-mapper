@@ -1,6 +1,6 @@
 module.exports = (() => {
     const fs = require('fs');
-    const saveFileUtils = require('./save-file-utils.js');
+    const saveFileUtils = require('./util/save-file-utils.js');
 
     return (entries, saveFilepath) => {
         // we are actually using this as Async, despite the name

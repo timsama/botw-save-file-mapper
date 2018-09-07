@@ -1,6 +1,6 @@
 const fs = require('fs');
 const CONFIG = require('./config.js');
-const folderUtils = require('./folder-utils.js');
+const folderUtils = require('./util/folder-utils.js');
 const query = require('cli-interact').getYesNo;
 
 const saveFilepath = `${CONFIG.savepath}game_data.sav`;

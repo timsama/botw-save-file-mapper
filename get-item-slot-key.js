@@ -2,7 +2,7 @@ module.exports = (() => {
     return (absoluteSlot, category) => {
         const offsetChecker = require('./offset-checker.js');
         const CONFIG = require('./config.js');
-        const itemFileUtils = require('./item-file-utils.js');
+        const itemFileUtils = require('./util/item-file-utils.js');
 
         const filename = CONFIG.savepath + 'game_data.sav';
 

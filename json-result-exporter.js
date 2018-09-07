@@ -1,10 +1,10 @@
 module.exports = (() => {
     const query = require('cli-interact').getYesNo;
     const fs = require('fs');
-    const saveFileUtils = require('./save-file-utils.js');
+    const saveFileUtils = require('./util/save-file-utils.js');
     const CONFIG = require('./config.js');
-    const folderUtils = require('./folder-utils.js');
-    const mapFileUtils = require('./map-file-utils.js');
+    const folderUtils = require('./util/folder-utils.js');
+    const mapFileUtils = require('./util/map-file-utils.js');
     const nameGetter = require('./name-getter.js');
 
     return (results, name, mightSaveAsVariableReasons, shouldRename, newName, saveQueryOverride, knownDependencies, skipLogging, appendToExisting) => {

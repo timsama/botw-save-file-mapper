@@ -1,7 +1,7 @@
 const SaveFile  = require('../model/savefile.model.js');
 const CONFIG = require('../config.js');
 const saveFile = CONFIG.savepath + 'game_data.sav';
-const MapFileUtils = require('../map-file-utils.js');
+const MapFileUtils = require('../util/map-file-utils.js');
 const readline = require('readline-sync');
 
 const rawOutputFilename = process.argv[2] || readline.question('Name of output JSON file? ');

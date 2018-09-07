@@ -4,7 +4,7 @@ module.exports = (() => {
     const changeReader = require('../read-changes.js');
     const changeWriter = require('../batch-apply-changes.js');
     const defaultEffectMap = `${CONFIG.mapfilepath}effectmap.json`;
-    const mapFileUtils = require('../map-file-utils.js');
+    const mapFileUtils = require('../util/map-file-utils.js');
 
     const getChangeReader = (saveFile, effectMapPath) => {
         return (keys, withLogging) => {

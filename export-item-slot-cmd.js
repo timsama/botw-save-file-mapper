@@ -1,9 +1,9 @@
 const fs = require('fs');
 const offsetChecker = require('./offset-checker.js');
-const itemFileUtils = require('./item-file-utils.js');
+const itemFileUtils = require('./util/item-file-utils.js');
 const CONFIG = require('./config.js');
 const nameGetter = require('./name-getter.js');
-const objUtils = require('./obj-utils.js');
+const objUtils = require('./util/obj-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
 
 const slot = parseInt(process.argv[3]);

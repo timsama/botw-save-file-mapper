@@ -1,9 +1,9 @@
 const fs = require('fs');
 const offsetChecker = require('./offset-checker.js');
-const itemFileUtils = require('./item-file-utils.js');
+const itemFileUtils = require('./util/item-file-utils.js');
 const CONFIG = require('./config.js');
 const nameGetter = require('./name-getter.js');
-const objUtils = require('./obj-utils.js');
+const objUtils = require('./util/obj-utils.js');
 const getItemSlotStructure = require('./get-item-slot-structure.js');
 
 const saveFile = !!process.argv[3] ? (CONFIG.snapshotspath + process.argv[3]) : CONFIG.savepath + 'game_data.sav';

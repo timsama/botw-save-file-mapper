@@ -1,8 +1,8 @@
 (() => {
     const CONFIG = require('./config.js');
-    const saveFileUtils = require('./save-file-utils.js');
-    const folderUtils = require('./folder-utils.js');
-    const mapFileUtils = require('./map-file-utils.js');
+    const saveFileUtils = require('./util/save-file-utils.js');
+    const folderUtils = require('./util/folder-utils.js');
+    const mapFileUtils = require('./util/map-file-utils.js');
 
     const jsonOffsetMapFile = `${CONFIG.mapfilepath}offsetmap.json`;
     const jsonEffectMapFile = `${CONFIG.mapfilepath}effectmap.json`;
