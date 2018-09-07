@@ -55,54 +55,41 @@ module.exports = (() => {
             }
             const writeChanges = getChangeWriter(saveFile, effectMapPath);
 
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
+                if (val === true) {
+                    keys.push(`${baseKey}.${extensionTrue}`);
+                }
+                if (val === false) {
+                    keys.push(`${baseKey}.${extensionFalse}`);
+                }
+            };
+
+            let terminalsremaining = modelJson.terminalsremaining;
+
+            if (modelJson.terminalsremaining === undefined) {
+                terminalsremaining = 5;
+                modelJson.terminal1 && terminalsremaining--;
+                modelJson.terminal2 && terminalsremaining--;
+                modelJson.terminal3 && terminalsremaining--;
+                modelJson.terminal4 && terminalsremaining--;
+                modelJson.terminal5 && terminalsremaining--;
+            }
+
             const keys = [
-                `divinebeasts.vahmedoh.terminalsremaining=${modelJson.terminalsremaining}`
+                `divinebeasts.vahmedoh.terminalsremaining=${terminalsremaining}`
             ];
 
-            const addKeyIfTrue = (val, key) => {
-                if (val === true) {
-                    keys.push(key);
-                }
-            };
-
-            const addKeyIfFalse = (val, key) => {
-                if (val === false) {
-                    keys.push(key);
-                }
-            };
-
-            addKeyIfTrue(modelJson.active, 'divinebeasts.vahmedoh.active');
-            addKeyIfFalse(modelJson.active, 'divinebeasts.vahmedoh.inactive');
-
-            addKeyIfTrue(modelJson.complete, 'divinebeasts.vahmedoh.complete');
-            addKeyIfFalse(modelJson.complete, 'divinebeasts.vahmedoh.incomplete');
-
-            addKeyIfTrue(modelJson.found, 'divinebeasts.vahmedoh.found');
-            addKeyIfFalse(modelJson.found, 'divinebeasts.vahmedoh.notfound');
-
-            addKeyIfTrue(modelJson.map, 'divinebeasts.vahmedoh.map.obtained');
-            addKeyIfFalse(modelJson.map, 'divinebeasts.vahmedoh.map.notobtained');
-            
-            addKeyIfTrue(modelJson.terminal1, 'divinebeasts.vahmedoh.terminal1.on');
-            addKeyIfFalse(modelJson.terminal1, 'divinebeasts.vahmedoh.terminal1.off');
-            
-            addKeyIfTrue(modelJson.terminal2, 'divinebeasts.vahmedoh.terminal2.on');
-            addKeyIfFalse(modelJson.terminal2, 'divinebeasts.vahmedoh.terminal2.off');
-            
-            addKeyIfTrue(modelJson.terminal3, 'divinebeasts.vahmedoh.terminal3.on');
-            addKeyIfFalse(modelJson.terminal3, 'divinebeasts.vahmedoh.terminal3.off');
-            
-            addKeyIfTrue(modelJson.terminal4, 'divinebeasts.vahmedoh.terminal4.on');
-            addKeyIfFalse(modelJson.terminal4, 'divinebeasts.vahmedoh.terminal4.off');
-            
-            addKeyIfTrue(modelJson.terminal5, 'divinebeasts.vahmedoh.terminal5.on');
-            addKeyIfFalse(modelJson.terminal5, 'divinebeasts.vahmedoh.terminal5.off');
-
-            addKeyIfTrue(modelJson.heartcontaineravailable, 'divinebeasts.vahmedoh.heartcontainer.available');
-            addKeyIfFalse(modelJson.heartcontaineravailable, 'divinebeasts.vahmedoh.heartcontainer.notavailable');
-
-            addKeyIfTrue(modelJson.heartcontainertaken, 'divinebeasts.vahmedoh.heartcontainer.taken');
-            addKeyIfFalse(modelJson.heartcontainertaken, 'divinebeasts.vahmedoh.heartcontainer.nottaken');
+            addKeyBranches(modelJson.active, 'divinebeasts.vahmedoh', 'active', 'inactive');
+            addKeyBranches(modelJson.complete, 'divinebeasts.vahmedoh', 'complete', 'incomplete');
+            addKeyBranches(modelJson.found, 'divinebeasts.vahmedoh', 'found', 'notfound');
+            addKeyBranches(modelJson.map, 'divinebeasts.vahmedoh.map', 'obtained', 'notobtained');
+            addKeyBranches(modelJson.terminal1, 'divinebeasts.vahmedoh.terminal1', 'on', 'off');
+            addKeyBranches(modelJson.terminal2, 'divinebeasts.vahmedoh.terminal2', 'on', 'off');
+            addKeyBranches(modelJson.terminal3, 'divinebeasts.vahmedoh.terminal3', 'on', 'off');
+            addKeyBranches(modelJson.terminal4, 'divinebeasts.vahmedoh.terminal4', 'on', 'off');
+            addKeyBranches(modelJson.terminal5, 'divinebeasts.vahmedoh.terminal5', 'on', 'off');
+            addKeyBranches(modelJson.heartcontaineravailable, 'divinebeasts.vahmedoh.heartcontainer', 'available', 'notavailable');
+            addKeyBranches(modelJson.heartcontainertaken, 'divinebeasts.vahmedoh.heartcontainer', 'taken', 'nottaken');
 
             return writeChanges(keys);
         }

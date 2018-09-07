@@ -41,14 +41,20 @@ module.exports = (() => {
                 return Promise.resolve();
             }
             const writeChanges = getChangeWriter(saveFile, effectMapPath);
+            
+            const keys = [];
 
-            const keys = [
-                `stats.shrinescompleted=${modelJson.shrinescompleted}`,
-                `stats.staminagauge=${modelJson.staminavessels * 200}`,
-                `stats.heartcontainers=${modelJson.heartcontainers * 4}`,
-                `stats.heartsfilled=${modelJson.heartsfilled * 4}`,
-                `stats.rupees=${modelJson.rupees}`
-            ];
+            const addKeyIfDefined = (val, key) => {
+                if (val !== undefined) {
+                    keys.push(key);
+                }
+            };
+
+            addKeyIfDefined(modelJson.shrinescompleted, `stats.shrinescompleted=${modelJson.shrinescompleted}`);
+            addKeyIfDefined(modelJson.staminavessels, `stats.staminagauge=${modelJson.staminavessels * 200}`);
+            addKeyIfDefined(modelJson.heartcontainers, `stats.heartcontainers=${modelJson.heartcontainers * 4}`);
+            addKeyIfDefined(modelJson.heartsfilled, `stats.heartsfilled=${modelJson.heartsfilled * 4}`);
+            addKeyIfDefined(modelJson.rupees, `stats.rupees=${modelJson.rupees}`);
 
             return writeChanges(keys);
         }

@@ -45,39 +45,41 @@ module.exports = (() => {
             }
             const writeChanges = getChangeWriter(saveFile, effectMapPath);
 
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
+                if (val === true) {
+                    keys.push(`${baseKey}.${extensionTrue}`);
+                }
+                if (val === false) {
+                    keys.push(`${baseKey}.${extensionFalse}`);
+                }
+            };
+
+
+            let terminalsremaining = modelJson.terminalsremaining;
+
+            if (modelJson.terminalsremaining === undefined) {
+                terminalsremaining = 4;
+                modelJson.terminal1 && terminalsremaining--;
+                modelJson.terminal2 && terminalsremaining--;
+                modelJson.terminal3 && terminalsremaining--;
+                modelJson.terminal4 && terminalsremaining--;
+            }
+
             const keys = [
-                `divinebeasts.finaltrial.terminalsremaining=${modelJson.terminalsremaining}`
+                `divinebeasts.finaltrial.terminalsremaining=${terminalsremaining}`
             ];
 
-            const addKeyIfTrue = (val, key) => {
-                if (val === true) {
-                    keys.push(key);
-                }
-            };
+            addKeyBranches(modelJson.complete, 'divinebeasts.finaltrial', 'complete', 'incomplete');
+            addKeyBranches(modelJson.map, 'divinebeasts.finaltrial.map', 'obtained', 'notobtained');
+            addKeyBranches(modelJson.terminal1, 'divinebeasts.finaltrial.terminal1', 'on', 'off');
+            addKeyBranches(modelJson.terminal2, 'divinebeasts.finaltrial.terminal2', 'on', 'off');
+            addKeyBranches(modelJson.terminal3, 'divinebeasts.finaltrial.terminal3', 'on', 'off');
+            addKeyBranches(modelJson.terminal4, 'divinebeasts.finaltrial.terminal4', 'on', 'off');
 
-            const addKeyIfFalse = (val, key) => {
-                if (val === false) {
-                    keys.push(key);
-                }
-            };
 
-            addKeyIfTrue(modelJson.complete, 'divinebeasts.finaltrial.complete');
-            addKeyIfFalse(modelJson.complete, 'divinebeasts.finaltrial.incomplete');
 
-            addKeyIfTrue(modelJson.map, 'divinebeasts.finaltrial.map.obtained');
-            addKeyIfFalse(modelJson.map, 'divinebeasts.finaltrial.map.notobtained');
-            
-            addKeyIfTrue(modelJson.terminal1, 'divinebeasts.finaltrial.terminal1.on');
-            addKeyIfFalse(modelJson.terminal1, 'divinebeasts.finaltrial.terminal1.off');
-            
-            addKeyIfTrue(modelJson.terminal2, 'divinebeasts.finaltrial.terminal2.on');
-            addKeyIfFalse(modelJson.terminal2, 'divinebeasts.finaltrial.terminal2.off');
-            
-            addKeyIfTrue(modelJson.terminal3, 'divinebeasts.finaltrial.terminal3.on');
-            addKeyIfFalse(modelJson.terminal3, 'divinebeasts.finaltrial.terminal3.off');
-            
-            addKeyIfTrue(modelJson.terminal4, 'divinebeasts.finaltrial.terminal4.on');
-            addKeyIfFalse(modelJson.terminal4, 'divinebeasts.finaltrial.terminal4.off');
+
+
 
             return writeChanges(keys);
         }

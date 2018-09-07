@@ -47,20 +47,16 @@ module.exports = (() => {
                 `bloodmoon.counter=${HoursMinutesSeconds.encode(modelJson.bloodmoon.counter)}`,
             ];
 
-            const addKeyIfTrue = (val, key) => {
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
                 if (val === true) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionTrue}`);
                 }
-            };
-
-            const addKeyIfFalse = (val, key) => {
                 if (val === false) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionFalse}`);
                 }
             };
 
-            addKeyIfTrue(modelJson.bloodmoon.tonight, 'bloodmoon.tonight.set');
-            addKeyIfFalse(modelJson.bloodmoon.tonight, 'bloodmoon.tonight.unset');
+            !!modelJson.bloodmoon && addKeyBranches(modelJson.bloodmoon.tonight, 'bloodmoon.tonight', 'set', 'unset');
 
             return writeChanges(keys);
         }

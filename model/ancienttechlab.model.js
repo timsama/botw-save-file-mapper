@@ -37,23 +37,17 @@ module.exports = (() => {
 
             const keys = [];
 
-            const addKeyIfTrue = (val, key) => {
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
                 if (val === true) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionTrue}`);
                 }
-            };
-
-            const addKeyIfFalse = (val, key) => {
                 if (val === false) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionFalse}`);
                 }
             };
 
-            addKeyIfTrue(modelJson.active, `ancienttechlabs.${name}.active`);
-            addKeyIfFalse(modelJson.active, `ancienttechlabs.${name}.inactive`);
-
-            addKeyIfTrue(modelJson.found, `ancienttechlabs.${name}.found`);
-            addKeyIfFalse(modelJson.found, `ancienttechlabs.${name}.notfound`);
+            addKeyBranches(modelJson.active, `ancienttechlabs.${name}`, 'active', 'inactive');
+            addKeyBranches(modelJson.found, `ancienttechlabs.${name}`, 'found', 'notfound');
 
             return writeChanges(keys);
         }

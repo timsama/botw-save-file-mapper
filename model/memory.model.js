@@ -17,20 +17,16 @@ module.exports = (() => {
             }
             const keys = [];
 
-            const addKeyIfTrue = (val, key) => {
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
                 if (val === true) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionTrue}`);
                 }
-            };
-
-            const addKeyIfFalse = (val, key) => {
                 if (val === false) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionFalse}`);
                 }
             };
 
-            addKeyIfTrue(modelJson.remembered, `memories.${name}.remembered`);
-            addKeyIfFalse(modelJson.remembered, `memories.${name}.forgotten`);
+            addKeyBranches(modelJson.remembered, `memories.${name}`, 'remembered', 'forgotten');
 
             return changeWriter(keys);
         }

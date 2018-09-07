@@ -40,6 +40,14 @@ module.exports = (questCategory) => {
             return previousSteps || [begunKey];
         };
 
+        const alreadyIncludedSteps = {};
+
+        const duplicatesFilter = (step) => {
+            const isFirstOccurance = !alreadyIncludedSteps[step];
+            alreadyIncludedSteps[step] = true;
+            return isFirstOccurance;
+        }
+
         const stepKeys = [completeKey];
         let currentKeys = getPreviousStepKey(completeKey);
         while (currentKeys.length > 0) {
@@ -49,7 +57,7 @@ module.exports = (questCategory) => {
         }
         stepKeys.push(begunKey);
 
-        return stepKeys.reverse();
+        return stepKeys.filter(duplicatesFilter).reverse();
     };
 
     return {

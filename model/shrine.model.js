@@ -62,44 +62,23 @@ module.exports = (() => {
 
             const keys = [];
 
-            const addKeyIfTrue = (val, key) => {
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
                 if (val === true) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionTrue}`);
                 }
-            };
-
-            const addKeyIfFalse = (val, key) => {
                 if (val === false) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionFalse}`);
                 }
             };
 
-            addKeyIfTrue(modelJson.active, `shrines.${name}.active`);
-            addKeyIfFalse(modelJson.active, `shrines.${name}.inactive`);
+            addKeyBranches(modelJson.active, `shrines.${name}`, 'active', 'inactive');
+            addKeyBranches(modelJson.pedestal, `shrines.${name}.pedestal`, 'on', 'off');
 
-            addKeyIfTrue(modelJson.pedestal, `shrines.${name}.pedestal.on`);
-            addKeyIfFalse(modelJson.pedestal, `shrines.${name}.pedestal.off`);
-
-            if (hasCompleteFlag) {
-                addKeyIfTrue(modelJson.complete, `shrines.${name}.complete`);
-                addKeyIfFalse(modelJson.complete, `shrines.${name}.incomplete`);
-            }
-
-            if (hasFoundFlag) {
-                addKeyIfTrue(modelJson.found, `shrines.${name}.found`);
-                addKeyIfFalse(modelJson.found, `shrines.${name}.notfound`);
-            }
-
-            if (hasUnearthedEntries) {
-                addKeyIfTrue(modelJson.unearthed, `shrines.${name}.unearthed`);
-                addKeyIfFalse(modelJson.unearthed, `shrines.${name}.buried`);
-            }
-
-            if (hasMonsterBaseEntries) {
-                addKeyIfTrue(modelJson.monsterbaseconquered, `shrines.${name}.monsterbase.conquered`);
-                addKeyIfFalse(modelJson.monsterbaseconquered, `shrines.${name}.monsterbase.unconquered`);
-            }
-
+            hasFoundFlag && addKeyBranches(modelJson.found, `shrines.${name}`, 'found', 'notfound');
+            hasCompleteFlag && addKeyBranches(modelJson.complete, `shrines.${name}`, 'complete', 'incomplete');
+            hasMonsterBaseEntries && addKeyBranches(modelJson.monsterbaseconquered, `shrines.${name}.monsterbase`, 'conquered', 'unconquered');
+            hasUnearthedEntries && addKeyBranches(modelJson.unearthed, `shrines.${name}`, 'unearthed', 'buried');
+            
             return changeWriter(keys);
         }
     };

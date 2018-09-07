@@ -55,54 +55,41 @@ module.exports = (() => {
             }
             const writeChanges = getChangeWriter(saveFile, effectMapPath);
 
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
+                if (val === true) {
+                    keys.push(`${baseKey}.${extensionTrue}`);
+                }
+                if (val === false) {
+                    keys.push(`${baseKey}.${extensionFalse}`);
+                }
+            };
+
+            let terminalsremaining = modelJson.terminalsremaining;
+
+            if (modelJson.terminalsremaining === undefined) {
+                terminalsremaining = 5;
+                modelJson.terminal1 && terminalsremaining--;
+                modelJson.terminal2 && terminalsremaining--;
+                modelJson.terminal3 && terminalsremaining--;
+                modelJson.terminal4 && terminalsremaining--;
+                modelJson.terminal5 && terminalsremaining--;
+            }
+
             const keys = [
-                `divinebeasts.vahruta.terminalsremaining=${modelJson.terminalsremaining}`
+                `divinebeasts.vahruta.terminalsremaining=${terminalsremaining}`
             ];
 
-            const addKeyIfTrue = (val, key) => {
-                if (val === true) {
-                    keys.push(key);
-                }
-            };
-
-            const addKeyIfFalse = (val, key) => {
-                if (val === false) {
-                    keys.push(key);
-                }
-            };
-
-            addKeyIfTrue(modelJson.active, 'divinebeasts.vahruta.active');
-            addKeyIfFalse(modelJson.active, 'divinebeasts.vahruta.inactive');
-
-            addKeyIfTrue(modelJson.complete, 'divinebeasts.vahruta.complete');
-            addKeyIfFalse(modelJson.complete, 'divinebeasts.vahruta.incomplete');
-
-            addKeyIfTrue(modelJson.found, 'divinebeasts.vahruta.found');
-            addKeyIfFalse(modelJson.found, 'divinebeasts.vahruta.notfound');
-
-            addKeyIfTrue(modelJson.map, 'divinebeasts.vahruta.map.obtained');
-            addKeyIfFalse(modelJson.map, 'divinebeasts.vahruta.map.notobtained');
-            
-            addKeyIfTrue(modelJson.terminal1, 'divinebeasts.vahruta.terminal1.on');
-            addKeyIfFalse(modelJson.terminal1, 'divinebeasts.vahruta.terminal1.off');
-            
-            addKeyIfTrue(modelJson.terminal2, 'divinebeasts.vahruta.terminal2.on');
-            addKeyIfFalse(modelJson.terminal2, 'divinebeasts.vahruta.terminal2.off');
-            
-            addKeyIfTrue(modelJson.terminal3, 'divinebeasts.vahruta.terminal3.on');
-            addKeyIfFalse(modelJson.terminal3, 'divinebeasts.vahruta.terminal3.off');
-            
-            addKeyIfTrue(modelJson.terminal4, 'divinebeasts.vahruta.terminal4.on');
-            addKeyIfFalse(modelJson.terminal4, 'divinebeasts.vahruta.terminal4.off');
-            
-            addKeyIfTrue(modelJson.terminal5, 'divinebeasts.vahruta.terminal5.on');
-            addKeyIfFalse(modelJson.terminal5, 'divinebeasts.vahruta.terminal5.off');
-
-            addKeyIfTrue(modelJson.heartcontaineravailable, 'divinebeasts.vahruta.heartcontainer.available');
-            addKeyIfFalse(modelJson.heartcontaineravailable, 'divinebeasts.vahruta.heartcontainer.notavailable');
-
-            addKeyIfTrue(modelJson.heartcontainertaken, 'divinebeasts.vahruta.heartcontainer.taken');
-            addKeyIfFalse(modelJson.heartcontainertaken, 'divinebeasts.vahruta.heartcontainer.nottaken');
+            addKeyBranches(modelJson.active, 'divinebeasts.vahruta', 'active', 'inactive');
+            addKeyBranches(modelJson.complete, 'divinebeasts.vahruta', 'complete', 'incomplete');
+            addKeyBranches(modelJson.found, 'divinebeasts.vahruta', 'found', 'notfound');
+            addKeyBranches(modelJson.map, 'divinebeasts.vahruta.map', 'obtained', 'notobtained');
+            addKeyBranches(modelJson.terminal1, 'divinebeasts.vahruta.terminal1', 'on', 'off');
+            addKeyBranches(modelJson.terminal2, 'divinebeasts.vahruta.terminal2', 'on', 'off');
+            addKeyBranches(modelJson.terminal3, 'divinebeasts.vahruta.terminal3', 'on', 'off');
+            addKeyBranches(modelJson.terminal4, 'divinebeasts.vahruta.terminal4', 'on', 'off');
+            addKeyBranches(modelJson.terminal5, 'divinebeasts.vahruta.terminal5', 'on', 'off');
+            addKeyBranches(modelJson.heartcontaineravailable, 'divinebeasts.vahruta.heartcontainer', 'available', 'notavailable');
+            addKeyBranches(modelJson.heartcontainertaken, 'divinebeasts.vahruta.heartcontainer', 'taken', 'nottaken');
 
             return writeChanges(keys);
         }

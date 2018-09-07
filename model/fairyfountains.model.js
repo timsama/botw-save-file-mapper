@@ -58,32 +58,20 @@ module.exports = (() => {
                 `fairyfountains.powerlevel=${modelJson.powerlevel}`
             ];
 
-            const addKeyIfTrue = (val, key) => {
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
                 if (val === true) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionTrue}`);
                 }
-            };
-
-            const addKeyIfFalse = (val, key) => {
                 if (val === false) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionFalse}`);
                 }
             };
 
-            addKeyIfTrue(modelJson.cotera.unlocked, 'fairyfountains.cotera.unlocked');
-            addKeyIfFalse(modelJson.cotera.unlocked, 'fairyfountains.cotera.locked');
-
-            addKeyIfTrue(modelJson.kaysa.unlocked, 'fairyfountains.kaysa.unlocked');
-            addKeyIfFalse(modelJson.kaysa.unlocked, 'fairyfountains.kaysa.locked');
-
-            addKeyIfTrue(modelJson.malanya.unlocked, 'fairyfountains.malanya.unlocked');
-            addKeyIfFalse(modelJson.malanya.unlocked, 'fairyfountains.malanya.locked');
-
-            addKeyIfTrue(modelJson.mija.unlocked, 'fairyfountains.mija.unlocked');
-            addKeyIfFalse(modelJson.mija.unlocked, 'fairyfountains.mija.locked');
-
-            addKeyIfTrue(modelJson.tera.unlocked, 'fairyfountains.tera.unlocked');
-            addKeyIfFalse(modelJson.tera.unlocked, 'fairyfountains.tera.locked');
+            !!modelJson.cotera && addKeyBranches(modelJson.cotera.unlocked, 'fairyfountains.cotera', 'unlocked', 'locked');
+            !!modelJson.kaysa && addKeyBranches(modelJson.kaysa.unlocked, 'fairyfountains.kaysa', 'unlocked', 'locked');
+            !!modelJson.malanya && addKeyBranches(modelJson.malanya.unlocked, 'fairyfountains.malanya', 'unlocked', 'locked');
+            !!modelJson.mija && addKeyBranches(modelJson.mija.unlocked, 'fairyfountains.mija', 'unlocked', 'locked');
+            !!modelJson.tera && addKeyBranches(modelJson.tera.unlocked, 'fairyfountains.tera', 'unlocked', 'locked');
 
             return writeChanges(keys);
         }

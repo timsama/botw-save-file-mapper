@@ -51,20 +51,16 @@ module.exports = (() => {
 
             const keys = [];
 
-            const addKeyIfTrue = (val, key) => {
+            const addKeyBranches = (val, baseKey, extensionTrue, extensionFalse) => {
                 if (val === true) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionTrue}`);
                 }
-            };
-
-            const addKeyIfFalse = (val, key) => {
                 if (val === false) {
-                    keys.push(key);
+                    keys.push(`${baseKey}.${extensionFalse}`);
                 }
             };
 
-            addKeyIfTrue(modelJson.all.unearthed, 'towers.all.unearthed');
-            addKeyIfFalse(modelJson.all.unearthed, 'towers.all.buried');
+            modelJson.all && addKeyBranches(modelJson.all.unearthed, 'towers.all', 'unearthed', 'buried');
 
             return writeChanges(keys)
                 .then(() => Tower.write('akkala', modelJson.akkala, saveFile, effectMapPath))
