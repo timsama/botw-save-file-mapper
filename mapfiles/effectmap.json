@@ -503,6 +503,14 @@
       }
     },
     "meetingriju": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 71272,
+            "value": false
+          }
+        ]
+      },
       "viewed": {
         "entries": [
           {
@@ -513,6 +521,14 @@
       }
     },
     "meetingteba": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 67784,
+            "value": false
+          }
+        ]
+      },
       "viewed": {
         "entries": [
           {
@@ -523,6 +539,14 @@
       }
     },
     "meetingyunobo": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 68168,
+            "value": false
+          }
+        ]
+      },
       "viewed": {
         "entries": [
           {
@@ -533,6 +557,14 @@
       }
     },
     "rescueyunoboagain": {
+      "unviewed": {
+        "entries": [
+          {
+            "offset": 339432,
+            "value": false
+          }
+        ]
+      },
       "viewed": {
         "entries": [
           {
@@ -1101,7 +1133,8 @@
         ],
         "harddependencies": [
           "divinebeasts.vahmedoh.inactive",
-          "divinebeasts.vahmedoh.incomplete"
+          "divinebeasts.vahmedoh.incomplete",
+          "mainquests.divinebeastvahmedoh.boardvahmedoh.unset"
         ]
       },
       "nottargeting": {
@@ -2099,7 +2132,8 @@
         ],
         "harddependencies": [
           "divinebeasts.vahrudania.inactive",
-          "divinebeasts.vahrudania.incomplete"
+          "divinebeasts.vahrudania.incomplete",
+          "mainquests.divinebeastvahrudania.boardvahrudania.unset"
         ]
       },
       "pedestal": {
@@ -2587,7 +2621,8 @@
         ],
         "harddependencies": [
           "divinebeasts.vahruta.inactive",
-          "divinebeasts.vahruta.incomplete"
+          "divinebeasts.vahruta.incomplete",
+          "mainquests.divinebeastvahruta.boardvahruta.unset"
         ]
       },
       "pedestal": {
@@ -4206,6 +4241,7 @@
           ],
           "softdependencies": [
             "mainquests.forbiddencityentry.complete.set",
+            "mainquests.freethedivinebeasts.begun.set",
             "cutscenes.meetingriju.viewed"
           ]
         },
@@ -4687,6 +4723,7 @@
             }
           ],
           "softdependencies": [
+            "mainquests.freethedivinebeasts.begun.set",
             "cutscenes.vahrudaniaintro.viewed"
           ]
         },
@@ -4921,7 +4958,7 @@
           ],
           "softdependencies": [
             "divinebeasts.vahrudania.notfound",
-            "mainquests.divinebeastvahrudania.bridgeofeldin",
+            "mainquests.divinebeastvahrudania.bridgeofeldin.unset",
             "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.cannon1.unset",
             "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.cannon2.unset",
             "mainquests.divinebeastvahrudania.boardvahrudania.subtasks.cannon3.unset",
@@ -4946,7 +4983,7 @@
             "mainquests.divinebeastvahrudania.begun.set"
           ],
           "softdependencies": [
-            "cutscenes.rescueyunoboagain.viewed",
+            "cutscenes.rescueyunoboagain.unviewed",
             "mainquests.divinebeastvahrudania.talktobludo.set",
             "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.allowboarding.set",
             "mainquests.divinebeastvahrudania.bridgeofeldin.subtasks.calmdownyunobo.set",
@@ -5195,7 +5232,7 @@
             "mainquests.freethedivinebeasts.complete.unset"
           ],
           "softdependencies": [
-            "divinebeasts.vahrudania.complete",
+            "divinebeasts.vahrudania.incomplete",
             "mainquests.divinebeastvahrudania.complete.subtasks.boulderbreakeravailable.unset",
             "mainquests.divinebeastvahrudania.complete.subtasks.boulderbreakertaken.unset"
           ]
@@ -6358,9 +6395,6 @@
               "value": false
             }
           ],
-          "harddependencies": [
-            "mainquests.thechampionsballad.begun.set"
-          ],
           "softdependencies": [
             "mainquests.thechampionsballad.finaltrial.complete.unset",
             "memories.thechampionsballad.forgotten",
@@ -6427,7 +6461,6 @@
             "mainquests.thechampionsballad.complete.unset"
           ],
           "softdependencies": [
-            "mainquests.thechampionsballad.completethechampionsongs.subtasks.championdarukssong",
             "mainquests.thechampionsballad.returntotheshrineofresurrectionagain.unset"
           ]
         }
@@ -6897,7 +6930,11 @@
           "softdependencies": [
             "mainquests.followthesheikahslate.complete.unset",
             "towers.greatplateau.notfound",
-            "towers.all.buried"
+            "towers.all.buried",
+            "shrines.jabaij.notfound",
+            "shrines.kehnamut.notfound",
+            "shrines.omanau.notfound",
+            "shrines.owadaim.notfound"
           ]
         }
       },
@@ -27970,11 +28007,8 @@
         "entries": [
           {
             "offset": 921400,
-            "value": true
+            "value": false
           }
-        ],
-        "softdependencies": [
-          "towers.central.found"
         ]
       },
       "notfound": {
@@ -28018,9 +28052,6 @@
             "offset": 3648,
             "value": false
           }
-        ],
-        "softdependencies": [
-          "towers.duelingpeaks.found"
         ]
       },
       "notfound": {
