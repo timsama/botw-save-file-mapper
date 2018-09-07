@@ -1,6 +1,6 @@
 const findOverlap = require('../lib/find-overlap.js');
 
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const fs = require('fs');
 const saveFileUtils = require('../util/save-file-utils.js');
 

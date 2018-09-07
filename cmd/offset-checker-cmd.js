@@ -1,6 +1,6 @@
 const offsetChecker = require('../lib/offset-checker.js');
 const saveFileUtils = require('../util/save-file-utils.js');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 
 const offset = parseInt(process.argv[2]);
 const filename = process.argv[3];

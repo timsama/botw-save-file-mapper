@@ -1,5 +1,5 @@
 (() => {
-    const CONFIG = require('../config.js');
+    const CONFIG = require('../config.json');
     const saveFileUtils = require('../util/save-file-utils.js');
     const folderUtils = require('../util/folder-utils.js');
     const mapFileUtils = require('../util/map-file-utils.js');

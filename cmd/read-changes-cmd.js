@@ -1,4 +1,4 @@
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const readChanges = require('../lib/read-changes.js')();
 const filepath = `${CONFIG.mapfilepath}effectmap.json`;
 

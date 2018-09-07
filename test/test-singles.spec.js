@@ -1,7 +1,7 @@
 const assert = require('assert');
 const testSingles = require('../lib/test-singles.js');
 const offsetChecker = require('../lib/offset-checker.js');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const effectmapFilePath = `${CONFIG.mapfilepath}effectmap.json`;
 
 const checkTest = (name, expectedOffset, expectedValue) => {

@@ -1,5 +1,5 @@
 const saveNamedChange = require('../lib/save-named-change.js')();
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const mapFileUtils = require('../util/map-file-utils.js');
 const filepath = `${CONFIG.mapfilepath}locations.json`;
 

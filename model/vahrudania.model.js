@@ -1,5 +1,5 @@
 module.exports = (() => {
-    const CONFIG = require('../config.js');
+    const CONFIG = require('../config.json');
     const changeReader = require('../lib/read-changes.js');
     const changeWriter = require('../lib/batch-apply-changes.js');
     const defaultEffectMap = `${CONFIG.mapfilepath}effectmap.json`;

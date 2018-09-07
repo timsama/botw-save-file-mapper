@@ -1,5 +1,5 @@
 const SaveFile  = require('../model/savefile.model.js');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const saveFile = CONFIG.savepath + 'game_data.sav';
 const MapFileUtils = require('../util/map-file-utils.js');
 const readline = require('readline-sync');

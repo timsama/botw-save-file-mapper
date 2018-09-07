@@ -1,6 +1,6 @@
 const offsetChecker = require('../lib/offset-checker.js');
 const saveFileUtils = require('../util/save-file-utils.js');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const itemFileUtils = require('../util/item-file-utils.js');
 
 const itemFiles = itemFileUtils.validCategories.map(itemFileUtils.getCategoryFilepath);

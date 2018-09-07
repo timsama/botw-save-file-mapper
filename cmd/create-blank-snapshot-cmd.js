@@ -1,7 +1,7 @@
 const fs = require('fs');
 const jBinary = require('jbinary');
 const saveFileUtils = require('../util/save-file-utils.js');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 
 const createBlankSnapshot = (outFile, inFile) => {
     const outputFilename = `${CONFIG.snapshotspath}${outFile}.sav`;

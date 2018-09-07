@@ -1,5 +1,5 @@
 const fs = require('fs');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const readline = require('readline-sync');
 
 const folderUtils = require('../util/folder-utils.js');

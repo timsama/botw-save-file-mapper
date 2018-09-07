@@ -1,7 +1,7 @@
 const assert = require('assert');
 const applyChanges = require('../lib/apply-changes.js')('./test/test.sav');
 const fs = require('fs');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const md5 = require('md5-file').sync;
 const effectmapFilePath = `./test/testeffectmap.json`;
 

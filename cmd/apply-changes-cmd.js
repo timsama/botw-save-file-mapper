@@ -1,4 +1,4 @@
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const applyChanges = require('../lib/apply-changes.js')();
 const filepath = `${CONFIG.mapfilepath}effectmap.json`;
 

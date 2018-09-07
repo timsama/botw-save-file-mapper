@@ -1,6 +1,6 @@
 const offsetSetter = require('../lib/offset-setter.js');
 const saveFileUtils = require('../util/save-file-utils.js');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 
 const offset = parseInt(process.argv[2]);
 const valueStr = process.argv[3];

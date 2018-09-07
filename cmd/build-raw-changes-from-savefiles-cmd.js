@@ -1,7 +1,7 @@
 const nameGetter = require('../lib/name-getter.js');
 const fs = require('fs');
 const buildHexDiff = require('../lib/build-hex-diff.js');
-const CONFIG = require('../config.js');
+const CONFIG = require('../config.json');
 const folderUtils = require('../util/folder-utils.js');
 
 let beforeFilepath = CONFIG.snapshotspath + process.argv[3];

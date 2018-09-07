@@ -1,0 +1,12 @@
+{
+    "savepath": "<Enter the path to your save file here, including the slot subfolder>",
+    "backuppath": "./backup/",
+    "tempoutputpath": "./temp/",
+    "snapshotspath": "./snapshots/",
+    "rawchangespath": "./raw/",
+    "exportpath": "./export/",
+    "mapfilepath": "./mapfiles/",
+    "logpath": "./log/",
+    "saveFileLastOffset": 1027200,
+	"placeholderImagepath": "./images/placeholder.jpg"
+}

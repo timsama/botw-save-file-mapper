@@ -1,6 +1,6 @@
 module.exports = (() => {
     const fs = require('fs');
-    const CONFIG = require('../config.js');
+    const CONFIG = require('../config.json');
     const stringify = require('json-stable-stringify');
     const toHexString = require('./save-file-utils.js').toHexString;
     const jsonOffsetMapFile = `${CONFIG.mapfilepath}offsetmap.json`;
