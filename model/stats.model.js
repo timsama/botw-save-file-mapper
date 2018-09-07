@@ -30,7 +30,7 @@ module.exports = (() => {
 
             return {
                 shrinescompleted: mapValues['stats.shrinescompleted'],
-                staminavessels: mapValues['stats.staminagauge'] / 200,
+                staminavessels: (mapValues['stats.staminagauge'] / 200) - 5,
                 heartcontainers: mapValues['stats.heartcontainers'] / 4.0,
                 heartsfilled: mapValues['stats.heartsfilled'] / 4.0,
                 rupees: mapValues['stats.rupees']
@@ -51,7 +51,7 @@ module.exports = (() => {
             };
 
             addKeyIfDefined(modelJson.shrinescompleted, `stats.shrinescompleted=${modelJson.shrinescompleted}`);
-            addKeyIfDefined(modelJson.staminavessels, `stats.staminagauge=${modelJson.staminavessels * 200}`);
+            addKeyIfDefined(modelJson.staminavessels, `stats.staminagauge=${(modelJson.staminavessels + 5) * 200}`);
             addKeyIfDefined(modelJson.heartcontainers, `stats.heartcontainers=${modelJson.heartcontainers * 4}`);
             addKeyIfDefined(modelJson.heartsfilled, `stats.heartsfilled=${modelJson.heartsfilled * 4}`);
             addKeyIfDefined(modelJson.rupees, `stats.rupees=${modelJson.rupees}`);
