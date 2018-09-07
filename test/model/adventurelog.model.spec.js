@@ -17,6 +17,7 @@ module.exports = () => {
                 "begun": false,
                 "complete": false,
                 "completedsteps": [
+                    "mainquests.capturedmemories.championstunictaken.set",
                     "mainquests.capturedmemories.memory1.set"
                 ],
                 "incompletesteps": [
@@ -171,7 +172,13 @@ module.exports = () => {
                     "mainquests.followthesheikahslate.begun.set",
                     "mainquests.followthesheikahslate.complete.set"
                 ],
-                "incompletesteps": []
+                "incompletesteps": [],
+                "rewards": [
+                    {
+                        "category": "keyitems",
+                        "name": "sheikahslate"
+                    }
+                ]
             },
             "forbiddencityentry": {
                 "begun": true,
@@ -866,26 +873,22 @@ module.exports = () => {
 
     return new Promise((resolve, reject) => {
         describe('adventurelog.model.js', function() {
-            // after(function() {
-            //     if (fs.existsSync(testFilePath)) {
-            //         fs.unlinkSync(testFilePath);
-            //     }
-            //     resolve();
-            // });
+            after(function() {
+                if (fs.existsSync(testFilePath)) {
+                    fs.unlinkSync(testFilePath);
+                }
+                resolve();
+            });
 
-            // it('should write the adventurelog to the save file correctly', function() {
-            //     fs.copyFileSync(baseFilePath, testFilePath);
+            it('should write and read the adventurelog to/from the save file correctly', function() {
+                fs.copyFileSync(baseFilePath, testFilePath);
 
-            //     return Map.write(expectedJson, testFilePath).then(() => {
-            //         assert(md5(testFilePath) == md5(expectedFile), `${md5(testFilePath)} !== ${md5(expectedFile)}`);
-            //     }).then(resolve);
-            // }).timeout(10000);
+                return AdventureLog.write(expectedJson, testFilePath).then(() => {
+                    const actualJson = AdventureLog.read(testFilePath);
 
-            // it('should read the adventurelog from the save file correctly', function() {
-            //     const actualJson = Map.read(testFilePath);
-
-            //     ModelTestUtils.doKeysMatch(expectedJson, actualJson, 'adventurelog');
-            // });
+                    ModelTestUtils.doKeysMatch(expectedJson, actualJson, 'adventurelog');
+                });
+            }).timeout(10000);
 
             subModelTest('mainquests', expectedJson.mainquests)
                 .then(subModelTest('memories', expectedJson.memories))
