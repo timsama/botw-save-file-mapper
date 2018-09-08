@@ -6,6 +6,8 @@ module.exports = (() => {
     const FairyFountains = require('./fairyfountains.model.js');
     const Stats = require('./stats.model.js');
     const AdventureLog = require('./adventurelog.model.js');
+    const SkipHardDependencies = require('./skipharddependencies.model.js');
+    const SkipSoftDependencies = require('./skipsoftdependencies.model.js');
 
     return {
         read: (saveFile) => {
@@ -16,7 +18,9 @@ module.exports = (() => {
                 clock: Clock.read(saveFile),
                 fairyfountains: FairyFountains.read(saveFile),
                 stats: Stats.read(saveFile),
-                adventurelog: AdventureLog.read(saveFile)
+                adventurelog: AdventureLog.read(saveFile),
+                skipharddependencies: SkipSoftDependencies.read(saveFile),
+                skipsoftdependencies: SkipSoftDependencies.read(saveFile)
             };
         },
         write: (modelJson, saveFile, options) => {
@@ -32,6 +36,10 @@ module.exports = (() => {
                 return Stats.write(modelJson.stats, saveFile, options);
             }).then(() => {
                 return AdventureLog.write(modelJson.adventurelog, saveFile, options);
+            }).then(() => {
+                return SkipHardDependencies.write(modelJson.skipharddependencies, saveFile, options);
+            }).then(() => {
+                return SkipSoftDependencies.write(modelJson.skipsoftdependencies, saveFile, options);
             });
         }
     };
