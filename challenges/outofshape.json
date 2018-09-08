@@ -1,0 +1,148 @@
+{
+  "inventory": {
+    "armor": {
+      "slots": [
+      ]
+    },
+    "arrows": {
+      "slots": [
+        {
+          "equipped": true,
+          "name": "arrow",
+          "quantity": 25
+        }
+      ]
+    },
+    "bows": {
+      "slots": [
+        {
+          "bonus": {
+            "amount": 10,
+            "type": "durabilityplus"
+          },
+          "durability": 40000,
+          "equipped": true,
+          "name": "steellizalbow"
+        },
+        {
+          "bonus": {
+            "amount": 10,
+            "type": "durabilityplus"
+          },
+          "durability": 40000,
+          "equipped": false,
+          "name": "goldenbow"
+        }
+      ],
+      "stash": 5
+    },
+    "food": {
+      "slots": [
+        {
+          "bonus": {
+            "amount": 5,
+            "type": "enduring"
+          },
+          "hearts": 1,
+          "name": "mushroomskewer",
+          "quantity": 1,
+          "stackable": false
+        },
+        {
+          "bonus": {
+            "amount": 5,
+            "type": "enduring"
+          },
+          "hearts": 1,
+          "name": "mushroomskewer",
+          "quantity": 1,
+          "stackable": false
+        },
+        {
+          "bonus": {
+            "amount": 5,
+            "type": "enduring"
+          },
+          "hearts": 1,
+          "name": "mushroomskewer",
+          "quantity": 1,
+          "stackable": false
+        }
+      ]
+    },
+    "keyitems": {
+      "slots": [
+      ]
+    },
+    "materials": {
+      "slots": [
+      ]
+    },
+    "shields": {
+      "slots": [
+        {
+          "bonus": {
+            "amount": 10,
+            "type": "durabilityplus"
+          },
+          "durability": 40000,
+          "equipped": true,
+          "name": "knightsshield"
+        },
+        {
+          "bonus": {
+            "amount": 70,
+            "type": "shieldsurfplus"
+          },
+          "durability": 1000000,
+          "equipped": false,
+          "name": "kiteshield"
+        }
+      ],
+      "stash": 4
+    },
+    "weapons": {
+      "slots": [
+        {
+          "bonus": {
+            "amount": 7,
+            "type": "attackplus"
+          },
+          "durability": 40000,
+          "equipped": true,
+          "name": "knightsbroadsword"
+        },
+        {
+          "bonus": {
+            "amount": 7,
+            "type": "attackplus"
+          },
+          "durability": 40000,
+          "equipped": false,
+          "name": "knightsbroadsword"
+        },
+        {
+          "bonus": {
+            "amount": 7,
+            "type": "attackplus"
+          },
+          "durability": 40000,
+          "equipped": false,
+          "name": "knightshalberd"
+        }
+      ],
+      "stash": 8
+    }
+  },
+  "skipharddependencies": {
+    "keys": [
+    ]
+  },
+  "skipsoftdependencies": {
+    "keys": [
+    ]
+  },
+  "stats": {
+    "staminavessels": -5
+  }
+}
