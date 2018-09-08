@@ -123,7 +123,7 @@ module.exports = (() => {
         },
         write: (modelJson, saveFile, startingSlot, options, effectMapPath) => {
             if (!modelJson) {
-                return Promise.resolve();
+                return Promise.resolve(startingSlot);
             }
             const stackableHeartsPlaceholder = 0xbf800000;
 

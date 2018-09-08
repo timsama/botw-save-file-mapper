@@ -76,11 +76,11 @@ module.exports = (() => {
         },
         write: (modelJson, saveFile, startingSlot, options, effectMapPath) => {
             if (!modelJson) {
-                return Promise.resolve();
+                return Promise.resolve(startingSlot);
             }
 
             const quickTipsPromise = (() => {
-                if (!options.skipSoftDependenceis && modelJson.slots.length > 1) {
+                if ((!options || !options.skipSoftDependencies) && modelJson.slots.length > 1) {
                     const writeChanges = getChangeWriter(saveFile, effectMapPath);
                     return writeChanges(['quicktips.switchshields.viewed'], options);
                 } else {

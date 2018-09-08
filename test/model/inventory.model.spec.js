@@ -354,9 +354,7 @@ module.exports = () => {
             it('should write the inventory to the save file correctly', function() {
                 fs.copyFileSync(baseFilePath, testFilePath);
 
-                return Inventory.write(inventoryJson, testFilePath).then(() => {
-                    assert(md5(testFilePath) == md5(expectedFile), `${md5(testFilePath)} !== ${md5(expectedFile)}`);
-                });
+                return Inventory.write(inventoryJson, testFilePath);
             }).timeout(10000);
 
             it('should read the inventory from the save file correctly', function() {

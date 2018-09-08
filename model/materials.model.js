@@ -24,7 +24,7 @@ module.exports = (() => {
         },
         write: (modelJson, saveFile, startingSlot, options, effectMapPath) => {
             if (!modelJson) {
-                return Promise.resolve();
+                return Promise.resolve(startingSlot);
             }
             return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'materials', options, (item, slot, slotInCategory) => {
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
