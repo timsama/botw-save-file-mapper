@@ -5,7 +5,9 @@ const CONFIG = require('../config.json');
 
 const createBlankSnapshot = (outFile, inFile) => {
     const outputFilename = `${CONFIG.snapshotspath}${outFile}.sav`;
-    const inputFilename = `${CONFIG.savepath}game_data.sav`;
+    const inputFilename = `${CONFIG.blankpath}blank.sav`;
+
+    fs.copyFileSync(inputFilename, outputFilename);
 
     saveFileUtils.withBinaryFileSync(inputFilename, (binary) => {
         while(binary.tell() < CONFIG.saveFileLastOffset) {

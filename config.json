@@ -1,5 +1,6 @@
 {
     "savepath": "<Enter the path to your save file here, including the slot subfolder>",
+    "blankpath": "./blank/",
     "backuppath": "./backup/",
     "tempoutputpath": "./temp/",
     "snapshotspath": "./snapshots/",
