@@ -4,14 +4,11 @@
   "description": "Mapper and editor for Breath of the Wild save files",
   "main": "cmd/help-cmd.js",
   "dependencies": {
-    "chokidar": "^2.0.0",
     "cli-interact": "^0.1.9",
-    "electron-edge2": "^2.5.1-pre",
     "jbinary": "^2.1.3",
     "json-stable-stringify": "^1.0.1",
     "npm-run-script": "0.0.4",
-    "readline-sync": "^1.4.7",
-    "windows-watcher": "0.0.1-pre4"
+    "readline-sync": "^1.4.7"
   },
   "devDependencies": {
     "md5-file": "^3.2.3",
