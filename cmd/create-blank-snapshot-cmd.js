@@ -3,7 +3,7 @@ const jBinary = require('jbinary');
 const saveFileUtils = require('../util/save-file-utils.js');
 const CONFIG = require('../config.json');
 
-const createBlankSnapshot = (outFile, inFile) => {
+const createBlankSnapshot = (outFile) => {
     const outputFilename = `${CONFIG.snapshotspath}${outFile}.sav`;
     const inputFilename = `${CONFIG.blankpath}blank.sav`;
 
@@ -18,4 +18,4 @@ const createBlankSnapshot = (outFile, inFile) => {
     });
 };
 
-createBlankSnapshot(process.argv[2], process.argv[3]);
+createBlankSnapshot(process.argv[2] || 'blank');
