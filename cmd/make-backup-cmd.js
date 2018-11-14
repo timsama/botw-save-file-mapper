@@ -16,9 +16,15 @@ if (fs.existsSync(saveFileBackup)) {
     const isSure = query(areYouSureString);
 
     if (isSure) {
-        fs.unlinkSync(saveFileBackup);
-        fs.unlinkSync(captionFileBackup);
-        fs.unlinkSync(imageFileBackup);
+        if (fs.existsSync(saveFileBackup)) {
+            fs.unlinkSync(saveFileBackup);
+        }
+        if (fs.existsSync(captionFileBackup)) {
+            fs.unlinkSync(captionFileBackup);
+        }
+        if (fs.existsSync(imageFileBackup)) {
+            fs.unlinkSync(imageFileBackup);
+        }
 
         fs.copyFileSync(saveFilepath, saveFileBackup);
         fs.copyFileSync(captionFilepath, captionFileBackup);
