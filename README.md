@@ -10,7 +10,7 @@ What BotWSFM does:
 - Compares different save files and outputs a raw changefile containing the differences between them. Every. Single. Bit.
 - Uses raw changefiles to perform binary searches by chunk or by line to identify what data changes have what in-game effects.
 - Exports search results to JSON effect map files that you can compile and use to your heart's content.
-- Apply and unapply\* effects from your effect map files to alter any v1.4 Breath of the Wild save file!
+- Apply and unapply\* effects from your effect map files to alter any v1.4+ Breath of the Wild save file!
 - Exports your save file to a JSON format containing data fields for everything I've been able to nail down.
 - Imports JSON save data and applies its effects to your save file.
 - Lets you use the packaged-in effects maps to set your quest progress to ANY point in the main questline (including Trial of the Sword and The Champion's Ballad--if you purchased them).
@@ -73,3 +73,19 @@ outofshape.json is a save file that drastically lowers your starting stamina, ma
 
 ###### What's New
 I've gotten rid of all dependency on shell scripts, so you no longer need to be running Linux for this to work (yay!). In fact, I've switched to developing this entirely on Windows 10, using the Windows Linux Subsystem, which is actually pretty great.
+
+I've removed some dependencies that are no longer needed, which slims things down nicely.
+
+I've verified that the upgrade to 1.5 did not change the structure of the save file (thank Hylia), so everything should still work.
+
+###### Planned Upgrades
+- Add help menu
+- Add support for horse addition/editing/removal
+
+##### Upgrades that will hopefully be done sometime in 2019
+- Add an easy-to-use GUI
+
+###### Known Issues
+- Old man still hangs around the plateau after you've completed The Isolated Plateau
+- One-hit Obliterator remains in shrine after completing its mission
+- When importing from JSON, the first shield slot will sometimes have a durability of 1, despite the JSON having a different value
