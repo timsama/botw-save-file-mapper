@@ -28,7 +28,18 @@ module.exports = (() => {
             if (!modelJson) {
                 return Promise.resolve(startingSlot);
             }
-            return writeItemSlots(saveFile, modelJson.slots, startingSlot, 'keyitems', options, (item, slot, slotInCategory) => {
+
+            // these aren't actually unwriteable, but they don't work the way you'd want, so I'm skipping them
+            const unwriteableItems = {
+                'daruksprotection': true,
+                'miphasgrace': true,
+                'revalisgale': true,
+                'urbosasfury': true
+            };
+
+            const writeableItems = modelJson.slots.filter(item => !unwriteableItems[item.name]);
+
+            return writeItemSlots(saveFile, writeableItems, startingSlot, 'keyitems', options, (item, slot, slotInCategory) => {
                 const equippedOffset = Offsets.getEquippedSlotOffset(slot);
                 const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
 
