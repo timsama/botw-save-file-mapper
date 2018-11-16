@@ -5630,7 +5630,8 @@
             }
           ],
           "softdependencies": [
-            "sheikahslate.enabled"
+            "sheikahslate.enabled",
+            "cutscenes.leavingtheshrineofresurrection.viewed"
           ]
         },
         "unset": {
@@ -5642,6 +5643,9 @@
           ],
           "harddependencies": [
             "mainquests.followthesheikahslate.complete.unset"
+          ],
+          "softdependencies": [
+            "cutscenes.leavingtheshrineofresurrection.unviewed"
           ]
         }
       },
