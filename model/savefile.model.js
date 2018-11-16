@@ -1,7 +1,7 @@
 module.exports = (() => {
     const Inventory = require('./inventory.model.js');
     const Runes = require('./runes.model.js');
-    const Map = require('./map.model.js');
+    const WorldMap = require('./worldmap.model.js');
     const Clock = require('./clock.model.js');
     const FairyFountains = require('./fairyfountains.model.js');
     const Stats = require('./stats.model.js');
@@ -14,7 +14,7 @@ module.exports = (() => {
             return {
                 inventory: Inventory.read(saveFile),
                 runes: Runes.read(saveFile),
-                map: Map.read(saveFile),
+                map: WorldMap.read(saveFile),
                 clock: Clock.read(saveFile),
                 fairyfountains: FairyFountains.read(saveFile),
                 stats: Stats.read(saveFile),
@@ -27,7 +27,7 @@ module.exports = (() => {
             return Inventory.write(modelJson.inventory, saveFile, options).then(() => {
                 return Runes.write(modelJson.runes, saveFile, options);
             }).then(() => {
-                return Map.write(modelJson.map, saveFile, options);
+                return WorldMap.write(modelJson.map, saveFile, options);
             }).then(() => {
                 return Clock.write(modelJson.clock, saveFile, options);
             }).then(() => {

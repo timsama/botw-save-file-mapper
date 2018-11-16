@@ -1,15 +1,15 @@
 module.exports = () => {
     const assert = require('assert');
-    const Map = require('../../model/map.model.js');
+    const WorldMap = require('../../model/worldmap.model.js');
     const md5 = require('md5-file').sync;
     const fs = require('fs');
     const ModelTestUtils = require('./model-test-utils.js');
     const subModelTest = require('./model-test-template.js');
 
     const baseFilePath = './test/blank.sav';
-    const testFilePath = './test/map.test.sav';
+    const testFilePath = './test/worldmap.test.sav';
 
-    const expectedFile = './test/map.model.spec.sav';
+    const expectedFile = './test/worldmap.model.spec.sav';
 
     const expectedJson = {
         "towers": {
@@ -243,7 +243,7 @@ module.exports = () => {
     };
 
     return new Promise((resolve, reject) => {
-        describe('map.model.js', function() {
+        describe('worldmap.model.js', function() {
             after(function() {
                 if (fs.existsSync(testFilePath)) {
                     fs.unlinkSync(testFilePath);
@@ -254,11 +254,11 @@ module.exports = () => {
             it('should write the map to the save file correctly', function() {
                 fs.copyFileSync(baseFilePath, testFilePath);
 
-                return Map.write(expectedJson, testFilePath);
+                return WorldMap.write(expectedJson, testFilePath);
             }).timeout(10000);
 
             it('should read the map from the save file correctly', function() {
-                const actualJson = Map.read(testFilePath);
+                const actualJson = WorldMap.read(testFilePath);
 
                 ModelTestUtils.doKeysMatch(expectedJson, actualJson, 'map');
             });
