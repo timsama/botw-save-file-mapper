@@ -79,7 +79,6 @@ I've removed some dependencies that are no longer needed, which slims things dow
 I've verified that the upgrade to 1.5 did not change the structure of the save file (thank Hylia), so everything should still work.
 
 ###### Planned Upgrades
-- Add help menu
 - Add support for horse addition/editing/removal
 
 ##### Upgrades that will hopefully be done sometime in 2019
