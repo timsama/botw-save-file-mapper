@@ -30,7 +30,8 @@ itemFiles.some((itemFile) => {
 
     const itemKeys = Object.keys(json);
     return itemKeys.some((itemKey) => {
-        const isMatch = json[itemKey].every((itemEntry, i) => {
+        const itemEntries = json[itemKey].entries;
+        const isMatch = itemEntries && itemEntries.every((itemEntry, i) => {
             return itemEntry.offset === entries[i].offset
                 && itemEntry.value === entries[i].value;
         });
