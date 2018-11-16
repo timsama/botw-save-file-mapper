@@ -5,9 +5,9 @@ module.exports = (() => {
     const toHexString = require('./save-file-utils.js').toHexString;
     const objUtils = require('./obj-utils.js');
 
-    const MapFileUtils = {
+    const ItemFileUtils = {
         getCategoryFilepath: (category) => {
-            if (MapFileUtils.validCategories.indexOf(category) !== -1) {
+            if (ItemFileUtils.validCategories.indexOf(category) !== -1) {
                 return `${CONFIG.mapfilepath}${category}.json`;
             } else {
                 return undefined;
@@ -36,5 +36,5 @@ module.exports = (() => {
         ]
     };
 
-    return MapFileUtils;
+    return ItemFileUtils;
 })();
