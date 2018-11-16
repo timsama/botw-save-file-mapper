@@ -45,6 +45,7 @@
     "read-changes": "node cmd/read-changes-cmd.js",
     "restore-backup": "node cmd/restore-backup-cmd.js",
     "set-hearts": "node cmd/set-hearts-cmd.js",
+    "set-rupees": "node cmd/set-rupees-cmd.js",
     "set-stamina": "node cmd/set-stamina-cmd.js",
     "set-item-slot": "node cmd/set-item-slot-cmd.js",
     "set-offset": "node cmd/offset-setter-cmd.js",
