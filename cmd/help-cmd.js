@@ -1,1 +1,81 @@
-console.log('Welcome to BoTW Save File Mapper. Help file has currently not been implemented.');
+const CONFIG = require('../config.json');
+
+const isArcane = process.argv.slice(2).find(entry => entry === 'arcane');
+
+console.log('Welcome to BoTW Save File Mapper.');
+console.log('');
+
+if (CONFIG.savepath === '<Enter the path to your save file here, including the slot subfolder>') {
+    console.log('===== Getting Started =====');
+    console.log('');
+    console.log('First, open up config.json and set the "savepath" entry to point to your save file slot directory. Then use any of the following commands to start modifying your save file.');
+    console.log('');
+    console.log('');
+}
+console.log('===== Common Commands =====');
+console.log('help                                    # Displays this help page');
+console.log('help arcane                             # Displays this help page including arcane commands');
+console.log('');
+console.log('import-json <filename> [skip-soft-deps] # Writes the save data from the JSON file into the current save file');
+console.log('export-json <filename>                  # Writes a JSON file containing the current save file\'s game state');
+console.log('');
+console.log('make-backup                             # Stores a backup of the current save file');
+console.log('restore-backup [keep-copy]              # Overwrites the current save file with the backup, then deletes the backup (unless keep-copy is specified)');
+console.log('');
+console.log('create-blank-snapshot                   # Creates a snapshot of an empty save file, called "blank"');
+console.log('load-snapshot <name>                    # Overwrites the current save file with a saved snapshot');
+console.log('take-snapshot <name>                    # Creates a snapshot based on the current save file');
+console.log('');
+console.log('');
+console.log('===== Less-common Commands =====');
+console.log('apply-location-change <name>            # Changes the player\'s location in the game to the named location');
+console.log('export-named-location <name>            # Uses the current save file\'s player location to create a named location');
+console.log('');
+console.log('delete-item-slot <category> <slot>      # Deletes the slot in the category specified, and shifts all subsequent items up by one slot');
+console.log('equip-item-slot <category> <slot>       # Equips the item in the specified category slot');
+console.log('insert-item-slot <category> <slot> <item name>[x<Quantity>]');
+console.log('                                        # Inserts an item at the specified category slot, and shifts all subsequent items back by one slot');
+console.log('set-item-slot <category> <slot> <item name>[x<Quantity>] ');
+console.log('                                        # Overwrites the specified category slot with the specified item');
+console.log('');
+console.log('set-hearts <heart containers>           # Sets the player\'s heart containers to the quantity specified');
+console.log('set-rupees <quantity>                   # Sets the player\'s rupees to the quantity specified');
+console.log('set-stamina <stamina gauges>            # Sets the player\'s stamina gauges to the quantity specified');
+if (isArcane) {
+    console.log('');
+    console.log('');
+    console.log('===== Arcane Commands (you probably only need these if you\'re mapping the save file yourself) =====');
+    console.log('apply-changes <keypath> [<value>]       # Applies the change at the keypath to the save file, supplying a value if needed');
+    console.log('apply-raw-changes <keypath>             # Applies the specified raw changeset to the current save file');
+    console.log('build-raw-changes <keypath>             # Helps you create a new raw changeset with the specified keypath');
+    console.log('build-raw-changes-from-snapshots <keypath> <snapshot 1> <snapshot 2>');
+    console.log('                                        # Creates a new raw changeset with the specified keypath by comparing two snapshots');
+    console.log('build-hex-view                          # Builds a hex view (helper function for creating raw changesets)');
+    console.log('find-overlap <keypath 1> <keypath 2>    # Finds all offsets in common between two raw changesets');
+    console.log('read-changes <keypath> [<keypath 2>...] # Reads the values from the save file for the keypaths provided');
+    console.log('unapply-raw-changes <keypath>           # Reverts a raw changeset from the save file to what the values were at the time of the changeset\'s creation');
+    console.log('check-all-item-slots                    # Displays what BoTWSFM thinks is in the current save file\'s inventory');
+    console.log('check-item-slot <absolute slot>         # Displays what BoTWSFM thinks is in the given slot (absolute slot, not slot in category)');
+    console.log('export-armor-set <head name> <body name> <feet name>');
+    console.log('                                        # Helper for exporting an armor set\'s entries');
+    console.log('export-item-slot <name> <category> <slot>');
+    console.log('export-named-time <name>                # Adds the current save file time to the effect map with the specified name');
+    console.log('                                        # Adds the item in the specified slot to its category\'s JSON file');
+    console.log('');
+    console.log('check-offset <hex or decimal offset>    # Displays the value found by checking the save file at the given offset');
+    console.log('create-offset-map                       # Creates a map of what all known offsets do');
+    console.log('decode-float <hex value>                # Interprets a hex value as a float');
+    console.log('encode-float <float value>              # Converts a float into a hex value');
+    console.log('set-offset <offset> <value>             # Sets the offset in the save file to the value specified');
+    console.log('');
+    console.log('quest-analyzer <name> [[shrine=<shrine name>] OR [side-quest]]');
+    console.log('                                        # Helper to find the offsets for starting and finishing a quest');
+    console.log('shrine-analyzer <name>                  # Helper to find the offsets for unearthing, finding, activating, and completing a shrine');
+    console.log('');
+    console.log('test-chunks <keypath> [rename=<new keypath>] [known-value=<value>] [known-previous-value=<value>] [append-to-existing] [include-known-offsets]');
+    console.log('                                        # Tests the chunks in a raw changeset to determine which has the desired effect');
+    console.log('test-ones <keypath> [rename=<new keypath>] [known-previous-value=<value>] [append-to-existing] [include-known-offsets]');
+    console.log('                                        # Tests the one-valued entries in a raw changeset to determine which has the desired effect');
+    console.log('test-singles <keypath> [rename=<new keypath>] [known-value=<value>] [known-previous-value=<value>] [append-to-existing] [include-known-offsets]');
+    console.log('                                        # Tests each individual entry in a raw changeset to determine which has the desired effect');
+}
