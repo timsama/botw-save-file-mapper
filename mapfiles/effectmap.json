@@ -1,4 +1,431 @@
 {
+  "link": {
+    "position": {
+      "x": {
+        "entries": [
+          {
+            "offset": 801776,
+            "unit": "distance units",
+            "value": "float"
+          }
+        ]
+      },
+      "y": {
+        "entries": [
+          {
+        "offset": 801792,
+        "unit": "distance units",
+        "value": "float"
+          }
+        ]
+      },
+      "z": {
+        "entries": [
+          {
+        "offset": 801784,
+        "unit": "distance units",
+        "value": "float"
+      }]
+      }
+    },
+    "orientation": {
+        "entries": [
+          {
+      "offset": 453224,
+      "unit": "degrees from South",
+      "value": "float"
+    }]
+    },
+    "mounted": {
+      "set": {
+        "entries": [
+          {
+        "offset": 483544,
+        "value": true
+      }]
+      },
+      "unset": {
+        "entries": [
+          {
+        "offset": 483544,
+        "value": false
+      }]
+      }
+    }
+  },
+  "horses": {
+    "selected": {
+      "slot": {
+        "entries": [
+          {
+        "offset": 847024,
+        "unit": "slot enum",
+        "value": "integer"
+      }]
+      },
+      "x": {
+        "entries": [
+          {
+        "offset": 1016640,
+        "unit": "distance units",
+        "value": "float"
+      }]
+      },
+      "y": {
+        "entries": [
+          {
+        "offset": 1016656,
+        "unit": "distance units",
+        "value": "float"
+      }]
+      },
+      "z": {
+        "entries": [
+          {
+        "offset": 1016648,
+        "unit": "distance units",
+        "value": "float"
+      }]
+      }
+    },
+    "wild": {
+      "mane": {
+        "entries": [
+          {
+          "offset": 791528,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "type": {
+        "entries": [
+          {
+          "offset": 852160,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "reins": {
+        "entries": [
+          {
+          "offset": 451600,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "saddle": {
+        "entries": [
+          {
+          "offset": 303752,
+          "length": "24",
+          "value": "ascii"
+        }]
+      },
+      "bond": {
+        "entries": [
+          {
+          "offset": 915848,
+          "unit": "percent",
+          "value": "float"
+        }]
+      },
+      "color": {
+        "entries": [
+          {
+        "offset": 526000,
+        "unit": "color enum",
+        "value": "integer"
+      }]
+      },
+      "x": {
+        "entries": [
+          {
+        "offset": 563840,
+        "unit": "distance units",
+        "value": "float"
+      }]
+      },
+      "y": {
+        "entries": [
+          {
+        "offset": 563856,
+        "unit": "distance units",
+        "value": "float"
+      }]
+      },
+      "z": {
+        "entries": [
+          {
+        "offset": 563848,
+        "unit": "distance units",
+        "value": "float"
+      }]
+      },
+      "orientation": {
+        "entries": [
+          {
+        "offset": 362720,
+        "unit": "negative radians from south",
+        "value": "float"
+      }]
+      }
+    },
+        "slot1": {
+      "name": {
+        "entries": [{
+          "offset": 517696,
+          "length": 8,
+          "value": "ascii"
+        }]
+      },
+      "type": {
+        "entries": [{
+          "offset": 851520,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "saddle": {
+        "entries": [{
+          "offset": 303112,
+          "length": "24",
+          "value": "ascii"
+        }]
+      },
+      "reins": {
+        "entries": [{
+          "offset": 450960,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "mane": {
+        "entries": [{
+          "offset": 790888,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "color": {
+        "entries": [{
+          "offset": 525960,
+          "unit": "color enum",
+          "value": "integer"
+        }]
+      },
+      "bond": {
+        "entries": [{
+          "offset": 915808,
+          "unit": "percent",
+          "value": "float"
+        }]
+      }
+    },
+    "slot2": {
+      "name": {
+        "entries": [{
+          "offset": 517824,
+          "length": 8,
+          "value": "ascii"
+        }]
+      },
+      "type": {
+        "entries": [{
+          "offset": 851648,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "saddle": {
+        "entries": [{
+          "offset": 303240,
+          "length": "24",
+          "value": "ascii"
+        }]
+      },
+      "reins": {
+        "entries": [{
+          "offset": 451088,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "mane": {
+        "entries": [{
+          "offset": 791016,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "color": {
+        "entries": [{
+          "offset": 525968,
+          "unit": "color enum",
+          "value": "integer"
+        }]
+      },
+      "bond": {
+        "entries": [{
+          "offset": 915816,
+          "unit": "percent",
+          "value": "float"
+        }]
+      }
+    },
+    "slot3": {
+      "name": {
+      "entries": [{
+          "offset": 517952,
+          "length": 8,
+          "value": "ascii"
+        }]
+      },
+      "type": {
+      "entries": [{
+          "offset": 851776,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "saddle": {
+      "entries": [{
+          "offset": 303368,
+          "length": "24",
+          "value": "ascii"
+        }]
+      },
+      "reins": {
+      "entries": [{
+          "offset": 451216,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "mane": {
+      "entries": [{
+          "offset": 791144,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "color": {
+      "entries": [{
+          "offset": 525976,
+          "unit": "color enum",
+          "value": "integer"
+        }]
+      },
+      "bond": {
+      "entries": [{
+          "offset": 915824,
+          "unit": "percent",
+          "value": "float"
+        }]
+      }
+    },
+    "slot4": {
+      "name": {
+      "entries": [{
+          "offset": 518080,
+          "length": 8,
+          "value": "ascii"
+        }]
+      },
+      "type": {
+      "entries": [{
+          "offset": 851904,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "saddle": {
+      "entries": [{
+          "offset": 303496,
+          "length": "24",
+          "value": "ascii"
+        }]
+      },
+      "reins": {
+      "entries": [{
+          "offset": 451344,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "mane": {
+      "entries": [{
+          "offset": 791272,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "color": {
+      "entries": [{
+          "offset": 525984,
+          "unit": "color enum",
+          "value": "integer"
+        }]
+      },
+      "bond": {
+      "entries": [{
+          "offset": 915832,
+          "unit": "percent",
+          "value": "float"
+        }]
+      }
+    },
+    "slot5": {
+      "name": {
+      "entries": [{
+          "offset": 518208,
+          "length": 8,
+          "value": "ascii"
+        }]
+      },
+      "type": {
+      "entries": [{
+          "offset": 852032,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "saddle": {
+      "entries": [{
+          "offset": 303624,
+          "length": "24",
+          "value": "ascii"
+        }]
+      },
+      "reins": {
+      "entries": [{
+          "offset": 451472,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "mane": {
+      "entries": [{
+          "offset": 791400,
+          "length": "20",
+          "value": "ascii"
+        }]
+      },
+      "color": {
+      "entries": [{
+          "offset": 525992,
+          "unit": "color enum",
+          "value": "integer"
+        }]
+      },
+      "bond": {
+      "entries": [{
+          "offset": 915840,
+          "unit": "percent",
+          "value": "float"
+        }]
+      }
+    }
+  },
   "ancienttechlabs": {
     "akkala": {
       "active": {
