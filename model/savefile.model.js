@@ -6,6 +6,7 @@ module.exports = (() => {
     const FairyFountains = require('./fairyfountains.model.js');
     const Stats = require('./stats.model.js');
     const AdventureLog = require('./adventurelog.model.js');
+    const Horses = require('./horses.model.js');
     const SkipHardDependencies = require('./skipharddependencies.model.js');
     const SkipSoftDependencies = require('./skipsoftdependencies.model.js');
 
@@ -19,6 +20,7 @@ module.exports = (() => {
                 fairyfountains: FairyFountains.read(saveFile),
                 stats: Stats.read(saveFile),
                 adventurelog: AdventureLog.read(saveFile),
+                horses: Horses.read(saveFile),
                 skipharddependencies: SkipSoftDependencies.read(saveFile),
                 skipsoftdependencies: SkipSoftDependencies.read(saveFile)
             };
