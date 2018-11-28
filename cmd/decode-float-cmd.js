@@ -1,7 +1,7 @@
-const float28 = require('../encoders_decoders/float28.js');
+const float32 = require('../encoders_decoders/float32.js');
 
 const inputs = process.argv.slice(2);
 
 inputs.forEach((input) => {
-    console.log(float28.decodeFloat(input));
+    console.log(float32.decodeFloat(input));
 });

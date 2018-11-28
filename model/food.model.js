@@ -4,7 +4,7 @@ module.exports = (() => {
     const OffsetSetter = require('../lib/offset-setter.js');
     const mapItemSlots = require('./map-item-slots.js');
     const writeItemSlots = require('./write-item-slots.js');
-    const Float28 = require('../encoders_decoders/float28.js');
+    const Float32 = require('../encoders_decoders/float32.js');
     const FoodDuration = require('../encoders_decoders/floatseconds.js');
 
     const bonusTypes = {
@@ -55,7 +55,7 @@ module.exports = (() => {
             const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
             const heartsOffset = Offsets.getFoodHeartsOffset(slotInCategory);
 
-            const quarterHearts = Float28.decode(OffsetChecker(heartsOffset, saveFile));
+            const quarterHearts = Float32.decode(OffsetChecker(heartsOffset, saveFile));
             const fullHearts = quarterHearts / 4.0;
 
             const bonus = (() => {
@@ -78,13 +78,13 @@ module.exports = (() => {
                         type: type
                     };
                 } else if (type === 'energizing') {
-                    const amount = Float28.decode(OffsetChecker(amountOffset, saveFile)) / 1000.0;
+                    const amount = Float32.decode(OffsetChecker(amountOffset, saveFile)) / 1000.0;
                     return {
                         amount: amount,
                         type: type
                     }
                 } else if (type === 'enduring') {
-                    const amount = Float28.decode(OffsetChecker(amountOffset, saveFile)) / 5.0;
+                    const amount = Float32.decode(OffsetChecker(amountOffset, saveFile)) / 5.0;
                     return {
                         amount: amount,
                         type: type
@@ -148,7 +148,7 @@ module.exports = (() => {
                     },
                     {
                         offset: heartsOffset,
-                        value: item.stackable ? stackableHeartsPlaceholder : Float28.encode(quarterHearts)
+                        value: item.stackable ? stackableHeartsPlaceholder : Float32.encode(quarterHearts)
                     }
                 ];
 
@@ -177,7 +177,7 @@ module.exports = (() => {
                                 },
                                 {
                                     offset: amountOffset,
-                                    value: Float28.encode(item.bonus.amount * 1000)
+                                    value: Float32.encode(item.bonus.amount * 1000)
                                 },
                                 {
                                     offset: durationOffset,
@@ -192,7 +192,7 @@ module.exports = (() => {
                                 },
                                 {
                                     offset: amountOffset,
-                                    value: Float28.encode(item.bonus.amount * 5.0)
+                                    value: Float32.encode(item.bonus.amount * 5.0)
                                 },
                                 {
                                     offset: durationOffset,
@@ -207,7 +207,7 @@ module.exports = (() => {
                                 },
                                 {
                                     offset: amountOffset,
-                                    value: Float28.encode(quarterHearts)
+                                    value: Float32.encode(quarterHearts)
                                 },
                                 {
                                     offset: durationOffset,

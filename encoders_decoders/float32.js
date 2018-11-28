@@ -8,16 +8,16 @@ module.exports = (() => {
             const mantissa = absIntVal / (Math.pow(2, rawExponent - 7) * 1.0) - 128;
             return ((((exponent + 127) << 23) | (mantissa * Math.pow(2, 16))) | sign) >>> 0;
         },
-        decode: (float28Val) => {
-            const sign = ((float28Val & 0x80000000) >> 31) * 2 + 1;
-            const exponent = ((float28Val & 0x7F800000) >> 23) - 134;
-            const mantissa = (float28Val & 0x007FFFFF) / Math.pow(2, 16) + 128;
+        decode: (float32Val) => {
+            const sign = ((float32Val & 0x80000000) >> 31) * 2 + 1;
+            const exponent = ((float32Val & 0x7F800000) >> 23) - 134;
+            const mantissa = (float32Val & 0x007FFFFF) / Math.pow(2, 16) + 128;
             return sign * Math.floor(mantissa * Math.pow(2, exponent));
         },
-        decodeFloat: (float28Val) => {
-            const sign = ((float28Val & 0x80000000) >> 31) * 2 + 1;
-            const exponent = ((float28Val & 0x7F800000) >> 23) - 134;
-            const mantissa = (float28Val & 0x007FFFFF) / Math.pow(2, 16) + 128;
+        decodeFloat: (float32Val) => {
+            const sign = ((float32Val & 0x80000000) >> 31) * 2 + 1;
+            const exponent = ((float32Val & 0x7F800000) >> 23) - 134;
+            const mantissa = (float32Val & 0x007FFFFF) / Math.pow(2, 16) + 128;
             return sign * mantissa * Math.pow(2, exponent);
         }
     };

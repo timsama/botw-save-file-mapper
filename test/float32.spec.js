@@ -1,18 +1,18 @@
 const assert = require('assert');
-const float28 = require('../encoders_decoders/float28.js');
+const float32 = require('../encoders_decoders/float32.js');
 
 const checkEncoding = (value, expectedEncoding) => {
-    const actualEncoding = float28.encode(value);
+    const actualEncoding = float32.encode(value);
     assert(actualEncoding === expectedEncoding, `${value} was expected to have encoding 0x${expectedEncoding.toString(16)} but instead gave 0x${actualEncoding.toString(16)}`);
 };
 
 const checkDecoding = (hexValue, expectedValue) => {
-    const actualValue = float28.decode(hexValue);
+    const actualValue = float32.decode(hexValue);
     assert(actualValue === expectedValue, `0x${hexValue.toString(16)} was expected to have integer value ${expectedValue} but instead gave ${actualValue}`);
 };
 
-describe('float28.js', function(){
-    it('should encode integers to float28 values correctly', function(){
+describe('float32.js', function(){
+    it('should encode integers to float32 values correctly', function(){
         checkEncoding(2, 0x40000000);
         checkEncoding(3, 0x40400000);
         checkEncoding(4, 0x40800000);
@@ -60,7 +60,7 @@ describe('float28.js', function(){
         checkEncoding(30 * 60, 0x44e10000);
     });
 
-    it('should decode float28 values to integers correctly', function(){
+    it('should decode float32 values to integers correctly', function(){
         checkDecoding(0x40000000, 2);
         checkDecoding(0x40100000, 2);
         checkDecoding(0x40200000, 2);
