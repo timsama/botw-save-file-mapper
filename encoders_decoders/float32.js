@@ -14,7 +14,7 @@ module.exports = (() => {
             const mantissa = (float32Val & 0x007FFFFF) / Math.pow(2, 16) + 128;
             return sign * Math.floor(mantissa * Math.pow(2, exponent));
         },
-        decodeFloat: (float32Val) => {
+        decode: (float32Val) => {
             const sign = ((float32Val & 0x80000000) >> 31) * 2 + 1;
             const exponent = ((float32Val & 0x7F800000) >> 23) - 134;
             const mantissa = (float32Val & 0x007FFFFF) / Math.pow(2, 16) + 128;
