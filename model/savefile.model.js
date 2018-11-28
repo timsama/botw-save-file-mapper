@@ -39,6 +39,8 @@ module.exports = (() => {
             }).then(() => {
                 return AdventureLog.write(modelJson.adventurelog, saveFile, options);
             }).then(() => {
+                return Horses.write(modelJson.horses, saveFile, options);
+            }).then(() => {
                 return SkipHardDependencies.write(modelJson.skipharddependencies, saveFile, options);
             }).then(() => {
                 return SkipSoftDependencies.write(modelJson.skipsoftdependencies, saveFile, options);

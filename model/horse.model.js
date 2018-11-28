@@ -29,6 +29,28 @@ module.exports = (() => {
                     bond: mapValues[`horses.${keyName}.bond`] * 100.0
                 };
             }
+        },
+        write: (keyName, modelJson, saveFile, keypathReader, changeWriter, options) => {
+            if (!modelJson) {
+                return Promise.resolve();
+            }
+            const keys = [];
+
+            const addKeyIfDefined = (val, key) => {
+                if (val !== undefined) {
+                    keys.push(key);
+                }
+            };
+
+            addKeyIfDefined(modelJson.name, `horses.${keyName}.name=${modelJson.name}`);
+            addKeyIfDefined(modelJson.type, `horses.${keyName}.type=${modelJson.type}`);
+            addKeyIfDefined(modelJson.saddle, `horses.${keyName}.saddle=${modelJson.saddle}`);
+            addKeyIfDefined(modelJson.reins, `horses.${keyName}.reins=${modelJson.reins}`);
+            addKeyIfDefined(modelJson.mane, `horses.${keyName}.mane=${modelJson.mane}`);
+            addKeyIfDefined(modelJson.color, `horses.${keyName}.color=${modelJson.color}`);
+            addKeyIfDefined(modelJson.bond, `horses.${keyName}.bond=${modelJson.bond / 100.0}`);
+
+            return changeWriter(keys, options);
         }
     };
 })();
