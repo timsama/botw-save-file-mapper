@@ -2966,7 +2966,7 @@
       "mane": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 790888,
             "value": "ascii"
           }
@@ -2984,7 +2984,7 @@
       "reins": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 450960,
             "value": "ascii"
           }
@@ -2993,7 +2993,7 @@
       "saddle": {
         "entries": [
           {
-            "length": "24",
+            "length": 24,
             "offset": 303112,
             "value": "ascii"
           }
@@ -3002,7 +3002,7 @@
       "type": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 851520,
             "value": "ascii"
           }
@@ -3031,7 +3031,7 @@
       "mane": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 791016,
             "value": "ascii"
           }
@@ -3049,7 +3049,7 @@
       "reins": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 451088,
             "value": "ascii"
           }
@@ -3058,7 +3058,7 @@
       "saddle": {
         "entries": [
           {
-            "length": "24",
+            "length": 24,
             "offset": 303240,
             "value": "ascii"
           }
@@ -3067,7 +3067,7 @@
       "type": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 851648,
             "value": "ascii"
           }
@@ -3096,7 +3096,7 @@
       "mane": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 791144,
             "value": "ascii"
           }
@@ -3114,7 +3114,7 @@
       "reins": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 451216,
             "value": "ascii"
           }
@@ -3123,7 +3123,7 @@
       "saddle": {
         "entries": [
           {
-            "length": "24",
+            "length": 24,
             "offset": 303368,
             "value": "ascii"
           }
@@ -3132,7 +3132,7 @@
       "type": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 851776,
             "value": "ascii"
           }
@@ -3161,7 +3161,7 @@
       "mane": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 791272,
             "value": "ascii"
           }
@@ -3179,7 +3179,7 @@
       "reins": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 451344,
             "value": "ascii"
           }
@@ -3188,7 +3188,7 @@
       "saddle": {
         "entries": [
           {
-            "length": "24",
+            "length": 24,
             "offset": 303496,
             "value": "ascii"
           }
@@ -3197,7 +3197,7 @@
       "type": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 851904,
             "value": "ascii"
           }
@@ -3226,7 +3226,7 @@
       "mane": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 791400,
             "value": "ascii"
           }
@@ -3244,7 +3244,7 @@
       "reins": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 451472,
             "value": "ascii"
           }
@@ -3253,7 +3253,7 @@
       "saddle": {
         "entries": [
           {
-            "length": "24",
+            "length": 24,
             "offset": 303624,
             "value": "ascii"
           }
@@ -3262,7 +3262,7 @@
       "type": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 852032,
             "value": "ascii"
           }
@@ -3291,7 +3291,7 @@
       "mane": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 791528,
             "value": "ascii"
           }
@@ -3309,7 +3309,7 @@
       "reins": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 451600,
             "value": "ascii"
           }
@@ -3318,7 +3318,7 @@
       "saddle": {
         "entries": [
           {
-            "length": "24",
+            "length": 24,
             "offset": 303752,
             "value": "ascii"
           }
@@ -3327,7 +3327,7 @@
       "type": {
         "entries": [
           {
-            "length": "20",
+            "length": 20,
             "offset": 852160,
             "value": "ascii"
           }
