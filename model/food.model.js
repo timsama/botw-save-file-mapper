@@ -55,7 +55,7 @@ module.exports = (() => {
             const quantitiesOffset = Offsets.getQuantitiesOffset(slot);
             const heartsOffset = Offsets.getFoodHeartsOffset(slotInCategory);
 
-            const quarterHearts = Float32.decode(OffsetChecker(heartsOffset, saveFile));
+            const quarterHearts = Float32.decodeAsInt(OffsetChecker(heartsOffset, saveFile));
             const fullHearts = quarterHearts / 4.0;
 
             const bonus = (() => {
@@ -78,13 +78,13 @@ module.exports = (() => {
                         type: type
                     };
                 } else if (type === 'energizing') {
-                    const amount = Float32.decode(OffsetChecker(amountOffset, saveFile)) / 1000.0;
+                    const amount = Float32.decodeAsInt(OffsetChecker(amountOffset, saveFile)) / 1000.0;
                     return {
                         amount: amount,
                         type: type
                     }
                 } else if (type === 'enduring') {
-                    const amount = Float32.decode(OffsetChecker(amountOffset, saveFile)) / 5.0;
+                    const amount = Float32.decodeAsInt(OffsetChecker(amountOffset, saveFile)) / 5.0;
                     return {
                         amount: amount,
                         type: type

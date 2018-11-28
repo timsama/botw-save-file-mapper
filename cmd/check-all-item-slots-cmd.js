@@ -206,7 +206,7 @@ while(!end) {
             if (rawFoodHearts === 0) {
                 return '';
             } else {
-                const foodHearts = float32.decode(rawFoodHearts) / 4.0;
+                const foodHearts = float32.decodeAsInt(rawFoodHearts) / 4.0;
                 return ` (♥x${foodHearts})`;
             }
         } else {

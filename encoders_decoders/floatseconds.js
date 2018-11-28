@@ -7,7 +7,7 @@ module.exports = (() => {
             return Float32.encode(HoursMinutesSeconds.encode(time));
         },
         decode: (value) => {
-            const totalSeconds = Float32.decode(value);
+            const totalSeconds = Float32.decodeAsInt(value);
             return HoursMinutesSeconds.decode(totalSeconds);
         }
     };

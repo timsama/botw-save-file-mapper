@@ -7,7 +7,7 @@ const checkEncoding = (value, expectedEncoding) => {
 };
 
 const checkDecoding = (hexValue, expectedValue) => {
-    const actualValue = float32.decode(hexValue);
+    const actualValue = float32.decodeAsInt(hexValue);
     assert(actualValue === expectedValue, `0x${hexValue.toString(16)} was expected to have integer value ${expectedValue} but instead gave ${actualValue}`);
 };
 
