@@ -54,10 +54,11 @@ module.exports = (() => {
 
             const keys = [];
 
-            if (modelJson.selected && modelJson.selected.slot !== undefined) {
-                const isNull = modelJson.selected.slot === null;
-                const slot = isNull ? 0xFFFFFFFF : modelJson.selected.slot;
-                keys.push(`horses.selected.slot=${slot}`);
+            const maybeSlot = modelJson.selected && modelJson.selected.slot;
+            if (maybeSlot) {
+                keys.push(`horses.selected.slot=${maybeSlot}`);
+            } else if (maybeSlot !== undefined) {
+                keys.push(`horses.selected.slot=${0xFFFFFFFF}`);
             }
 
             return changeWriter(keys)
