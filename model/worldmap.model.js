@@ -3,6 +3,7 @@ module.exports = (() => {
     const DivineBeasts = require('./divinebeasts.model.js');
     const Towers = require('./towers.model.js');
     const Shrines = require('./shrines.model.js');
+    const Positionables = require('./positionables.model.js');
 
     return {
         read: (saveFile, effectMapPath) => {
@@ -10,7 +11,8 @@ module.exports = (() => {
                 towers: Towers.read(saveFile, effectMapPath),
                 divinebeasts: DivineBeasts.read(saveFile, effectMapPath),
                 ancienttechlabs: AncientTechLabs.read(saveFile, effectMapPath),
-                shrines: Shrines.read(saveFile, effectMapPath)
+                shrines: Shrines.read(saveFile, effectMapPath),
+                positionables: Positionables.read(saveFile, effectMapPath)
             };
         },
         write: (modelJson, saveFile, options, effectMapPath) => {
@@ -20,7 +22,8 @@ module.exports = (() => {
             return DivineBeasts.write(modelJson.divinebeasts, saveFile, options, effectMapPath)
                 .then(() => Towers.write(modelJson.towers, saveFile, options, effectMapPath))
                 .then(() => AncientTechLabs.write(modelJson.ancienttechlabs, saveFile, options, effectMapPath))
-                .then(() => Shrines.write(modelJson.shrines, saveFile, options, effectMapPath));
+                .then(() => Shrines.write(modelJson.shrines, saveFile, options, effectMapPath))
+                .then(() => Positionables.write(modelJson.positionables, saveFile, options, effectMapPath));
         }
     };
 })();

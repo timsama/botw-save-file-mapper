@@ -101,6 +101,36 @@ module.exports = () => {
             "akkala": { "active": false, "found": false },
             "hateno": { "active": false, "found": false }
         },
+        "positionables": {
+          "link": {
+            "mounted": false,
+            "orientation": -170.95921325683594,
+            "x": 1708.31201171875,
+            "y": 1996.658935546875,
+            "z": 115.23689270019531
+          },
+          "starfragment": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "tamehorse": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "travelmedallion": {
+            "x": 1702.251953125,
+            "y": 1960.6280517578125,
+            "z": 116.26130676269531
+          },
+          "wildhorse": {
+            "orientation": 17.568312054783316,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
         "shrines": {
             "resurrection": { "active" : true, "pedestal": true },
             "akhvaquot": { "active": true, "complete": false, "found": true, "pedestal": true },
