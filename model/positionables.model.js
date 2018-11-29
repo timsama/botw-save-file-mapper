@@ -48,7 +48,7 @@ module.exports = (() => {
             return Moveable.write('starfragment', modelJson.starfragment, saveFile, changeWriter, options)
                 .then(() => Moveable.write('travelmedallion', modelJson.travelmedallion, saveFile, changeWriter, options))
                 .then(() => Moveable.write('horses.selected', modelJson.tamehorse, saveFile, changeWriter, options))
-                .then(() => Positionable.write('horses.wild', modelJson.tamehorse, saveFile, keypathReader, changeWriter, options))
+                .then(() => Positionable.write('horses.wild', modelJson.wildhorse, saveFile, keypathReader, changeWriter, options))
                 .then(() => Positionable.write('link', modelJson.link, saveFile, keypathReader, changeWriter, options));
         }
     };

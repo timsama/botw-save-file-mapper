@@ -125,7 +125,7 @@ module.exports = () => {
             "z": 116.26130676269531
           },
           "wildhorse": {
-            "orientation": 17.568312054783316,
+            "orientation": 17.568310347236025,
             "x": 0,
             "y": 0,
             "z": 0
@@ -301,6 +301,7 @@ module.exports = () => {
                 .then(subModelTest('vahrudania', expectedJson.divinebeasts.vahrudania))
                 .then(subModelTest('vahruta', expectedJson.divinebeasts.vahruta))
                 .then(subModelTest('finaltrial', expectedJson.divinebeasts.finaltrial))
+                .then(subModelTest('positionables', expectedJson.positionables))
                 .then(resolve);
         });
     });    
