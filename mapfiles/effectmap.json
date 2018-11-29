@@ -2907,39 +2907,41 @@
   },
   "horses": {
     "selected": {
+      "position": {
+        "x": {
+          "entries": [
+            {
+              "offset": 1016640,
+              "unit": "distance units",
+              "value": "float"
+            }
+          ]
+        },
+        "y": {
+          "entries": [
+            {
+              "offset": 1016656,
+              "unit": "distance units",
+              "value": "float"
+            }
+          ]
+        },
+        "z": {
+          "entries": [
+            {
+              "offset": 1016648,
+              "unit": "distance units",
+              "value": "float"
+            }
+          ]
+        }
+      },
       "slot": {
         "entries": [
           {
             "offset": 847024,
             "unit": "slot enum",
             "value": "integer"
-          }
-        ]
-      },
-      "x": {
-        "entries": [
-          {
-            "offset": 1016640,
-            "unit": "distance units",
-            "value": "float"
-          }
-        ]
-      },
-      "y": {
-        "entries": [
-          {
-            "offset": 1016656,
-            "unit": "distance units",
-            "value": "float"
-          }
-        ]
-      },
-      "z": {
-        "entries": [
-          {
-            "offset": 1016648,
-            "unit": "distance units",
-            "value": "float"
           }
         ]
       }
@@ -3297,14 +3299,43 @@
           }
         ]
       },
-      "orientation": {
-        "entries": [
-          {
-            "offset": 362720,
-            "unit": "negative radians from south",
-            "value": "float"
-          }
-        ]
+      "position": {
+        "orientation": {
+          "entries": [
+            {
+              "offset": 362720,
+              "unit": "radians",
+              "value": "float"
+            }
+          ]
+        },
+        "x": {
+          "entries": [
+            {
+              "offset": 563840,
+              "unit": "distance units",
+              "value": "float"
+            }
+          ]
+        },
+        "y": {
+          "entries": [
+            {
+              "offset": 563856,
+              "unit": "distance units",
+              "value": "float"
+            }
+          ]
+        },
+        "z": {
+          "entries": [
+            {
+              "offset": 563848,
+              "unit": "distance units",
+              "value": "float"
+            }
+          ]
+        }
       },
       "reins": {
         "entries": [
@@ -3330,33 +3361,6 @@
             "length": 20,
             "offset": 852160,
             "value": "ascii"
-          }
-        ]
-      },
-      "x": {
-        "entries": [
-          {
-            "offset": 563840,
-            "unit": "distance units",
-            "value": "float"
-          }
-        ]
-      },
-      "y": {
-        "entries": [
-          {
-            "offset": 563856,
-            "unit": "distance units",
-            "value": "float"
-          }
-        ]
-      },
-      "z": {
-        "entries": [
-          {
-            "offset": 563848,
-            "unit": "distance units",
-            "value": "float"
           }
         ]
       }
@@ -3399,16 +3403,16 @@
         ]
       }
     },
-    "orientation": {
-      "entries": [
-        {
-          "offset": 453224,
-          "unit": "degrees from South",
-          "value": "float"
-        }
-      ]
-    },
     "position": {
+      "orientation": {
+        "entries": [
+          {
+            "offset": 453224,
+            "unit": "degrees",
+            "value": "float"
+          }
+        ]
+      },
       "x": {
         "entries": [
           {
@@ -28228,24 +28232,34 @@
     }
   },
   "starfragment": {
-    "location": {
-      "entries": [
-        {
-          "offset": 537688,
-          "unit": "unknown (location)",
-          "value": "float"
-        },
-        {
-          "offset": 537696,
-          "unit": "unknown (location)",
-          "value": "float"
-        },
-        {
-          "offset": 537704,
-          "unit": "unknown (location)",
-          "value": "float"
-        }
-      ]
+    "position": {
+      "x": {
+        "entries": [
+          {
+            "offset": 537688,
+            "unit": "distance units",
+            "value": "float"
+          }
+        ]
+      },
+      "y": {
+        "entries": [
+          {
+            "offset": 537704,
+            "unit": "distance units",
+            "value": "float"
+          }
+        ]
+      },
+      "z": {
+        "entries": [
+          {
+            "offset": 537696,
+            "unit": "distance units",
+            "value": "float"
+          }
+        ]
+      }
     }
   },
   "stats": {
@@ -29119,6 +29133,37 @@
           {
             "offset": 346048,
             "value": true
+          }
+        ]
+      }
+    }
+  },
+  "travelmedallion": {
+    "position": {
+      "x": {
+        "entries": [
+          {
+            "offset": 362080,
+            "unit": "distance units",
+            "value": "float"
+          }
+        ]
+      },
+      "y": {
+        "entries": [
+          {
+            "offset": 362096,
+            "unit": "distance units",
+            "value": "float"
+          }
+        ]
+      },
+      "z": {
+        "entries": [
+          {
+            "offset": 362088,
+            "unit": "distance units",
+            "value": "float"
           }
         ]
       }
