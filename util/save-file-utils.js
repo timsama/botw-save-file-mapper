@@ -160,9 +160,7 @@ module.exports = (() => {
 		    return pad + str;
 		},
 		typeSet: {
-		  '8utf8': ["string", 8, "utf-8"],
-		  '20utf8': ["string", 20, "utf-8"],
-		  '24utf8': ["string", 24, "utf-8"],
+		  'utf8': ["string", 24, "utf-8"],
 		  'word': ['array', 'uint32', 1]
 		}
 	};
