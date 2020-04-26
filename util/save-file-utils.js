@@ -150,7 +150,7 @@ module.exports = (() => {
 
 		        return fs.writeFileSync(dest, buffer);
 		    };
-		    
+
 		    return funct(binary);
 		},
 		toHexString: (val) => {
@@ -160,7 +160,6 @@ module.exports = (() => {
 		    return pad + str;
 		},
 		typeSet: {
-		  'utf8': ["string", 24, "utf-8"],
 		  'word': ['array', 'uint32', 1]
 		}
 	};

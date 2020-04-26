@@ -2977,7 +2977,7 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 517696,
             "value": "utf8"
           }
@@ -3042,7 +3042,7 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 517824,
             "value": "utf8"
           }
@@ -3107,7 +3107,7 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 517952,
             "value": "utf8"
           }
@@ -3172,7 +3172,7 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 518080,
             "value": "utf8"
           }
@@ -3237,7 +3237,7 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 518208,
             "value": "utf8"
           }
