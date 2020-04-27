@@ -91,7 +91,15 @@ module.exports = (questCategory) => {
             if (!modelJson) {
                 return Promise.resolve();
             }
-            const keys = modelJson.completedsteps;
+            var keys;
+            if (modelJson.completedsteps !== undefined && modelJson.begun !== undefined) {
+                keys = modelJson.completedsteps.slice();
+                keys.unshift(`${questCategory}.${name}.begun.${(modelJson.begun)?("set"):("unset")}`);
+                keys.unshift(`${questCategory}.${name}.complete.${(modelJson.begun)?("set"):("unset")}`);
+            }
+            else {
+                keys = modelJson.completedsteps;
+            }
 
             return changeWriter(keys, options);
         }
