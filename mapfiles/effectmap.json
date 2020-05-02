@@ -4772,7 +4772,7 @@
             }
           ],
           "harddependencies": [
-            "mainquest.divinebeastvahnaboris.complete.unset"
+            "mainquests.divinebeastvahnaboris.complete.unset"
           ],
           "softdependencies": [
             "cutscenes.meetingriju.unviewed",
@@ -10150,7 +10150,7 @@
           ],
           "softdependencies": [
             "shrines.misaesuma.notfound",
-            "shrinequests.theperfectdrink.talktofurosa.notset"
+            "shrinequests.theperfectdrink.talktofurosa.unset"
           ]
         }
       },
@@ -27983,7 +27983,7 @@
             }
           ],
           "softdependencies": [
-            "sidequests.robbiesresearch.begun.set"
+            "sidequests.slatedforupgrades.begun.set"
           ]
         },
         "unset": {
@@ -27998,8 +27998,8 @@
             }
           ],
           "harddependencies": [
-            "sidequests.robbiesresearch.complete.unset",
-            "sidequests.robbiesresearch.askforsomethinggood.unset"
+            "sidequests.slatedforupgrades.complete.unset",
+            "sidequests.slatedforupgrades.askforsomethinggood.unset"
           ]
         }
       },
