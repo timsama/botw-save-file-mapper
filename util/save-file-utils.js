@@ -150,7 +150,7 @@ module.exports = (() => {
 
 		        return fs.writeFileSync(dest, buffer);
 		    };
-		    
+
 		    return funct(binary);
 		},
 		toHexString: (val) => {

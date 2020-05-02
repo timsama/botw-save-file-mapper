@@ -2977,9 +2977,9 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 517696,
-            "value": "ascii"
+            "value": "utf8"
           }
         ]
       },
@@ -3042,9 +3042,9 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 517824,
-            "value": "ascii"
+            "value": "utf8"
           }
         ]
       },
@@ -3107,9 +3107,9 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 517952,
-            "value": "ascii"
+            "value": "utf8"
           }
         ]
       },
@@ -3172,9 +3172,9 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 518080,
-            "value": "ascii"
+            "value": "utf8"
           }
         ]
       },
@@ -3237,9 +3237,9 @@
       "name": {
         "entries": [
           {
-            "length": 8,
+            "length": 4,
             "offset": 518208,
-            "value": "ascii"
+            "value": "utf8"
           }
         ]
       },
