@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "md5-file": "^3.2.3",
-    "mocha": "^5.2.0"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "mocha --recursive",
